@@ -30,14 +30,14 @@ const connectLinks = [
 
 export default function Footer() {
   return (
-    <footer className="pt-14 pb-6 border-t border-border">
+    <footer className="pt-14 pb-6 bg-ink text-white">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr_1fr_1fr] gap-10 mb-10">
           <div>
-            <div className="font-display text-lg font-bold mb-3">
+            <div className="font-display text-lg font-medium mb-3">
               The Lindley Team
             </div>
-            <p className="text-sm text-ink-light leading-relaxed max-w-[300px] font-normal">
+            <p className="text-sm text-white/40 leading-relaxed max-w-[300px] font-normal">
               Portland mortgage strategy for people who want to build wealth
               through real estate. Licensed in Oregon, Washington, and
               California.
@@ -48,8 +48,8 @@ export default function Footer() {
           <FooterCol title="Connect" links={connectLinks} />
         </div>
 
-        <div className="pt-5 border-t border-border">
-          <p className="text-[0.65rem] text-silver leading-relaxed max-w-[860px]">
+        <div className="pt-5 border-t border-white/10">
+          <p className="text-[0.65rem] text-white/25 leading-relaxed max-w-[860px]">
             Not a commitment to lock or lend. Terms and restrictions apply. Not
             all applicants will qualify. Mortgage Express, LLC. NMLS Company ID:
             40831 | mtgxps.com | Licensed in OR/WA/CA. Licensing in California
@@ -58,7 +58,7 @@ export default function Footer() {
             Portland, OR 97223.
           </p>
           <div className="flex flex-wrap justify-between items-center mt-5 gap-4">
-            <span className="text-[0.72rem] text-silver">
+            <span className="text-[0.72rem] text-white/30">
               © {new Date().getFullYear()} The Lindley Team
             </span>
             <div className="flex gap-2">
@@ -72,7 +72,7 @@ export default function Footer() {
                   href={s.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-8 h-8 rounded-full border border-border flex items-center justify-center text-[0.65rem] font-bold text-ink-light hover:bg-ink hover:text-white hover:border-ink hover:-translate-y-0.5 transition-all"
+                  className="w-8 h-8 rounded-full border border-white/20 flex items-center justify-center text-[0.65rem] font-medium text-white/50 hover:bg-white hover:text-ink hover:border-white hover:-translate-y-0.5 transition-all"
                 >
                   {s.label}
                 </a>
@@ -94,14 +94,14 @@ function FooterCol({
 }) {
   return (
     <div>
-      <h4 className="text-[0.65rem] font-bold tracking-[0.15em] uppercase text-ink mb-4">
+      <h4 className="text-[0.65rem] font-medium tracking-[0.15em] uppercase text-white/60 mb-4">
         {title}
       </h4>
       {links.map((link) => (
         <Link
           key={link.name}
           href={link.href}
-          className="block text-sm text-ink-light font-normal mb-2 hover:text-ink transition-colors"
+          className="block text-sm text-white/40 font-normal mb-2 hover:text-white transition-colors"
         >
           {link.name}
         </Link>

@@ -10,16 +10,17 @@ const config: Config = {
     extend: {
       colors: {
         bg: "#FFFFFF",
-        "bg-alt": "#FAFAFA",
+        "bg-alt": "#F5F5F0",
         ink: "#222222",
         "ink-mid": "#555555",
         "ink-light": "#888888",
         yellow: "#F2FF91",
         orange: "#E26125",
-        blue: "#4A6CF7",
+        blue: "#3554D9",
         silver: "#BDBCBD",
         grey: "#818081",
         border: "#E2E2E2",
+        cream: "#F5F1EC",
       },
       fontFamily: {
         display: ["var(--font-outfit)", "sans-serif"],

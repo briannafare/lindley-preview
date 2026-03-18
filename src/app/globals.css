@@ -9,7 +9,7 @@ body::after {
   inset: 0;
   pointer-events: none;
   z-index: 9999;
-  opacity: 0.025;
+  opacity: 0.018;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
@@ -33,13 +33,21 @@ html {
   filter: grayscale(0%) contrast(1);
 }
 
-.img-duotone-warm {
-  filter: grayscale(100%) sepia(30%) contrast(1.05);
+/* GSAP animation preparation */
+.gsap-reveal {
+  opacity: 0;
+  transform: translateY(40px);
 }
 
-.img-duotone-blue {
-  filter: grayscale(100%) brightness(0.9) contrast(1.1);
-  mix-blend-mode: luminosity;
+/* SVG stroke-draw animation */
+@keyframes draw-stroke {
+  from { stroke-dashoffset: 1000; }
+  to { stroke-dashoffset: 0; }
+}
+
+@keyframes rotate-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
 }
 
 /* Marquee animation */
@@ -53,5 +61,5 @@ html {
 }
 
 .animate-marquee {
-  animation: scroll-marquee 35s linear infinite;
+  animation: scroll-marquee 50s linear infinite;
 }

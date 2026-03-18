@@ -16,14 +16,14 @@ export default function Nav() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-white/92 backdrop-blur-xl border-b border-border py-3"
+          ? "bg-white/95 backdrop-blur-xl border-b border-border py-3"
           : "py-5"
       }`}
     >
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 flex items-center justify-between">
         <Link
           href="/"
-          className="font-display text-[0.85rem] font-bold tracking-[0.08em] uppercase text-ink"
+          className="font-display text-[0.85rem] font-medium tracking-[0.08em] uppercase text-ink"
         >
           The Lindley Team
         </Link>
@@ -34,9 +34,9 @@ export default function Nav() {
               <Link
                 key={item}
                 href={`/${item.toLowerCase()}`}
-                className="text-[0.78rem] font-semibold text-ink-mid uppercase tracking-[0.04em] hover:text-ink transition-colors"
+                className="text-[0.78rem] font-medium text-ink-mid uppercase tracking-[0.04em] hover:text-ink transition-colors"
               >
-                {item}
+                / {item}
               </Link>
             )
           )}
@@ -45,13 +45,13 @@ export default function Nav() {
         <div className="flex items-center gap-5">
           <a
             href="tel:9717541771"
-            className="hidden md:block text-[0.78rem] font-semibold text-ink-mid"
+            className="hidden md:block text-[0.78rem] font-medium text-ink-mid"
           >
             971.754.1771
           </a>
           <Link
             href="/apply"
-            className="px-5 py-2.5 bg-ink text-white rounded-full text-[0.72rem] font-bold tracking-[0.06em] uppercase hover:scale-[1.03] hover:shadow-lg transition-all"
+            className="px-5 py-2.5 bg-ink text-white rounded-full text-[0.72rem] font-medium tracking-[0.06em] uppercase hover:scale-[1.03] hover:shadow-lg transition-all"
           >
             Get Pre-Approved
           </Link>
