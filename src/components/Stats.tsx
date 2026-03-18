@@ -21,7 +21,6 @@ export default function Stats() {
     () => {
       gsap.from(".stat-item", {
         y: 30,
-        opacity: 0,
         duration: 0.6,
         ease: "power3.out",
         stagger: 0.08,

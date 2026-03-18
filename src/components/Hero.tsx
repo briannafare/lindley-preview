@@ -14,7 +14,6 @@ export default function Hero() {
 
       tl.from(".hero-label", {
         y: 20,
-        opacity: 0,
         duration: 0.5,
         ease: "power3.out",
       })
@@ -22,7 +21,6 @@ export default function Hero() {
           ".hero-title-line",
           {
             y: 60,
-            opacity: 0,
             duration: 0.7,
             ease: "power3.out",
             stagger: 0.12,
@@ -33,7 +31,6 @@ export default function Hero() {
           ".hero-script",
           {
             scale: 0.9,
-            opacity: 0,
             duration: 0.6,
             ease: "power3.out",
           },
@@ -43,7 +40,6 @@ export default function Hero() {
           ".hero-sub",
           {
             y: 30,
-            opacity: 0,
             duration: 0.5,
             ease: "power3.out",
           },
@@ -53,7 +49,6 @@ export default function Hero() {
           ".hero-btn",
           {
             y: 20,
-            opacity: 0,
             duration: 0.4,
             ease: "power3.out",
             stagger: 0.1,

@@ -69,7 +69,6 @@ export default function NeighborhoodGrid() {
     () => {
       gsap.from(".hood-card", {
         scale: 0.95,
-        opacity: 0,
         duration: 0.7,
         ease: "power3.out",
         stagger: 0.15,

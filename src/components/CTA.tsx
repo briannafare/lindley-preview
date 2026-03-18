@@ -15,7 +15,6 @@ export default function CTA() {
     () => {
       gsap.from(".cta-heading", {
         scale: 1.05,
-        opacity: 0,
         duration: 0.8,
         ease: "power3.out",
         scrollTrigger: {
@@ -27,7 +26,6 @@ export default function CTA() {
 
       gsap.from(".cta-script", {
         scale: 0.9,
-        opacity: 0,
         duration: 0.6,
         ease: "back.out(1.2)",
         delay: 0.2,
@@ -40,7 +38,6 @@ export default function CTA() {
 
       gsap.from(".cta-btn", {
         y: 20,
-        opacity: 0,
         duration: 0.5,
         ease: "power3.out",
         stagger: 0.1,

@@ -70,7 +70,6 @@ export default function ServicesList() {
     () => {
       gsap.from(".svc-row", {
         y: 30,
-        opacity: 0,
         duration: 0.5,
         ease: "power3.out",
         stagger: 0.05,
