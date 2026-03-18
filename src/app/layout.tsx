@@ -1,18 +1,11 @@
 import type { Metadata } from "next";
-import { Outfit, Urbanist, Pinyon_Script } from "next/font/google";
+import { DM_Sans, Pinyon_Script } from "next/font/google";
 import "./globals.css";
 
-const outfit = Outfit({
+const dmSans = DM_Sans({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600"],
-  variable: "--font-outfit",
-  display: "swap",
-});
-
-const urbanist = Urbanist({
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-urbanist",
+  variable: "--font-dm-sans",
   display: "swap",
 });
 
@@ -37,7 +30,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${outfit.variable} ${urbanist.variable} ${pinyonScript.variable}`}
+      className={`${dmSans.variable} ${pinyonScript.variable}`}
     >
       <body className="bg-bg text-ink font-body antialiased overflow-x-hidden">
         {children}

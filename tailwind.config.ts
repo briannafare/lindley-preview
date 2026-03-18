@@ -23,9 +23,9 @@ const config: Config = {
         cream: "#F5F1EC",
       },
       fontFamily: {
-        display: ["var(--font-outfit)", "sans-serif"],
+        display: ["var(--font-dm-sans)", "sans-serif"],
         script: ["var(--font-pinyon)", "cursive"],
-        body: ["var(--font-urbanist)", "sans-serif"],
+        body: ["var(--font-dm-sans)", "sans-serif"],
       },
     },
   },
