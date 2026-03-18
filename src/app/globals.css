@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Noise overlay */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.025;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: #F2FF91;
+  color: #222;
+}
+
+/* Image treatments */
+.img-bw {
+  filter: grayscale(100%) contrast(1.1);
+}
+
+.group:hover .img-bw {
+  filter: grayscale(0%) contrast(1);
+}
+
+.img-duotone-warm {
+  filter: grayscale(100%) sepia(30%) contrast(1.05);
+}
+
+.img-duotone-blue {
+  filter: grayscale(100%) brightness(0.9) contrast(1.1);
+  mix-blend-mode: luminosity;
+}
+
+/* Marquee animation */
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: scroll-marquee 35s linear infinite;
+}
