@@ -14,7 +14,6 @@ export default function Testimonial() {
     () => {
       gsap.from(".testimonial-quote", {
         y: 40,
-        opacity: 0,
         duration: 0.8,
         ease: "power3.out",
         scrollTrigger: {
@@ -26,7 +25,6 @@ export default function Testimonial() {
 
       gsap.from(".testimonial-attr", {
         y: 20,
-        opacity: 0,
         duration: 0.5,
         ease: "power3.out",
         delay: 0.3,

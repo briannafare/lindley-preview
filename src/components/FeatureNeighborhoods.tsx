@@ -15,7 +15,6 @@ export default function FeatureNeighborhoods() {
     () => {
       gsap.from(".fn-content > *", {
         y: 40,
-        opacity: 0,
         duration: 0.7,
         ease: "power3.out",
         stagger: 0.1,

@@ -26,7 +26,6 @@ export default function About() {
 
       gsap.from(".about-text > *", {
         y: 35,
-        opacity: 0,
         duration: 0.6,
         ease: "power3.out",
         stagger: 0.06,

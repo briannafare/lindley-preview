@@ -14,7 +14,6 @@ export default function Mission() {
     () => {
       gsap.from(".mission-text", {
         y: 40,
-        opacity: 0,
         duration: 0.8,
         ease: "power3.out",
         scrollTrigger: {
@@ -26,7 +25,6 @@ export default function Mission() {
 
       gsap.from(".mission-script", {
         scale: 0.92,
-        opacity: 0,
         duration: 0.6,
         ease: "power3.out",
         scrollTrigger: {
