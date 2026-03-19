@@ -33,7 +33,7 @@ export default function FeatureNeighborhoods() {
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center gap-12">
           <div className="fn-content">
-            <h2 className="font-display text-[clamp(2.5rem,5vw,4rem)] font-light leading-[1.05] mb-5 max-w-[700px]">
+            <h2 className="font-display text-[clamp(2.5rem,5vw,4rem)] font-normal leading-[1.05] mb-5 max-w-[700px]">
               71 Portland{" "}
               <span className="font-script font-normal text-yellow text-[1.15em]">
                 neighborhoods.
@@ -59,7 +59,7 @@ export default function FeatureNeighborhoods() {
               { val: "$580k", label: "Median Home Price" },
             ].map((s, i) => (
               <div key={i}>
-                <div className="font-display text-5xl font-light text-white">
+                <div className="font-display text-5xl font-normal text-white">
                   {s.val}
                 </div>
                 <div className="text-[0.65rem] uppercase tracking-[0.1em] text-white/40 mt-1">

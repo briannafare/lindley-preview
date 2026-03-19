@@ -91,7 +91,7 @@ export default function ServicesList() {
             <p className="text-[0.68rem] font-medium tracking-[0.2em] uppercase text-ink-light mb-2">
               Services
             </p>
-            <h2 className="font-display text-[clamp(2.2rem,4.5vw,3.5rem)] font-light leading-tight tracking-tight">
+            <h2 className="font-display text-[clamp(2.2rem,4.5vw,3.5rem)] font-normal leading-tight tracking-tight">
               What We{" "}
               <span className="font-script font-normal text-orange text-[1.15em]">
                 Do

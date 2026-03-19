@@ -63,7 +63,7 @@ export default function CTA() {
       </svg>
 
       <div className="relative z-10 max-w-[1400px] mx-auto px-6 lg:px-10">
-        <h2 className="cta-heading font-display text-[clamp(3rem,7vw,6rem)] font-light leading-[0.95] tracking-tight text-ink mb-4">
+        <h2 className="cta-heading font-display text-[clamp(3rem,7vw,6rem)] font-medium leading-[0.95] tracking-tight text-ink mb-4">
           Ready to make a
           <br />
           <span className="cta-script font-script font-normal text-[1.1em] text-ink inline-block">

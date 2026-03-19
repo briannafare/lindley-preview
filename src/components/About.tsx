@@ -89,7 +89,7 @@ export default function About() {
             <p className="text-[0.68rem] font-medium tracking-[0.2em] uppercase text-ink-light mb-2">
               Meet Bri
             </p>
-            <h2 className="font-display text-[clamp(2.2rem,4vw,3.2rem)] font-light leading-tight mb-5">
+            <h2 className="font-display text-[clamp(2.2rem,4vw,3.2rem)] font-normal leading-tight mb-5">
               Not your typical{" "}
               <span className="font-script font-normal text-blue text-[1.15em]">
                 loan officer

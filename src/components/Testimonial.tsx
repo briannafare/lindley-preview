@@ -58,7 +58,7 @@ export default function Testimonial() {
           </svg>
 
           <div className="w-10 h-0.5 bg-yellow mx-auto mb-8" />
-          <blockquote className="testimonial-quote font-display text-[clamp(1.3rem,2.2vw,1.8rem)] font-light leading-relaxed text-ink mb-6">
+          <blockquote className="testimonial-quote font-display text-[clamp(1.3rem,2.2vw,1.8rem)] font-normal leading-relaxed text-ink mb-6">
             This team is amazing. We went through the entire process of buying
             our home with ease. I really appreciated how honest and upfront they
             were with me being a first time home buyer. Even conversations of

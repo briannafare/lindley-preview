@@ -169,7 +169,7 @@ export default function Hero() {
           Portland, Oregon · Mortgage Strategy
         </p>
 
-        <h1 className="font-display text-[clamp(4.5rem,10vw,10rem)] font-light leading-[0.92] tracking-tight max-w-[800px] mb-10">
+        <h1 className="font-display text-[clamp(4.5rem,10vw,10rem)] font-medium leading-[0.92] tracking-tight max-w-[800px] mb-10">
           <span className="hero-title-line block">The Lindley</span>
           <span className="hero-script font-script font-normal text-orange leading-none text-[1.15em] inline-block">
             Team

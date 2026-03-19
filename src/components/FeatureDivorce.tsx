@@ -48,7 +48,7 @@ export default function FeatureDivorce() {
             <p className="text-[0.68rem] font-medium tracking-[0.2em] uppercase text-silver mb-2">
               Specialty
             </p>
-            <h2 className="font-display text-[clamp(2.2rem,4vw,3.2rem)] font-light leading-tight mb-5">
+            <h2 className="font-display text-[clamp(2.2rem,4vw,3.2rem)] font-normal leading-tight mb-5">
               Divorce doesn&apos;t have to mean losing{" "}
               <span className="font-script font-normal text-orange text-[1.15em]">
                 your home
@@ -72,7 +72,7 @@ export default function FeatureDivorce() {
                 { val: "OR / WA / CA", label: "Licensed" },
               ].map((s, i) => (
                 <div key={i}>
-                  <div className="font-display text-2xl font-light text-yellow">
+                  <div className="font-display text-2xl font-normal text-yellow">
                     {s.val}
                   </div>
                   <div className="text-[0.65rem] uppercase tracking-[0.1em] text-silver mt-0.5">

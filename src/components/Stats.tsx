@@ -43,7 +43,7 @@ export default function Stats() {
               {i < stats.length - 1 && (
                 <div className="hidden lg:block absolute right-0 top-[20%] h-[60%] w-px bg-border" />
               )}
-              <div className="font-display text-[clamp(2rem,4vw,3rem)] font-light text-ink">
+              <div className="font-display text-[clamp(2rem,4vw,3rem)] font-normal text-ink">
                 {stat.value}
               </div>
               <div className="text-[0.68rem] font-medium text-ink-light tracking-[0.1em] uppercase mt-1">
