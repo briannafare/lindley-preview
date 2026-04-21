@@ -118,7 +118,7 @@ export default function About() {
             <div className="flex flex-wrap gap-5 pt-6 border-t border-border">
               {[
                 "CDLP Certified",
-                "OR / WA / CA Licensed",
+                "OR / WA Licensed",
                 "Mortgage Express",
                 "1,000+ Families Served",
               ].map((cred) => (

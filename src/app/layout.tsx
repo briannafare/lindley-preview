@@ -19,7 +19,7 @@ const pinyonScript = Pinyon_Script({
 export const metadata: Metadata = {
   title: "The Lindley Team — Portland Mortgage Strategy",
   description:
-    "Three decades helping Portland families build wealth through real estate. Access to hundreds of mortgage products across Oregon, Washington, and California. NMLS #1367416.",
+    "Three decades helping Portland families build wealth through real estate. Access to hundreds of mortgage products across Oregon and Washington. NMLS #1367416.",
 };
 
 export default function RootLayout({

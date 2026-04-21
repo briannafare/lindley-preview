@@ -39,8 +39,7 @@ export default function Footer() {
             </div>
             <p className="text-sm text-white/40 leading-relaxed max-w-[300px] font-normal">
               Portland mortgage strategy for people who want to build wealth
-              through real estate. Licensed in Oregon, Washington, and
-              California.
+              through real estate. Licensed in Oregon, Washington.
             </p>
           </div>
           <FooterCol title="Services" links={serviceLinks} />
@@ -52,8 +51,7 @@ export default function Footer() {
           <p className="text-[0.65rem] text-white/25 leading-relaxed max-w-[860px]">
             Not a commitment to lock or lend. Terms and restrictions apply. Not
             all applicants will qualify. Mortgage Express, LLC. NMLS Company ID:
-            40831 | mtgxps.com | Licensed in OR/WA/CA. Licensing in California
-            by the DFPI under the Residential Mortgage Act. Mortgage Express is
+            40831 | mtgxps.com | Licensed in OR/WA. Mortgage Express is
             an Equal Housing Lender. 10260 SW Greenburg Road, Ste. 830,
             Portland, OR 97223.
           </p>

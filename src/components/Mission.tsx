@@ -46,8 +46,7 @@ export default function Mission() {
             the right financing
           </span>{" "}
           for your life — not just the lowest rate on a spreadsheet. Access to
-          hundreds of mortgage products across Oregon, Washington, and
-          California.
+          hundreds of mortgage products across Oregon, Washington.
         </p>
       </div>
     </section>

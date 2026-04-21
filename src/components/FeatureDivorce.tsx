@@ -69,7 +69,7 @@ export default function FeatureDivorce() {
               {[
                 { val: "CDLP", label: "Certified" },
                 { val: "100+", label: "Divorce Cases" },
-                { val: "OR / WA / CA", label: "Licensed" },
+                { val: "OR / WA", label: "Licensed" },
               ].map((s, i) => (
                 <div key={i}>
                   <div className="font-display text-2xl font-light text-yellow">
