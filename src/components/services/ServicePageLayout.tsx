@@ -204,6 +204,13 @@ export default function ServicePageLayout({
                   </span>
                 </div>
               ))}
+              <p className="text-[0.78rem] text-ink-light font-normal leading-relaxed mt-5 border-l-2 border-border pl-4">
+                These are general guidelines. As a correspondent lender with an extensive wholesale network, we have access to additional programs with different requirements.{" "}
+                <a href="/contact" className="underline hover:text-ink transition-colors">
+                  Contact Bri
+                </a>{" "}
+                for options specific to your situation.
+              </p>
             </div>
           </div>
         </div>
