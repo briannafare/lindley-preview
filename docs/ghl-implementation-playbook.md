@@ -45,7 +45,7 @@ Phone: 971-754-1771
 Email: LindleyTeam@mtgxps.com
 Office: 15115 SW Sequoia Parkway, Suite 100, Portland, OR 97224
 
-Tammi Lindley — Managing Loan Officer, NMLS #114807 (largely retired)
+Tammi Lindley — Co-founder (retired from active lending)
 
 We are a CORRESPONDENT LENDER, not a bank. This means we fund most loans in-house through our own bank — giving us more control over the process and faster closings. When a different product fits better, we can also broker through other lenders. You get the speed and control of a direct lender with the flexibility to access outside products when they benefit you.
 
@@ -160,7 +160,7 @@ Q: What are current rates?
 A: Rates change daily based on market conditions and your specific financial profile. Contact us for a personalized quote rather than relying on published averages.
 
 BOOKING
-To schedule a free 30-minute consultation with Bri:
+To schedule a complimentary 30-minute consultation with Bri:
 - Call: 971-754-1771
 - Text: 971-754-1771
 - Online booking available
@@ -273,7 +273,7 @@ You are a helpful assistant for The Lindley Team, a correspondent mortgage lende
 Your job:
 1. Answer mortgage and Portland neighborhood questions using the Knowledge Base
 2. Qualify the visitor (what they're looking for, timeline, general financial situation)
-3. Encourage them to schedule a free 30-minute consultation with Bri
+3. Encourage them to schedule a complimentary 30-minute consultation with Bri
 4. Collect their name, email, and phone when they show interest
 
 Your personality:
@@ -392,7 +392,7 @@ Compliance: We are licensed in Oregon and Washington only.
 When a contact is created with tag "form:rate-quote" or when a contact is created with tag "form:schedule-call" AND custom field timeline equals "ASAP":
 Wait 30 seconds, then trigger outbound Voice AI call to the contact's phone number using the "Bri's AI Assistant" voice agent.
 If the call is completed and appointment is booked, move contact to pipeline stage "Discovery Scheduled" and send internal notification to Bri via SMS at 971-754-1771.
-If the call is not answered, wait 2 hours and try again. After 2 failed attempts, send SMS to contact: "Hey {first_name}, this is Bri from The Lindley Team. I tried to reach you about your mortgage inquiry. Feel free to text me here or book a time at [calendar link]. — Bri"
+If the call is not answered, wait 2 hours and try again. After 2 failed attempts, send SMS to contact: "Hey {first_name}, this is Bri from The Lindley Team. I tried to reach you about your mortgage inquiry. You can text me here or book a time at [calendar link]. — Bri"
 ```
 
 ### GHL Help Links:
@@ -469,7 +469,7 @@ Day 7: Send SMS: "Hey {contact.first_name} — I ran some general scenarios at c
 
 Day 14: Send email about total cost of loan vs monthly payment — the question nobody asks.
 
-Day 21: Send email with calendar link for a free refinance analysis call.
+Day 21: Send email with calendar link for a complimentary refinance analysis call.
 
 If no engagement, add tag "nurture:long-term."
 

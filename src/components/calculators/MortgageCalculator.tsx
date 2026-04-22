@@ -294,7 +294,7 @@ export default function MortgageCalculator({
               href="/contact"
               className="inline-flex items-center gap-2 px-6 py-3 bg-ink text-white rounded-full text-[0.78rem] font-bold tracking-[0.04em] uppercase hover:scale-[1.03] transition-all"
             >
-              Get Your Free Rate Quote <span>→</span>
+              Get Your Rate Quote <span>→</span>
             </a>
           </div>
         </div>

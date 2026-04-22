@@ -154,7 +154,7 @@ All sequences are built as GHL Workflows. Every sequence includes a "stop" trigg
             
 2 min     → SMS to lead:
             "Hey {first_name}, it's Bri from The Lindley Team. Got your 
-            {interest} request — I'll have info for you shortly. Feel free to 
+            {interest} request — I'll have info for you shortly. You can 
             text me here if anything comes up."
             
 1 hour    → IF no response: Voicemail drop (record a 20-second voicemail)

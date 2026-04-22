@@ -7,7 +7,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Portland Mortgage Calculator — Estimate Your Monthly Payment | The Lindley Team",
   description:
-    "Free Portland mortgage calculator. Estimate your monthly payment including principal, interest, taxes, insurance, and PMI. Updated for current Oregon rates.",
+    "Portland mortgage calculator. Estimate your monthly payment including principal, interest, taxes, insurance, and PMI. Updated for current Oregon rates.",
   keywords: [
     "Portland mortgage calculator",
     "Oregon mortgage calculator",
@@ -62,7 +62,7 @@ export default function CalculatorPage() {
       <section className="pt-40 pb-16">
         <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
           <p className="text-[0.68rem] font-bold tracking-[0.2em] uppercase text-ink-light mb-4">
-            Free Tool
+            Tools
           </p>
           <h1 className="font-display text-[clamp(3rem,7vw,5rem)] font-extrabold leading-[0.95] tracking-tight mb-6">
             Portland Mortgage{" "}
@@ -117,7 +117,7 @@ export default function CalculatorPage() {
                 current market conditions. For exact numbers based on today&apos;s
                 rates and your specific situation,{" "}
                 <Link href="/contact" className="text-orange font-semibold hover:underline">
-                  schedule a free consultation
+                  schedule a complimentary consultation
                 </Link>{" "}
                 with Bri.
               </p>
