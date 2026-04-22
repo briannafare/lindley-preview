@@ -29,159 +29,36 @@ This is the "brain" that powers ALL your AI agents. Without it, your chatbot and
 
 ### Sources to add:
 
-**Source 1: Upload as DOCX or PDF — "Services & FAQ Library"**
+**Source 1: Upload DOCX — "Services & FAQ Library"**
 
-Create a Word doc with this content (copy/paste and save as .docx):
+Upload the file `lindley-team-knowledge-base.docx` (already created — check your downloads).
+This document contains: About Us, team bios, all 10 services with requirements, FAQ library, contact info, booking info, and compliance language. All verified and corrected for:
+- Correspondent lender language (not broker)
+- Updated address (Sequoia Parkway)
+- Tammi as co-founder (retired, no NMLS)
+- No "free" — uses "complimentary"
+- OR/WA only (no CA, no AZ)
 
-```
-THE LINDLEY TEAM — SERVICES & FAQ LIBRARY
+Go to: Add Source → File Upload → drag the .docx file in.
 
-ABOUT US
-The Lindley Team is a mother-daughter mortgage team operating as a correspondent lender under Mortgage Express (NMLS Company ID: 40831) in Portland, Oregon. Licensed in Oregon and Washington.
+**Source 2: Upload CSV — "Portland Neighborhoods"**
 
-Bri Lindley — Senior Loan Officer, NMLS #1367416
-Certified Divorce Lending Professional (CDLP)
-Phone: 971-754-1771
-Email: LindleyTeam@mtgxps.com
-Office: 15115 SW Sequoia Parkway, Suite 100, Portland, OR 97224
+Upload the file `lindley-portland-neighborhoods.csv` (already created — check your downloads).
+Contains 10 priority neighborhoods with columns: neighborhood, area, median_home_price, price_range, vibe, best_for, walk_score, bike_score, transit_score, top_schools, notable_parks, popular_restaurants, commute_downtown_min, key_features.
 
-Tammi Lindley — Co-founder (retired from active lending)
+Go to: Add Source → Tables → drag the .csv file in.
+GHL will index it semantically so your AI agents can answer "What neighborhoods should I look at with a $500k budget?" or "Where should I buy if I have kids?"
 
-We are a CORRESPONDENT LENDER, not a bank. This means we fund most loans in-house through our own bank — giving us more control over the process and faster closings. When a different product fits better, we can also broker through other lenders. You get the speed and control of a direct lender with the flexibility to access outside products when they benefit you.
-
-5.0 star Google rating. Over 1,000 families helped. 30 years combined experience.
-
-SERVICES WE OFFER
-
-1. Purchase Loans
-For buying a home — first-time buyers, move-up buyers, relocation, investment properties.
-- Credit score: 580+ (FHA) or 620+ (Conventional)
-- Down payment: As low as 0% (VA) or 3% (Conventional)
-- We fund most loans in-house for faster closings and more control
-- Timeline: Pre-approval in 24-48 hours, close in 30-45 days
-
-2. Refinance
-Replace your current mortgage with better terms — lower rate, shorter term, remove PMI.
-- Credit score: 620+ (Conventional), 580+ (FHA Streamline)
-- Need at least 5-20% equity depending on program
-- We always do a break-even analysis first — if the math doesn't work, we tell you
-- Timeline: 3-5 weeks
-
-3. Divorce Lending (CDLP Specialist)
-Bri is a Certified Divorce Lending Professional. We work with divorcing spouses, attorneys, and mediators on:
-- Equity buyout analysis and refinancing
-- Qualification on individual income post-divorce
-- Real Property Detail Reports for attorneys
-- Settlement agreement mortgage feasibility review
-IMPORTANT: We recommend getting a CDLP involved BEFORE the divorce is finalized, not after.
-
-4. FHA Loans
-Government-backed loans for buyers with lower credit or limited savings.
-- 3.5% down payment with 580+ credit score
-- 10% down with 500-579 credit score
-- Mortgage Insurance Premium (MIP) required
-- Primary residence only
-
-5. VA Loans
-For active military, veterans, and eligible surviving spouses.
-- Zero down payment
-- No PMI ever
-- Competitive rates below conventional
-- Funding fee: 1.25-3.3% (waived for disabled veterans)
-- Need Certificate of Eligibility (COE)
-
-6. Jumbo Loans
-For loan amounts above conforming limits.
-- Typically need 700+ credit score
-- 10-20% down payment
-- 6-12 months reserves in liquid assets
-- Common in Portland's premium neighborhoods (Pearl District, West Hills, Lake Oswego, Dunthorpe)
-
-7. Cash-Out Refinance
-Replace your mortgage with a larger one, receive the difference in cash.
-- Must retain 20% equity after cash-out (conventional)
-- Can borrow up to 80% of home's current value
-- Closing costs 2-3%
-- Used for renovations, debt consolidation, investments
-
-8. HELOC (Home Equity Line of Credit)
-A revolving credit line secured by your home.
-- Only pay interest on what you draw
-- Draw period typically 5-10 years
-- Variable rate (some fixed-rate options available)
-- Need 15-20%+ equity and 680+ credit score
-
-9. Investment Property Loans
-Financing for rental properties, flips, and multi-unit buildings.
-- 15-25% down payment
-- DSCR loans available (qualify on rental income, not personal income)
-- Need 6 months reserves per property
-- We work with first-time and experienced investors
-
-10. Reverse Mortgage (HECM)
-For homeowners 62+ to access equity without monthly payments.
-- No monthly mortgage payments
-- Loan repaid when homeowner sells, moves, or passes away
-- HUD-approved counseling required
-- Multiple payout options: lump sum, credit line, monthly payments
-
-AREAS WE SERVE
-Oregon and Washington. Primary focus: Portland metro area including all 71 Portland neighborhoods, Lake Oswego, Beaverton, Tigard, Gresham, Hillsboro, West Linn, Oregon City, Vancouver WA.
-
-We are NOT licensed in California.
-
-COMPLIANCE LANGUAGE (use when needed)
-Not a commitment to lock or lend. Terms and restrictions apply. Not all applicants will qualify. Mortgage Express, LLC. NMLS Company ID: 40831. Licensed in OR/WA. Equal Housing Lender.
-
-FREQUENTLY ASKED QUESTIONS
-
-Q: How much do I need for a down payment?
-A: It depends on the loan type. VA = 0%, Conventional = as low as 3%, FHA = 3.5%. Oregon also has down payment assistance programs through OHCS.
-
-Q: What credit score do I need?
-A: 580+ for FHA, 620+ for most Conventional, no VA minimum (most lenders want 580+). If your score is lower, we can discuss improvement strategies.
-
-Q: How long does the mortgage process take?
-A: Pre-approval in 24-48 hours. From contract to close, typically 30-45 days.
-
-Q: Should I get pre-approved before house hunting?
-A: Yes. Sellers and agents expect it. It also tells you what you can afford.
-
-Q: What's the difference between a correspondent lender and a bank?
-A: Banks can only offer their own products. As a correspondent lender, we fund most loans in-house through our own bank, which means faster closings and more control. When another product fits better, we can broker that too. Best of both worlds.
-
-Q: How does divorce affect my mortgage?
-A: It depends on the situation. As a CDLP, Bri specializes in navigating equity buyouts, qualification on individual income, and settlement agreement feasibility. Contact us before the decree is finalized.
-
-Q: Can I buy if I'm self-employed?
-A: Yes. We need 2 years of tax returns. We know which lenders are flexible with self-employed borrowers.
-
-Q: What are current rates?
-A: Rates change daily based on market conditions and your specific financial profile. Contact us for a personalized quote rather than relying on published averages.
-
-BOOKING
-To schedule a complimentary 30-minute consultation with Bri:
-- Call: 971-754-1771
-- Text: 971-754-1771
-- Online booking available
-
-APPLICATION
-To start a full mortgage application:
-https://mtgxps.mymortgage-online.com/loan-app/?siteId=1878266072&lar=blindley&workFlowId=71729
-```
-
-**Source 2: Upload as CSV — "Portland Neighborhoods"**
-
-Create a CSV with columns: neighborhood, median_price, vibe, schools, highlights, walk_score
-Include the 10 neighborhoods Claude Code already wrote content for. This lets the AI agent answer "What neighborhoods should I look at with a $500k budget?" intelligently.
 
 **Source 3: URL Crawl — Your new website**
 
-Once thelindleyteam.com is live on the new Next.js site, add it as a URL source. GHL will crawl and index all pages.
+Once thelindleyteam.com is live on the new Next.js site, add it as a URL source. GHL will crawl and index all pages automatically.
 
-### GHL Help Link:
-https://help.gohighlevel.com/support/solutions/articles/155000006671-knowledge-base-document-rich-text-support
+### GHL Help Links:
+- Knowledge Base Docs: https://help.gohighlevel.com/support/solutions/articles/155000006671-knowledge-base-document-rich-text-support
+- Knowledge Base Tables: https://help.gohighlevel.com/support/solutions/articles/155000006637-ai-agents-knowledge-base-tables
 
+---
 ---
 
 ## STEP 2: PIPELINE + CUSTOM FIELDS + TAGS
