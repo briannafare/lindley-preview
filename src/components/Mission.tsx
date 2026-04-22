@@ -46,7 +46,7 @@ export default function Mission() {
             the right financing
           </span>{" "}
           for your life — not just the lowest rate on a spreadsheet. Access to
-          hundreds of mortgage products across Oregon, Washington.
+          a wide range of mortgage products — funded in-house or brokered when it benefits you — across Oregon and Washington.
         </p>
       </div>
     </section>

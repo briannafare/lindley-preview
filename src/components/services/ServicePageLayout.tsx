@@ -311,7 +311,7 @@ export default function ServicePageLayout({
             ?
           </h2>
           <p className="text-base text-ink-mid font-normal max-w-[440px] mx-auto mb-8">
-            Schedule a free consultation. We&apos;ll review your situation and
+            Schedule a complimentary consultation. We&apos;ll review your situation and
             tell you honestly whether this is the right move.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 justify-center">

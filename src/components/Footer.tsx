@@ -52,8 +52,8 @@ export default function Footer() {
             Not a commitment to lock or lend. Terms and restrictions apply. Not
             all applicants will qualify. Mortgage Express, LLC. NMLS Company ID:
             40831 | mtgxps.com | Licensed in OR/WA. Mortgage Express is
-            an Equal Housing Lender. 10260 SW Greenburg Road, Ste. 830,
-            Portland, OR 97223.
+            an Equal Housing Lender. 15115 SW Sequoia Parkway, Suite 100,
+            Portland, OR 97224.
           </p>
           <div className="flex flex-wrap justify-between items-center mt-5 gap-4">
             <span className="text-[0.72rem] text-white/30">
