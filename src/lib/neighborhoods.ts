@@ -853,6 +853,95 @@ export const neighborhoods: NeighborhoodData[] = [
     },
   },
 
+
+  {
+    slug: "kenton",
+    name: "Kenton",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "There is a 31-foot fiberglass Paul Bunyan statue on N Denver Avenue, and Portland has decided to love it rather than question it. Kenton is that kind of neighborhood. The Yellow MAX line runs through — N Kenton/Denver Ave station — which gives you a real transit connection to downtown and north to the Expo Center. The commercial strip on N Denver has been developing slowly and honestly, without the full polish of Alberta or Mississippi.",
+      "Po'Shines Café de la Soul on N Denver is the neighborhood restaurant people point you to first. The Kenton Club has been a dive bar long enough that nobody questions it. The houses are 1940s and 1950s bungalows on 5,000 sq ft lots — smaller than St. Johns, smaller than Alberta, but with MAX access that those neighborhoods don't have. Prices are among the lowest for single-family homes with light rail access in Portland.",
+      "Because of the price point and the MAX connection, investors compete with first-time buyers for the same houses. That's the main thing to know going in. A well-priced Craftsman in good condition won't last long, and cash buyers show up regularly. The neighborhood is in active transition — longtime residents and newer arrivals working out what Kenton becomes next.",
+    ],
+    personality: "Portland's most affordable MAX-accessible neighborhood, in motion",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Kenton+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Kenton+Portland+OR&daddr=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed",
+    walkScore: 75,
+    bikeScore: 72,
+    transitScore: 68,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Kenton Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "George Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Roosevelt High School", type: "high", grades: "9–12", rating: 5 },
+    ],
+    parks: [
+      {
+        name: "Kenton Park",
+        amenities: ["playground", "open lawn", "picnic area", "tennis courts"],
+      },
+      {
+        name: "Delta Park",
+        amenities: ["soccer fields", "disc golf", "open space", "adjacent to Yellow MAX line"],
+      },
+    ],
+    restaurants: [
+      { name: "Po'Shines Café de la Soul", cuisine: "Soul Food", vibe: "N Denver Ave — fried chicken, greens, cornbread, the real answer to Sunday lunch" },
+      { name: "Proper Eats", cuisine: "American", vibe: "N Denver food cart pod, rotating vendors, good for a quick lunch" },
+    ],
+    coffee: [
+      { name: "Posies Cafe", vibe: "N Lombard nearby — doubles as the area's morning stop" },
+      { name: "Dutch Bros", vibe: "N Interstate — drive-through, not destination coffee, but it's there" },
+    ],
+    bars: [
+      { name: "The Kenton Club", vibe: "N Denver Ave dive bar — pool table, no pretense, been here decades" },
+      { name: "The Standard Bar & Grill", vibe: "N Denver, neighborhood bar with food, low-key" },
+    ],
+    medianHomePrice: 380000,
+    priceRange: { low: 290000, high: 600000 },
+    commuteToDowntown: "30 min on Yellow MAX, 25 min by car, 40 min by bike",
+    faqs: [
+      {
+        q: "Is Kenton a good neighborhood for first-time buyers?",
+        a: "It can be, with clear eyes. The price point is genuinely low for Portland — one of the few places where single-family houses still trade under $400k. The MAX connection to downtown is real. The competition from investors is also real. If you can move fast and have your financing pre-approved, Kenton is worth pursuing. If you need weeks to decide, you'll lose houses.",
+      },
+      {
+        q: "How does Kenton compare to St. Johns?",
+        a: "Kenton is cheaper and has better transit (Yellow MAX vs. bus-only in most of St. Johns). St. Johns has Cathedral Park, a more developed commercial strip, and a stronger community identity. They share George Middle School and Roosevelt High School. For buyers who commute downtown, Kenton's MAX access can justify the choice even if the neighborhood feels earlier in its development.",
+      },
+      {
+        q: "What's the commute from Kenton?",
+        a: "The Yellow MAX line to downtown takes about 30 minutes from N Kenton/Denver Ave station. Driving to downtown is 25 minutes. The line also runs north to the Expo Center and south to downtown and Clackamas, which makes it useful if you work on the east side of downtown or the Convention Center area.",
+      },
+      {
+        q: "Is Kenton safe?",
+        a: "By Portland standards, Kenton is a normal working-class neighborhood. The blocks closest to N Denver Ave and the MAX station are the most active. Crime statistics are similar to other North Portland neighborhoods at this price point. The neighborhood association is active and residents are engaged about what happens here.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "I had $340k to spend and thought I was out of the Portland market. Bri showed me Kenton. We got a 1948 bungalow with a full basement for $318k. Two years later, I've put $40k into it and it's worth $430k.",
+        author: "Marcus B.",
+        context: "Bought in Kenton, 2022",
+      },
+      {
+        quote: "The MAX access is the whole reason. I don't have a car. Kenton made Portland ownership possible for me in a way nothing else did at my budget.",
+        author: "Simone L.",
+        context: "Bought in Kenton, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "investment"],
+    adjacentNeighborhoods: ["st-johns", "alberta-arts", "woodstock"],
+    seo: {
+      title: "Buying a Home in Kenton, Portland OR | The Lindley Team",
+      description:
+        "Kenton real estate: affordable Portland with MAX access, home prices, and what first-time buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
 ];
 
 export function getNeighborhoodBySlug(slug: string): NeighborhoodData | undefined {
