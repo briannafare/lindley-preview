@@ -321,6 +321,274 @@ export const neighborhoods: NeighborhoodData[] = [
         "Alberta Arts District real estate: home prices, Last Thursday, commute, and what buyers should know. Bri Lindley, NMLS #1367416.",
     },
   },
+
+  {
+    slug: "pearl-district",
+    name: "Pearl District",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Powell's Books takes up a full city block at NW 10th and Burnside and stays open until 11pm. This tells you something about the Pearl District: it's built for people who don't want to drive, and it actually delivers. The Portland Streetcar runs through it. Jamison Square has a fountain kids use as a splash pad in summer. Tanner Springs Park is a native-plant stormwater garden that doubles as the neighborhood's front lawn. You can walk to almost everything.",
+      "You're buying condos here. The range is enormous — studios in older buildings start around $300k, penthouses in newer buildings push past $2M. HOA fees are a real part of the underwriting math. Newer buildings have lower fees and higher prices; older buildings have caught up over time. Jake's Famous Crawfish on SW 12th has been there since 1892 and feels like it. Coava Coffee has a Pearl location. The neighborhood has exactly the restaurants and services you'd expect for the price point.",
+      "The honest numbers: no yard, neighbors on all sides, street noise along the main corridors is constant, and parking is either included in your unit or $200–$300/month in a garage. The neighborhood is designed for people who don't own a car. If you bring one anyway, it will cost you. The trade is square footage for location, and it's a trade plenty of buyers make willingly.",
+    ],
+    personality: "The neighborhood that made Portland prove it could do urban density",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Pearl+District+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Pearl+District+Portland+OR&daddr=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed",
+    walkScore: 97,
+    bikeScore: 96,
+    transitScore: 92,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Chapman Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Lincoln High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Jamison Square",
+        amenities: ["fountain / splash pad", "open lawn", "dog friendly", "public art"],
+      },
+      {
+        name: "Tanner Springs Park",
+        amenities: ["native plants", "stormwater garden", "bird watching", "quiet seating"],
+      },
+    ],
+    restaurants: [
+      { name: "Jake's Famous Crawfish", cuisine: "Seafood", vibe: "Been here since 1892, SW 12th — classic Portland before Portland was cool" },
+      { name: "Bullard Texas BBQ", cuisine: "BBQ", vibe: "Serious Texas-style on SW 12th, one of the better BBQ spots in the city" },
+      { name: "Imperial", cuisine: "American", vibe: "Hotel Lucia's restaurant, NW Broadway, good for a business dinner" },
+      { name: "Bamboo Sushi", cuisine: "Sushi", vibe: "Sustainable sushi, Pearl location, reservation recommended on weekends" },
+    ],
+    coffee: [
+      { name: "Coava Coffee Roasters", vibe: "Pearl location on NW Davis — smaller than the Grand Ave flagship but same quality" },
+      { name: "Barista", vibe: "NW 23rd area, precise espresso, minimal space" },
+    ],
+    bars: [
+      { name: "Raven & Rose", vibe: "Upscale cocktail bar in a historic carriage house, SW Broadway" },
+      { name: "Bailey's Taproom", vibe: "20+ rotating taps, SW Broadway, no-frills craft beer" },
+    ],
+    medianHomePrice: 580000,
+    priceRange: { low: 300000, high: 2000000 },
+    commuteToDowntown: "5–10 min on foot or Streetcar, MAX accessible at Old Town/Chinatown",
+    faqs: [
+      {
+        q: "Is the Pearl District mostly condos?",
+        a: "Yes. Almost entirely. The neighborhood is former industrial land that was converted to condos and lofts starting in the 1990s. Single-family houses don't really exist here. You're buying a condo or loft, and the HOA fee is part of every transaction.",
+      },
+      {
+        q: "How much does a condo cost in the Pearl District?",
+        a: "Range is wide: studios in older buildings from around $300k, up to $2M+ for top-floor units in newer buildings. Most buyers land between $400k and $900k. HOA fees add $400–$800/month depending on the building and amenities. Make sure you're accounting for that in your monthly budget.",
+      },
+      {
+        q: "Is the Pearl District good for families?",
+        a: "It can work, especially with younger kids. Chapman Elementary is well-regarded and walkable. The lack of yards is the main adjustment — Jamison Square and Tanner Springs become the outdoor space. Families often move to neighborhoods with more space when kids get older, but the Pearl works well for the early years.",
+      },
+      {
+        q: "Do I need a car in the Pearl District?",
+        a: "No. It's one of the only Portland neighborhoods where car-free living is genuinely practical. The Streetcar, MAX, and biking infrastructure cover most trips. Grocery, restaurants, coffee, Powell's — all walkable. If you do own a car, budget for parking separately; most street parking is metered or permit.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "I'd been renting in the Pearl for four years and finally decided to buy. Bri walked me through the HOA financials on three different buildings before we found one that made sense. She caught a reserve fund issue I would have missed.",
+        author: "Alex W.",
+        context: "Bought a condo in Pearl District, 2024",
+      },
+      {
+        quote: "Downsizing from a house in Lake Oswego. The Pearl was the only neighborhood that felt like a real trade rather than a compromise. Bri handled the whole thing cleanly.",
+        author: "Carolyn and Jim B.",
+        context: "Bought in Pearl District, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance"],
+    adjacentNeighborhoods: ["buckman", "irvington", "st-johns"],
+    seo: {
+      title: "Buying a Condo in the Pearl District, Portland OR | The Lindley Team",
+      description:
+        "Pearl District condo prices, HOA fees, walkability, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "irvington",
+    name: "Irvington",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Walk NE 19th Avenue between Knott and Tillamook on a spring evening and you'll understand why people pay a premium for Irvington. Victorian houses with original craftwork, old trees overhanging the sidewalk, front porches that get used. The neighborhood was developed between 1890 and 1930, and a lot of it looks like it. Irvington Elementary consistently ranks among PPS's top K–5 schools, which drives a significant portion of the demand.",
+      "Grant High School runs an IB program that draws students from across NE Portland — one of PPS's genuine success stories. The school pipeline matters to buyers with kids, and it shows in the prices. Nothing move-in ready goes under $550k. Most houses trade in the $650k–$900k range. The jumbo threshold starts to matter here for buyers putting less than 20% down.",
+      "The eastern streets toward the Lloyd District get more commercial traffic than the neighborhood's aesthetic implies — NE Broadway, the northern boundary, can be noisy. Prices are higher than comparable houses in Woodstock or St. Johns, and the honest question to ask yourself is whether the schools and address justify the premium for your situation. For some buyers they absolutely do.",
+    ],
+    personality: "NE Portland's historic benchmark — the school district drives half the demand",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Irvington+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Irvington+Portland+OR&daddr=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed",
+    walkScore: 83,
+    bikeScore: 88,
+    transitScore: 60,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Irvington Elementary", type: "elementary", grades: "K–5", rating: 9 },
+      { name: "Harriet Tubman Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Grant High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Irving Park",
+        amenities: ["community center", "tennis courts", "playground", "open lawn", "summer concerts"],
+      },
+      {
+        name: "Grant Park",
+        amenities: ["open lawn", "walking paths", "adjacent to Grant HS track"],
+      },
+    ],
+    restaurants: [
+      { name: "Screen Door", cuisine: "Southern", vibe: "SE Burnside brunch institution — technically just outside Irvington but everyone here goes" },
+      { name: "Tasty n Daughters", cuisine: "American", vibe: "N Williams corridor, all-day breakfast, reservation worth it on weekends" },
+      { name: "Dar Salam", cuisine: "Iraqi", vibe: "NE Alberta nearby, one of Portland's best underrated dinner spots" },
+    ],
+    coffee: [
+      { name: "Never Coffee Lab", vibe: "2120 NE Alberta — serious espresso, minimal vibe, not trying to impress anyone" },
+      { name: "Case Study Coffee", vibe: "NE Alberta location, clean and consistent" },
+    ],
+    bars: [
+      { name: "Expatriate", vibe: "NE 30th Ave, small cocktail bar with a strong menu, one of Portland's best" },
+      { name: "Pints Urban Brewery", vibe: "NW 14th area, solid house-brewed beers, low-key" },
+    ],
+    medianHomePrice: 750000,
+    priceRange: { low: 550000, high: 1500000 },
+    commuteToDowntown: "20 min by car, 25 min by bike, 30 min by bus (Lines 6, 77)",
+    faqs: [
+      {
+        q: "Why is Irvington so expensive?",
+        a: "A few things stack up: the housing stock is genuinely old and well-built, Irvington Elementary is one of PPS's top-rated schools, Grant High School has an IB program, and the neighborhood has been desirable for long enough that turnover is low. Supply is tight and demand from families is consistent.",
+      },
+      {
+        q: "What are the homes like in Irvington?",
+        a: "Mostly Victorians and Craftsmans built between 1895 and 1930, on lots that run 5,000–7,500 sq ft. Many have original woodwork, built-ins, and hardwood floors. Renovations are common but full flips are expensive given the house sizes. You'll find some infill from the 1950s–1970s on the less central streets.",
+      },
+      {
+        q: "Is Irvington good for families with school-age kids?",
+        a: "It's one of the strongest school pipelines in PPS — Irvington Elementary to Harriet Tubman Middle to Grant High with IB. The elementary school alone drives meaningful demand. The neighborhood is walkable for kids, Irving Park is large and well-maintained, and the block structure is safe and quiet.",
+      },
+      {
+        q: "How does Irvington compare to Laurelhurst or Eastmoreland?",
+        a: "Irvington has slightly better transit access and is closer to NE commercial corridors. Laurelhurst has the park and a stronger sense of enclave. Eastmoreland is quieter with larger lots. All three are in the upper tier of Portland residential neighborhoods. The school pipeline makes Irvington's case for families specifically.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We moved from Chicago specifically for the school situation. Irvington Elementary was the deciding factor. Bri helped us close on a Victorian on NE 22nd before it got a second offer.",
+        author: "Sarah and Tom K.",
+        context: "Bought in Irvington, 2023",
+      },
+      {
+        quote: "I was skeptical about the price, but Bri walked me through the comparable sales going back five years. Irvington holds value. We bought and I haven't second-guessed it.",
+        author: "Michael D.",
+        context: "Bought in Irvington, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance"],
+    adjacentNeighborhoods: ["alberta-arts", "buckman", "laurelhurst"],
+    seo: {
+      title: "Buying a Home in Irvington, Portland OR | The Lindley Team",
+      description:
+        "Irvington real estate: home prices, school quality, Victorian homes, and what buyers should know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "eastmoreland",
+    name: "Eastmoreland",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Reed College sits at the southeastern edge of Eastmoreland, and Crystal Springs Rhododendron Garden runs right next to the campus. In May the rhododendrons bloom hard — it draws visitors from across the city. The residential streets around SE Crystal Springs Blvd and SE Bybee have some of the largest, best-maintained houses in inner SE Portland: Tudor Revivals, Colonial Revivals, and large Craftsmans from the 1920s through 1940s on wide lots.",
+      "This is a quiet prestige neighborhood. No commercial strip to walk to, limited transit, almost no foot traffic. You drive or bike down to SE Woodstock or SE Division for coffee and food. The Eastmoreland Golf Course is a public course — a good amenity if you play. Duniway Elementary and Cleveland High School serve the area. The housing stock is the draw, not the walkability.",
+      "Walk Score is around 58, no easy MAX access, and the bus to downtown takes 35 minutes. If you're comparing to Buckman or Irvington on urban convenience, Eastmoreland loses. If you're comparing on lot size, house quality, and quiet, it wins. The buyers who are happiest here know they're trading convenience for space.",
+    ],
+    personality: "SE Portland's quietest prestige neighborhood — big houses, no foot traffic, Reed College next door",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Eastmoreland+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Eastmoreland+Portland+OR&daddr=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed",
+    walkScore: 58,
+    bikeScore: 80,
+    transitScore: 38,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Duniway Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Sellwood Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Cleveland High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Crystal Springs Rhododendron Garden",
+        amenities: ["rhododendron collection", "duck pond", "walking paths", "seasonal blooms"],
+      },
+      {
+        name: "Eastmoreland Golf Course",
+        amenities: ["18-hole public course", "driving range", "pro shop"],
+      },
+    ],
+    restaurants: [
+      { name: "Grand Central Baking", cuisine: "Bakery / Cafe", vibe: "SE Woodstock location, good bread, neighborhood breakfast" },
+      { name: "Gado Gado", cuisine: "Indonesian", vibe: "SE Division, not walking distance but worth the trip — some of Portland's best cooking" },
+      { name: "Hammy's Pizza", cuisine: "Pizza", vibe: "SE Woodstock, local takeout institution" },
+    ],
+    coffee: [
+      { name: "Grand Central Baking", vibe: "SE Woodstock — bread bakery with espresso, opens early" },
+      { name: "Stumptown Coffee", vibe: "Several locations reachable by short drive or bike" },
+    ],
+    bars: [
+      { name: "Woodstock Wine & Deli", vibe: "SE Woodstock, wine bar feel, good for a quiet evening" },
+      { name: "Sellwood Bar", vibe: "Short bike ride to Sellwood, neighborhood dive with no pretense" },
+    ],
+    medianHomePrice: 720000,
+    priceRange: { low: 560000, high: 1400000 },
+    commuteToDowntown: "25 min by car, 35 min by bus, 20 min by bike via Springwater Corridor",
+    faqs: [
+      {
+        q: "What kind of homes are in Eastmoreland?",
+        a: "Large 1920s–1940s houses on big lots: Tudor Revivals, Colonial Revivals, Craftsmans. Lot sizes often run 7,500–12,000 sq ft, which is generous for inner Portland. Houses are well-maintained — the neighborhood has strict homeowner standards and design review applies to major exterior changes.",
+      },
+      {
+        q: "Is Eastmoreland good for families?",
+        a: "Yes, particularly if school quality and space are the priorities. Duniway Elementary is solid, Cleveland High is one of PPS's better comprehensive high schools, and the neighborhood is quiet and safe. The lack of walkability means kids need rides to most activities — that's the main adjustment for families coming from more urban neighborhoods.",
+      },
+      {
+        q: "How does Eastmoreland compare to Sellwood or Woodstock?",
+        a: "More expensive and quieter than either. Sellwood has more of a commercial strip and community vibe. Woodstock is more affordable and has Reed College proximity. Eastmoreland has the largest houses and the most established streetscape. The three neighborhoods share schools.",
+      },
+      {
+        q: "What's the Crystal Springs Rhododendron Garden?",
+        a: "A 9.5-acre garden managed by the American Rhododendron Society, adjacent to Reed College. Entry is free Monday mornings and during the off-season; small admission fee April through June when the rhododendrons are blooming. Genuinely worth seeing in May — it's one of those Portland things that residents take for granted and visitors are stunned by.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We wanted a 1930s house with a real yard and didn't want to leave Portland. Eastmoreland was the answer. Bri found us a Tudor Revival on SE Bybee before it was formally listed.",
+        author: "Patricia and Greg H.",
+        context: "Bought in Eastmoreland, 2023",
+      },
+      {
+        quote: "Coming from a condo in the Pearl, the lot size alone felt like a revelation. Bri walked us through what to expect on a house this size — insurance, maintenance, the works.",
+        author: "Daniel F.",
+        context: "Bought in Eastmoreland, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance"],
+    adjacentNeighborhoods: ["sellwood-moreland", "woodstock", "buckman"],
+    seo: {
+      title: "Buying a Home in Eastmoreland, Portland OR | The Lindley Team",
+      description:
+        "Eastmoreland real estate: Tudor Revivals, large lots, Crystal Springs Garden, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
 ];
 
 export function getNeighborhoodBySlug(slug: string): NeighborhoodData | undefined {
