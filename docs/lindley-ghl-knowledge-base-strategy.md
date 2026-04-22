@@ -12,7 +12,7 @@
 
 ### Source 2: CSV Table — "Product Types"
 **File:** `lindley-product-types.csv` (already built — download from outputs)
-**What it contains:** 27 product categories with descriptions, credit requirements, down payment, key features, best-for personas, and funding source (in-house vs wholesale). Covers: Conventional, Jumbo, FHA, VA, USDA, ODVA, Bank Statement, DSCR, No-Income, ITIN, Doctor Loans, Asset Depletion, 95% Jumbo, Construction, Bridge, Manufactured Homes, Land, Reverse, Cash-Out, HELOC, Standalone HELOC, 2nd Mortgage, DPA Programs, OHCS, Rate-and-Term Refi, FHA Streamline, VA IRRRL, Private Financing
+**What it contains:** 20 broad product categories organized by type (Core, Non-QM, Specialty, Equity, Assistance, Government). Each row has what it is, who it is for, key benefit, and whether we fund it in-house or through our wholesale network. No specific lender names or guidelines that go stale — just enough for the AI to know what we CAN do and route to Bri for specifics
 **Why CSV:** GHL's Table Search uses semantic matching — a visitor can ask "I'm self-employed and my tax returns look low" and the AI will surface Bank Statement Loans without the visitor knowing the product name
 **Update frequency:** Manual — update when you add/remove wholesale partners or product offerings change
 
@@ -64,7 +64,7 @@ Q: "Are you a broker or a bank?"
 A: "Neither, actually. The Lindley Team is a correspondent lender operating under Mortgage Express. That means we fund most of our loans in-house through our own bank — which gives us faster closings and more control over the process. But when a different product fits better for your situation, we can also broker through our network of over 40 wholesale lending partners. You get the speed of a direct lender with the flexibility to access specialty products when you need them."
 
 Q: "What types of loans do you offer?"
-A: "We offer a much wider range than most lenders. Beyond conventional, FHA, VA, and jumbo, we have access to bank statement loans for self-employed borrowers, DSCR loans for investors, ITIN loans, construction/renovation financing, bridge loans, manufactured home loans, reverse mortgages, HELOCs, down payment assistance programs, and more. We have over 40 wholesale lending partnerships that give us access to specialty products most lenders can't offer. What's your situation? I can point you toward the right product."
+A: "We offer a much wider range than most lenders. Beyond conventional, FHA, VA, and jumbo, we have access to bank statement loans for self-employed borrowers, DSCR loans for investors, ITIN loans, construction/renovation financing, bridge loans, manufactured home loans, reverse mortgages, HELOCs, down payment assistance programs, and more. Our wholesale lending network gives us access to specialty products most lenders cannot offer. What's your situation? I can point you toward the right product."
 
 Q: "Do you charge for consultations?"
 A: "No — consultations with Bri are complimentary. Schedule a 30-minute conversation and she'll review your situation honestly. If something doesn't make sense, she'll tell you."
