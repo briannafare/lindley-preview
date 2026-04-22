@@ -25,7 +25,7 @@ This is the "brain" that powers ALL your AI agents. Without it, your chatbot and
 ### Go to: AI Agents → Knowledge Base → Create New
 
 **Name:** "The Lindley Team — Mortgage Knowledge"
-**Description:** "Complete service information, FAQ library, neighborhood data, and compliance requirements for The Lindley Team mortgage brokerage in Portland, Oregon."
+**Description:** "Complete service information, FAQ library, neighborhood data, and compliance requirements for The Lindley Team correspondent mortgage lender in Portland, Oregon."
 
 ### Sources to add:
 
@@ -37,17 +37,17 @@ Create a Word doc with this content (copy/paste and save as .docx):
 THE LINDLEY TEAM — SERVICES & FAQ LIBRARY
 
 ABOUT US
-The Lindley Team is a mother-daughter mortgage brokerage operating under Mortgage Express (NMLS Company ID: 40831) in Portland, Oregon. Licensed in Oregon and Washington.
+The Lindley Team is a mother-daughter mortgage team operating as a correspondent lender under Mortgage Express (NMLS Company ID: 40831) in Portland, Oregon. Licensed in Oregon and Washington.
 
 Bri Lindley — Senior Loan Officer, NMLS #1367416
 Certified Divorce Lending Professional (CDLP)
 Phone: 971-754-1771
 Email: LindleyTeam@mtgxps.com
-Office: 10260 SW Greenburg Rd, Ste 830, Portland, OR 97223
+Office: 15115 SW Sequoia Parkway, Suite 100, Portland, OR 97224
 
 Tammi Lindley — Managing Loan Officer, NMLS #114807 (largely retired)
 
-We are mortgage BROKERS, not a bank. This means we have access to hundreds of mortgage products from multiple lenders. We shop the wholesale market to find the best rates and terms — unlike a bank that can only offer their own products.
+We are a CORRESPONDENT LENDER, not a bank. This means we fund most loans in-house through our own bank — giving us more control over the process and faster closings. When a different product fits better, we can also broker through other lenders. You get the speed and control of a direct lender with the flexibility to access outside products when they benefit you.
 
 5.0 star Google rating. Over 1,000 families helped. 30 years combined experience.
 
@@ -57,7 +57,7 @@ SERVICES WE OFFER
 For buying a home — first-time buyers, move-up buyers, relocation, investment properties.
 - Credit score: 580+ (FHA) or 620+ (Conventional)
 - Down payment: As low as 0% (VA) or 3% (Conventional)
-- We access hundreds of products to find the best fit
+- We fund most loans in-house for faster closings and more control
 - Timeline: Pre-approval in 24-48 hours, close in 30-45 days
 
 2. Refinance
@@ -147,8 +147,8 @@ A: Pre-approval in 24-48 hours. From contract to close, typically 30-45 days.
 Q: Should I get pre-approved before house hunting?
 A: Yes. Sellers and agents expect it. It also tells you what you can afford.
 
-Q: What's the difference between a broker and a bank?
-A: Banks only offer their own products. We access hundreds of products from multiple lenders and shop for the best terms on your behalf.
+Q: What's the difference between a correspondent lender and a bank?
+A: Banks can only offer their own products. As a correspondent lender, we fund most loans in-house through our own bank, which means faster closings and more control. When another product fits better, we can broker that too. Best of both worlds.
 
 Q: How does divorce affect my mortgage?
 A: It depends on the situation. As a CDLP, Bri specializes in navigating equity buyouts, qualification on individual income, and settlement agreement feasibility. Contact us before the decree is finalized.
@@ -268,7 +268,7 @@ Default new contacts to stage 1. When a calendar event is created, automatically
 **System Prompt / Instructions:**
 
 ```
-You are a helpful assistant for The Lindley Team, a mortgage brokerage in Portland, Oregon run by Bri Lindley (Senior Loan Officer, NMLS #1367416, CDLP certified).
+You are a helpful assistant for The Lindley Team, a correspondent mortgage lender in Portland, Oregon run by Bri Lindley (Senior Loan Officer, NMLS #1367416, CDLP certified).
 
 Your job:
 1. Answer mortgage and Portland neighborhood questions using the Knowledge Base
@@ -347,7 +347,7 @@ This is the killer feature. When someone submits a rate quote form on your websi
 **System Prompt:**
 
 ```
-You are an AI assistant calling on behalf of Bri Lindley from The Lindley Team, a mortgage brokerage in Portland, Oregon.
+You are an AI assistant calling on behalf of Bri Lindley from The Lindley Team, a correspondent mortgage lender in Portland, Oregon.
 
 You are calling because they just submitted a request on our website. Your job:
 

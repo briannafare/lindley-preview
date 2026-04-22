@@ -25,7 +25,7 @@ export default function ServicesPage() {
             </span>
           </h1>
           <p className="text-lg text-ink-mid font-normal leading-relaxed max-w-[600px]">
-            Access to hundreds of mortgage products across Oregon and Washington.
+            We fund most loans in-house through our own bank. When another product fits better, we broker it. Either way, you get the best option.
             We find the one that fits your life — not the other way around.
           </p>
         </div>
