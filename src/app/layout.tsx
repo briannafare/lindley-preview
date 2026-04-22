@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, Pinyon_Script } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 
 const dmSans = DM_Sans({
@@ -34,6 +35,51 @@ export default function RootLayout({
     >
       <body className="bg-bg text-ink font-body antialiased overflow-x-hidden">
         {children}
+
+        {/* GHL chat widget page-context injector — must run BEFORE the widget script */}
+        <Script
+          id="ghl-page-context"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `(function(){
+  'use strict';
+  var PAGE_RULES=[
+    {pattern:/divorce|cdlp|separation/i,type:'DIVORCE'},
+    {pattern:/calculator/i,type:'CALCULATOR'},
+    {pattern:/blog|post|article|news/i,type:'BLOG'},
+    {pattern:/contact|reach-us|get-in-touch/i,type:'CONTACT'},
+    {pattern:/neighborhood|area|community|portland/i,type:'NEIGHBORHOOD'},
+    {pattern:/refinanc|purchase|va-loan|fha|jumbo|down-payment|pre-approv|heloc|service|loan/i,type:'SERVICE'},
+    {pattern:/^\\/?(index\\.html?)?$/i,useFullPath:true,type:'HOMEPAGE'}
+  ];
+  function detectPageType(){
+    var path=window.location.pathname;
+    for(var i=0;i<PAGE_RULES.length;i++){
+      var rule=PAGE_RULES[i];
+      var subject=rule.useFullPath?path:window.location.href;
+      if(rule.pattern.test(subject))return rule.type;
+    }
+    return 'GENERAL';
+  }
+  function injectPageContext(){
+    var widget=document.querySelector('chat-widget');
+    if(!widget)return;
+    var pageType=detectPageType();
+    var contextTag='[PAGE_CONTEXT:'+pageType+'] url:'+window.location.href;
+    widget.setAttribute('prompt',contextTag);
+    widget.setAttribute('data-page-type',pageType);
+  }
+  injectPageContext();
+  window.addEventListener('chatWidgetLoaded',injectPageContext);
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded',injectPageContext);
+  }
+})();`,
+          }}
+        />
+
+        {/* GHL chat widget embed — paste the <script> tag from GHL here */}
+        {/* Example: <Script src="https://..." strategy="afterInteractive" /> */}
       </body>
     </html>
   );
