@@ -26,6 +26,14 @@ export default function MortgageCalculator({
   const [insurance, setInsurance] = useState(1500);
   const [results, setResults] = useState<CalcResults | null>(null);
 
+  // Lead capture state
+  const [showForm, setShowForm] = useState(false);
+  const [leadCaptured, setLeadCaptured] = useState(false);
+  const [leadName, setLeadName] = useState("");
+  const [leadEmail, setLeadEmail] = useState("");
+  const [leadPhone, setLeadPhone] = useState("");
+  const [submitting, setSubmitting] = useState(false);
+
   const calculate = useCallback(() => {
     const downPayment = homePrice * (downPaymentPct / 100);
     const loanAmount = homePrice - downPayment;
@@ -46,7 +54,7 @@ export default function MortgageCalculator({
 
     setResults({
       monthlyPayment: totalMonthly,
-      principal: monthlyPI - (loanAmount * monthlyRate),
+      principal: monthlyPI - loanAmount * monthlyRate,
       interest: loanAmount * monthlyRate,
       taxes: monthlyTaxes,
       insurance: monthlyInsurance,
@@ -70,6 +78,70 @@ export default function MortgageCalculator({
 
   const downPayment = homePrice * (downPaymentPct / 100);
   const loanAmount = homePrice - downPayment;
+
+  const handleLeadSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setSubmitting(true);
+    const webhookUrl = process.env.NEXT_PUBLIC_GHL_CALC_WEBHOOK || "";
+    if (webhookUrl) {
+      fetch(webhookUrl, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          source: "calculator",
+          name: leadName,
+          email: leadEmail,
+          phone: leadPhone,
+          home_price: homePrice,
+          loan_amount: loanAmount,
+          rate,
+          term,
+          down_payment_pct: downPaymentPct,
+          monthly_payment: results?.monthlyPayment,
+        }),
+      }).catch(() => {});
+    }
+    setLeadCaptured(true);
+    setShowForm(false);
+    setSubmitting(false);
+  };
+
+  const calcPmiPayoffMonth = () => {
+    if (downPaymentPct >= 20 || !results) return null;
+    const targetBalance = homePrice * 0.8;
+    const monthlyRate = rate / 100 / 12;
+    const loanAmt = homePrice - homePrice * (downPaymentPct / 100);
+    let balance = loanAmt;
+    const monthlyPI = results.principal + results.interest;
+    for (let month = 1; month <= term * 12; month++) {
+      const interestPart = balance * monthlyRate;
+      const principalPart = monthlyPI - interestPart;
+      balance -= principalPart;
+      if (balance <= targetBalance) return month;
+    }
+    return null;
+  };
+
+  const calcAmortizationAt = (yearTarget: number) => {
+    if (!results) return null;
+    const monthlyRate = rate / 100 / 12;
+    const loanAmt = homePrice - homePrice * (downPaymentPct / 100);
+    const monthlyPI = results.principal + results.interest;
+    let balance = loanAmt;
+    const months = yearTarget * 12;
+    for (let m = 0; m < months && m < term * 12; m++) {
+      const interestPart = balance * monthlyRate;
+      const principalPart = monthlyPI - interestPart;
+      balance = Math.max(0, balance - principalPart);
+    }
+    const equity = homePrice - balance;
+    return { balance, equity };
+  };
+
+  const pmiPayoffMonth = leadCaptured ? calcPmiPayoffMonth() : null;
+  const amort1 = leadCaptured ? calcAmortizationAt(1) : null;
+  const amort5 = leadCaptured ? calcAmortizationAt(5) : null;
+  const amort10 = leadCaptured ? calcAmortizationAt(10) : null;
 
   return (
     <div className="bg-white rounded-[2rem] border border-border p-8">
@@ -229,6 +301,7 @@ export default function MortgageCalculator({
       {/* Results */}
       {results && (
         <div className="mt-8 pt-8 border-t border-border">
+          {/* Always visible: big payment number */}
           <div className="text-center mb-6">
             <p className="text-[0.68rem] font-bold tracking-[0.2em] uppercase text-ink-light mb-1">
               Estimated Monthly Payment
@@ -241,62 +314,231 @@ export default function MortgageCalculator({
             </p>
           </div>
 
-          <div className="space-y-2">
-            <div className="flex justify-between text-sm">
-              <span className="text-ink-mid">Principal & Interest</span>
-              <span className="font-semibold">
-                {formatCurrency(results.principal + results.interest)}
-              </span>
+          {/* Lead gate — show teaser or form or full breakdown */}
+          {!leadCaptured ? (
+            <div className="mt-6">
+              <div className="border-t border-border pt-6 text-center space-y-3">
+                {!showForm ? (
+                  <>
+                    <button
+                      onClick={() => setShowForm(true)}
+                      className="inline-flex items-center gap-2 px-6 py-3 bg-ink text-white rounded-full text-[0.78rem] font-bold tracking-[0.04em] uppercase hover:scale-[1.03] transition-all"
+                    >
+                      Get your full breakdown →
+                    </button>
+                    <p className="text-[0.72rem] text-ink-light">
+                      We&apos;ll email you a personalized mortgage summary.
+                    </p>
+                  </>
+                ) : (
+                  <form
+                    onSubmit={handleLeadSubmit}
+                    className="text-left space-y-3"
+                  >
+                    <div>
+                      <label className="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-ink block mb-1">
+                        Name
+                      </label>
+                      <input
+                        type="text"
+                        required
+                        value={leadName}
+                        onChange={(e) => setLeadName(e.target.value)}
+                        placeholder="Jane Smith"
+                        className="w-full border border-border rounded-xl px-3 py-2 text-sm bg-transparent outline-none focus:border-ink transition-colors"
+                      />
+                    </div>
+                    <div>
+                      <label className="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-ink block mb-1">
+                        Email
+                      </label>
+                      <input
+                        type="email"
+                        required
+                        value={leadEmail}
+                        onChange={(e) => setLeadEmail(e.target.value)}
+                        placeholder="jane@email.com"
+                        className="w-full border border-border rounded-xl px-3 py-2 text-sm bg-transparent outline-none focus:border-ink transition-colors"
+                      />
+                    </div>
+                    <div>
+                      <label className="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-ink block mb-1">
+                        Phone{" "}
+                        <span className="normal-case font-normal text-ink-light">
+                          (optional)
+                        </span>
+                      </label>
+                      <input
+                        type="tel"
+                        value={leadPhone}
+                        onChange={(e) => setLeadPhone(e.target.value)}
+                        placeholder="(503) 555-1234"
+                        className="w-full border border-border rounded-xl px-3 py-2 text-sm bg-transparent outline-none focus:border-ink transition-colors"
+                      />
+                    </div>
+                    <div className="flex flex-col items-center gap-2 pt-1">
+                      <button
+                        type="submit"
+                        disabled={submitting}
+                        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-ink text-white rounded-full text-[0.78rem] font-bold tracking-[0.04em] uppercase hover:scale-[1.03] transition-all disabled:opacity-60 disabled:scale-100"
+                      >
+                        {submitting ? "Sending..." : "Show My Full Breakdown →"}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setShowForm(false)}
+                        className="text-[0.72rem] text-ink-light hover:text-ink transition-colors"
+                      >
+                        ← Back
+                      </button>
+                    </div>
+                    <p className="text-center text-[0.68rem] text-ink-light">
+                      No spam. Just your mortgage numbers.
+                    </p>
+                  </form>
+                )}
+              </div>
             </div>
-            <div className="flex justify-between text-sm">
-              <span className="text-ink-mid">Property Taxes</span>
-              <span className="font-semibold">
-                {formatCurrency(results.taxes)}
-              </span>
-            </div>
-            <div className="flex justify-between text-sm">
-              <span className="text-ink-mid">Insurance</span>
-              <span className="font-semibold">
-                {formatCurrency(results.insurance)}
-              </span>
-            </div>
-            {results.pmi > 0 && (
+          ) : (
+            /* Full breakdown after lead capture */
+            <div className="space-y-2">
+              {/* Payment breakdown rows */}
               <div className="flex justify-between text-sm">
-                <span className="text-ink-mid">PMI</span>
-                <span className="font-semibold text-orange">
-                  {formatCurrency(results.pmi)}
+                <span className="text-ink-mid">Principal & Interest</span>
+                <span className="font-semibold">
+                  {formatCurrency(results.principal + results.interest)}
                 </span>
               </div>
-            )}
-            <div className="flex justify-between text-sm pt-2 border-t border-border">
-              <span className="text-ink-mid">Total Interest ({term} years)</span>
-              <span className="font-semibold">
-                {formatCurrency(results.totalInterest)}
-              </span>
-            </div>
-          </div>
+              <div className="flex justify-between text-sm">
+                <span className="text-ink-mid">Property Taxes</span>
+                <span className="font-semibold">
+                  {formatCurrency(results.taxes)}
+                </span>
+              </div>
+              <div className="flex justify-between text-sm">
+                <span className="text-ink-mid">Insurance</span>
+                <span className="font-semibold">
+                  {formatCurrency(results.insurance)}
+                </span>
+              </div>
+              {results.pmi > 0 && (
+                <div className="flex justify-between text-sm">
+                  <span className="text-ink-mid">PMI</span>
+                  <span className="font-semibold text-orange">
+                    {formatCurrency(results.pmi)}
+                  </span>
+                </div>
+              )}
+              <div className="flex justify-between text-sm pt-2 border-t border-border">
+                <span className="text-ink-mid">
+                  Total Interest ({term} years)
+                </span>
+                <span className="font-semibold">
+                  {formatCurrency(results.totalInterest)}
+                </span>
+              </div>
 
-          {downPaymentPct < 20 && (
-            <div className="mt-4 p-3 bg-yellow/30 rounded-xl">
-              <p className="text-[0.78rem] text-ink-mid">
-                <strong>Tip:</strong> Putting 20% down eliminates PMI and saves
-                you {formatCurrency(results.pmi)}/mo.
-              </p>
+              {/* PMI payoff */}
+              {pmiPayoffMonth !== null && (
+                <div className="mt-4 p-3 bg-yellow/30 rounded-xl">
+                  <p className="text-[0.78rem] text-ink-mid">
+                    <strong>PMI drops off at month {pmiPayoffMonth}</strong> —
+                    approximately{" "}
+                    {(pmiPayoffMonth / 12) % 1 === 0
+                      ? pmiPayoffMonth / 12
+                      : (pmiPayoffMonth / 12).toFixed(1)}{" "}
+                    years.
+                  </p>
+                </div>
+              )}
+
+              {/* Amortization highlights */}
+              {(amort1 || amort5 || amort10) && (
+                <div className="mt-4">
+                  <p className="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-ink mb-2">
+                    Amortization Highlights
+                  </p>
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-border">
+                        <th className="text-left text-[0.7rem] font-semibold uppercase tracking-[0.06em] text-ink-light pb-1">
+                          Year
+                        </th>
+                        <th className="text-right text-[0.7rem] font-semibold uppercase tracking-[0.06em] text-ink-light pb-1">
+                          Balance
+                        </th>
+                        <th className="text-right text-[0.7rem] font-semibold uppercase tracking-[0.06em] text-ink-light pb-1">
+                          Equity
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {amort1 && (
+                        <tr className="border-b border-border">
+                          <td className="py-1.5 text-ink-mid">After Year 1</td>
+                          <td className="py-1.5 text-right font-semibold">
+                            {formatCurrency(amort1.balance)}
+                          </td>
+                          <td className="py-1.5 text-right font-semibold text-green-700">
+                            {formatCurrency(amort1.equity)}
+                          </td>
+                        </tr>
+                      )}
+                      {amort5 && term >= 5 && (
+                        <tr className="border-b border-border">
+                          <td className="py-1.5 text-ink-mid">After Year 5</td>
+                          <td className="py-1.5 text-right font-semibold">
+                            {formatCurrency(amort5.balance)}
+                          </td>
+                          <td className="py-1.5 text-right font-semibold text-green-700">
+                            {formatCurrency(amort5.equity)}
+                          </td>
+                        </tr>
+                      )}
+                      {amort10 && term >= 10 && (
+                        <tr>
+                          <td className="py-1.5 text-ink-mid">After Year 10</td>
+                          <td className="py-1.5 text-right font-semibold">
+                            {formatCurrency(amort10.balance)}
+                          </td>
+                          <td className="py-1.5 text-right font-semibold text-green-700">
+                            {formatCurrency(amort10.equity)}
+                          </td>
+                        </tr>
+                      )}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+
+              {downPaymentPct < 20 && pmiPayoffMonth === null && (
+                <div className="mt-4 p-3 bg-yellow/30 rounded-xl">
+                  <p className="text-[0.78rem] text-ink-mid">
+                    <strong>Tip:</strong> Putting 20% down eliminates PMI and
+                    saves you {formatCurrency(results.pmi)}/mo.
+                  </p>
+                </div>
+              )}
             </div>
           )}
 
-          {/* GHL CTA */}
-          <div className="mt-6 text-center">
-            <p className="text-sm text-ink-mid mb-3">
-              Want exact numbers based on today&apos;s rates?
-            </p>
-            <a
-              href="/contact"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-ink text-white rounded-full text-[0.78rem] font-bold tracking-[0.04em] uppercase hover:scale-[1.03] transition-all"
-            >
-              Get Your Free Rate Quote <span>→</span>
-            </a>
-          </div>
+          {/* Second CTA — always shown after lead capture */}
+          {leadCaptured && (
+            <div className="mt-8 border border-border rounded-xl p-5">
+              <p className="font-semibold text-ink text-sm mb-0.5">
+                Want exact numbers based on today&apos;s rates?
+              </p>
+              <p className="text-sm text-ink-mid mb-4">
+                Schedule a free call with Bri.
+              </p>
+              <a
+                href="/contact"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-ink text-white rounded-full text-[0.78rem] font-bold tracking-[0.04em] uppercase hover:scale-[1.03] transition-all"
+              >
+                Schedule a Call →
+              </a>
+            </div>
+          )}
         </div>
       )}
     </div>

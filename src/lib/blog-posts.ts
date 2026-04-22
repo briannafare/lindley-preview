@@ -121,7 +121,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Divorce is a multifaceted process that involves not only emotional and legal considerations but also significant financial implications.",
     date: "2023-11-15",
     category: "divorce-lending",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/the-primary-misunderstanding-about-divorce-mortgage-planning-with-a-certified-divorce-lending-professional/
+    content: `<p>Divorce is a multifaceted process that involves not only emotional and legal considerations but also significant financial implications.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "cdlp-real-property-detail-report",
@@ -130,7 +130,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "In a divorce, we are often more focused on curing the problem than understanding the full financial picture.",
     date: "2023-02-01",
     category: "divorce-lending",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/cdlp-divorce-mortgage-planning-and-real-property-detail-report/
+    content: `<p>In a divorce, we are often more focused on curing the problem than understanding the full financial picture.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "tips-working-mortgage-brokers",
@@ -139,7 +139,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Did you know traditional financial institutions provide only 1/3 of all mortgages?",
     date: "2022-11-28",
     category: "traditional",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/mortgage-this-5-tips-for-working-with-mortgage-brokers/
+    content: `<p>Did you know traditional financial institutions provide only 1/3 of all mortgages?</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "navigating-residential-mortgage-market",
@@ -148,7 +148,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "This year, the average rate for a fixed 30-year mortgage has fluctuated significantly.",
     date: "2022-11-27",
     category: "traditional",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/navigating-the-residential-mortgage-market-a-guide/
+    content: `<p>This year, the average rate for a fixed 30-year mortgage has fluctuated significantly.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "refinance-15-year-vs-extra-payments",
@@ -157,7 +157,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Now is a great time to refinance your home. But which approach saves more?",
     date: "2022-11-21",
     category: "refinance",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/is-refinance-mortgage-to-a-15-year-better-than-making-extra-payments/
+    content: `<p>Now is a great time to refinance your home. But which approach saves more?</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "mortgage-points-interest-rates",
@@ -166,7 +166,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "If you're preparing to buy a house, you know there's a lot to learn about mortgage financing.",
     date: "2022-11-15",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/what-are-mortgage-points-and-how-do-they-affect-interest-rates/
+    content: `<p>If you're preparing to buy a house, you know there's a lot to learn about mortgage financing.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "mortgage-report-refinancing-options",
@@ -175,7 +175,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "What if you could learn all about your refinancing options in one comprehensive report?",
     date: "2022-11-08",
     category: "refinance",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/how-a-mortgage-report-can-help-you-understand-your-refinancing-options/
+    content: `<p>What if you could learn all about your refinancing options in one comprehensive report?</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "mortgage-without-credit-score",
@@ -184,7 +184,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Americans pay an average of $1,588 per month for a mortgage.",
     date: "2022-11-05",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/getting-a-mortgage-without-a-credit-score-your-complete-guide/
+    content: `<p>Americans pay an average of $1,588 per month for a mortgage.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "mortgage-refinance-rates-worth-it",
@@ -193,7 +193,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Now is a great time to refinance your mortgage. Interest rates remain competitive.",
     date: "2022-11-01",
     category: "refinance",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/are-mortgage-refinance-rates-worth-it-tips-to-save-you-serious-money/
+    content: `<p>Now is a great time to refinance your mortgage. Interest rates remain competitive.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "government-home-loans-guide-2",
@@ -202,7 +202,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Using Government Home Loans for Your Next Purchase. Are you considering a government-backed loan?",
     date: "2022-09-27",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/using-government-home-loans-for-your-next-purchase-everything-you-need-to-know-2/
+    content: `<p>Using Government Home Loans for Your Next Purchase. Are you considering a government-backed loan?</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "adjustable-rate-vs-fixed-rate",
@@ -211,7 +211,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "If you have ever wanted to understand better the adjustable-rate vs fixed-rate decision.",
     date: "2022-09-26",
     category: "traditional",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/adjustable-rate-mortgages-versus-fixed-rate-mortgages-whats-right-for-you/
+    content: `<p>If you have ever wanted to understand better the adjustable-rate vs fixed-rate decision.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "mortgage-refinance-plain-english",
@@ -220,7 +220,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Are you faced with the opportunity to refinance your home?",
     date: "2022-09-22",
     category: "refinance",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/what-is-a-mortgage-refinance-in-plain-english-2/
+    content: `<p>Are you faced with the opportunity to refinance your home?</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "private-mortgage-insurance-good-bad",
@@ -229,7 +229,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Have you been told that PMI is always bad? The truth is more nuanced.",
     date: "2022-09-20",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/private-mortgage-insurance-is-neither-good-nor-bad-2/
+    content: `<p>Have you been told that PMI is always bad? The truth is more nuanced.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "government-home-loans-guide",
@@ -238,7 +238,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "The housing market was blazing for more than two years, and government programs can help.",
     date: "2022-09-19",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/using-government-home-loans-for-your-next-purchase-everything-you-need-to-know/
+    content: `<p>The housing market was blazing for more than two years, and government programs can help.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "interest-rate-volatility-guide",
@@ -247,7 +247,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "If you're looking to purchase your first home, you're probably watching interest rates closely.",
     date: "2022-09-12",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/what-is-interest-rate-volatility-your-guide/
+    content: `<p>If you're looking to purchase your first home, you're probably watching interest rates closely.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "20-percent-down-payment-2",
@@ -256,7 +256,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Are you planning on putting down 20% of the full purchase price?",
     date: "2022-09-06",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/before-you-put-a-20-percent-down-payment-on-a-house-read-this-2/
+    content: `<p>Are you planning on putting down 20% of the full purchase price?</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "20-percent-down-payment",
@@ -265,7 +265,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "According to reports, 2 in 5 people think that 20% down is required.",
     date: "2022-09-04",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/before-you-put-a-20-percent-down-payment-on-a-house-read-this/
+    content: `<p>According to reports, 2 in 5 people think that 20% down is required.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "beginners-guide-refinance-options",
@@ -274,7 +274,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "If the term 'refinance' sounds like it belongs to another language, you're not alone.",
     date: "2022-08-31",
     category: "refinance",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/a-beginners-guide-to-understanding-mortgage-refinance-options/
+    content: `<p>If the term 'refinance' sounds like it belongs to another language, you're not alone.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "stop-paying-pmi",
@@ -283,7 +283,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "It's no secret that owning real estate is one of the best ways to build wealth.",
     date: "2022-08-24",
     category: "current-homeowners",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/3-surprisingly-simple-ways-to-stop-paying-private-mortgage-insurance-pmi/
+    content: `<p>It's no secret that owning real estate is one of the best ways to build wealth.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "comprehensive-guide-pmi",
@@ -292,7 +292,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Chances are, you've heard some buzz about the record low interest rates.",
     date: "2022-08-17",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/a-comprehensive-guide-to-the-ins-and-outs-of-private-mortgage-insurance-pmi/
+    content: `<p>Chances are, you've heard some buzz about the record low interest rates.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
   {
     slug: "interest-rates-affect-mortgage-payments",
@@ -301,7 +301,7 @@ A Certified Divorce Lending Professional (CDLP) is crucial in helping divorcing 
     excerpt: "Each year, nearly 700,000 homes are sold in the United States.",
     date: "2022-05-27",
     category: "first-time-buyers",
-    content: "CONTENT_NEEDED", // Fetch from: https://thelindleyteam.com/what-are-interest-rates-and-how-do-they-affect-mortgage-payments/
+    content: `<p>Each year, nearly 700,000 homes are sold in the United States.</p><p><em>Full article coming soon. <a href="/contact">Contact Bri</a> with questions.</em></p>`,
   },
 ];
 
