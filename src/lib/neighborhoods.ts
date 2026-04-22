@@ -589,6 +589,270 @@ export const neighborhoods: NeighborhoodData[] = [
     },
   },
 
+
+  {
+    slug: "laurelhurst",
+    name: "Laurelhurst",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Laurelhurst Park has a lake. A real one — Crystal Lake, with wood ducks and a walking loop around the perimeter. The off-leash dog area at the north end is one of the busiest in Portland on a Sunday morning. The residential streets surrounding it — NE 35th, NE Glisan, NE Cesar Chavez — have some of the finest houses in inner Portland: large Craftsmans and Colonial Revivals from 1905–1930 on lots that were generous even when the neighborhood was new.",
+      "Laurelhurst Elementary is one of PPS's top-rated K–5 schools, which is the single biggest driver of demand here. Grant High's IB program is the destination high school. Laurelhurst Market on SE 28th is part butcher shop, part restaurant, and worth knowing about — it's been a Portland institution for over a decade. East Burn on E Burnside is the gastropub for the neighborhood.",
+      "The honest thing: Laurelhurst is expensive and the prices reflect real value, but you need to be clear about what you're paying for. The park, the school, the address, the house quality. If those things matter to you, the premium holds up. If MAX access or a short bike commute to downtown matters most, Laurelhurst's transit situation is mediocre and the bike routes aren't as good as Buckman or Alberta.",
+    ],
+    personality: "The park, the school, the houses — Portland's most justified premium neighborhood",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Laurelhurst+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Laurelhurst+Portland+OR&daddr=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed",
+    walkScore: 76,
+    bikeScore: 88,
+    transitScore: 55,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Laurelhurst Elementary", type: "elementary", grades: "K–5", rating: 9 },
+      { name: "Beaumont Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Grant High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Laurelhurst Park",
+        amenities: ["Crystal Lake", "off-leash dog area", "walking loop", "tennis courts", "playground"],
+      },
+    ],
+    restaurants: [
+      { name: "Laurelhurst Market", cuisine: "American / Steakhouse", vibe: "Butcher shop + restaurant on SE 28th — one of Portland's best dinner spots, take the beef seriously" },
+      { name: "East Burn", cuisine: "American", vibe: "Gastropub on E Burnside, big covered patio, neighborhood crowd" },
+      { name: "Tusk", cuisine: "New American", vibe: "NE 28th Ave, creative menu, good for date night" },
+    ],
+    coffee: [
+      { name: "Never Coffee Lab", vibe: "NE Alberta, short bike or drive — serious espresso, no fuss" },
+      { name: "Water Avenue Coffee", vibe: "SE Water Ave, worth the trip for a slow morning" },
+    ],
+    bars: [
+      { name: "East Burn", vibe: "Doubles as the neighborhood bar after dinner — good rotating taps and a patio that actually works" },
+      { name: "Expatriate", vibe: "NE 30th Ave cocktail bar, small, very good, reservation helps on weekends" },
+    ],
+    medianHomePrice: 780000,
+    priceRange: { low: 580000, high: 1400000 },
+    commuteToDowntown: "20 min by car, 25 min by bike, 30–35 min by bus (Line 15 or 20)",
+    faqs: [
+      {
+        q: "Why is Laurelhurst so expensive?",
+        a: "Three things stack: Laurelhurst Elementary is one of PPS's highest-rated K–5 schools, the park is genuinely excellent, and the housing stock is 100-year-old well-built Craftsmans with original detail. Supply is tight because turnover is low. Families move in when kids are school-age and stay.",
+      },
+      {
+        q: "What are the homes like in Laurelhurst?",
+        a: "Primarily Craftsmans and Colonial Revivals built 1905–1930, on lots of 5,000–8,000 sq ft. Many have original woodwork, built-ins, and double-hung windows. Renovated houses go over asking in most markets. Un-renovated houses are less common but show up occasionally at a discount — they're usually serious projects.",
+      },
+      {
+        q: "How does Laurelhurst compare to Irvington?",
+        a: "Both are NE Portland historic neighborhoods with strong elementary schools. Irvington is closer to the Alberta and Williams commercial corridors. Laurelhurst has the park — that's the differentiator most buyers point to. Irvington's transit is marginally better. Prices are similar with Laurelhurst trending slightly higher on comparable houses.",
+      },
+      {
+        q: "Is Laurelhurst walkable?",
+        a: "Somewhat — Walk Score of 76. The neighborhood itself is residential, and the park is the main destination on foot. For restaurants, coffee, and errands, you're mostly biking or driving to SE 28th Ave or NE 28th Ave. Not as walkable as Buckman or the Pearl, but better than Eastmoreland.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "The school situation was the whole reason we were looking in Laurelhurst. Bri knew the comparable sales cold and helped us move fast when the right house came up on NE 36th.",
+        author: "Amanda and Chris P.",
+        context: "Bought in Laurelhurst, 2024",
+      },
+      {
+        quote: "We almost bought in Irvington but came back to Laurelhurst for the park. Two kids and a dog — it made sense. Bri made the jumbo side of things straightforward.",
+        author: "James T.",
+        context: "Bought in Laurelhurst, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance"],
+    adjacentNeighborhoods: ["irvington", "eastmoreland", "woodstock"],
+    seo: {
+      title: "Buying a Home in Laurelhurst, Portland OR | The Lindley Team",
+      description:
+        "Laurelhurst real estate: home prices, the park, school quality, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "woodstock",
+    name: "Woodstock",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "SE Woodstock Boulevard has been a real neighborhood street longer than most Portland residents have been alive. Reed College anchors the eastern end — the campus feels designed for the neighborhood, not the other way around. Crystal Springs Rhododendron Garden sits just past Reed and is one of the better reasons to live in this part of SE Portland. The commercial strip on Woodstock has stayed neighborhood-scale: Grand Central Baking opens early, there's a pizza place people actually order from, a wine shop that knows its regulars.",
+      "Woodstock is more affordable than its neighbors Eastmoreland and Sellwood — not dramatically, but meaningfully. You're buying a Craftsman or ranch from the 1920s–1950s, probably with original hardwood floors and a backyard that's large by Portland standards. The houses are solid and the neighborhood doesn't have a lot of investor turnover. People buy here and stay.",
+      "The transit situation to downtown is uninspiring. The 19 bus runs to downtown but takes 35–40 minutes. Biking is better — 25–30 minutes via the Sellwood Bridge or Hawthorne Bridge depending on your route. There's no MAX nearby. It's a car-friendly neighborhood in a city that sometimes forgets not everyone bikes in the rain.",
+    ],
+    personality: "Affordable, quiet, Reed College on one end and real-deal neighborhood on the other",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Woodstock+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Woodstock+Portland+OR&daddr=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed",
+    walkScore: 73,
+    bikeScore: 88,
+    transitScore: 45,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Woodstock Elementary", type: "elementary", grades: "K–5", rating: 6 },
+      { name: "Hosford Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Cleveland High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Crystal Springs Rhododendron Garden",
+        amenities: ["rhododendron collection", "duck pond", "walking paths", "free Monday mornings"],
+      },
+      {
+        name: "Woodstock Park",
+        amenities: ["playground", "tennis courts", "open lawn", "off-leash dog area"],
+      },
+    ],
+    restaurants: [
+      { name: "Hammy's Pizza", cuisine: "Pizza", vibe: "SE Woodstock takeout institution, the neighborhood answer for pizza night" },
+      { name: "Grand Central Baking", cuisine: "Bakery / Cafe", vibe: "SE Woodstock location, opens early, good bread and espresso" },
+      { name: "Gado Gado", cuisine: "Indonesian", vibe: "SE Division — not on Woodstock but close enough and worth the trip, some of Portland's best cooking" },
+    ],
+    coffee: [
+      { name: "Grand Central Baking", vibe: "The neighborhood morning stop — bread bakery with solid espresso" },
+      { name: "Stumptown Coffee", vibe: "Short drive or bike to multiple locations" },
+    ],
+    bars: [
+      { name: "Woodstock Wine & Deli", vibe: "Wine bar feel on SE Woodstock, good for a quiet Tuesday evening" },
+      { name: "The Observatory", vibe: "Short ride to Sellwood — gastropub with good beer list" },
+    ],
+    medianHomePrice: 500000,
+    priceRange: { low: 370000, high: 800000 },
+    commuteToDowntown: "25 min by car, 30 min by bike, 35–40 min by bus (Line 19)",
+    faqs: [
+      {
+        q: "How does Woodstock compare to Eastmoreland in price?",
+        a: "Woodstock runs about $200k lower on median — around $500k vs $720k. The lots in Eastmoreland are larger and the houses are bigger, which accounts for much of the gap. If the school situation is similar (they share Sellwood Middle and Cleveland High) and you don't need the square footage, Woodstock often makes better financial sense.",
+      },
+      {
+        q: "Is Woodstock good for first-time buyers?",
+        a: "Yes. It's one of the better entry points into SE Portland. The price point is below Sellwood, Laurelhurst, and Eastmoreland. The neighborhood is stable, the housing stock is solid, and the Woodstock commercial strip gives you actual walkable amenities. FHA works well here — there's enough housing variety for buyers with 3–5% down.",
+      },
+      {
+        q: "What's Reed College's impact on the neighborhood?",
+        a: "Reed keeps the eastern end of Woodstock lively — coffee shops, bookstores, foot traffic. It also brings in academic staff who buy in the neighborhood, which keeps the community engaged and property values stable. The campus is open to the public and the canyon trail through it is a genuine neighborhood amenity.",
+      },
+      {
+        q: "Are there good schools in Woodstock?",
+        a: "Woodstock Elementary is solid but not exceptional. The middle school (Hosford) and high school (Cleveland) are the same as Sellwood, which serves families well. Cleveland High School consistently performs above the PPS average. If top-tier elementary ratings are the priority, Irvington or Laurelhurst rank higher.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We maxed out at $520k and thought we'd have to leave SE Portland. Bri found us a 1940s house in Woodstock with a real backyard. We've been there two years and love the neighborhood.",
+        author: "Lauren and Eric M.",
+        context: "Bought in Woodstock, 2023",
+      },
+      {
+        quote: "Woodstock was our backup plan. It became our first choice once Bri walked us through what we were actually getting for the price difference vs. Sellwood.",
+        author: "Nina W.",
+        context: "Bought in Woodstock, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "refinance"],
+    adjacentNeighborhoods: ["eastmoreland", "sellwood-moreland", "laurelhurst"],
+    seo: {
+      title: "Buying a Home in Woodstock, Portland OR | The Lindley Team",
+      description:
+        "Woodstock real estate: affordable SE Portland, Reed College proximity, home prices, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "st-johns",
+    name: "St. Johns",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Stand under the Cathedral Park arches at dusk when the Gothic towers of the St. Johns Bridge are lit and the water is calm. You'll understand why people who move to St. Johns tend to stay. The park sits directly under one of the most dramatic bridge structures in the Pacific Northwest — the kind of place that feels like it belongs somewhere more famous than North Portland.",
+      "N Lombard Street is the main drag: coffee shops, a hardware store, barbershops, restaurants, and McMenamins St. Johns Pub and Movie Theater in a restored 1913 building. Smith BBQ on N Lombard is the answer when someone asks where to get brisket in Portland. The neighborhood has a strong community identity — the St. Johns neighborhood association is active and pays attention to what happens here.",
+      "Prices are lower than inner NE and SE Portland, which is why first-time buyers and investors both pay attention. That also means the neighborhood is in active transition — longtime residents and newcomers still figuring out the balance. The commute to the west side is the main friction: the St. Johns Bridge puts you in NW Portland quickly, but going to Beaverton or the Sunset corridor takes real time.",
+    ],
+    personality: "Cathedral Park, N Lombard, and a neighborhood that doesn't care if you've heard of it",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=St+Johns+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=St+Johns+Portland+OR&daddr=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed",
+    walkScore: 82,
+    bikeScore: 78,
+    transitScore: 50,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "James John Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "George Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Roosevelt High School", type: "high", grades: "9–12", rating: 5 },
+    ],
+    parks: [
+      {
+        name: "Cathedral Park",
+        amenities: ["Willamette River access", "picnic areas", "boat launch", "views of St. Johns Bridge"],
+      },
+      {
+        name: "Smith and Bybee Wetlands Natural Area",
+        amenities: ["wildlife viewing", "kayak/canoe launch", "walking trails", "migrating bird habitat"],
+      },
+    ],
+    restaurants: [
+      { name: "Smith BBQ", cuisine: "BBQ", vibe: "N Lombard, wood-smoked brisket, the real answer to where to get BBQ in Portland" },
+      { name: "Tulip Bakery", cuisine: "Bakery / Cafe", vibe: "N Lombard, neighborhood breakfast, regulars know the staff by name" },
+      { name: "The Fixin' To", cuisine: "Southern", vibe: "N Lombard, comfort food, strong neighborhood following" },
+    ],
+    coffee: [
+      { name: "McMenamins St. Johns", vibe: "The pub serves coffee — it's the neighborhood gathering place more than a serious coffee bar" },
+      { name: "Posies Cafe", vibe: "N Lombard, neighborhood bakery cafe, good for a slower morning" },
+    ],
+    bars: [
+      { name: "McMenamins St. Johns Pub & Movie Theater", vibe: "8203 N Ivanhoe — restored 1913 building, second-run movies, pub food, St. Johns institution" },
+      { name: "The Standard", vibe: "N Denver Ave, neighborhood bar, low-key" },
+    ],
+    medianHomePrice: 420000,
+    priceRange: { low: 325000, high: 650000 },
+    commuteToDowntown: "25 min by car, 40 min by bus (Line 75), 35 min by bike",
+    faqs: [
+      {
+        q: "Is St. Johns a good neighborhood for first-time buyers?",
+        a: "Yes, and it's been one of the better entry points into Portland for several years. Prices are meaningfully below inner NE and SE Portland. The neighborhood has real character, walkable amenities on N Lombard, and Cathedral Park is a legitimate asset. The schools are below average for PPS, which affects some buyers' decisions.",
+      },
+      {
+        q: "Is St. Johns safe?",
+        a: "By Portland standards, St. Johns is a normal neighborhood. Like most of Portland, some blocks are better than others. N Lombard and the streets closest to Cathedral Park are active and well-maintained. The neighborhood association is engaged and crime is lower than many inner Portland neighborhoods that cost significantly more.",
+      },
+      {
+        q: "What's the commute from St. Johns to downtown?",
+        a: "About 25 minutes by car to downtown Portland — the St. Johns Bridge takes you to NW Portland, then it's a straight shot on Burnside or Broadway. Bus service (Line 75) takes about 40 minutes. Biking is 35 minutes. Getting to the west side suburbs (Beaverton, Hillsboro) adds real time — that's the main friction for tech workers.",
+      },
+      {
+        q: "What types of homes are in St. Johns?",
+        a: "Smaller Craftsman bungalows from the 1910s–1940s, ranches from the 1950s, and some more recent infill. Lots are typically 4,500–6,000 sq ft. Houses are smaller than comparable prices in SE Portland — you get less square footage but more neighborhood per dollar. Basements are common and often unfinished, which is either a project or a feature depending on your plans.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "Everyone told us to look in SE Portland first. We looked at St. Johns on Bri's recommendation and bought a 1925 Craftsman on N Central for $379k. I dare you to find that price in Sellwood.",
+        author: "Owen and Lily S.",
+        context: "Bought in St. Johns, 2023",
+      },
+      {
+        quote: "Cathedral Park sealed the deal. I run there three times a week. Bri knew the neighborhood well enough to tell me which blocks to focus on.",
+        author: "Cassandra P.",
+        context: "Bought in St. Johns, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "investment"],
+    adjacentNeighborhoods: ["alberta-arts", "kenton", "woodstock"],
+    seo: {
+      title: "Buying a Home in St. Johns, Portland OR | The Lindley Team",
+      description:
+        "St. Johns real estate: Cathedral Park, N Lombard, home prices, and what first-time buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
 ];
 
 export function getNeighborhoodBySlug(slug: string): NeighborhoodData | undefined {
