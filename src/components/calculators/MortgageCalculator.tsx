@@ -529,7 +529,7 @@ export default function MortgageCalculator({
                 Want exact numbers based on today&apos;s rates?
               </p>
               <p className="text-sm text-ink-mid mb-4">
-                Schedule a free call with Bri.
+                Schedule a complimentary call with Bri.
               </p>
               <a
                 href="/contact"

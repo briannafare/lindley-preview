@@ -50,13 +50,13 @@ export default function ContactPage() {
                   },
                   {
                     label: "Email",
-                    display: "bri@thelindleyteam.com",
-                    href: "mailto:bri@thelindleyteam.com",
+                    display: "LindleyTeam@mtgxps.com",
+                    href: "mailto:LindleyTeam@mtgxps.com",
                     isLink: true,
                   },
                   {
                     label: "Office",
-                    display: "10260 SW Greenburg Rd, Ste 830, Portland OR 97223",
+                    display: "15115 SW Sequoia Pkwy, Suite 100, Portland OR 97224",
                     href: null,
                     isLink: false,
                   },
@@ -197,14 +197,14 @@ export default function ContactPage() {
                   Our Office
                 </p>
                 <p className="text-[0.88rem] text-ink-mid font-normal leading-relaxed">
-                  10260 SW Greenburg Rd<br />
-                  Ste 830<br />
-                  Portland OR 97223
+                  15115 SW Sequoia Pkwy<br />
+                  Suite 100<br />
+                  Portland OR 97224
                 </p>
               </div>
               <div className="rounded-2xl overflow-hidden" style={{ height: "400px" }}>
                 <iframe
-                  src="https://maps.google.com/maps?q=10260+SW+Greenburg+Rd+Ste+830+Portland+OR+97223&output=embed"
+                  src="https://maps.google.com/maps?q=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
