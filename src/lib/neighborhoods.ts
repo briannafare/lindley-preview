@@ -6996,6 +6996,3300 @@ export const neighborhoods: NeighborhoodData[] = [
     },
   },
 
+
+
+{
+    slug: "forest-heights",
+    name: "Forest Heights",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "NW Cornelius Pass Road climbs out of the Tualatin Valley and dead-ends, essentially, into Forest Heights. The neighborhood was carved out of West Hills timber land starting in the early 1990s, and the result is one of the only parts of Portland where you can buy a 3,500-square-foot house built after 1995 with a Portland address. Homes run large — four-bedroom Colonials and Craftsman-revival houses on quarter-acre lots with views of the Tualatin Valley and, on clear days, the Coast Range. The Forest Heights Town Center at NW Miller Road has a New Seasons, a handful of services, and not much else.",
+      "Skyline K–8 feeds into Lincoln High School, which is Portland Public Schools' IB school and one of the most academically competitive high schools in the district. The Tualatin Hills Nature Park is a seven-minute drive and has over five miles of trails through lowland forest — it's where Forest Heights families actually recreate. Closer in, the West Hills Trail system is accessible from several neighborhood trailheads. The HOA maintains common areas and enforces architectural standards, which keeps the neighborhood tidy and is either a comfort or an annoyance depending on your disposition.",
+      "Forest Heights is honest-to-goodness car-dependent. NW 23rd is 20 minutes in normal traffic; downtown is 25–30 minutes. There is no MAX, no meaningful bus service, and no plan for either. The trade-off is a newer house, a Portland address, good public schools, and access to West Hills green space — at a price point noticeably below the closer-in West Hills neighborhoods like Nob Hill or Goose Hollow. If someone at your dinner table will be commuting to the Pearl District or downtown every day, test the drive yourself at 8 a.m. on a Tuesday before you make an offer.",
+    ],
+    personality: "Portland address, newer construction, no bus route",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Forest+Heights+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Forest+Heights+Portland+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 18,
+    bikeScore: 14,
+    transitScore: 22,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      {
+        name: "Skyline K–8 School",
+        type: "elementary",
+        grades: "K–8",
+        rating: 7,
+      },
+      {
+        name: "Lincoln High School",
+        type: "high",
+        grades: "9–12",
+        rating: 9,
+      },
+      {
+        name: "Northwest Academy",
+        type: "private",
+        grades: "6–12",
+        rating: 8,
+      },
+    ],
+    parks: [
+      {
+        name: "Tualatin Hills Nature Park",
+        amenities: [
+          "5+ miles of trails",
+          "old-growth forest",
+          "wetlands",
+          "nature center",
+        ],
+      },
+      {
+        name: "Forest Heights Park",
+        amenities: ["playground", "open lawn", "picnic tables"],
+      },
+      {
+        name: "West Hills Trail System",
+        amenities: [
+          "forested hiking",
+          "mountain bike trails",
+          "neighborhood trailhead access",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "New Seasons Market Café",
+        cuisine: "Deli / Prepared Foods",
+        vibe:
+          "The Town Center anchor — grab lunch from the hot bar, which is better than it sounds",
+      },
+      {
+        name: "Beaverton Bakery",
+        cuisine: "Bakery",
+        vibe:
+          "Short drive down Cornell, been making custom cakes and pastries since 1948",
+      },
+      {
+        name: "Gustav's Pub & Grill",
+        cuisine: "German-American",
+        vibe:
+          "Cedar Mill neighbor — big portions, solid bar, reliably packed on weekend evenings",
+      },
+    ],
+    coffee: [
+      {
+        name: "Coffee House Five",
+        vibe:
+          "Small independent shop in the Forest Heights Town Center, locals run into each other here on weekday mornings",
+      },
+      {
+        name: "Starbucks at New Seasons",
+        vibe:
+          "Practical — if you're already in the parking lot, it's there",
+      },
+    ],
+    bars: [
+      {
+        name: "McMenamins at the Mission Theater",
+        vibe: "Short drive into NW — classic McMenamins room, movies and pub food",
+      },
+      {
+        name: "Gustav's Pub & Grill",
+        vibe:
+          "Closest actual bar to Forest Heights, Cedar Mill location, neighborhood regulars",
+      },
+    ],
+    medianHomePrice: 750000,
+    priceRange: { low: 580000, high: 1400000 },
+    commuteToDowntown:
+      "25–30 min by car to downtown (40+ in morning rush), no practical transit option",
+    faqs: [
+      {
+        q: "What schools serve Forest Heights?",
+        a: "Most of Forest Heights is in the Skyline K–8 attendance zone, which feeds Lincoln High School. Lincoln is Portland Public Schools' International Baccalaureate school and consistently ranks as one of the top public high schools in Oregon. Confirm the specific parcel's school assignment with PPS before making an offer — a handful of western lots near the city boundary have had different assignments historically.",
+      },
+      {
+        q: "How car-dependent is Forest Heights?",
+        a: "Extremely. There is no MAX stop, and TriMet bus service is minimal. Driving is how every errand gets done. NW 23rd and the shops on that corridor are about 20 minutes in normal traffic; downtown Portland is 25–30 minutes. If a household member commutes daily to downtown, expect 40+ minutes each way during morning rush.",
+      },
+      {
+        q: "Does Forest Heights have an HOA?",
+        a: "Most of the neighborhood does, yes. The Forest Heights HOA manages common green space and enforces architectural covenants that govern exterior changes, fencing, and landscaping. HOA fees are typically $100–$200 per month depending on the sub-association. Review the CC&Rs carefully before closing — the rules are real and enforced.",
+      },
+      {
+        q: "How does Forest Heights compare to other West Hills neighborhoods on price?",
+        a: "Forest Heights runs meaningfully less expensive than closer-in West Hills neighborhoods like the West Hills above NW 23rd or Goose Hollow. The trade-off is newer construction and larger lots — most homes here were built in the 1990s and 2000s — but much longer commutes to downtown and the Pearl. Median is around $750,000, compared to $900k+ for the closer hills.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We needed a four-bedroom in Portland Public Schools and didn't want a 1940s fixer. Forest Heights checked every box. Bri walked us through the HOA documents before we even made the offer.",
+        author: "Kevin and Allison R.",
+        context: "Bought in Forest Heights, 2023",
+      },
+      {
+        quote:
+          "The jumbo loan process felt like a black box until Bri explained exactly what the underwriter was looking at. We closed on time with no surprises.",
+        author: "Thomas W.",
+        context: "Purchased in Forest Heights, 2024",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "jumbo",
+      "refinance",
+      "heloc",
+      "cash-out",
+    ],
+    adjacentNeighborhoods: [
+      "nob-hill",
+      "west-haven-sylvan",
+      "cedar-mill",
+      "goose-hollow",
+    ],
+    seo: {
+      title:
+        "Buying a Home in Forest Heights, Portland OR | The Lindley Team",
+      description:
+        "Forest Heights real estate: newer construction, Portland Public Schools, and a long car commute. Honest home prices and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "beaverton-hillsdale",
+    name: "Beaverton-Hillsdale",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Beaverton-Hillsdale Highway is one of those Portland roads that exists in the gap between jurisdictions. The corridor runs through SW Portland, clips through unincorporated Washington County, and bumps up against Beaverton city limits — sometimes within a single block. The housing reflects that geography: 1950s and 1960s ranches with oversized lots, original hardwood floors, single-car garages, and none of the polish that makes comparable houses in Hillsdale or Multnomah Village cost $75,000 more. Grocery Options include Fred Meyer on SW Beaverton-Hillsdale, and the Raleigh Hills area just to the west adds a QFC and a handful of services.",
+      "SW Barbur Boulevard is a few minutes north, connecting to downtown Portland in 15–20 minutes by car. Highway 217 is equally close and routes traffic south to Lake Oswego and Tualatin. Tri-Met Line 54 and Line 56 both run along Beaverton-Hillsdale Highway and provide real, if slow, bus service — 40 to 50 minutes to downtown. The mix of Portland and unincorporated Washington County addresses here matters for taxes and services. Portland city addresses pay Portland city income tax and property tax rates; Washington County unincorporated addresses do not pay the city income tax, which is a real dollar difference.",
+      "The honest trade-off here is that Beaverton-Hillsdale is not a destination neighborhood. The commercial strip on the highway is functional rather than appealing. School district assignments require verification by parcel — some blocks are Portland Public, some are Beaverton School District, and that gap in school quality matters to families. What you get is a lower entry point into SW Portland, genuinely large lots by Portland standards, and proximity to both downtown Portland and the Washington County tech corridor. For buyers priced out of Hillsdale or Multnomah Village, this is where the math starts working.",
+    ],
+    personality: "SW Portland pricing without the SW Portland premium",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Beaverton-Hillsdale+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Beaverton-Hillsdale+Portland+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 52,
+    bikeScore: 38,
+    transitScore: 44,
+    schoolDistrict: "Portland Public Schools or Beaverton School District — verify by parcel",
+    schools: [
+      {
+        name: "Raleigh Park Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Whitford Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 6,
+      },
+      {
+        name: "Beaverton High School",
+        type: "high",
+        grades: "9–12",
+        rating: 6,
+      },
+      {
+        name: "Wilson High School",
+        type: "high",
+        grades: "9–12",
+        rating: 7,
+      },
+    ],
+    parks: [
+      {
+        name: "Gabriel Park",
+        amenities: [
+          "athletic fields",
+          "off-leash dog area",
+          "community garden",
+          "playground",
+          "tennis courts",
+        ],
+      },
+      {
+        name: "Raleigh Hills Community Park",
+        amenities: ["open lawn", "playground", "picnic area"],
+      },
+      {
+        name: "Fanno Creek Greenway",
+        amenities: [
+          "paved multi-use trail",
+          "creek-side walking",
+          "wildlife habitat",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Hazel Room",
+        cuisine: "American",
+        vibe:
+          "Hillsdale neighborhood restaurant a few minutes east — local farm sourcing, good wine list, not a chain",
+      },
+      {
+        name: "Laughing Planet Café",
+        cuisine: "Wraps / Bowls",
+        vibe:
+          "Quick and filling, SW Beaverton-Hillsdale location, reliably fast lunch",
+      },
+      {
+        name: "Banning's Restaurant & Pie House",
+        cuisine: "Diner",
+        vibe:
+          "Old-school SW Portland diner on Barbur, pies are the reason to go",
+      },
+    ],
+    coffee: [
+      {
+        name: "Peet's Coffee",
+        vibe:
+          "Reliable and close to the Fred Meyer corridor — practical stop on the way out of the neighborhood",
+      },
+      {
+        name: "Case Study Coffee",
+        vibe:
+          "Short drive into SW — best pour-over in the area if you're willing to make the trip",
+      },
+    ],
+    bars: [
+      {
+        name: "The Tavern on Killingsworth",
+        vibe: "Straightforward neighborhood bar, no theme, cold beer",
+      },
+      {
+        name: "Multnomah Village Bars",
+        vibe:
+          "Marco's Café and the Village area are 10 minutes east for better options",
+      },
+    ],
+    medianHomePrice: 510000,
+    priceRange: { low: 390000, high: 750000 },
+    commuteToDowntown:
+      "15–20 min by car via Barbur Blvd (30 min in rush hour), 40–50 min by bus on Lines 54/56",
+    faqs: [
+      {
+        q: "Is my Beaverton-Hillsdale address Portland or Washington County?",
+        a: "It depends on the specific parcel. The area straddles the City of Portland boundary and unincorporated Washington County. A Portland address means Portland city income tax, higher property tax rates, and PPS schools. A Washington County unincorporated address means no city income tax, lower property tax rates, and likely Beaverton School District. Always check the county tax record and school district lookup before making an offer — the financial difference is real.",
+      },
+      {
+        q: "What school district serves Beaverton-Hillsdale?",
+        a: "Both Portland Public Schools and Beaverton School District serve parts of this area. Which one applies depends entirely on the address. Beaverton SD is generally considered stronger at the elementary level. Use the PPS and BSD school locator tools with the specific parcel address, not just the zip code.",
+      },
+      {
+        q: "How are the commutes from Beaverton-Hillsdale?",
+        a: "Downtown Portland is 15–20 minutes via SW Barbur Boulevard in normal traffic, closer to 30–35 minutes during morning rush. The Washington County tech corridor — Intel, Nike, Tektronix — is 15–20 minutes west via Highway 217. Bus service exists on Lines 54 and 56 along the highway, though expect 40–50 minutes to downtown.",
+      },
+      {
+        q: "How does Beaverton-Hillsdale compare to nearby Hillsdale and Raleigh Hills?",
+        a: "All three feel similar on the ground — quiet, suburban, 1950s–1970s housing stock. Hillsdale and Multnomah Village carry a small premium for their walkable village centers. Raleigh Hills is unincorporated Washington County throughout, so the tax situation is cleaner. Beaverton-Hillsdale has the most complicated jurisdictional picture, which some buyers find confusing and others see as an opportunity if they find a parcel with a Washington County address.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "I kept losing bidding wars in Hillsdale. Bri suggested we look two miles west — we found a better lot, paid less, and closed in 30 days.",
+        author: "Stephanie and Aaron M.",
+        context: "Bought in Beaverton-Hillsdale, 2023",
+      },
+      {
+        quote:
+          "The school district question had me paralyzed for weeks. Bri helped me get the actual BSD school locator result for the specific house before we made any decisions.",
+        author: "Chris F.",
+        context: "Bought in Beaverton-Hillsdale, 2024",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "fha",
+      "refinance",
+      "cash-out",
+      "investment",
+    ],
+    adjacentNeighborhoods: [
+      "hillsdale",
+      "multnomah-village",
+      "raleigh-hills",
+      "beaverton",
+      "west-haven-sylvan",
+    ],
+    seo: {
+      title:
+        "Buying a Home in Beaverton-Hillsdale, Portland OR | The Lindley Team",
+      description:
+        "Beaverton-Hillsdale real estate: cross-jurisdiction addresses, school district quirks, and lower prices than nearby SW Portland. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "raleigh-hills",
+    name: "Raleigh Hills",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Raleigh Hills sits in a gap on most maps — unincorporated Washington County, wedged between the City of Portland's SW neighborhoods and Beaverton's eastern edge. SW Scholls Ferry Road and SW Beaverton-Hillsdale Highway bracket it on two sides. The housing is almost entirely 1950s through 1970s: ranches, split-levels, and a few two-story colonials on lots that run 8,000 to 15,000 square feet — larger than what the same money buys inside Portland city limits. The QFC at SW Scholls Ferry and the Raleigh Hills commercial area on Beaverton-Hillsdale Highway handle the basics.",
+      "Being unincorporated Washington County means no Portland city income tax. That single fact draws buyers from SW Portland who want to stay in the same geographic corridor but shed the city tax burden. Property taxes also run lower than Portland rates. Most parcels fall in the Beaverton School District, which has performed consistently above Portland Public Schools at both the elementary and high school levels. Beaverton High School and Sunset High School both serve Raleigh Hills addresses depending on location; both are solid comprehensive high schools.",
+      "The trade-off is that Raleigh Hills is suburban through and through. There is no walkable commercial core, no coffee shop to walk to, no Friday night you can do on foot. The mailing address can say Portland or Beaverton depending on the parcel, which confuses buyers and complicates school district lookups. Do not rely on Zillow's school information for specific parcels here — verify directly with Beaverton School District using the parcel address. Transit is sparse. If two people in a household are commuting, expect two cars.",
+    ],
+    personality: "Washington County taxes, Beaverton schools, Portland-area location",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Raleigh+Hills+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Raleigh+Hills+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 42,
+    bikeScore: 32,
+    transitScore: 35,
+    schoolDistrict: "Beaverton School District (most parcels — verify by address)",
+    schools: [
+      {
+        name: "Raleigh Park Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Whitford Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 7,
+      },
+      {
+        name: "Beaverton High School",
+        type: "high",
+        grades: "9–12",
+        rating: 7,
+      },
+      {
+        name: "Sunset High School",
+        type: "high",
+        grades: "9–12",
+        rating: 8,
+      },
+    ],
+    parks: [
+      {
+        name: "Raleigh Hills Community Park",
+        amenities: ["playground", "open lawn", "picnic tables", "walking path"],
+      },
+      {
+        name: "Fanno Creek Greenway",
+        amenities: [
+          "multi-use paved trail",
+          "creek views",
+          "wildlife habitat",
+          "connects to Beaverton trail system",
+        ],
+      },
+      {
+        name: "Cooper Mountain Nature Park",
+        amenities: [
+          "native prairie habitat",
+          "hiking trails",
+          "wildflower meadows",
+          "5 miles of trails",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Gustav's Pub & Grill",
+        cuisine: "German-American",
+        vibe:
+          "Long-running SW Portland staple on SW Scholls Ferry — big portions, local regulars, reliable",
+      },
+      {
+        name: "Sayler's Old Country Kitchen",
+        cuisine: "Steakhouse",
+        vibe:
+          "A Portland steakhouse institution since 1945, nearby on SW Scholls Ferry — cash-and-carry energy",
+      },
+      {
+        name: "Original Taco House",
+        cuisine: "Mexican",
+        vibe:
+          "SW Portland institution on SW Capitol Highway — no frills, consistent, been there for decades",
+      },
+    ],
+    coffee: [
+      {
+        name: "Dutch Bros Coffee",
+        vibe:
+          "Drive-through on SW Scholls Ferry — fast, inexpensive, the practical choice when you're in the car anyway",
+      },
+      {
+        name: "Starbucks",
+        vibe:
+          "Raleigh Hills commercial area — reliable if unremarkable",
+      },
+    ],
+    bars: [
+      {
+        name: "Gustav's Pub & Grill",
+        vibe:
+          "Doubles as the neighborhood bar — the pub side has a solid German beer list",
+      },
+      {
+        name: "Kell's Irish Restaurant & Pub",
+        vibe:
+          "Short drive into SW Portland — reliably good Irish pub energy without the downtown cover charge",
+      },
+    ],
+    medianHomePrice: 560000,
+    priceRange: { low: 430000, high: 850000 },
+    commuteToDowntown:
+      "20–25 min by car via Barbur Blvd or Hwy 217 (35+ in rush hour), minimal transit service",
+    faqs: [
+      {
+        q: "Is Raleigh Hills in Portland or Beaverton?",
+        a: "Neither, technically. It's unincorporated Washington County — outside both city limits. Mailing addresses vary: some parcels use a Portland zip, some use Beaverton. For tax purposes, you're in Washington County either way, which means no Portland city income tax and lower property tax rates. School district and emergency services are also Washington County, not City of Portland.",
+      },
+      {
+        q: "What are the financial benefits of Raleigh Hills vs. SW Portland?",
+        a: "The two main ones are no Portland city income tax (1% for residents) and lower property tax rates. Over a few years, those savings add up meaningfully. Beaverton School District also tends to outperform Portland Public Schools, which is a non-financial benefit that buyers with children weight heavily.",
+      },
+      {
+        q: "What schools serve Raleigh Hills?",
+        a: "Most of Raleigh Hills is in Beaverton School District. Elementary school assignment is typically Raleigh Park Elementary, middle school is Whitford, and high school is Beaverton or Sunset depending on location. Use the Beaverton School District's address-based lookup tool — do not rely on Zillow or Redfin school data, which can be wrong for individual parcels in this area.",
+      },
+      {
+        q: "How walkable is Raleigh Hills?",
+        a: "Not very. There are no walkable retail or restaurant clusters within reasonable walking distance of most residential streets. You need a car for groceries, coffee, and most errands. The Fanno Creek Greenway is accessible from some parts of the neighborhood for recreation, which is a real amenity — just not a substitute for walkability.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We crossed the city line and saved the Portland income tax. Same commute, same neighborhood feel, different tax bill. Bri flagged the school district question before we'd even thought about it.",
+        author: "Eric and Dana S.",
+        context: "Bought in Raleigh Hills, 2023",
+      },
+      {
+        quote:
+          "I thought I needed to be in Portland proper. Bri walked me through the numbers side by side. Raleigh Hills made more financial sense for our family.",
+        author: "Megan H.",
+        context: "Purchased in Raleigh Hills, 2024",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "fha",
+      "refinance",
+      "cash-out",
+      "heloc",
+    ],
+    adjacentNeighborhoods: [
+      "beaverton-hillsdale",
+      "hillsdale",
+      "cedar-mill",
+      "beaverton",
+      "west-haven-sylvan",
+    ],
+    seo: {
+      title:
+        "Buying a Home in Raleigh Hills OR | The Lindley Team",
+      description:
+        "Raleigh Hills real estate: unincorporated Washington County taxes, Beaverton schools, and SW Portland proximity. What buyers need to verify before making an offer. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "cedar-mill",
+    name: "Cedar Mill",
+    city: "Beaverton",
+    state: "OR",
+    description: [
+      "NW Cornell Road has been Cedar Mill's commercial spine since before the area had a name. The Cedar Mill Business District between NW 107th and NW 118th has a real, functioning commercial strip: QFC for groceries, a handful of independent restaurants, a library branch, and enough services that most weekly errands can happen within a half mile. It's not a lifestyle district — nobody's doing a Saturday morning wander here — but it works, and it's been working for 40 years without requiring a major redevelopment plan to survive.",
+      "The housing is 1960s and 1970s ranches, split-levels, and two-stories on generous lots. Mature firs and alders line most residential streets, and the setbacks are large enough that neighbors aren't looking into each other's living rooms. Beaverton School District serves the entire community — there's no cross-district boundary confusion here. Sunset High School is the main high school feed, and it consistently tests above state averages. NW Cornell connects westward to Portland's NW district in about 15 minutes in normal traffic, which gives Cedar Mill residents reasonable access to Portland restaurants and culture without the city tax bill.",
+      "Cedar Mill sits in unincorporated Washington County, which means no Portland or Beaverton city income taxes. That's the financial argument, and it's straightforward. The honest limitation is that Cedar Mill is suburban in a way that neither Portland nor the newer Bethany development tries to be — the streets don't have sidewalks on every block, MAX doesn't come anywhere near it, and dinner options beyond the Cornell corridor require a drive. For buyers who want a newer-ish house on a big lot, good schools, and a short drive to both Portland and the Intel/Nike campuses, Cedar Mill delivers without pretending to be something it's not.",
+    ],
+    personality: "Functional suburb with a genuine commercial strip",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Cedar+Mill+Beaverton+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Cedar+Mill+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 48,
+    bikeScore: 42,
+    transitScore: 38,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      {
+        name: "Cedar Mill Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Tumwater Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 7,
+      },
+      {
+        name: "Sunset High School",
+        type: "high",
+        grades: "9–12",
+        rating: 8,
+      },
+    ],
+    parks: [
+      {
+        name: "Cedar Mill Community Park",
+        amenities: [
+          "playground",
+          "sports courts",
+          "open lawn",
+          "picnic shelters",
+        ],
+      },
+      {
+        name: "Tualatin Hills Nature Park",
+        amenities: [
+          "5+ miles of trails",
+          "lowland forest",
+          "wetlands",
+          "nature center",
+        ],
+      },
+      {
+        name: "Rock Creek Trail",
+        amenities: [
+          "paved multi-use trail",
+          "creek-side walking",
+          "connects to regional trail network",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Pizzicato",
+        cuisine: "Pizza",
+        vibe:
+          "NW Cornell — good gourmet pizza, quick, reliable for a Tuesday dinner without planning ahead",
+      },
+      {
+        name: "Koji Osakaya",
+        cuisine: "Japanese",
+        vibe:
+          "Cedar Mill strip — legitimate Japanese food, not a strip mall surprise, regulars know it",
+      },
+      {
+        name: "The Station",
+        cuisine: "American",
+        vibe:
+          "Local bar and grill on NW Cornell, easy neighborhood dinner, not trying too hard",
+      },
+    ],
+    coffee: [
+      {
+        name: "Insomnia Coffee",
+        vibe:
+          "Small local chainlet, NW Cornell — reliable espresso, comfortable seating, popular with remote workers",
+      },
+      {
+        name: "Dutch Bros Coffee",
+        vibe:
+          "Drive-through on NW Cornell — fast and practical for the morning commute",
+      },
+    ],
+    bars: [
+      {
+        name: "The Station Bar",
+        vibe:
+          "The neighborhood bar — low-key, local crowd, nothing fancy",
+      },
+      {
+        name: "McMenamins Cornelius Pass Roadhouse",
+        vibe:
+          "Short drive up Cornell — historic farmhouse setting, multiple bars and spaces, reliably good for groups",
+      },
+    ],
+    medianHomePrice: 560000,
+    priceRange: { low: 430000, high: 850000 },
+    commuteToDowntown:
+      "20–25 min by car via NW Cornell or Hwy 26 (35 min in rush hour), no MAX service",
+    faqs: [
+      {
+        q: "Is Cedar Mill part of Beaverton or Portland?",
+        a: "Neither — Cedar Mill is unincorporated Washington County. It uses a Beaverton mailing address (97229 zip code), and it's served by Beaverton School District and Washington County services, but it's not legally inside Beaverton city limits. This means no Beaverton city taxes and no Portland city taxes. Property and income taxes run lower than Portland's.",
+      },
+      {
+        q: "What high school do Cedar Mill students attend?",
+        a: "Most of Cedar Mill feeds into Sunset High School in Beaverton School District. Sunset consistently performs above state averages and offers a range of AP and advanced coursework. There's no cross-district ambiguity here — the whole community is Beaverton SD.",
+      },
+      {
+        q: "How's the commute to downtown Portland from Cedar Mill?",
+        a: "About 20–25 minutes via NW Cornell Road or US-26 West in normal traffic, 30–35 minutes during morning rush. There's no MAX stop in Cedar Mill, so driving is essentially required. Commutes to the Intel campus in Hillsboro or Nike's Beaverton campus are 15–20 minutes.",
+      },
+      {
+        q: "Why do buyers choose Cedar Mill over Beaverton or Hillsboro?",
+        a: "Three main reasons: unincorporated Washington County taxes (lower than Portland, also lower than Beaverton city taxes), good public schools through Beaverton SD, and the Cornell Road connection to Portland's NW district. The housing stock also tends to run on bigger lots than you get in Beaverton proper at similar price points.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We work in Beaverton but wanted to stay close to Portland. Cedar Mill was the answer we didn't know we were looking for. Bri explained the tax situation better than any accountant we talked to.",
+        author: "Sarah and Jason T.",
+        context: "Bought in Cedar Mill, 2023",
+      },
+      {
+        quote:
+          "The house had been on the market 45 days and we almost passed on it. Bri ran the numbers on what updates would actually add value and we made an offer. Best decision we made.",
+        author: "Derek L.",
+        context: "Purchased in Cedar Mill, 2024",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "fha",
+      "refinance",
+      "heloc",
+      "cash-out",
+    ],
+    adjacentNeighborhoods: [
+      "bethany",
+      "raleigh-hills",
+      "cedar-hills",
+      "beaverton",
+      "hillsboro",
+      "forest-heights",
+    ],
+    seo: {
+      title:
+        "Buying a Home in Cedar Mill OR | The Lindley Team",
+      description:
+        "Cedar Mill real estate: unincorporated Washington County, Beaverton School District, and 20 minutes from Portland. What buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "cedar-hills",
+    name: "Cedar Hills",
+    city: "Beaverton",
+    state: "OR",
+    description: [
+      "Cedar Hills Crossing sits at the SW Cedar Hills Boulevard MAX station — a regional retail center that opened in 1969 and has cycled through formats over the decades. It anchors the neighborhood's sense of place in a way that few Washington County suburbs can claim: the MAX Blue Line stops here, which means you can get to downtown Portland in about 35 minutes without a car and without a transfer. For a suburb this far west, that's genuinely useful. The shopping center has a Target, a theater, and enough everyday retail that households without a second car can make it work.",
+      "The housing stock is primarily 1950s and 1960s construction — ranches and split-levels on lots ranging from 7,000 to 14,000 square feet. Streets are tree-lined in the older sections, and mature landscaping gives the neighborhood a settled appearance that newer Washington County developments like Bethany lack. Beaverton School District serves Cedar Hills entirely; most residential streets feed into Sunset High School. The Tualatin Hills Park & Recreation District runs a large community center at SW Walker Road and SW Cedar Hills Boulevard with a pool, gym, and full programming — it's a real facility.",
+      "Cedar Hills is not a destination, but it's genuinely functional. The MAX access is the differentiator — if transit matters to your household, this is one of the few Washington County communities where it's a real daily option rather than a theoretical one. The trade-off is that Cedar Hills Boulevard can feel like any Pacific Northwest suburban arterial, the commercial options outside of Cedar Hills Crossing are thin, and the housing stock needs updating in many cases. What you get is reliable transit, good schools, lower taxes than Portland, and a price point that's come down from its peak.",
+    ],
+    personality: "Washington County suburb with real MAX access",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Cedar+Hills+Beaverton+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Cedar+Hills+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 54,
+    bikeScore: 48,
+    transitScore: 58,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      {
+        name: "Elmonica Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 6,
+      },
+      {
+        name: "Five Oaks Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 6,
+      },
+      {
+        name: "Sunset High School",
+        type: "high",
+        grades: "9–12",
+        rating: 8,
+      },
+      {
+        name: "Valley Catholic School",
+        type: "private",
+        grades: "K–12",
+        rating: 8,
+      },
+    ],
+    parks: [
+      {
+        name: "Tualatin Hills Aquatic Center",
+        amenities: [
+          "indoor competition pool",
+          "lap lanes",
+          "family swim area",
+          "fitness center",
+        ],
+      },
+      {
+        name: "Cedar Hills Recreation Center",
+        amenities: [
+          "gymnasium",
+          "weight room",
+          "fitness classes",
+          "youth programs",
+        ],
+      },
+      {
+        name: "Cedar Hills Park",
+        amenities: [
+          "baseball fields",
+          "tennis courts",
+          "playground",
+          "open lawn",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Red Robin",
+        cuisine: "American",
+        vibe:
+          "Cedar Hills Crossing — family-friendly, reliable, zero pretense",
+      },
+      {
+        name: "Gustav's Pub & Grill",
+        cuisine: "German-American",
+        vibe:
+          "SW Cedar Hills Boulevard — the neighborhood's best sit-down dinner option, long-running, consistently good",
+      },
+      {
+        name: "Muchas Gracias",
+        cuisine: "Mexican",
+        vibe:
+          "Late-night fast-food Mexican on SW Cedar Hills — open until 4 a.m., useful after the MAX ride home",
+      },
+    ],
+    coffee: [
+      {
+        name: "Starbucks",
+        vibe:
+          "Multiple Cedar Hills Crossing locations — practical anchor for the neighborhood",
+      },
+      {
+        name: "Dutch Bros Coffee",
+        vibe:
+          "SW Cedar Hills Boulevard drive-through — fast, cheap, popular with the morning commute crowd",
+      },
+    ],
+    bars: [
+      {
+        name: "Gustav's Pub & Grill",
+        vibe:
+          "The neighborhood bar for Cedar Hills — large German beer selection, food until late, local regulars",
+      },
+      {
+        name: "McMenamins Beaverton",
+        vibe:
+          "Short drive south on Cedar Hills Boulevard — classic McMenamins setup with multiple bars and a movie theater",
+      },
+    ],
+    medianHomePrice: 530000,
+    priceRange: { low: 390000, high: 780000 },
+    commuteToDowntown:
+      "35 min on MAX Blue Line, 20–25 min by car via US-26 (30–40 min in rush hour)",
+    faqs: [
+      {
+        q: "How useful is the MAX for Cedar Hills commuters?",
+        a: "More useful than in most Washington County suburbs. The Blue Line stop at Cedar Hills Crossing puts downtown Portland about 35 minutes away without traffic. If you work in downtown Portland or the Lloyd District, this is a legitimate daily option. If you work in Hillsboro, the MAX also runs that direction. The catch: if your job is anywhere not served by the Blue Line, you're still driving.",
+      },
+      {
+        q: "What school district serves Cedar Hills?",
+        a: "Beaverton School District, with no cross-district complications. Most of Cedar Hills is zoned for Sunset High School, which is one of Beaverton SD's stronger high schools academically. Elementary assignments vary by street — use BSD's address lookup to confirm.",
+      },
+      {
+        q: "Is Cedar Hills inside Beaverton city limits?",
+        a: "Most of Cedar Hills is unincorporated Washington County, same as Cedar Mill. The Cedar Hills Crossing retail area sits at the city edge. Either way, Washington County taxes apply, not Beaverton city taxes, which means no city income tax and lower overall tax rates than Portland.",
+      },
+      {
+        q: "What's happening with Cedar Hills Crossing?",
+        a: "The shopping center has had vacancies over the past few years as retail has shifted. There are long-running plans for mixed-use redevelopment around the MAX station, but those timelines have stretched repeatedly. For current buyers, the practical reality is a functional but not exciting retail center — the Target and grocery options remain operational.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "My husband takes the MAX to his downtown office every day. Cedar Hills was the obvious choice once we ran the commute comparison. Bri walked us through the numbers on Washington County taxes versus Portland.",
+        author: "Lin and Marcus B.",
+        context: "Bought in Cedar Hills, 2023",
+      },
+      {
+        quote:
+          "We had a tight timeline and Bri got us to closing in 21 days. I didn't think that was possible.",
+        author: "Pamela G.",
+        context: "Purchased in Cedar Hills, 2024",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "fha",
+      "refinance",
+      "cash-out",
+      "investment",
+    ],
+    adjacentNeighborhoods: [
+      "cedar-mill",
+      "beaverton",
+      "hillsboro",
+      "beaverton-hillsdale",
+      "raleigh-hills",
+    ],
+    seo: {
+      title:
+        "Buying a Home in Cedar Hills OR | The Lindley Team",
+      description:
+        "Cedar Hills real estate: MAX Blue Line access, Beaverton School District, and Washington County taxes. What buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "bethany",
+    name: "Bethany",
+    city: "Beaverton",
+    state: "OR",
+    description: [
+      "Bethany grew fast. Through the 2010s it was one of Washington County's most active new-construction zones — subdivisions carved out of farmland along NW 185th Avenue and NW Springville Road at a pace that generated a consistent waiting list at local schools. The housing reflects that growth: 2000s and 2010s construction, four-bedroom Craftsman-revival and contemporary houses on 5,000–8,000-square-foot lots, two-car garages, open floor plans. Bethany Town Center at NW 185th and NW Laidlaw has the basics — Starbucks, a grocery store, a few chain restaurants — and functions as the community's practical center.",
+      "Intel's Hillsboro campus is about 15 minutes west on US-26, which explains a large portion of Bethany's buyer pool. Nike's campus is 20 minutes south. Both campuses have enough employment concentration that Bethany gets frequent mentions in relocation conversations among tech and semiconductor workers. Beaverton School District serves the whole community; Sunset High School and Westview High School both serve Bethany depending on address, and both are among Beaverton SD's better high schools. The schools fill up during enrollment periods — verify school capacity and assignment before making an offer.",
+      "Bethany is unincorporated Washington County, which means no city income tax and Washington County property tax rates. Those are genuine financial advantages. The honest trade-off is that Bethany is car-dependent in a way that's hard to overstate — there is no MAX, bus service is sparse, and NW 185th and NW Springville back up significantly during rush hour. The community is also still maturing: some retail pads in Bethany Town Center remain undeveloped, and the built infrastructure doesn't yet match the residential density. Buyers choosing Bethany are generally making a clear trade: newer house, good schools, lower taxes, longer commute to Portland.",
+    ],
+    personality: "New-construction suburb built for the Intel commute",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Bethany+Beaverton+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Bethany+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 32,
+    bikeScore: 28,
+    transitScore: 24,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      {
+        name: "Sato Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 8,
+      },
+      {
+        name: "Stoller Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 8,
+      },
+      {
+        name: "Westview High School",
+        type: "high",
+        grades: "9–12",
+        rating: 8,
+      },
+      {
+        name: "Sunset High School",
+        type: "high",
+        grades: "9–12",
+        rating: 8,
+      },
+    ],
+    parks: [
+      {
+        name: "Bethany Lake Park",
+        amenities: [
+          "lake",
+          "paved walking loop",
+          "playground",
+          "picnic shelters",
+          "fishing",
+        ],
+      },
+      {
+        name: "Bethany Creek Trail",
+        amenities: [
+          "paved multi-use trail",
+          "creek corridor",
+          "connects to regional trail network",
+        ],
+      },
+      {
+        name: "Springville Road Park",
+        amenities: ["athletic fields", "playground", "open lawn"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "The Observatory",
+        cuisine: "American",
+        vibe:
+          "Bethany Town Center — neighborhood gastropub, solid burgers and beer, the evening spot within walking distance of nearby subdivisions",
+      },
+      {
+        name: "Swagat Indian Cuisine",
+        cuisine: "Indian",
+        vibe:
+          "NW 185th — one of the better Indian restaurants in Washington County, lunch buffet is worth planning around",
+      },
+      {
+        name: "El Tepeyac Mexican Restaurant",
+        cuisine: "Mexican",
+        vibe:
+          "Bethany area — family-run, consistent, the practical weeknight dinner choice",
+      },
+    ],
+    coffee: [
+      {
+        name: "Starbucks",
+        vibe:
+          "Bethany Town Center — the primary coffee option for the neighborhood, drive-through line runs long on weekday mornings",
+      },
+      {
+        name: "Dutch Bros Coffee",
+        vibe:
+          "NW 185th corridor — fast, inexpensive, the competition for the morning commute dollar",
+      },
+    ],
+    bars: [
+      {
+        name: "The Observatory",
+        vibe:
+          "Doubles as the neighborhood bar — better beer selection than you'd expect, comfortable for a weeknight",
+      },
+      {
+        name: "McMenamins Cornelius Pass Roadhouse",
+        vibe:
+          "10 minutes east on NW Cornell — the closest McMenamins to Bethany, multiple rooms and a covered outdoor space",
+      },
+    ],
+    medianHomePrice: 650000,
+    priceRange: { low: 500000, high: 1100000 },
+    commuteToDowntown:
+      "30–40 min by car via US-26 or NW Cornell (45+ in rush hour), no MAX service",
+    faqs: [
+      {
+        q: "Why do so many Intel and Nike employees buy in Bethany?",
+        a: "The Intel Hillsboro campus is roughly 15 minutes west on US-26. Nike's Beaverton campus is 20 minutes south. Both are short commutes from Bethany. Combined with new construction at a lower cost per square foot than comparable Portland neighborhoods, Beaverton School District's strong test scores, and Washington County's lower tax burden, the math works well for tech workers who want a newer house and a predictable commute.",
+      },
+      {
+        q: "Is Bethany inside Beaverton city limits?",
+        a: "No. Bethany is unincorporated Washington County, using a Beaverton zip code and address but outside city limits. This means Washington County property taxes and no city income tax — neither Portland's nor Beaverton's. It also means Washington County provides planning and zoning services, which has historically allowed faster development approvals than incorporated cities.",
+      },
+      {
+        q: "What schools serve Bethany?",
+        a: "Beaverton School District throughout, with no cross-district confusion. Elementary assignments vary by subdivision — Sato Elementary and Jacob Wismer Elementary are the main feeds. Middle school is typically Stoller. High school is either Westview or Sunset depending on location; both rank among BSD's stronger high schools. Use BSD's address-based school finder to confirm the specific parcel's assignment.",
+      },
+      {
+        q: "What's the commute to downtown Portland from Bethany?",
+        a: "Driving is 30–40 minutes via US-26 East in normal conditions, 45+ minutes during morning rush. There is no MAX in Bethany — the nearest station is Cedar Hills Crossing, about 15 minutes east by car, from which the Blue Line runs to downtown. If someone in your household needs to commute to Portland daily, test the actual drive during rush hour before committing.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We moved here for an Intel relo and needed to close in six weeks. Bri made it happen. She knew Washington County construction loans inside out.",
+        author: "Priya and Ravi N.",
+        context: "Bought in Bethany, 2023",
+      },
+      {
+        quote:
+          "We compared Bethany to Hillsboro and Beaverton proper. Bri built us a spreadsheet that showed total cost of ownership over five years across all three. Made the decision easy.",
+        author: "Andrew C.",
+        context: "Purchased in Bethany, 2024",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "jumbo",
+      "fha",
+      "refinance",
+      "va",
+      "heloc",
+    ],
+    adjacentNeighborhoods: [
+      "cedar-mill",
+      "cedar-hills",
+      "hillsboro",
+      "beaverton",
+      "forest-heights",
+    ],
+    seo: {
+      title:
+        "Buying a Home in Bethany OR | The Lindley Team",
+      description:
+        "Bethany real estate: new construction, Beaverton School District, Intel proximity, and Washington County taxes. What buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+{
+    slug: "orenco-station",
+    name: "Orenco Station",
+    city: "Hillsboro",
+    state: "OR",
+    description: [
+      "Orenco Station was designed from the ground up around the MAX Blue Line stop at NW 231st Avenue, and it shows. The streets are intentionally narrow, the blocks are short, and the front porches face the sidewalk — things that read as obvious on paper but are genuinely rare in Washington County. When it was built in the late 1990s, it was one of the most deliberately walkable new communities in the Pacific Northwest. That planning holds up. On a weekday morning you can walk to coffee, catch the MAX, and be at Portland Union Station in 45 minutes without touching a car.",
+      "The town center along NW Cornell Road has a small cluster of restaurants and shops — Orenco Station Grill, a wine bar, a hair salon. Nothing huge, but enough to run most errands on foot. Intel's Ronler Acres campus is about five minutes by bike, which is a significant reason why the neighborhood draws the buyers it does. Housing is a mix of attached townhomes, smaller single-family homes on tight lots, and some larger detached houses toward the edges of the neighborhood. Scholls Creek Elementary and Poynter Middle serve the area; Liberty High School is the feeder for Beaverton School District.",
+      "The trade-off is space. The lots are small by design — that's what produces the walkability. If you want a quarter-acre yard, this isn't it. Prices have climbed meaningfully since the early 2000s as the neighborhood's reputation has spread, and inventory turns quickly when something well-located comes to market. The MAX is the main transit artery, and while the Blue Line runs frequently during peak hours, service thins out late at night.",
+    ],
+    personality: "Planned walkability that actually works, built around the MAX",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Orenco+Station+Hillsboro+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Orenco+Station+Hillsboro+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 68,
+    bikeScore: 72,
+    transitScore: 55,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      { name: "Scholls Heights Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Poynter Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Liberty High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Orenco Woods Nature Park",
+        amenities: ["nature trails", "creek access", "wetland boardwalk", "dog-friendly"],
+      },
+      {
+        name: "Jackson Bottom Wetlands Preserve",
+        amenities: ["bird watching", "walking trails", "wildlife viewing", "interpretive center"],
+      },
+      {
+        name: "Orchard Park",
+        amenities: ["playground", "open lawn", "picnic area"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Orenco Station Grill",
+        cuisine: "American",
+        vibe: "The town-center anchor — burgers, salads, solid lunch crowd from nearby offices",
+      },
+      {
+        name: "Helvetia Tavern",
+        cuisine: "Burgers",
+        vibe: "A Washington County institution a few miles out — enormous burgers, cash only, no frills, worth the drive",
+      },
+      {
+        name: "Syun Izakaya",
+        cuisine: "Japanese",
+        vibe: "Serious ramen and izakaya plates in Hillsboro, consistent favorite among Intel workers",
+      },
+    ],
+    coffee: [
+      { name: "Insomnia Coffee Company", vibe: "Local Pacific Northwest chain, reliable espresso, good work setup" },
+      { name: "Starbucks (NW Cornell Rd)", vibe: "Busy drive-through but the walk-in works fine; full Orenco Station commuter crowd" },
+    ],
+    bars: [
+      { name: "Orenco Station Grill", vibe: "Doubles as the neighborhood bar on weekend evenings — patio fills up in summer" },
+      { name: "McMenamins Cornelius Pass Roadhouse", vibe: "Historic farmstead turned pub complex, 10 min away — good for a longer evening out" },
+    ],
+    medianHomePrice: 580000,
+    priceRange: { low: 420000, high: 850000 },
+    commuteToDowntown:
+      "45–50 min by MAX Blue Line to downtown Portland; 25–30 min by car via US-26 (add 10–15 in peak rush); 5–10 min by bike to Intel Ronler Acres",
+    faqs: [
+      {
+        q: "Is Orenco Station actually walkable?",
+        a: "More than most Washington County neighborhoods, yes. The town center on NW Cornell Road is reachable on foot from most of the neighborhood, and the MAX station is designed to be pedestrian-accessible. That said, a full grocery run or errand day still typically involves a car — the retail mix in the immediate area is limited.",
+      },
+      {
+        q: "How close is Orenco Station to Intel?",
+        a: "Intel's Ronler Acres campus is roughly two miles from the Orenco MAX station — a 5–10 minute bike ride or a 5-minute drive. Several other Intel facilities in Hillsboro are similarly close. It's one of the main reasons the neighborhood draws the buyers it does.",
+      },
+      {
+        q: "What do homes cost in Orenco Station?",
+        a: "Median is around $580,000. Attached townhomes and smaller single-family homes on the original town center lots start in the low $400s; larger detached homes at the edges of the neighborhood push toward $700k–$850k. Well-maintained homes with good MAX proximity move quickly.",
+      },
+      {
+        q: "What's the school situation in Orenco Station?",
+        a: "All Beaverton School District. Scholls Heights Elementary and Poynter Middle School both rate well, and Liberty High School is one of the district's stronger comprehensive high schools. BSD is generally well-regarded across Washington County.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We work at Intel and wanted to be able to bike to work. Orenco Station was the obvious answer — we didn't expect to actually like the neighborhood this much on top of the commute.",
+        author: "Marcus and Yuki",
+        context: "Intel engineers, bought in Orenco Station 2022",
+      },
+      {
+        quote:
+          "Bri walked us through the difference between an FHA and conventional loan for this price point. We ended up going conventional with 5% down and it made the payment more manageable than I expected.",
+        author: "Courtney D.",
+        context: "First-time buyer, Orenco Station townhome, 2023",
+      },
+      {
+        quote:
+          "We sold in Portland and wanted to stay MAX-accessible but get more house. Orenco hit every box — we closed in 30 days and Bri handled everything.",
+        author: "Drew and Alicia M.",
+        context: "Move-up buyers from Portland, Orenco Station 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "conventional", "jumbo", "investment"],
+    adjacentNeighborhoods: ["tanasbourne", "hillsboro", "bethany", "aloha"],
+    seo: {
+      title: "Orenco Station Hillsboro OR — Homes & Mortgage | The Lindley Team",
+      description:
+        "Buying a home in Orenco Station? Bri Lindley (NMLS #1367416) helps buyers navigate Hillsboro's most walkable planned community — MAX access, Intel proximity, BSD schools. Get pre-approved today.",
+    },
+  },
+
+  {
+    slug: "tanasbourne",
+    name: "Tanasbourne",
+    city: "Hillsboro",
+    state: "OR",
+    description: [
+      "Tanasbourne is the commercial and corporate spine of the Beaverton-Hillsboro corridor, centered on NW 185th Avenue where the two cities technically meet. Streets of Tanasbourne is the main outdoor retail center — Target, restaurants, a movie theater, the kind of cluster that means most residents never need to drive further than a mile for day-to-day errands. Nike's world headquarters is a few miles south, Intel's facilities are within five miles in multiple directions, and several other tech employers have offices in the corridor. If you work in Washington County tech, this is the geographic center of your commute.",
+      "Housing near the Quatama and Hawthorn Farm MAX stations runs heavily toward newer apartments and condos, with some townhome developments mixed in. Single-family homes exist in the residential blocks east and west of the commercial corridor — mostly 1990s and early 2000s construction. The MAX Blue Line stops at both Quatama and Hawthorn Farm, making Portland commutes more realistic than in most of Washington County. For buyers who want low-maintenance housing close to employment and with transit access, Tanasbourne condos represent one of the more affordable entry points in the corridor.",
+      "This isn't a neighborhood with a strong residential identity. The retail and office presence is dominant, surface parking lots are everywhere, and the streetscape between commercial centers is not designed for walking. If you buy here expecting a walkable village feel, you'll be disappointed. What you get instead is proximity — to employers, to the freeway, to MAX, to every chain restaurant you'd ever need. That's a real value for buyers prioritizing commute and convenience over neighborhood character.",
+    ],
+    personality: "Employment corridor with real transit access and affordable condo entry points",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Tanasbourne+Hillsboro+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Tanasbourne+Hillsboro+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 62,
+    bikeScore: 58,
+    transitScore: 52,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      { name: "Quatama Elementary", type: "elementary", grades: "K–5", rating: 6 },
+      { name: "Five Oaks Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Westview High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Tualatin Hills Nature Park",
+        amenities: ["nature trails", "wildlife habitat", "interpretive signage", "dog-friendly paths"],
+      },
+      {
+        name: "Quatama Park",
+        amenities: ["playground", "open field", "picnic tables"],
+      },
+      {
+        name: "Progress Ridge Trail Corridor",
+        amenities: ["paved walking path", "bike access", "creek views"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Thai Orchid",
+        cuisine: "Thai",
+        vibe: "Long-running Thai restaurant near the Streets of Tanasbourne — solid lunch spot for the office crowd",
+      },
+      {
+        name: "McMenamins Cornelius Pass Roadhouse",
+        cuisine: "Pub",
+        vibe: "10 minutes north, a McMenamins on a historic farmstead — good for a longer evening, extensive beer list",
+      },
+      {
+        name: "Beaverton Night Market (seasonal)",
+        cuisine: "Pan-Asian street food",
+        vibe: "Summer weekend market nearby — the best food event in Washington County when it's running",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros Coffee (NW 185th)", vibe: "Drive-through institution, perpetually busy, fast" },
+      { name: "Starbucks Reserve (Streets of Tanasbourne)", vibe: "Bigger format, comfortable seating, good for a working session" },
+    ],
+    bars: [
+      { name: "Growler Guys Tanasbourne", vibe: "Rotating local taps, fill-your-own growler setup, low-key" },
+      { name: "Buffalo Wild Wings (Streets of Tanasbourne)", vibe: "Sports bar, loud on game days, reliably busy" },
+    ],
+    medianHomePrice: 480000,
+    priceRange: { low: 300000, high: 700000 },
+    commuteToDowntown:
+      "45–55 min by MAX Blue Line from Quatama or Hawthorn Farm to Portland; 25–30 min by car via US-26; walking distance to NW 185th Ave employment cluster",
+    faqs: [
+      {
+        q: "What's the difference between Tanasbourne and Orenco Station?",
+        a: "Orenco Station is a planned residential community with intentional walkability built around the MAX stop. Tanasbourne is primarily a commercial and employment corridor — retail, offices, and apartments — with MAX access as a secondary feature. Orenco feels like a neighborhood; Tanasbourne feels like a suburb built around a business district.",
+      },
+      {
+        q: "Are there affordable condos in Tanasbourne?",
+        a: "Yes — condos near the Quatama and Hawthorn Farm stations start around $300,000, which is one of the lower entry points in the Beaverton-Hillsboro corridor. They're newer construction and tend to have HOA fees; factor those into your monthly payment calculation when comparing to a single-family home.",
+      },
+      {
+        q: "How is the commute from Tanasbourne to downtown Portland?",
+        a: "By MAX from Quatama or Hawthorn Farm, figure 45–55 minutes to downtown Portland including any connection time. Driving on US-26 is 25–30 minutes in normal conditions and 40–45 in peak rush. If you work in Washington County, the commute is obviously much shorter.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "I was relocating for a Nike role and needed to close in six weeks. Bri got us pre-approved and through underwriting with five days to spare.",
+        author: "Jerome K.",
+        context: "Nike relocation, Tanasbourne condo, 2023",
+      },
+      {
+        quote:
+          "The condo prices near the MAX stations made it possible to buy instead of keep renting. Bri helped us understand the HOA impact on our DTI — it matters more than I realized.",
+        author: "Priya and Sanjay",
+        context: "First-time buyers, Tanasbourne, 2022",
+      },
+      {
+        quote:
+          "We were cross-shopping Tanasbourne and Orenco. Bri was honest that Orenco would hold value better for our timeline. We appreciated the straight talk.",
+        author: "Melissa F.",
+        context: "Move-up buyer consultation, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "va", "investment", "cash-out"],
+    adjacentNeighborhoods: ["orenco-station", "aloha", "beaverton", "hillsboro", "bethany"],
+    seo: {
+      title: "Tanasbourne Hillsboro OR — Homes & Mortgage | The Lindley Team",
+      description:
+        "Buying in Tanasbourne? Bri Lindley (NMLS #1367416) helps buyers find the right loan for condos, townhomes, and single-family homes in Hillsboro's employment corridor. Pre-approvals from a local lender who knows Washington County.",
+    },
+  },
+
+  {
+    slug: "murrayhill",
+    name: "Murrayhill",
+    city: "Beaverton",
+    state: "OR",
+    description: [
+      "Murrayhill is a master-planned community in SW Beaverton that was developed through the 1990s on land that had been farmland a decade before. The neighborhood is built around Murrayhill Marketplace on SW Scholls Ferry Road — a Fred Meyer-anchored shopping center with restaurants, a gym, and services that covers most routine errands without leaving the area. The streets curve through the hills in the way that 1990s master-planned communities do, and the lots are larger than what you'd find in older Beaverton neighborhoods to the north. Families with kids in Beaverton School District make up the majority of buyers.",
+      "Scholls Heights Elementary feeds most of the neighborhood's younger students; Mountain View Middle School and Mountainside High School are the secondary feeders. Covenant Park is the main green space — a well-maintained park with good trail access to the surrounding hills. The housing stock is almost entirely 1990s single-family construction: 3- and 4-bedroom homes on 5,000–9,000 square foot lots, two-car garages, the standard suburban footprint. Condition and updates drive price variation more than location within the neighborhood.",
+      "Car dependency is the honest trade-off here. Murrayhill was designed for driving — the street network doesn't connect well to neighboring communities on foot, and there's no MAX access close by. Getting to downtown Portland means Hwy 217 north to Barbur or I-5, which adds up to 30–40 minutes on a normal day and longer when the freeway backs up, which it does regularly. Buyers who work in Beaverton or who work remotely find this less of an issue than those commuting downtown daily.",
+    ],
+    personality: "Classic 1990s SW Beaverton — quiet, family-oriented, fully suburban",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Murrayhill+Beaverton+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Murrayhill+Beaverton+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 42,
+    bikeScore: 38,
+    transitScore: 28,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      { name: "Scholls Heights Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Mountain View Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Mountainside High School", type: "high", grades: "9–12", rating: 9 },
+    ],
+    parks: [
+      {
+        name: "Covenant Park",
+        amenities: ["walking trails", "open field", "playground", "picnic shelters"],
+      },
+      {
+        name: "Murrayhill Park",
+        amenities: ["basketball courts", "playground", "open lawn"],
+      },
+      {
+        name: "Cooper Mountain Nature Park",
+        amenities: ["hiking trails", "wildlife habitat", "prairie restoration", "interpretive center"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Koji Osakaya",
+        cuisine: "Japanese",
+        vibe: "Reliable Japanese restaurant near Murrayhill Marketplace — consistent sushi and lunch bento boxes",
+      },
+      {
+        name: "Mazatlan Mexican Restaurant",
+        cuisine: "Mexican",
+        vibe: "Family-run, big portions, neighborhood staple on SW Scholls Ferry Rd",
+      },
+      {
+        name: "Oswaldo's Chophouse",
+        cuisine: "Steakhouse",
+        vibe: "A step up from the usual suburban options — good for a date night within the neighborhood",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros Coffee (SW Scholls Ferry Rd)", vibe: "Drive-through coffee, perpetually busy, fast and consistent" },
+      { name: "Black Rock Coffee Bar", vibe: "Local Oregon chain with a drive-through, solid alternative to Dutch Bros" },
+    ],
+    bars: [
+      { name: "McMenamins Greenway Pub", vibe: "Closest McMenamins option — good rotating taps and a comfortable neighborhood vibe" },
+      { name: "Oswaldo's Chophouse bar", vibe: "Quieter bar scene, good for a weeknight drink after dinner" },
+    ],
+    medianHomePrice: 580000,
+    priceRange: { low: 480000, high: 800000 },
+    commuteToDowntown:
+      "30–40 min by car via Hwy 217 N and I-5 or Barbur Blvd (add 15–20 in peak rush); no direct MAX access; TriMet bus lines connect to Beaverton TC with additional transfer time",
+    faqs: [
+      {
+        q: "What are the schools like in Murrayhill?",
+        a: "Strong for Beaverton School District. Scholls Heights Elementary consistently rates highly for the district. Mountainside High School, which opened in 2016, is one of BSD's newest comprehensive high schools and has quickly built a strong academic reputation. For families, the school pipeline is a significant draw to this part of SW Beaverton.",
+      },
+      {
+        q: "Is Murrayhill close to Progress Ridge?",
+        a: "Yes — Progress Ridge is immediately south of Murrayhill, separated roughly by the Scholls Ferry Road / SW Roy Rogers Road intersection area. The two neighborhoods share schools and retail infrastructure. Progress Ridge has newer construction; Murrayhill's housing stock is mostly 1990s. Buyers often cross-shop both.",
+      },
+      {
+        q: "What does a home in Murrayhill cost?",
+        a: "Median is around $580,000. Most single-family homes trade between $480k and $700k depending on size, condition, and updates. Fully renovated 4-bedroom homes can push $750k–$800k. The neighborhood saw significant appreciation from 2020 to 2022 and has since stabilized.",
+      },
+      {
+        q: "How car-dependent is Murrayhill?",
+        a: "Very. There's no MAX stop nearby and the street network doesn't encourage walking or biking to most destinations outside the immediate Murrayhill Marketplace area. If you work in Beaverton or work from home, this is manageable. If you commute downtown regularly, the Hwy 217 / I-5 routine adds real time to your day.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We moved here from Lake Oswego specifically for Mountainside High School. The neighborhood is quiet and exactly what we needed for our kids.",
+        author: "Tom and Sarah W.",
+        context: "Move-up buyers, Murrayhill, 2022",
+      },
+      {
+        quote:
+          "Bri found us a jumbo loan option that kept our rate lower than the broker we'd been working with. The difference on a $700k purchase mattered.",
+        author: "Kevin R.",
+        context: "Jumbo purchase, Murrayhill, 2023",
+      },
+      {
+        quote:
+          "We refinanced our Murrayhill home after rates dropped and Bri turned it around in under three weeks. Painless process.",
+        author: "Linda and Rob O.",
+        context: "Cash-out refinance, Murrayhill, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "jumbo", "cash-out", "heloc", "investment"],
+    adjacentNeighborhoods: ["progress-ridge", "beaverton", "sherwood", "tigard"],
+    seo: {
+      title: "Murrayhill Beaverton OR — Homes & Mortgage | The Lindley Team",
+      description:
+        "Buying in Murrayhill? Bri Lindley (NMLS #1367416) is a Beaverton-area mortgage lender specializing in SW Beaverton's master-planned communities. Mountainside High School feeder, BSD schools, family-oriented — get pre-approved today.",
+    },
+  },
+
+  {
+    slug: "progress-ridge",
+    name: "Progress Ridge",
+    city: "Beaverton",
+    state: "OR",
+    description: [
+      "Progress Ridge is the newest of SW Beaverton's master-planned communities, built out primarily during the 2010s on land that was largely undeveloped at the turn of the millennium. Progress Ridge Towncenter is the retail anchor — a New Seasons Market, a Regal movie theater, a handful of restaurants, and enough services to make it function as an actual walkable destination within the immediate area. For new construction in suburban Washington County, the retail component is more complete than most.",
+      "The housing stock reflects its era: 2010s and 2020s townhomes, craftsman-style single-family homes, and some larger production homes on the outer edges. Lots are smaller than Murrayhill to the north, but construction quality and finishes are newer — updated kitchens, open floor plans, energy-efficient systems. Beaverton School District serves the area, and the school pipeline is the same as Murrayhill: Scholls Heights Elementary, Mountain View Middle School, Mountainside High School. That school trajectory is a meaningful draw for families with kids.",
+      "Progress Ridge prices more expensive per square foot than older Beaverton because the construction is newer and the retail environment is better than comparable suburbs. The trade-off is the same as all of SW Beaverton: no MAX, no real biking infrastructure, and a car commute to Portland that runs 30–40 minutes on a good day. The Tualatin border is close — Bridgeport Village is roughly 10 minutes south on Roy Rogers Road for buyers who want additional retail options.",
+    ],
+    personality: "Newest and most complete of SW Beaverton's planned communities",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Progress+Ridge+Beaverton+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Progress+Ridge+Beaverton+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 52,
+    bikeScore: 42,
+    transitScore: 22,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      { name: "Scholls Heights Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Mountain View Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Mountainside High School", type: "high", grades: "9–12", rating: 9 },
+    ],
+    parks: [
+      {
+        name: "Lowami Hart Woods Park",
+        amenities: ["forested trails", "natural area", "creek access"],
+      },
+      {
+        name: "Progress Ridge Community Park",
+        amenities: ["playground", "open lawn", "picnic area", "walking path"],
+      },
+      {
+        name: "Cooper Mountain Nature Park",
+        amenities: ["hiking trails", "wildlife habitat", "prairie restoration", "interpretive center"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "New Seasons Market deli (Progress Ridge)",
+        cuisine: "Deli / prepared foods",
+        vibe: "The most-used dinner solution in the neighborhood — solid prepared food, good wine section, full grocery run in one stop",
+      },
+      {
+        name: "Hopworks Urban Brewery (Progress Ridge)",
+        cuisine: "Pub",
+        vibe: "Organic brewery with a solid food menu — family-friendly, big patio, neighborhood gathering spot",
+      },
+      {
+        name: "Bonefish Grill",
+        cuisine: "Seafood",
+        vibe: "Date night option in the Towncenter — consistent quality, slightly more formal than the pub next door",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros Coffee (SW Roy Rogers Rd)", vibe: "Drive-through staple, fast and consistent, always a line at 8am" },
+      { name: "Starbucks (Progress Ridge Towncenter)", vibe: "Walk-in, comfortable, fills up with remote workers on weekdays" },
+    ],
+    bars: [
+      { name: "Hopworks Urban Brewery (Progress Ridge)", vibe: "The main neighborhood bar — family-friendly before 8pm, more of a bar scene after" },
+      { name: "Regal Progress Ridge ScreenX & 4DX bar lounge", vibe: "Pre-movie drinks, convenient, nothing remarkable" },
+    ],
+    medianHomePrice: 620000,
+    priceRange: { low: 490000, high: 900000 },
+    commuteToDowntown:
+      "35–45 min by car via Hwy 217 N and I-5 (longer in peak rush); no direct MAX access; Bridgeport Village area is 10 min south via Roy Rogers Rd for additional retail and services",
+    faqs: [
+      {
+        q: "How new is the housing in Progress Ridge?",
+        a: "Most of the neighborhood was built between 2010 and the present. You'll find 2010s townhomes, craftsman-style production homes from 2015–2020, and some newer construction still completing on the edges. The newer the build, the higher the price per square foot relative to comparable square footage in older Beaverton neighborhoods.",
+      },
+      {
+        q: "Is Progress Ridge a good place for families?",
+        a: "One of the better options in SW Beaverton. The school pipeline — Scholls Heights Elementary, Mountain View Middle, Mountainside High — is consistently strong within Beaverton School District. The Towncenter has a grocery store, a movie theater, and enough services that routine family errands don't require driving far.",
+      },
+      {
+        q: "What's the difference between Progress Ridge and Murrayhill?",
+        a: "Construction era is the main difference. Murrayhill is 1990s housing on larger lots; Progress Ridge is 2010s housing on smaller lots with newer finishes. Both share the same school pipeline and general suburban character. Progress Ridge's retail (New Seasons, Hopworks) is more complete than Murrayhill's. Prices per square foot are higher in Progress Ridge.",
+      },
+      {
+        q: "How much do homes cost in Progress Ridge?",
+        a: "Median is around $620,000. Townhomes start in the low-to-mid $400s; larger single-family homes run $600k–$850k. Newer construction from the late 2010s and early 2020s commands a premium. The newer you go, the higher the price per square foot.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We moved from California and needed to close quickly. Bri coordinated with our relocation company and we were in our Progress Ridge home in 28 days.",
+        author: "Brian and Michelle T.",
+        context: "Corporate relocation, Progress Ridge, 2023",
+      },
+      {
+        quote:
+          "The New Seasons and Hopworks in the Towncenter were genuinely a factor in our decision. We've lived car-heavy before and having good walkable retail changed how we use our neighborhood.",
+        author: "Stephanie P.",
+        context: "Move-up buyer, Progress Ridge, 2022",
+      },
+      {
+        quote:
+          "Bri helped us use our VA benefit on a Progress Ridge townhome. We had no idea VA loans were this straightforward with the right lender.",
+        author: "Marcus and Jen A.",
+        context: "VA purchase, Progress Ridge townhome, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "va", "fha", "jumbo", "heloc", "investment"],
+    adjacentNeighborhoods: ["murrayhill", "beaverton", "tualatin", "sherwood", "tigard"],
+    seo: {
+      title: "Progress Ridge Beaverton OR — Homes & Mortgage | The Lindley Team",
+      description:
+        "Buying in Progress Ridge? Bri Lindley (NMLS #1367416) specializes in SW Beaverton new construction and 2010s homes. Mountainside High School feeder, New Seasons walkable retail, Beaverton School District. Get pre-approved today.",
+    },
+  },
+
+  {
+    slug: "aloha",
+    name: "Aloha",
+    city: "Aloha",
+    state: "OR",
+    description: [
+      "Aloha is the largest unincorporated community in Washington County, with roughly 50,000 residents and no city government, no city council, and no downtown in any traditional sense. TV Highway (Oregon Route 8) is the main commercial artery, running east-west through the middle of the community and lined with the strip malls, car dealerships, fast food, and small businesses that define unincorporated Washington County commercial corridors. The MAX Blue Line runs along the northern edge — the Hawthorn Farm, Quatama, and Elmonica stations all serve Aloha — giving the community more transit access than its car-oriented street grid suggests.",
+      "The housing stock is almost entirely single-family, built across several decades from the 1960s through the early 2000s. You'll find 1970s ranch homes, 1980s split-levels, and 1990s construction in roughly equal measure depending on the block. Lot sizes are reasonable for the price — larger than what you'd find in inner Portland neighborhoods at comparable price points. Beaverton School District serves the area, and school quality is consistent with the rest of BSD. The affordability relative to incorporated Beaverton and Hillsboro is the defining feature of the market: this is where the first-time buyers who can't make the numbers work elsewhere tend to end up.",
+      "The trade-off for that affordability is a lack of the amenities and walkable retail that exist in places like Orenco Station or Progress Ridge. TV Highway works for errand running, but it's not a pleasant street to walk along, and the neighborhood's grid is oriented around driving. There's also no city services infrastructure — Washington County handles utilities, roads, and planning. For buyers who are primarily price-constrained, Aloha delivers real value: more house per dollar than anywhere else close to the Beaverton-Hillsboro job corridor.",
+    ],
+    personality: "Washington County's most affordable first-time buyer market — more house, fewer amenities",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Aloha+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Aloha+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 38,
+    bikeScore: 44,
+    transitScore: 45,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      { name: "Hazeldale Elementary", type: "elementary", grades: "K–5", rating: 6 },
+      { name: "Five Oaks Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Aloha High School", type: "high", grades: "9–12", rating: 6 },
+    ],
+    parks: [
+      {
+        name: "Aloha Community Park",
+        amenities: ["sports fields", "playground", "picnic shelters", "walking path"],
+      },
+      {
+        name: "Tualatin Hills Nature Park",
+        amenities: ["nature trails", "wildlife habitat", "interpretive signage", "year-round access"],
+      },
+      {
+        name: "Butternut Creek Greenway",
+        amenities: ["paved walking and biking trail", "creek views", "connects to regional trail network"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Taqueria Los Primos",
+        cuisine: "Mexican",
+        vibe: "Authentic tacos on TV Highway, cheap and fast, a genuine neighborhood staple",
+      },
+      {
+        name: "Aloha Grill",
+        cuisine: "American",
+        vibe: "Local diner energy, breakfast all day, the kind of place where the staff knows the regulars",
+      },
+      {
+        name: "Pho Hung",
+        cuisine: "Vietnamese",
+        vibe: "Long-running pho restaurant off TV Highway — reliable bowls, quick service",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros Coffee (TV Hwy)", vibe: "Drive-through, fast, the most-used coffee stop in the corridor" },
+      { name: "Black Rock Coffee Bar (Aloha)", vibe: "Oregon chain with a drive-through — solid espresso, slightly quieter than Dutch Bros" },
+    ],
+    bars: [
+      { name: "Reedville Cafe", vibe: "Classic tavern on TV Highway — pool table, cheap beer, regulars at the bar, no pretense" },
+      { name: "Round Table Pizza", vibe: "Beer-and-pizza situation, family-friendly, functional for a low-key evening out" },
+    ],
+    medianHomePrice: 450000,
+    priceRange: { low: 350000, high: 620000 },
+    commuteToDowntown:
+      "30–40 min by car via US-26 E; 45–55 min by MAX Blue Line from Elmonica, Hawthorn Farm, or Quatama stations to Portland; TV Highway bus line also connects to Beaverton TC",
+    faqs: [
+      {
+        q: "Why is Aloha more affordable than Beaverton?",
+        a: "Aloha is unincorporated — it's governed by Washington County, not a city. That means no city services, less infrastructure investment over time, and a commercial corridor (TV Highway) that wasn't built for walkability. The housing is older on average and the amenities are fewer. Those factors keep prices lower than neighboring incorporated cities. For buyers who need to maximize house for dollar, that's a real advantage.",
+      },
+      {
+        q: "Does Aloha have good schools?",
+        a: "Beaverton School District serves Aloha, which means the district-level resources and curriculum are the same as in other BSD areas. Individual school ratings in Aloha tend to run slightly lower than BSD averages, but the district infrastructure — BSD is one of the larger and better-funded districts in the state — is consistent throughout. Aloha High School is a comprehensive high school with a full range of programs.",
+      },
+      {
+        q: "Can you take MAX from Aloha?",
+        a: "Yes — the MAX Blue Line has three stops serving Aloha: Elmonica, Hawthorn Farm, and Quatama along the northern edge of the community. From those stations, downtown Portland is roughly 45–55 minutes. It's one of the reasons Aloha has more transit access than its car-oriented street network suggests.",
+      },
+      {
+        q: "Is Aloha a good place to buy a first home?",
+        a: "For buyers who are primarily price-constrained, yes. The median around $450,000 is the lowest of any community in the Beaverton-Hillsboro corridor. You'll get more square footage and lot size per dollar than in Beaverton or Hillsboro proper. The trade-offs are older housing stock, fewer walkable amenities, and a commercial corridor that prioritizes car access over everything else.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "Every house we liked in Beaverton was $50,000 out of reach. Bri suggested we look at Aloha and we found a 3-bed ranch that checked every box. Same schools, same commute.",
+        author: "Tyler and Jess N.",
+        context: "First-time buyers, Aloha, 2023",
+      },
+      {
+        quote:
+          "Bri helped us use an FHA loan with 3.5% down on an Aloha home. We'd been renting for four years waiting until we had 20%. We didn't need to wait that long.",
+        author: "DeShawn F.",
+        context: "FHA purchase, Aloha, 2022",
+      },
+      {
+        quote:
+          "The appraisal came in low and Bri knew exactly how to handle it — she'd seen it before in Aloha. We closed on schedule and didn't lose the house.",
+        author: "Gloria and Mark R.",
+        context: "Purchase with appraisal gap, Aloha, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "cash-out", "reverse-mortgage", "divorce-lending"],
+    adjacentNeighborhoods: ["beaverton", "hillsboro", "tanasbourne", "orenco-station", "cedar-mill"],
+    seo: {
+      title: "Aloha OR — Homes & Mortgage | The Lindley Team",
+      description:
+        "Buying a home in Aloha, Oregon? Bri Lindley (NMLS #1367416) helps first-time buyers and price-sensitive buyers navigate Washington County's most affordable market. FHA, VA, and conventional loans — local lender, fast close.",
+    },
+  },
+
+{
+    slug: "gladstone",
+    name: "Gladstone",
+    city: "Gladstone",
+    state: "OR",
+    description: [
+      "Gladstone sits at the confluence of the Clackamas and Willamette rivers, a geographic fact that shapes the city more than anything else. Meldrum Bar Park stretches along the Willamette — a long gravel bar with boat launches, grassy flats, and unobstructed river views that residents of much pricier neighborhoods would pay a premium to access. The Clackamas River is minutes away in the other direction. At roughly 12,000 people, Gladstone is small enough that you recognize faces at the Fred Meyer on McLoughlin.",
+      "The housing stock is mostly 1950s through 1970s — single-story ranches, split-levels, and a few two-story colonials on larger lots. The Gladstone School District is compact: one high school, one middle school, and two elementaries. That size means staff knows students. The city has its own parks system with Meldrum Bar as the centerpiece, plus smaller neighborhood parks scattered through the residential grid. Commuting north to Portland takes 30 to 40 minutes via I-205 or McLoughlin Blvd depending on traffic — Oregon City sits right to the south along the same corridor.",
+      "Gladstone is not heavily developed and is not trying to become something else. There is no revitalized downtown with craft cocktail bars. McLoughlin Blvd through the city edge is commercial strip the same as it is everywhere along that corridor. What you get instead is stable working-class community, low competition for housing relative to the rest of the metro, and river access that would cost considerably more one county north.",
+    ],
+    personality: "River access and stable prices where the Clackamas meets the Willamette",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Gladstone+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Gladstone+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 42,
+    bikeScore: 38,
+    transitScore: 28,
+    schoolDistrict: "Gladstone School District",
+    schools: [
+      { name: "Gladstone Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "Kraxberger Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Gladstone High School", type: "high", grades: "9–12", rating: 5 },
+    ],
+    parks: [
+      {
+        name: "Meldrum Bar Park",
+        amenities: ["boat launch", "river access", "gravel bar", "fishing", "picnic areas", "dog walking"],
+      },
+      {
+        name: "Gladstone Community Park",
+        amenities: ["sports fields", "playground", "tennis courts", "picnic shelters"],
+      },
+      {
+        name: "Riverfront Park",
+        amenities: ["Willamette River access", "walking paths", "picnic areas"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "La Cabaña Mexican Restaurant",
+        cuisine: "Mexican",
+        vibe: "Family-run, Portland Ave location, neighborhood staple for sit-down Mexican",
+      },
+      {
+        name: "Taqueria Los Gorditos",
+        cuisine: "Mexican",
+        vibe: "Counter-service tacos, fast and filling, local crowd",
+      },
+      {
+        name: "Denny's",
+        cuisine: "Diner",
+        vibe: "McLoughlin Blvd location, open late, exactly what you expect",
+      },
+    ],
+    coffee: [
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "Drive-through on McLoughlin, fast and consistent, always a line in the morning",
+      },
+      {
+        name: "Starbucks",
+        vibe: "Portland Ave location, standard stop before the I-205 on-ramp",
+      },
+    ],
+    bars: [
+      {
+        name: "The River Tap",
+        vibe: "Local bar near the river, cold beer, no agenda",
+      },
+      {
+        name: "Gladstone Tavern",
+        vibe: "Old-school dive, pool table, regulars who've been coming for years",
+      },
+    ],
+    medianHomePrice: 430000,
+    priceRange: { low: 330000, high: 600000 },
+    commuteToDowntown: "30–40 min by car via I-205 or McLoughlin Blvd, 50+ min by TriMet bus",
+    faqs: [
+      {
+        q: "How is the commute from Gladstone to Portland?",
+        a: "About 30 to 40 minutes by car depending on traffic — I-205 north to the Marquam Bridge is the standard route, or McLoughlin Blvd if you're going to SE Portland directly. Peak hour adds meaningful time. There is no light rail connection; TriMet bus service runs but is slow. This is a car-dependent commute.",
+      },
+      {
+        q: "What are the schools like in Gladstone?",
+        a: "The Gladstone School District is small — one high school, one middle school, and two elementaries. That size creates a tight-knit feel where staff actually knows students. Academic ratings are average for the region. Families who prioritize the community feel over test rankings often find it suits them well.",
+      },
+      {
+        q: "How much does a home cost in Gladstone?",
+        a: "Median is around $430,000, making it one of the more affordable cities in Clackamas County. Most homes trade between $330k and $550k. The 1950s–1970s ranch stock is solid but older — budget for updates on anything in that range. Well-maintained homes with river proximity sit at the higher end.",
+      },
+      {
+        q: "Is Gladstone a good place for first-time buyers?",
+        a: "It's one of the more accessible entry points in the south metro. Prices are lower than Oregon City to the south and significantly below Lake Oswego or Milwaukie to the north. FHA financing works well here — the price points keep you well within conforming loan limits. Competition is lower than inner Portland, which gives buyers a bit more room to do inspections and ask for repairs.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We had been priced out of everywhere else we wanted to be. Gladstone gave us a real house with a yard and river access five minutes away. Bri ran three loan scenarios and we picked the one that kept our payment where we needed it.",
+        author: "Derek and Alicia M.",
+        context: "First-time buyers in Gladstone, 2024",
+      },
+      {
+        quote: "I didn't know Gladstone at all — Bri mentioned it when I described what I was looking for. Ended up being the right call. The neighborhood is quiet, the commute is manageable, and I paid $80k less than comparable houses in Milwaukie.",
+        author: "James R.",
+        context: "Purchased in Gladstone, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "investment"],
+    adjacentNeighborhoods: ["oak-grove", "milwaukie", "oregon-city", "jennings-lodge", "west-linn"],
+    seo: {
+      title: "Buying a Home in Gladstone, OR | The Lindley Team",
+      description:
+        "Honest guide to Gladstone real estate: home prices, schools, commute, and river access. Bri Lindley, mortgage lender serving Clackamas County. NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "lake-grove",
+    name: "Lake Grove",
+    city: "Lake Oswego",
+    state: "OR",
+    description: [
+      "Lake Grove is the southern section of Lake Oswego, below the lake itself and separated from it by about a mile of residential streets. Boones Ferry Road runs north-south as the commercial spine — a mix of local services, small restaurants, and neighborhood retail that has been there for decades without much churn. The area sits mostly between Highway 43 (State Street) to the east and the I-5 corridor to the west, with Kruse Way and the tech office parks forming the northern anchor.",
+      "The draw for buyers here is straightforward: Lake Oswego School District without Lake Oswego lake-view prices. Bryant Elementary is well-regarded within the district. Lakeridge Middle and Lakeridge High School serve the area, and Lakeridge is consistently one of the stronger performing high schools in the region. The housing stock is 1960s through 1980s ranches and split-levels on flat to gently rolling lots — not the larger Craftsmans and colonials of the neighborhoods immediately around the lake, but well-maintained and solidly built. Lot sizes run 7,000 to 10,000 square feet on most blocks.",
+      "Buyers who want Lake Oswego schools and the Lake Oswego label on their address typically find Lake Grove 15 to 20 percent less expensive than the neighborhoods north of the lake. That gap is real and worth understanding: you get the same school district, similar commute access, and a quieter residential character, but none of the waterfront premium and none of the lake access that comes with the higher-priced addresses. It is a rational trade-off for families where schools are the priority.",
+    ],
+    personality: "Lake Oswego schools at a discount from the lake-view premium",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Lake+Grove+Lake+Oswego+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Lake+Grove+Lake+Oswego+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 52,
+    bikeScore: 44,
+    transitScore: 35,
+    schoolDistrict: "Lake Oswego School District",
+    schools: [
+      { name: "Bryant Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Lakeridge Middle School", type: "middle", grades: "6–8", rating: 8 },
+      { name: "Lakeridge High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Luscher Farm",
+        amenities: ["community gardens", "open fields", "dog walking", "walking paths"],
+      },
+      {
+        name: "Lake Grove Swim Park",
+        amenities: ["public pool", "swim lessons", "open swim", "picnic area"],
+      },
+      {
+        name: "Sundeleaf Plaza",
+        amenities: ["small plaza", "seating", "community gathering space"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Nicoletta's Table",
+        cuisine: "Italian",
+        vibe: "Boones Ferry Rd neighborhood Italian, reliable weeknight dinner, good wine list",
+      },
+      {
+        name: "Thai Orchid",
+        cuisine: "Thai",
+        vibe: "Long-running Thai spot in Lake Grove, consistent, lunch specials draw the office crowd from Kruse Way",
+      },
+      {
+        name: "Lake Grove Pub",
+        cuisine: "American",
+        vibe: "Casual bar and grill on Boones Ferry, game nights, neighborhood regulars",
+      },
+    ],
+    coffee: [
+      {
+        name: "Starbucks",
+        vibe: "Boones Ferry location, standard morning stop, drive-through gets long",
+      },
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "Drive-through on Boones Ferry, faster than Starbucks, younger crowd",
+      },
+    ],
+    bars: [
+      {
+        name: "Lake Grove Pub",
+        vibe: "The neighborhood watering hole on Boones Ferry — sports on TV, unpretentious",
+      },
+      {
+        name: "Gustav's Pub & Grill",
+        vibe: "German-American pub near the I-5 corridor, extensive tap list, loud on game days",
+      },
+    ],
+    medianHomePrice: 680000,
+    priceRange: { low: 530000, high: 950000 },
+    commuteToDowntown: "25–35 min by car via I-5 or Hwy 43, 45+ min by TriMet bus",
+    faqs: [
+      {
+        q: "What's the difference between Lake Grove and the rest of Lake Oswego?",
+        a: "Location and price. Lake Grove is the southern part of Lake Oswego, roughly below the lake. You're in the same city, same school district, same mailing address — but you're not near the lake and you're not paying for lake adjacency. That typically means 15 to 25 percent less than comparable square footage in the neighborhoods immediately around Oswego Lake.",
+      },
+      {
+        q: "Are the Lake Oswego schools really worth the premium?",
+        a: "If school quality is the deciding factor, Lake Oswego SD consistently performs among the best in Oregon — Lakeridge High regularly ranks in the top tier statewide. Lake Grove lets you access those schools at a lower entry price than the lake-adjacent neighborhoods. Whether the school premium justifies a higher payment than nearby Tigard or West Linn is a question worth running through the numbers on.",
+      },
+      {
+        q: "How much do homes cost in Lake Grove?",
+        a: "Median is around $680,000. Most of the 1960s–1980s ranches and split-levels sell between $530k and $850k. Larger updated homes and anything with recent renovations push past that. The price difference from the neighborhoods north of the lake is real — similar square footage near Oswego Lake often runs $800k to $1.2M or more.",
+      },
+      {
+        q: "What's the commute from Lake Grove to Portland?",
+        a: "Twenty-five to 35 minutes by car via I-5 north or Highway 43 north into SW Portland. I-5 is faster when traffic cooperates; Highway 43 (State Street) is the backup route and is slower but avoids the freeway merge. TriMet bus service runs but is not fast — most residents drive.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We specifically wanted Lake Oswego schools and couldn't swing the prices north of the lake. Bri helped us understand the loan options and we landed in Lake Grove — same district, $150k less. That's been huge.",
+        author: "Sarah and Tom K.",
+        context: "Bought in Lake Grove, 2024",
+      },
+      {
+        quote: "Bri was straightforward about what we qualified for and what the monthly payment actually looked like at different price points. No pressure to stretch. We found a place in Lake Grove that worked.",
+        author: "Michelle P.",
+        context: "First purchase in Lake Grove, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "jumbo", "heloc", "fha"],
+    adjacentNeighborhoods: ["lake-oswego", "west-linn", "oak-grove", "milwaukie"],
+    seo: {
+      title: "Buying a Home in Lake Grove, Lake Oswego OR | The Lindley Team",
+      description:
+        "Guide to Lake Grove real estate in Lake Oswego: home prices, Lakeridge schools, commute, and how it compares to the rest of LO. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "oak-grove",
+    name: "Oak Grove",
+    city: "Milwaukie",
+    state: "OR",
+    description: [
+      "Oak Grove is an unincorporated Clackamas County community wedged between Milwaukie to the north and Lake Oswego to the south, with McLoughlin Blvd running the length of its western edge. McLoughlin is commercial, loud at rush hour, and not the place you want to be walking — but it does mean the drive to Portland or Oregon City is straightforward. The residential streets that run east from McLoughlin into the interior of Oak Grove are a different story: established trees, large lots on many blocks, and the kind of quiet that you do not get two miles north in inner SE Portland.",
+      "North Clackamas School District serves Oak Grove, which includes Lewelling Elementary, Rowe Middle School, and Milwaukie High School for most of the area. The Springwater Corridor Trail runs along the eastern edge with river access points — an asset that does not get as much attention as it should. North Clackamas Sports Park is a significant recreational facility with multiple athletic fields that draws use from across the district. The housing stock is primarily 1950s through 1970s, with some larger lots than you find in Milwaukie proper.",
+      "Oak Grove has not gentrified at the pace of Milwaukie or Sellwood, which is why prices are still lower than those neighborhoods to the north. The trade-off is fewer walkable amenities — most daily needs require a drive on McLoughlin. There is no town center. Being unincorporated also means the city does not have its own services; County roads and County governance. For buyers who want space and affordability without the isolation of a rural purchase, Oak Grove offers a genuine middle option.",
+    ],
+    personality: "Quiet residential streets with large lots between Milwaukie and Lake Oswego",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Oak+Grove+Milwaukie+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Oak+Grove+Milwaukie+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 38,
+    bikeScore: 42,
+    transitScore: 32,
+    schoolDistrict: "North Clackamas School District",
+    schools: [
+      { name: "Lewelling Elementary", type: "elementary", grades: "K–5", rating: 6 },
+      { name: "Rowe Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Milwaukie High School", type: "high", grades: "9–12", rating: 5 },
+    ],
+    parks: [
+      {
+        name: "North Clackamas Sports Park",
+        amenities: ["athletic fields", "soccer", "baseball", "restrooms", "parking"],
+      },
+      {
+        name: "Springwater Corridor Trail",
+        amenities: ["paved multi-use trail", "Willamette River access", "cycling", "running"],
+      },
+      {
+        name: "Oak Grove Park",
+        amenities: ["playground", "open lawn", "neighborhood park"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Oak Grove Diner",
+        cuisine: "Diner",
+        vibe: "Breakfast and lunch staple on McLoughlin, counter seating, honest diner food",
+      },
+      {
+        name: "Casa Naranja",
+        cuisine: "Mexican",
+        vibe: "Mexican restaurant on McLoughlin, family-run, reliable lunch and dinner",
+      },
+      {
+        name: "Burgerville",
+        cuisine: "Burgers",
+        vibe: "McLoughlin location, local chain with seasonal menus, quick stop on the way home",
+      },
+    ],
+    coffee: [
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "McLoughlin drive-through, efficient, always busy before 9 am",
+      },
+      {
+        name: "Starbucks",
+        vibe: "McLoughlin location, standard commuter stop",
+      },
+    ],
+    bars: [
+      {
+        name: "The Raven",
+        vibe: "Neighborhood bar in Oak Grove, no-frills, local regulars",
+      },
+      {
+        name: "Oak Grove Inn",
+        vibe: "Long-running dive on McLoughlin, pool table, cash-friendly",
+      },
+    ],
+    medianHomePrice: 460000,
+    priceRange: { low: 350000, high: 650000 },
+    commuteToDowntown: "25–35 min by car via McLoughlin Blvd or I-205, 45+ min by TriMet bus",
+    faqs: [
+      {
+        q: "What is Oak Grove exactly — is it part of Milwaukie?",
+        a: "Oak Grove is an unincorporated community in Clackamas County. It has a Milwaukie mailing address on many streets, but it is not within the Milwaukie city limits and is not governed by the City of Milwaukie. Roads and services are administered by Clackamas County. In practice this affects property taxes slightly and means you will not have access to some city-specific services.",
+      },
+      {
+        q: "How are the schools in Oak Grove?",
+        a: "Oak Grove is served by North Clackamas School District, which also covers Milwaukie and Jennings Lodge. Milwaukie High School is the main high school for the area. North Clackamas SD is considered solid — better than Portland Public Schools on average metrics, and with reasonable class sizes. It is not Lake Oswego SD, but it is a functioning district with good community support.",
+      },
+      {
+        q: "How much do homes cost in Oak Grove?",
+        a: "Median is around $460,000 — lower than Milwaukie proper and well below Lake Oswego to the south. The 1950s–1970s ranches and split-levels that make up most of the inventory run $350k to $580k depending on size, lot, and condition. Large-lot properties with older homes that need work can come in lower.",
+      },
+      {
+        q: "Can I bike to the Springwater Corridor from Oak Grove?",
+        a: "Yes — the Springwater Corridor runs along Oak Grove's eastern edge and connects north to Sellwood and downtown Portland, and south toward Boring. It is a paved multi-use trail and is legitimately useful for recreational cycling and running. Biking to inner SE Portland takes 30 to 40 minutes on trail; to downtown Portland is closer to 45 to 55 minutes.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We wanted a big yard and couldn't find it in Milwaukie at a price that worked. Oak Grove had what we needed — more space, mature trees, and still close to the city. Bri got us to the finish line faster than I expected.",
+        author: "Paul and Karen F.",
+        context: "Bought in Oak Grove, 2024",
+      },
+      {
+        quote: "I asked Bri which neighborhoods gave the most house for the money south of Portland. She mentioned Oak Grove specifically and explained why. We ended up there and I'm still happy with the decision two years later.",
+        author: "Eric W.",
+        context: "Purchased in Oak Grove, 2022",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "investment", "cash-out"],
+    adjacentNeighborhoods: ["milwaukie", "jennings-lodge", "lake-grove", "lake-oswego", "sellwood-moreland"],
+    seo: {
+      title: "Buying a Home in Oak Grove, OR | The Lindley Team",
+      description:
+        "Oak Grove real estate guide: home prices, North Clackamas schools, Springwater trail access, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "jennings-lodge",
+    name: "Jennings Lodge",
+    city: "Milwaukie",
+    state: "OR",
+    description: [
+      "Jennings Lodge is an unincorporated Clackamas County community along the Willamette River bluff south of Oak Grove. The bluff-top streets — Courtney Ave, Jennings Ave, and the residential grid just behind the western face — have Willamette River views that would cost considerably more in almost any other part of the metro. On a clear morning you can see across the river to the fields and hills of Clackamas County's west side. Not many people in the broader metro know this exists.",
+      "North Clackamas School District covers Jennings Lodge — the same schools as Oak Grove, with Milwaukie High School as the high school. McLoughlin Blvd forms the western edge of the community: commercial, busy, and not particularly pleasant to live next to. The residential streets behind the bluff are entirely insulated from it. Housing ranges from 1940s bungalows and post-war ranches to 1970s construction, with a genuine mix of conditions. Some properties have been well-maintained for decades; others need real work. Lot sizes vary.",
+      "The south metro's best-kept secret is a cliché we will not use, but people who find Jennings Lodge tend to stay. The community is genuinely quiet — there is no commercial district, no coffee shop on the corner, no walkable anything. Everything requires a car. McLoughlin is the spine to get you north to Portland or south to Oregon City. For buyers who prioritize river views, quiet streets, and affordability over walkability and urban amenities, this is a rational choice that few buyers have on their radar.",
+    ],
+    personality: "Willamette bluff views and genuine quiet in an overlooked south metro pocket",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Jennings+Lodge+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Jennings+Lodge+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 28,
+    bikeScore: 30,
+    transitScore: 22,
+    schoolDistrict: "North Clackamas School District",
+    schools: [
+      { name: "Jennings Lodge Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "Rowe Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Milwaukie High School", type: "high", grades: "9–12", rating: 5 },
+    ],
+    parks: [
+      {
+        name: "Jennings Lodge Willamette River Access",
+        amenities: ["river access", "informal fishing spots", "Willamette views"],
+      },
+      {
+        name: "Hebb Park",
+        amenities: ["boat ramp", "Willamette River access", "picnic area", "parking"],
+      },
+      {
+        name: "Springwater Corridor Trail",
+        amenities: ["paved trail", "cycling", "running", "river corridor access"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Elmer's Restaurant",
+        cuisine: "American",
+        vibe: "McLoughlin Blvd breakfast and brunch institution, family-friendly, been there for years",
+      },
+      {
+        name: "Casa Naranja",
+        cuisine: "Mexican",
+        vibe: "Nearby Oak Grove location, family-run Mexican, solid option on McLoughlin",
+      },
+      {
+        name: "Burgerville",
+        cuisine: "Burgers",
+        vibe: "Quick stop on McLoughlin, local chain, better than the national alternatives",
+      },
+    ],
+    coffee: [
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "McLoughlin drive-through, standard south metro morning stop",
+      },
+      {
+        name: "Starbucks",
+        vibe: "Nearby Oak Grove location on McLoughlin, consistent morning option",
+      },
+    ],
+    bars: [
+      {
+        name: "Oak Grove Inn",
+        vibe: "Closest bar, old-school McLoughlin dive, unpretentious",
+      },
+      {
+        name: "The Raven",
+        vibe: "Neighborhood bar in nearby Oak Grove, local crowd, cold beer",
+      },
+    ],
+    medianHomePrice: 460000,
+    priceRange: { low: 340000, high: 680000 },
+    commuteToDowntown: "30–40 min by car via McLoughlin Blvd or I-205, 50+ min by TriMet",
+    faqs: [
+      {
+        q: "Where exactly is Jennings Lodge?",
+        a: "Jennings Lodge is an unincorporated Clackamas County community along the Willamette River, south of Oak Grove and north of Oregon City. It has a Milwaukie mailing address on many streets but is not within Milwaukie city limits. It sits between McLoughlin Blvd on the west and the Willamette River bluff on the east.",
+      },
+      {
+        q: "What are the river views like?",
+        a: "Genuinely good. Streets along the bluff have clear western views across the Willamette, particularly on the upper tier. Properties directly on or near the bluff edge command a premium. Not every street in Jennings Lodge has views — the lower blocks closer to McLoughlin do not — but the bluff streets are the reason people specifically seek this community out.",
+      },
+      {
+        q: "How much do homes cost in Jennings Lodge?",
+        a: "Median is around $460,000. The range is wide — older homes that need significant work can come in around $340k, while well-maintained bluff-view properties with updates push $600k to $700k. Condition variance is higher here than in more turnover-active neighborhoods, so inspections and contingencies matter.",
+      },
+      {
+        q: "Is Jennings Lodge a good investment area?",
+        a: "It is a community with upside that has not been fully priced in, partly because it lacks visibility. River views at these prices are unusual in the metro. The risk is that there is no built-in demand driver — no commercial development, no transit improvement planned — so appreciation depends on broader south metro dynamics. For a primary residence it offers real value; as a pure investment the upside is speculative.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "I wanted a river view and didn't want to spend Lake Oswego money. Bri knew exactly where to point me — Jennings Lodge wasn't even on my list. We got a bluff-top house with a Willamette view and I think about that every morning.",
+        author: "Craig N.",
+        context: "Purchased in Jennings Lodge, 2023",
+      },
+      {
+        quote: "The house needed work but the bones were solid and the location was everything we wanted. Bri helped us structure the financing so we had budget left for improvements. Worth every conversation.",
+        author: "Danielle and Mark S.",
+        context: "Bought in Jennings Lodge, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "refinance", "cash-out", "investment", "heloc"],
+    adjacentNeighborhoods: ["oak-grove", "milwaukie", "oregon-city", "gladstone", "west-linn"],
+    seo: {
+      title: "Buying a Home in Jennings Lodge, OR | The Lindley Team",
+      description:
+        "Jennings Lodge real estate: Willamette River bluff views, home prices, North Clackamas schools, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "west-haven-sylvan",
+    name: "West Haven-Sylvan",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "West Haven-Sylvan occupies the lower West Hills between Highway 26 (the Sunset Highway) and SW Scholls Ferry Road, roughly west of NW 53rd Ave and east of the Beaverton city limits. Oregon Zoo and Washington Park are at the northeastern edge, which means Forest Park trailheads are reachable without getting in a car. OHSU is a 10-minute drive down the hill. The neighborhood is Portland city limits, Portland Public Schools, and a Portland property tax bill — but the character reads more like a quiet hill suburb than anything in the inner city.",
+      "The housing is primarily 1950s through 1970s construction — ranch homes and split-levels on larger lots than you find in inner SW Portland, with some newer hillside infill from the 1990s and 2000s on steeper terrain. West Sylvan Middle School serves the area and feeds to Lincoln High School, which is one of Portland Public Schools' stronger comprehensive high schools. Families specifically seeking the Lincoln High attendance area find West Haven-Sylvan an affordable entry compared to the inner SW neighborhoods closer to the river.",
+      "The trade-off is walkability. There is no commercial main street. Daily errands require a car — the nearest grocery is a drive away. Highway 26 is close enough to hear on some blocks. The Sunset Highway on-ramp connection makes commuting to the west side tech campuses reasonable (Nike, Intel), but Portland downtown means going back east through the tunnel, which is reliable until it is not. The view corridors from some of the upper streets looking east toward Mt. Hood make up for the lack of a neighborhood coffee shop.",
+    ],
+    personality: "West Hills quiet with Washington Park at the edge and Lincoln High feeding the area",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=West+Haven-Sylvan+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=West+Haven-Sylvan+Portland+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 32,
+    bikeScore: 28,
+    transitScore: 38,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Bridlemile Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "West Sylvan Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Lincoln High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Washington Park",
+        amenities: ["Oregon Zoo", "Japanese Garden", "International Rose Test Garden", "hiking trails", "picnic areas"],
+      },
+      {
+        name: "Hoyt Arboretum",
+        amenities: ["12 miles of trails", "tree collections", "accessible paths", "educational programs"],
+      },
+      {
+        name: "Sylvan Park",
+        amenities: ["baseball diamond", "playground", "open lawn", "picnic tables"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Pastini",
+        cuisine: "Italian",
+        vibe: "Casual pasta on SW Canyon Rd, reliable weeknight dinner, family-friendly",
+      },
+      {
+        name: "Pho Van",
+        cuisine: "Vietnamese",
+        vibe: "Beaverton-area location nearby, bowl of pho on a cold evening, efficient and good",
+      },
+      {
+        name: "Gustav's Pub & Grill",
+        cuisine: "German-American",
+        vibe: "Nearby in the Beaverton-Hillsdale area, large tap list, solid pub food",
+      },
+    ],
+    coffee: [
+      {
+        name: "Starbucks",
+        vibe: "SW Canyon Rd location, commuter stop before the 26 on-ramp",
+      },
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "Nearby on SW Canyon, drive-through, morning line is consistent",
+      },
+    ],
+    bars: [
+      {
+        name: "The Original Dinerant",
+        vibe: "Hillside area option, cocktails and diner food, accessible from the hill",
+      },
+      {
+        name: "Stanich's",
+        vibe: "SW Scholls Ferry area institution, historic burger bar, been open since 1949",
+      },
+    ],
+    medianHomePrice: 680000,
+    priceRange: { low: 520000, high: 1100000 },
+    commuteToDowntown: "15–25 min by car via Hwy 26 or SW Canyon Rd, 30 min on TriMet bus line 54",
+    faqs: [
+      {
+        q: "What schools serve West Haven-Sylvan?",
+        a: "Most of West Haven-Sylvan feeds to Bridlemile Elementary, West Sylvan Middle School, and Lincoln High School. Lincoln is one of Portland Public Schools' stronger comprehensive high schools, with competitive AP programs and historically solid test scores. The Lincoln High attendance boundary is a real draw for families choosing between this area and inner SW neighborhoods.",
+      },
+      {
+        q: "How is the commute from West Haven-Sylvan to downtown Portland?",
+        a: "Fifteen to 25 minutes by car on a normal day via Highway 26 east or SW Canyon Road. The Sunset Tunnel is the pinch point — it backs up during incidents, but on a normal morning is reliable. TriMet bus line 54 runs from SW Scholls Ferry through the neighborhood to downtown. It takes about 30 to 35 minutes and is genuinely usable.",
+      },
+      {
+        q: "How much do homes cost in West Haven-Sylvan?",
+        a: "Median is around $680,000. The 1950s–1970s ranches and split-levels on the flatter streets run $520k to $750k. Newer hillside construction and properties with east-facing view corridors push above $800k and sometimes above $1M. The area is priced below the neighborhoods immediately around Washington Park but above Beaverton for similar square footage.",
+      },
+      {
+        q: "Is West Haven-Sylvan good for families?",
+        a: "Yes, specifically because of the school pipeline to Lincoln High. The neighborhood is quiet, lots are larger than inner Portland, and Washington Park and Hoyt Arboretum are accessible without driving. The lack of walkable amenities is a real consideration — you will drive for groceries and coffee. Families who prioritize yard space, good public schools, and proximity to Forest Park over walkability tend to find it fits well.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We needed to be in the Lincoln High boundary and couldn't afford the houses closer to downtown. West Haven-Sylvan gave us the school district and a yard. Bri was clear about all the financing options from the start.",
+        author: "Robert and Jenna T.",
+        context: "Bought in West Haven-Sylvan, 2024",
+      },
+      {
+        quote: "The view from the backyard looking east to Mt. Hood sealed it for us. Bri ran the numbers twice when we weren't sure about the payment and helped us find a structure that worked.",
+        author: "Amanda C.",
+        context: "Purchased in West Haven-Sylvan, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance", "heloc", "fha", "va"],
+    adjacentNeighborhoods: ["hillsdale", "multnomah-village", "forest-heights", "eastmoreland"],
+    seo: {
+      title: "Buying a Home in West Haven-Sylvan, Portland OR | The Lindley Team",
+      description:
+        "West Haven-Sylvan real estate guide: home prices, Lincoln High schools, Washington Park access, and West Hills commute. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "skyline",
+    name: "Skyline",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Skyline Blvd runs the length of the West Hills ridge, a two-lane road that winds from the northern end of Forest Park south through terrain that reads as rural but is technically within Portland city limits. The views are east-facing — Mt. Hood on a clear morning, the Tualatin Valley to the west at dusk. Properties range from older farmhouses on one-acre lots to newer custom builds on five-plus acres, and the road itself passes working farms, a small airstrip, and more deer than traffic signals. This is Portland's back forty.",
+      "Portland Public Schools serves Skyline — Skyline K-8 is the neighborhood school, a combined elementary and middle that sits on the ridge and serves a small community of students who arrive mostly by bus because there is no other option. High school feeds to Lincoln or Wilson depending on address. The Forest Park trailhead system is accessible directly from Skyline Blvd; several trailheads within a short drive give access to 80-plus miles of trail in the country's largest urban forest. The Northwest 23rd commercial district and the Hillside neighborhoods are 15 to 20 minutes down the hill.",
+      "Car dependence here is not a caveat — it is the defining feature. There is no grocery store, no coffee shop, no pharmacy within any reasonable distance. Skyline Blvd itself is two lanes with no shoulder in most stretches and becomes genuinely difficult in ice or snow. The tradeoff is space, privacy, and a natural setting that is unlike anything else available within Portland city limits. Buyers here are making a deliberate choice about what they value, and the price reflects it.",
+    ],
+    personality: "Rural ridge living within Portland city limits — Forest Park at the door, grocery store 25 minutes away",
+    mapEmbedSrc:
+      "https://maps.google.com/maps?q=Skyline+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Skyline+Portland+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 8,
+    bikeScore: 12,
+    transitScore: 10,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Skyline K-8 School", type: "elementary", grades: "K–8", rating: 7 },
+      { name: "Lincoln High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Forest Park",
+        amenities: ["80+ miles of trails", "Wildwood Trail", "wildlife habitat", "multiple Skyline Blvd trailheads"],
+      },
+      {
+        name: "Pittock Mansion",
+        amenities: ["historic house museum", "viewpoint", "hiking trails", "picnic areas"],
+      },
+      {
+        name: "Skyline Memorial Gardens",
+        amenities: ["peaceful grounds", "viewpoint", "historic site"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "The Skyline Restaurant",
+        cuisine: "American",
+        vibe: "The ridge diner — longtime Skyline Blvd institution, breakfast and lunch, no frills",
+      },
+      {
+        name: "Cornell Farm",
+        cuisine: "Farm market",
+        vibe: "Not a restaurant but the closest thing to a local stop — produce, plants, seasonal goods on Cornell Rd",
+      },
+      {
+        name: "Helvetia Tavern",
+        cuisine: "Burgers",
+        vibe: "A short drive north on Helvetia Rd, legendary 1930s burger bar in the farmland, cash only, worth the trip",
+      },
+    ],
+    coffee: [
+      {
+        name: "Skyline Restaurant",
+        vibe: "Coffee with your eggs on the ridge — the only reliable option without driving down the hill",
+      },
+      {
+        name: "Starbucks (NW 23rd)",
+        vibe: "Down the hill 15 minutes, standard option after the drive in",
+      },
+    ],
+    bars: [
+      {
+        name: "Helvetia Tavern",
+        vibe: "The genuine article — cash-only burger and beer bar that has been on Helvetia Rd since 1933, worth the drive",
+      },
+      {
+        name: "Besaw's",
+        vibe: "NW 23rd option down the hill, upscale-casual, good cocktail program",
+      },
+    ],
+    medianHomePrice: 850000,
+    priceRange: { low: 550000, high: 2500000 },
+    commuteToDowntown: "25–40 min by car via Hwy 30 or Cornell Rd to NW 23rd, no meaningful transit option",
+    faqs: [
+      {
+        q: "How far is Skyline from downtown Portland?",
+        a: "Twenty-five to 40 minutes by car depending on route and traffic. Cornell Road or NW Germantown Road take you down the hill to NW 23rd and the Burnside Bridge corridor. Highway 30 is the faster arterial once you reach the valley floor. There is no meaningful TriMet connection — you are driving.",
+      },
+      {
+        q: "What are the schools like in Skyline?",
+        a: "Skyline K-8 is the neighborhood school — a small combined elementary and middle school that serves the ridge community. Students bus to the building. High school feeds to Lincoln (one of PPS's better comprehensives) depending on your address. The small K-8 size means close teacher-student relationships, which some families find valuable.",
+      },
+      {
+        q: "How much do homes cost on Skyline?",
+        a: "Median is around $850,000, but the range is extremely wide. Older farmhouses and cottages on smaller lots can come in at $550k to $700k. Custom builds on several acres with views push $1.5M to $2.5M or higher. Jumbo financing is common in this area. There is not a typical Skyline house — it depends entirely on lot size, condition, and position on the ridge.",
+      },
+      {
+        q: "What about snow and ice on Skyline Blvd?",
+        a: "It is a real consideration. Skyline Blvd at ridge elevation gets ice and snow conditions that do not exist in the Portland basin. The road has no shoulder and is two lanes with curves. When the valley gets light snow, the ridge can be genuinely impassable for a day or two. Most Skyline residents have all-wheel or four-wheel drive for this reason. It is not frequent, but it happens multiple times most winters.",
+      },
+      {
+        q: "Is Skyline a good investment?",
+        a: "Skyline properties have appreciated over time, but liquidity is lower than standard Portland neighborhoods — the buyer pool for a custom five-acre ridge property is smaller than for an inner SE Craftsman. Days on market tend to run longer. For buyers who plan to stay long-term and are buying for the lifestyle rather than near-term appreciation, the math often works out. For investors looking for quick turns, it is the wrong market.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We knew Skyline was unusual and we were prepared for the financing to be complicated. Bri had done jumbo loans on the ridge before — she knew the appraisal questions and got us through the process without surprises.",
+        author: "David and Laura H.",
+        context: "Purchased on Skyline, 2024",
+      },
+      {
+        quote: "People think living on Skyline is impractical. It is, a little. But the mornings are unlike anything in the city. Bri helped us figure out a structure that made the payment sustainable long term.",
+        author: "Christine M.",
+        context: "Bought on Skyline Blvd, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance", "heloc", "cash-out", "reverse-mortgage"],
+    adjacentNeighborhoods: ["forest-heights", "west-haven-sylvan", "hillsdale", "multnomah-village"],
+    seo: {
+      title: "Buying a Home on Skyline, Portland OR | The Lindley Team",
+      description:
+        "Skyline Portland real estate: ridge properties, Forest Park access, home prices, and what buyers need to know about this unusual corner of Portland city limits. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+{
+    slug: "salmon-creek",
+    name: "Salmon Creek",
+    city: "Vancouver",
+    state: "WA",
+    description: [
+      "Salmon Creek is North Vancouver's most recognizable address — the name belongs to both the community and the actual creek that winds through it, flanked by the Salmon Creek Greenway Trail, a paved multi-use path running 3.1 miles along the water through wetlands and forest. Legacy Salmon Creek Medical Center (2211 NE 139th St) anchors the area as a major employer and trauma resource for all of Clark County, opened in 2005 and offering full inpatient and emergency services. The housing stock runs from 1990s ranches and colonials through 2010s planned subdivisions, mostly on standard suburban lots with some larger parcels toward the creek corridor.",
+      "Schools here are among the strongest in Vancouver Public Schools. Skyview High School, opened in 1997, carries a B+ Niche grade and a 7/10 GreatSchools rating, with a 95% graduation rate and a competitive SMT magnet program. Salmon Creek Elementary consistently ranks in the top 20% of Washington elementary schools. The pull toward North Vancouver from Portland-area families is partly about schools and partly about the Washington state income tax situation — there is none, and families doing the long-term math often land here.",
+      "The trade-off is the I-5 bridge. Commuting south to Portland means joining the 130,000+ vehicles a day that cross the Interstate Bridge, which dates to 1917 northbound and 1958 southbound, lifts for river traffic, and backs up badly during morning and evening peaks. Thirty-five to forty-five minutes to Portland in decent conditions becomes over an hour when traffic spreads. That is the real cost of Salmon Creek's otherwise excellent positioning, and buyers should factor it in honestly before deciding the no-income-tax calculation works in their favor.",
+    ],
+    personality: "Clark County's most sought-after zip code — schools, hospitals, and greenway trails, with an I-5 commute cost",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Salmon+Creek+Vancouver+WA&output=embed&z=14",
+    directionsSrc: "https://maps.google.com/maps?saddr=Salmon+Creek+Vancouver+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 32,
+    bikeScore: 42,
+    transitScore: 28,
+    schoolDistrict: "Vancouver Public Schools",
+    schools: [
+      { name: "Salmon Creek Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Jason Lee Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Skyview High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Salmon Creek Regional Park / Klineline Pond",
+        amenities: ["swim beach", "splash pad", "fishing platforms", "picnic shelters", "35 acres developed parkland", "368 acres undeveloped"],
+      },
+      {
+        name: "Salmon Creek Greenway Trail",
+        amenities: ["3.1-mile paved trail", "restored wetland habitat", "native salmon runs", "bird watching", "cycling"],
+      },
+    ],
+    restaurants: [
+      { name: "Kitchen Table Cafe – Salmon Creek", cuisine: "American", vibe: "Breakfast and lunch focused — pancakes, omelets, burgers; a reliable neighborhood anchor at NE 134th St" },
+      { name: "El Tapatio Salmon Creek", cuisine: "Mexican", vibe: "Family Mexican restaurant, casual and consistent, popular with the surrounding residential crowd" },
+      { name: "Billygan's Roadhouse", cuisine: "American", vibe: "Laid-back bar and grill, peanut shells on the floor, families and regulars, the kind of place you go after a soccer game" },
+    ],
+    coffee: [
+      { name: "Starbucks – NE 139th & 20th", vibe: "Drive-through speed for commuters heading south on I-5; consistently busy mornings" },
+      { name: "Black Rock Coffee Bar", vibe: "Regional Pacific Northwest chain, reliable espresso and drive-through window, faster than the Starbucks lines" },
+    ],
+    bars: [
+      { name: "Hudson's Bar and Grill", vibe: "Located inside the Heathman Lodge — Northwest farm-to-table menu, local ingredients, adult crowd, far less casual than Billygan's" },
+      { name: "Billygan's Roadhouse", vibe: "The neighborhood bar you actually end up at — cold beer, burgers, no pretense" },
+    ],
+    medianHomePrice: 540000,
+    priceRange: { low: 420000, high: 850000 },
+    commuteToDowntown: "35–45 min to Portland in decent traffic via I-5; 55–75 min during peak hours crossing the Interstate Bridge; no practical transit option",
+    faqs: [
+      {
+        q: "What is the commute from Salmon Creek to Portland like?",
+        a: "The I-5 Interstate Bridge is the chokepoint. In good traffic, 35–45 minutes to downtown Portland. During morning and evening rush, the bridge — which dates to 1917 and still lifts for river traffic — can turn that into 60–75 minutes. The I-205 Glenn Jackson Bridge is an alternative but adds 10–15 minutes of distance. There is no practical transit option from Salmon Creek. Buyers should test the actual commute at their real departure time before committing.",
+      },
+      {
+        q: "Is the Washington state no-income-tax benefit real for Portland workers?",
+        a: "It can be significant. Oregon's top income tax rate is among the highest in the country, and workers who live in Washington and work in Oregon owe Oregon income tax on Oregon-sourced income — but they keep Washington residency for all other tax purposes. For high earners, the annual savings can more than offset higher home prices and commute costs. Run the numbers with a tax professional using your specific income before treating this as a certain win.",
+      },
+      {
+        q: "How are the schools in Salmon Creek?",
+        a: "They are among the strongest in Vancouver Public Schools. Salmon Creek Elementary ranks in the top 20% of Washington elementary schools. Skyview High School has a B+ Niche grade, a 95% graduation rate, and a competitive Science, Math, and Technology magnet program. These ratings are meaningfully better than schools in the Hazel Dell and Orchards areas and a primary reason families specifically seek out North Vancouver.",
+      },
+      {
+        q: "What is Legacy Salmon Creek Medical Center?",
+        a: "It is a full-service, award-winning hospital opened in 2005 at 2211 NE 139th St, offering emergency, surgical, obstetrics, psychiatric, pediatric, and oncology services. It is one of Clark County's primary trauma resources and one of the area's largest employers. Having a major hospital two miles away matters for resale and peace of mind.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We had the Portland commute math wrong initially. Bri actually walked us through what our Oregon income taxes would look like if we stayed versus moved to Salmon Creek, and the numbers shifted the decision. We've been here three years and don't regret it.",
+        author: "Derek and Megan S.",
+        context: "Purchased in Salmon Creek, relocated from SE Portland",
+      },
+      {
+        quote: "We specifically wanted Skyview's magnet program for our daughter. Bri helped us close on a house in the Skyview boundary with two weeks left in the school year so she could enroll for fall.",
+        author: "Patricia L.",
+        context: "Bought in Salmon Creek, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "jumbo", "va", "fha", "heloc", "cash-out"],
+    adjacentNeighborhoods: ["felida", "hazel-dell", "battle-ground", "ridgefield", "vancouver-wa"],
+    seo: {
+      title: "Buying a Home in Salmon Creek, Vancouver WA | The Lindley Team",
+      description:
+        "Real talk on Salmon Creek real estate: home prices, schools, the I-5 commute, and what Portland-area buyers need to know. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "felida",
+    name: "Felida",
+    city: "Vancouver",
+    state: "WA",
+    description: [
+      "Felida occupies the northwest corner of Vancouver — north of the Columbia River, west of I-5, and largely east of the ridge that drops toward the Lewis River lowlands. It has the most rural-feeling character of any community in the Vancouver metro while still sitting 20–25 minutes from Portland via I-5. Lots commonly run a quarter acre to a full acre, with custom homes and estate-style subdivisions scattered alongside older farmhouses. Some properties retain horse facilities or agricultural outbuildings. The Felida Village commercial node at NW 36th Ave and NW 119th St provides a small-town center without being a full shopping district.",
+      "Schools draw from Vancouver Public Schools, with Felida Elementary as the standout — ranked in the top quartile of Washington elementary schools, with 58% math proficiency and 69% reading proficiency, well above state averages. Students feed to McLoughlin Middle School and Hudson's Bay High School, which is where the academic picture becomes more mixed. Buyers with older children or a multi-decade view on school quality should research the full pipeline. The Felida community has consistently high owner-occupancy and long-tenured residents.",
+      "The practical trade-offs are real. There is no meaningful transit. Every errand requires a car. The Felida corridor can back up on NW 36th Ave during evening hours as traffic filters from I-5. Higher median prices reflect lot size and land, not necessarily newer construction or premium finishes. Buyers expecting Portland-level walkability or a 20-minute bridge crossing will need to recalibrate. What Felida offers instead is space, quiet, and a western-facing hillside feel that is genuinely hard to find this close to a major metro.",
+    ],
+    personality: "Northwest Vancouver's closest thing to acreage living — large lots, quiet roads, and a small commercial village, all within 25 minutes of Portland",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Felida+Vancouver+WA&output=embed&z=14",
+    directionsSrc: "https://maps.google.com/maps?saddr=Felida+Vancouver+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 14,
+    bikeScore: 22,
+    transitScore: 10,
+    schoolDistrict: "Vancouver Public Schools",
+    schools: [
+      { name: "Felida Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "McLoughlin Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Hudson's Bay High School", type: "high", grades: "9–12", rating: 4 },
+    ],
+    parks: [
+      {
+        name: "Felida Village Trailhead / Lake Shore Area",
+        amenities: ["walking paths", "open space", "lake access points nearby"],
+      },
+      {
+        name: "Salmon Creek Greenway (southern access)",
+        amenities: ["paved trail", "wetlands", "wildlife viewing", "cycling"],
+      },
+    ],
+    restaurants: [
+      { name: "Farrar's Bistro", cuisine: "American", vibe: "Neighborhood bistro at 12514 NW 36th Ave — elevated comfort food, patio dining, handcrafted cocktails, live music on weekends; been here since 2007" },
+      { name: "Mahoney's Public House", cuisine: "Pub", vibe: "Family-owned neighborhood pub at NW Lakeshore Ave — casual handhelds, solid craft beer lineup, the place locals walk to from the surrounding streets" },
+    ],
+    coffee: [
+      { name: "Hearth Coffee", vibe: "Local shop at 3602 NW 119th St — breakfast sandwiches and burritos alongside espresso; Pacific Northwest feel, friendly baristas" },
+      { name: "Deep Roots Felida Coffee House", vibe: "Pastries from Bleu Door Bakery, a range of espresso drinks, neighborhood regulars who treat it like a second living room" },
+    ],
+    bars: [
+      { name: "Mahoney's Public House", vibe: "The after-work bar for Felida — craft taps, nothing pretentious, neighborhood crowd" },
+      { name: "Farrar's Bistro", vibe: "Doubles as a bar on weekends — cocktail-forward, patio crowd, more of a date-night spot than a dive" },
+    ],
+    medianHomePrice: 650000,
+    priceRange: { low: 500000, high: 1200000 },
+    commuteToDowntown: "20–25 min to Portland via I-5 in off-peak; 45–60 min during rush hour crossing the Interstate Bridge; no transit option",
+    faqs: [
+      {
+        q: "What makes Felida different from other North Vancouver neighborhoods?",
+        a: "Lot size and feel. Most Felida properties sit on a quarter acre to a full acre, and some horse properties and larger acreage parcels still exist. The area feels semi-rural while sitting 20–25 minutes from Portland in normal traffic. You won't find that combination anywhere else in Clark County at this proximity to the metro.",
+      },
+      {
+        q: "How is the commute from Felida to Portland?",
+        a: "Felida feeds quickly onto I-5, and in good traffic the Portland commute is 20–25 minutes. The variable is the Interstate Bridge — the two spans crossing the Columbia River carry 130,000+ vehicles daily and back up badly during morning and evening peaks. Budget 45–60 minutes in those windows. The I-205 crossing at Camas is an option but adds 20–25 minutes of driving distance.",
+      },
+      {
+        q: "Which school district serves Felida?",
+        a: "Most of Felida falls within Vancouver Public Schools, with Felida Elementary as the local K–5. Felida Elementary is one of the top-performing elementary schools in the Vancouver district. The pipeline continues to McLoughlin Middle School and Hudson's Bay High School, where academic performance ratings are lower. Parcel-by-parcel boundary verification is worth doing before purchase if specific schools matter.",
+      },
+      {
+        q: "Is Felida a good investment?",
+        a: "Felida has maintained value well because land scarcity is real — you cannot build new quarter-acre lots in NW Vancouver without going further out. Buyers who hold long tend to do well. The risk is the premium attached to lot size: if you need to sell in a market where buyers are pulling back from large-lot maintenance, the pool of buyers is narrower.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We wanted land. We had been told that was impossible under $700k near Portland. Bri found us a 0.6-acre parcel in Felida with a well-maintained custom home, and we closed without drama.",
+        author: "James and Carrie H.",
+        context: "Purchased in Felida, jumbo loan, 2024",
+      },
+      {
+        quote: "The no-state-income-tax conversation was useful but Bri was careful not to oversell it. She said run it by your CPA, and she was right to say that — our situation was more complicated than a simple savings number.",
+        author: "Tom R.",
+        context: "Relocated from Lake Oswego, purchased in Felida",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance", "heloc", "cash-out", "investment"],
+    adjacentNeighborhoods: ["salmon-creek", "hazel-dell", "ridgefield", "vancouver-wa"],
+    seo: {
+      title: "Buying a Home in Felida, Vancouver WA | The Lindley Team",
+      description:
+        "Real talk on Felida real estate: large lots, home prices, commute to Portland, and what buyers need to know. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "hazel-dell",
+    name: "Hazel Dell",
+    city: "Vancouver",
+    state: "WA",
+    description: [
+      "Hazel Dell runs along NE Highway 99 (the old Pacific Highway) north of downtown Vancouver, a corridor that has been commercial for decades and shows it. Strip malls, chain restaurants, a Fred Meyer, a Target, and a Home Depot bracket the residential streets that branch off the main road. The housing is mostly 1950s–1980s single-family ranches and bungalows on large lots with mature trees, mixed with apartment complexes at the arterial edges. It is not a neighborhood people move to for aesthetics. They move here because it is the most affordable entry point in North Vancouver, and because I-5 access from NE Hazel Dell Ave is immediate.",
+      "Vancouver Public Schools serves the area — Hazel Dell Elementary (K–5), Jason Lee Middle School, and Hudson's Bay High School. Of the three tiers, the elementary tends to be rated above average locally; Hudson's Bay High School has GreatSchools scores in the low range and academic proficiency well below state averages, though its graduation rate runs above the state average. Families with school-age children who are prioritizing academic rankings should compare Hazel Dell's pipeline to Salmon Creek or Felida before committing.",
+      "Hazel Dell's genuine advantage is price and access. You can find houses in the $380k–$430k range that would cost $100k–$150k more in Salmon Creek. The Parade of Bands, held annually since 1964 on Armed Forces Day, is a legitimate community tradition that draws 20,000 spectators. Luke Jensen Sports Park is a well-maintained hub for youth sports. For buyers who want to own a house in Clark County without Washington state income tax liability and are willing to take an older home on a busy corridor, Hazel Dell closes the deal.",
+    ],
+    personality: "North Vancouver's most affordable entry point — older housing, highway corridor, no pretense, quick I-5 access",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Hazel+Dell+Vancouver+WA&output=embed&z=14",
+    directionsSrc: "https://maps.google.com/maps?saddr=Hazel+Dell+Vancouver+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 52,
+    bikeScore: 38,
+    transitScore: 34,
+    schoolDistrict: "Vancouver Public Schools",
+    schools: [
+      { name: "Hazel Dell Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "Jason Lee Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Hudson's Bay High School", type: "high", grades: "9–12", rating: 4 },
+    ],
+    parks: [
+      {
+        name: "Hazel Dell Community Park",
+        amenities: ["picnic shelters", "playground", "walking trails", "open grassy areas"],
+      },
+      {
+        name: "Hazel Dell Ross Dog Park",
+        amenities: ["off-leash area", "fenced gates", "small dog area", "8 acres", "hilly terrain"],
+      },
+      {
+        name: "Luke Jensen Sports Park",
+        amenities: ["youth sports fields", "softball diamonds", "community events hub"],
+      },
+    ],
+    restaurants: [
+      { name: "Frontier Public House", cuisine: "American", vibe: "Family-oriented spot at 4909 NE Hazel Dell Ave — handcrafted cocktails, local beers, PNW wines, full menu" },
+      { name: "Margarita Factory – Hazel Dell", cuisine: "Mexican", vibe: "Locally owned, best happy hour reputation in the corridor, strong margarita selection, consistently full tables" },
+      { name: "Carol's Corner Cafe", cuisine: "Diner", vibe: "Classic diner-style breakfast and lunch — the kind of regular-customer place that doesn't change much and doesn't need to" },
+    ],
+    coffee: [
+      { name: "Dutch Bros – NE Hazel Dell Ave", vibe: "Drive-through speed, enthusiastic staff, the default quick-stop for most of the neighborhood on the way to I-5" },
+      { name: "Starbucks – Fred Meyer Hazel Dell", vibe: "Inside Fred Meyer at 7720 NE Highway 99 — convenient for grocery runs, not a destination" },
+    ],
+    bars: [
+      { name: "Frontier Public House", vibe: "Doubles as the neighborhood bar — local tap list, sports on TV, approachable prices" },
+      { name: "Billy Blues Bar and Grill", vibe: "Weekly jam nights, live music, the main entertainment anchor for the area's regular crowd" },
+    ],
+    medianHomePrice: 400000,
+    priceRange: { low: 320000, high: 550000 },
+    commuteToDowntown: "30–40 min to Portland via I-5 in normal traffic; 50–70 min at peak crossings; C-TRAN bus routes available but limited for Portland commuters",
+    faqs: [
+      {
+        q: "Is Hazel Dell safe?",
+        a: "It is a working-class suburban neighborhood with typical suburban property crime levels — higher than Salmon Creek or Felida, lower than inner-city Portland. The stretch along NE Highway 99 has more commercial density and transient activity than the residential side streets. Individual blocks vary; the streets running west off NE Hazel Dell Ave toward the residential interior are meaningfully quieter than the highway frontage.",
+      },
+      {
+        q: "Why is Hazel Dell cheaper than the rest of North Vancouver?",
+        a: "Housing stock age (1950s–1980s), proximity to a commercial corridor, and school performance ratings. Homes here are functionally sound but older, and the Highway 99 corridor is busy and commercial, not residential and park-fronted. Buyers get more square footage or a bigger lot than they would in Salmon Creek at the same price.",
+      },
+      {
+        q: "What about the I-5 and I-205 bridge situation for commuters?",
+        a: "From Hazel Dell, I-5 south is the direct route to Portland. The Interstate Bridge, one of the oldest auto bridges in the state, backs up badly during morning and evening rush hours — expect 50–70 minutes in heavy traffic. I-205 at Camas is an option if your Portland destination is on the east side, but it adds 15–20 minutes of distance from Hazel Dell. Factor real commute time, not Google Maps ideal-conditions time, before buying.",
+      },
+      {
+        q: "Are there any new homes in Hazel Dell?",
+        a: "Minimal new construction — the area is largely built out. What exists is infill on previously subdivided lots. Most buyers in Hazel Dell are working with 40–70-year-old houses that need updating. Budget for deferred maintenance, particularly on plumbing, electrical panels, and roofs when looking at 1960s–1970s stock.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We were priced out of Salmon Creek and thought we'd have to rent another year. Bri found us a three-bedroom in Hazel Dell at $395k and we got it under asking. It needed work but we knew that going in.",
+        author: "Kyle and Amanda F.",
+        context: "First-time buyers, FHA loan, Hazel Dell 2024",
+      },
+      {
+        quote: "Bri didn't sugarcoat the schools. She told us what the ratings were, told us to tour them ourselves, and let us make the call. We appreciated that she didn't pretend everything was equally good.",
+        author: "Nadia T.",
+        context: "Bought in Hazel Dell, relocated from Beaverton",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "cash-out"],
+    adjacentNeighborhoods: ["salmon-creek", "felida", "vancouver-wa", "orchards"],
+    seo: {
+      title: "Buying a Home in Hazel Dell, Vancouver WA | The Lindley Team",
+      description:
+        "Real talk on Hazel Dell real estate: Clark County's most affordable North Vancouver community, home prices, schools, and commute. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "orchards",
+    name: "Orchards",
+    city: "Vancouver",
+    state: "WA",
+    description: [
+      "Orchards takes its name from the commercial orchards that covered this part of East Vancouver until suburban development rolled through in the 1960s and accelerated through the 1990s. The housing stock is a legible record of that timeline — 1960s ranches on the western edges, 1970s–1980s colonials filling in the middle, newer infill developments toward the east. The area sits between NE Fourth Plain Blvd to the north and SR-500 and Highway 14 to the south, with NE Mill Plain Blvd serving as the main east-west corridor. Orchards Community Park, 33 acres with forested picnic areas and a rose garden, is one of the better neighborhood parks in East Vancouver.",
+      "Evergreen School District serves the area. Orchards Elementary has struggled on standardized testing — proficiency rates well below district and state averages — and sits near the bottom of the district's elementary school rankings. The Evergreen District overall runs a mixed picture: Mountain View High School carries an A- Niche grade and a 7/10 GreatSchools rating with a 92% graduation rate, which is meaningfully better than the district's lower-performing schools. Buyers with school-age children should verify boundaries — which school specifically serves their address — rather than evaluating the district as a single unit.",
+      "The price point is East Vancouver's main competitive advantage. Median pricing around $440k gets buyers into established suburban housing that would cost 20–30% more in North Vancouver. The I-205 commute to Portland runs 25–35 minutes in normal traffic, and Vancouver Mall is minutes away for daily errands. The honest trade-off: the area is car-dependent, transit is minimal, and the Highway 14 / SR-500 edges are noisier and more industrial-adjacent than the interior residential streets.",
+    ],
+    personality: "East Vancouver's family-practical neighborhood — older housing, fair prices, I-205 access, and a park system that punches above its weight",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Orchards+Vancouver+WA&output=embed&z=14",
+    directionsSrc: "https://maps.google.com/maps?saddr=Orchards+Vancouver+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 38,
+    bikeScore: 34,
+    transitScore: 26,
+    schoolDistrict: "Evergreen Public Schools",
+    schools: [
+      { name: "Orchards Elementary", type: "elementary", grades: "PK–5", rating: 3 },
+      { name: "Shahala Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Mountain View High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Orchards Community Park",
+        amenities: ["33 acres", "forested picnic areas", "walking trails", "open lawn", "rose garden", "active play areas"],
+      },
+      {
+        name: "Orchards Highlands Neighborhood Park",
+        amenities: ["heavily wooded", "8.7 acres", "trails", "natural setting"],
+      },
+      {
+        name: "Orchards West Park",
+        amenities: ["wooded neighborhood park", "near Vancouver Mall and I-205"],
+      },
+    ],
+    restaurants: [
+      { name: "Kitchen Table Cafe – Orchards", cuisine: "American", vibe: "Breakfast and lunch at 11500 NE 76th St — dependable pancakes and lunch plates, busy weekend mornings" },
+      { name: "Orchards Tap", cuisine: "American", vibe: "Bar and grill at 10514 NE Fourth Plain Blvd — karaoke seven nights a week, pool tables, pinball, Taco Tuesdays; a genuine neighborhood gathering point" },
+      { name: "Margarita Factory", cuisine: "Mexican", vibe: "Local Mexican on Mill Plain — handcrafted dishes and margaritas, solid happy hour, consistently popular" },
+    ],
+    coffee: [
+      { name: "Brewed Awakenings Coffee Roasters", vibe: "Local Vancouver roaster at 6500 NE 117th Ave — drive-through and patio, roasts their own beans, early hours for commuters" },
+      { name: "Dutch Bros – Fourth Plain corridor", vibe: "Multiple locations in the Fourth Plain corridor; fast drive-through, standard Pacific Northwest chain experience" },
+    ],
+    bars: [
+      { name: "Orchards Tap", vibe: "The neighborhood bar — pool, karaoke, games, cold beer; the spot locals default to when they want a no-fuss weeknight" },
+      { name: "Fourth Plain Bar & Grill", vibe: "Older-school tavern on the Fourth Plain corridor, longtime regulars, no surprises" },
+    ],
+    medianHomePrice: 440000,
+    priceRange: { low: 340000, high: 620000 },
+    commuteToDowntown: "25–35 min to Portland via I-205 in normal traffic; 40–60 min during peak bridge crossings; Vancouver Mall area C-TRAN routes available but slow for Portland commuters",
+    faqs: [
+      {
+        q: "How does the Orchards commute to Portland work?",
+        a: "Orchards connects quickly to I-205, which crosses the Glenn Jackson Bridge into Portland. In normal traffic, 25–35 minutes to downtown Portland. During morning rush hour southbound and evening northbound, the bridge backs up — plan on 40–60 minutes in peak windows. I-205 is less congested than the I-5 Interstate Bridge for most of the day, which is one of East Vancouver's practical advantages over North Vancouver.",
+      },
+      {
+        q: "What are the schools like in Orchards?",
+        a: "Mixed. Orchards Elementary has below-average proficiency scores and ranks near the bottom of the Evergreen District — this is a fact worth knowing. Shahala Middle School is middle-of-the-road. Mountain View High School is genuinely strong — A- on Niche, 7/10 GreatSchools, 92% graduation rate. If you have a high schooler or are buying long-term, the pathway improves significantly by upper grades. Verify your parcel's boundary assignments before purchase.",
+      },
+      {
+        q: "Is Orchards growing?",
+        a: "Gradually. East Vancouver has seen infill development and some newer subdivisions over the past decade. Prices have risen steadily. The area benefits from Vancouver Mall's commercial infrastructure without the congestion associated with it — the neighborhood streets themselves are largely residential and calm.",
+      },
+      {
+        q: "How does the I-205 bridge compare to the I-5 bridge for commuters?",
+        a: "The Glenn Jackson Bridge (I-205) was built in 1982 and is generally less congested than the older I-5 Interstate Bridge, which dates to 1917 northbound and backs up with bridge lifts for river traffic. For Orchards buyers whose Portland jobs are downtown or on the east side, I-205 is often the faster and less frustrating option. Still plan for rush-hour slowdowns — both bridges reach capacity during peak periods.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We got a 1980s ranch in Orchards with a big backyard for $425k when the equivalent in Salmon Creek was $550k minimum. Bri was straightforward about what each area actually offered, not what we wanted to hear.",
+        author: "Marcus and Jen D.",
+        context: "Purchased in Orchards, conventional loan, 2023",
+      },
+      {
+        quote: "We asked Bri to be honest about the Orchards schools. She was — she showed us the actual rating data and then helped us think through the high school timeline. We decided Mountain View was worth the tradeoff at the lower price point.",
+        author: "Damon W.",
+        context: "Bought in Orchards, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "heloc", "cash-out", "investment"],
+    adjacentNeighborhoods: ["cascade-park", "hazel-dell", "vancouver-wa", "camas"],
+    seo: {
+      title: "Buying a Home in Orchards, Vancouver WA | The Lindley Team",
+      description:
+        "Real talk on Orchards real estate: home prices, schools, I-205 commute, and what East Vancouver buyers need to know. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "cascade-park",
+    name: "Cascade Park",
+    city: "Vancouver",
+    state: "WA",
+    description: [
+      "Cascade Park is East Vancouver's most established and accessible community for Portland commuters. Centered roughly at SE 164th Ave and Mill Plain Blvd, it has the infrastructure of a complete neighborhood: the Cascade Park Community Library (a well-designed 25,000-square-foot branch with a signature sloped-wood ceiling reading room), the Cascade Athletic Club, and a Mill Plain Blvd commercial strip that covers groceries, dining, and daily services without driving to the sprawl further east. The housing stock is 1970s–1990s single-family suburban on standard lots — mature trees, established landscaping, the look of a neighborhood that has been lived-in for thirty years because it has.",
+      "Evergreen Public Schools serves the area, with Crestline Elementary (PK–5), Cascade Middle School (6–8), and Mountain View High School (9–12) covering the K–12 pipeline. Crestline and Cascade Middle run below district and state averages on proficiency measures. Mountain View High School is the positive outlier in the district — A- Niche grade, 7/10 GreatSchools, 92% graduation rate, above-average science performance. The arc from elementary to high school improves noticeably, which buyers with young children should factor into long-term planning.",
+      "I-205 access is the neighborhood's strongest geographic asset. From Cascade Park, the Glenn Jackson Bridge crossing to Portland takes 20–30 minutes in normal conditions — better than the I-5 corridor for most of the day. The bridge still backs up during morning and evening rush, and there is no useful transit connection for Portland workers. The price premium over Orchards is modest — typically $20k–$30k median — which buyers tend to attribute to the library, the established feel, and slightly better proximity to the freeway.",
+    ],
+    personality: "East Vancouver's most complete neighborhood — a real library, a real commercial strip, and the best I-205 position in Clark County",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Cascade+Park+Vancouver+WA&output=embed&z=14",
+    directionsSrc: "https://maps.google.com/maps?saddr=Cascade+Park+Vancouver+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 44,
+    bikeScore: 40,
+    transitScore: 30,
+    schoolDistrict: "Evergreen Public Schools",
+    schools: [
+      { name: "Crestline Elementary", type: "elementary", grades: "PK–5", rating: 4 },
+      { name: "Cascade Middle School", type: "middle", grades: "6–8", rating: 4 },
+      { name: "Mountain View High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Cascade Park",
+        amenities: ["3.5-acre neighborhood park", "playground", "walking paths", "open lawn", "adjacent to Crestline Elementary"],
+      },
+      {
+        name: "Bella Vista Park",
+        amenities: ["5 acres", "playground", "paved walkways", "basketball court", "picnic tables", "leash-friendly"],
+      },
+    ],
+    restaurants: [
+      { name: "Little Italy's Trattoria", cuisine: "Italian", vibe: "Authentic Italian since 1995, a reliable anchor for the neighborhood — antipasti, fresh pasta, outdoor seating, happy hour" },
+      { name: "Café Yumm!", cuisine: "Northwest / Bowls", vibe: "Cascade Park Plaza location — healthy bowls with local and sustainable ingredients, quick and consistent for lunch" },
+      { name: "TJ's Cascade Bar & Grill", cuisine: "American", vibe: "Neighborhood bar and grill at 15000 SE Mill Plain Blvd — 19 taps, full menu, live music, karaoke; the area's social anchor" },
+    ],
+    coffee: [
+      { name: "Larson's Bakery, Deli and Coffee Bar", vibe: "A Cascade Park institution — from-scratch Danish pastries and family recipes, sandwich counter, coffee bar; the kind of place that's been there 30 years because it earned it" },
+      { name: "Dutch Bros – Mill Plain corridor", vibe: "Drive-through standard for the morning I-205 run; fast and consistent" },
+    ],
+    bars: [
+      { name: "TJ's Cascade Bar & Grill", vibe: "Nineteen taps, pool tables, live music and karaoke on weekends; the legitimate neighborhood bar for East Vancouver" },
+      { name: "Little Italy's Trattoria", vibe: "Happy hour bar side — Italian wines and cocktails, patio, lower-key than the main dining room crowd" },
+    ],
+    medianHomePrice: 460000,
+    priceRange: { low: 360000, high: 660000 },
+    commuteToDowntown: "20–30 min to Portland via I-205 in normal traffic; 40–55 min during peak bridge crossings; Portland International Airport 15 min; no practical transit connection to Portland",
+    faqs: [
+      {
+        q: "Why choose Cascade Park over Orchards?",
+        a: "Mostly the library, the slightly closer I-205 position, and the neighborhood's established commercial center on Mill Plain. Cascade Park has a more complete feel — the library branch, Little Italy's, Larson's Bakery — than Orchards, which is more residential with a more dispersed commercial strip. The price difference is typically $20k–$30k at median. Whether that premium is worth it depends on how much the neighborhood infrastructure matters to you day-to-day.",
+      },
+      {
+        q: "How is the commute from Cascade Park to Portland?",
+        a: "Cascade Park has some of the best I-205 access of any Vancouver neighborhood. In normal traffic, 20–30 minutes to downtown Portland via the Glenn Jackson Bridge. The I-205 bridge is newer and generally less congested than the I-5 bridge, which backs up with bridge lifts and has significantly more daily volume. Budget 40–55 minutes for peak-hour commutes — both Columbia River crossings slow down under heavy demand. There is no useful light rail or bus connection to Portland from Cascade Park.",
+      },
+      {
+        q: "What are the schools like in Cascade Park?",
+        a: "Crestline Elementary and Cascade Middle School are below district and state averages on proficiency measures — this is documented and worth knowing before purchase. Mountain View High School, where students end up, is meaningfully stronger: A- on Niche, 7/10 GreatSchools rating, 92% graduation rate, with above-average science scores. The K–8 pipeline is a real consideration for families with young children. The high school pipeline is competitive.",
+      },
+      {
+        q: "Is Cascade Park convenient to Portland International Airport?",
+        a: "Yes — PDX is approximately 15 minutes from Cascade Park via I-205 north. For buyers who travel frequently for work, this is a genuine quality-of-life factor that rarely shows up in neighborhood descriptions but matters for anyone making monthly or weekly trips.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "The library was the unexpected thing. Our kids are at it three times a week. It's a real community building, not an afterthought. We didn't think that would matter when we were buying, and it does.",
+        author: "Rachel and Paul M.",
+        context: "Purchased in Cascade Park, refinanced 2024",
+      },
+      {
+        quote: "Bri told us straight: the elementary school ratings aren't great, Mountain View is solid, and here's what that means if you have a five-year-old. She didn't sell the neighborhood, she explained it. That's why we trusted her.",
+        author: "Antonia G.",
+        context: "Bought in Cascade Park, VA loan, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "va", "fha", "refinance", "heloc", "cash-out", "investment", "reverse-mortgage"],
+    adjacentNeighborhoods: ["orchards", "vancouver-wa", "camas"],
+    seo: {
+      title: "Buying a Home in Cascade Park, Vancouver WA | The Lindley Team",
+      description:
+        "Real talk on Cascade Park real estate: home prices, schools, I-205 commute to Portland, and what East Vancouver buyers need to know. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+{
+    slug: "bull-mountain",
+    name: "Bull Mountain",
+    city: "Tigard",
+    state: "OR",
+    description: [
+      "Bull Mountain sits above Tigard on a ridge between Highway 99W and Scholls Ferry Road, and on a clear day you can see Mt. Hood from the upper streets. The neighborhood is unincorporated Washington County — it has resisted annexation into Tigard for decades — which means no city income tax, Washington County property taxes rather than Tigard's, and land use decisions that go through the county rather than city hall. That distinction matters at closing and it matters at tax time.",
+      "Most of the housing was built between the mid-1990s and the early 2010s: larger single-family homes on cul-de-sacs, many with territorial or mountain views, served by Tigard-Tualatin School District. Alberta Rider Elementary, Mary Woodward Elementary, and Twality Middle School are the primary feeder schools. Tigard High School, recently remodeled and offering the International Baccalaureate program, is the high school for the area. SW Beef Bend Road and SW Bull Mountain Road are the main routes down to 99W — they narrow at the bottom and back up during morning rush hour.",
+      "The tradeoff for the views and the square footage is car dependence. There is no walkable commercial core on the hill — groceries, coffee, and everything else require a drive down. Walk Scores on most Bull Mountain streets are in the single digits. Transit is minimal. If one person in the household works from home and the other commutes, the commute itself is 30–40 minutes to downtown Portland via I-5 on a normal day; longer during Tigard and Tualatin rush-hour slowdowns on 99W.",
+    ],
+    personality: "Washington County's most coveted hilltop address — views, space, and no city taxes",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Bull+Mountain+Tigard+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Bull+Mountain+Tigard+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 12,
+    bikeScore: 18,
+    transitScore: 14,
+    schoolDistrict: "Tigard-Tualatin School District 23J",
+    schools: [
+      { name: "Alberta Rider Elementary", type: "elementary", grades: "K–5", rating: 9 },
+      { name: "Mary Woodward Elementary", type: "elementary", grades: "K–5", rating: 9 },
+      { name: "Twality Middle School", type: "middle", grades: "6–8", rating: 8 },
+      { name: "Tigard High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Bull Mountain Park",
+        amenities: ["viewpoint", "picnic area", "open lawn", "trails"],
+      },
+      {
+        name: "Cook Park",
+        amenities: ["Tualatin River access", "kayak launch", "picnic shelters", "sports fields", "walking paths"],
+      },
+      {
+        name: "Northview City Park",
+        amenities: ["playground", "open lawn", "walking path"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Bull Mountain Bar & Grill",
+        cuisine: "American",
+        vibe: "Scratch-made pub food on SW Pacific Hwy — the neighborhood's own bar, 13727 SW Pacific Hwy",
+      },
+      {
+        name: "Gambino's Italian Cafe",
+        cuisine: "Italian",
+        vibe: "Family-run Italian spot down on 99W, reliable for a weeknight dinner",
+      },
+      {
+        name: "Pacific Breeze",
+        cuisine: "Thai/Vietnamese",
+        vibe: "Thai and Vietnamese on SW Durham Rd, casual and fast, local favorite",
+      },
+    ],
+    coffee: [
+      {
+        name: "Symposium Coffee",
+        vibe: "Stumptown beans and Steven Smith tea at SW Main St in downtown Tigard — the go-to on the way down the hill",
+      },
+      {
+        name: "Well & Good Cafe",
+        vibe: "Light, plant-forward cafe near the Tigard commercial district — a short drive from the hill",
+      },
+    ],
+    bars: [
+      {
+        name: "Bull Mountain Bar & Grill",
+        vibe: "Neighborhood sports bar atmosphere, pool tables, the social hub for the hill",
+      },
+      {
+        name: "Prime Tap House",
+        vibe: "Craft beers on tap near the 99W corridor, casual after-work stop",
+      },
+    ],
+    medianHomePrice: 650000,
+    priceRange: { low: 500000, high: 1200000 },
+    commuteToDowntown: "30–40 min by car via I-5 or Hwy 99W (45+ in rush hour); limited bus service to Tigard Transit Center",
+    faqs: [
+      {
+        q: "Is Bull Mountain part of Tigard?",
+        a: "No. Bull Mountain is unincorporated Washington County — it sits within Tigard's Urban Growth Boundary but has repeatedly voted against annexation into the city. That means you pay Washington County property taxes (not Tigard's) and there is no Tigard city income tax. Land use decisions go through Washington County. This is a real financial distinction worth understanding at the time of purchase.",
+      },
+      {
+        q: "What schools serve Bull Mountain?",
+        a: "Tigard-Tualatin School District 23J, consistently one of Oregon's top-rated districts. Your specific elementary school depends on your address — Alberta Rider and Mary Woodward are the main feeders. Both rate very high. From there, students go to Twality Middle School and then Tigard High School, which has an International Baccalaureate program and was recently remodeled.",
+      },
+      {
+        q: "How far is the commute to downtown Portland?",
+        a: "Figure 30–40 minutes in normal traffic, 45–55 during peak morning commute. The options are SW Beef Bend Rd to I-5 via Tualatin, or down Bull Mountain Rd to 99W into Portland. I-5 is generally faster but depends on Tualatin-area traffic. There's a Park & Ride on SW Bull Mountain Rd for TriMet buses to the Tigard Transit Center, but transit options are limited compared to Portland proper.",
+      },
+      {
+        q: "How much do homes cost on Bull Mountain?",
+        a: "Median is around $650,000, with most homes trading between $500k and $1.2M. Larger homes on lots with Mt. Hood or valley views push toward the top. Because the housing stock is relatively modern (1990s–2010s), you get more finished square footage per dollar compared to comparable lots in Lake Oswego or SW Portland.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We wanted space, good schools, and we didn't want city taxes. Bull Mountain checked every box. Bri walked us through exactly what the unincorporated status meant for our mortgage and taxes before we even wrote the offer.",
+        author: "Derek & Melissa H.",
+        context: "Purchased on Bull Mountain, 2023",
+      },
+      {
+        quote: "The jumbo loan process felt manageable because Bri kept it simple. She explained each step and the numbers were always straight.",
+        author: "Thomas R.",
+        context: "Jumbo purchase, Bull Mountain, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance", "heloc", "cash-out"],
+    adjacentNeighborhoods: ["tigard", "king-city", "sherwood", "tualatin", "beaverton"],
+    seo: {
+      title: "Buying a Home on Bull Mountain, Tigard OR | The Lindley Team",
+      description:
+        "Bull Mountain real estate: unincorporated Washington County, top-rated Tigard-Tualatin schools, and hilltop views. Home prices, commute, and mortgage info from Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "king-city",
+    name: "King City",
+    city: "King City",
+    state: "OR",
+    description: [
+      "King City is a small incorporated city — population around 5,000 — tucked between Tigard and Tualatin at the south end of Washington County. It was developed in the 1960s as a planned retirement community, and that origin still shapes the housing stock: single-story homes, modest square footage, original kitchens and baths on many properties. The streets are quiet, the lots are manageable, and the prices reflect what the homes are rather than what the zip code wishes they were.",
+      "The city has evolved well beyond its retirement-community roots. Tigard-Tualatin School District serves all school-age residents — Durham Elementary and Tualatin High School are the main schools. Tualatin Country Club Golf Course is within the city limits. King City Community Park is a 17-acre green space with fields, walking paths, and access to the Tualatin River Greenway Trail. Commuting to Portland means either I-5 at Tualatin (a few miles south) or Highway 99W north through Tigard.",
+      "The honest tradeoff: King City does not have a commercial downtown. For restaurants, groceries, or coffee, you drive to Tigard or Tualatin. The older housing means more projects — deferred maintenance, original windows, older roofs — which is normal at this price point but requires eyes-open inspection work. For buyers priced out of Tigard proper or looking for a manageable single-story with no city income tax, King City makes sense on the numbers.",
+    ],
+    personality: "Affordable, quiet, and underrated — Washington County's best value at the south end",
+    mapEmbedSrc: "https://maps.google.com/maps?q=King+City+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=King+City+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 22,
+    bikeScore: 28,
+    transitScore: 20,
+    schoolDistrict: "Tigard-Tualatin School District 23J",
+    schools: [
+      { name: "Durham Elementary", type: "elementary", grades: "PK–5", rating: 7 },
+      { name: "Hazelbrook Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Tualatin High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "King City Community Park",
+        amenities: ["sports fields", "walking paths", "Tualatin River Greenway Trail access", "open lawn"],
+      },
+      {
+        name: "Tualatin Community Park",
+        amenities: ["lake", "fishing", "picnic shelters", "playground", "walking trails"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Pacific Breeze",
+        cuisine: "Thai/Vietnamese",
+        vibe: "Thai and Vietnamese on SW Durham Rd — the closest solid sit-down option to King City",
+      },
+      {
+        name: "Thirsty Lion",
+        cuisine: "Gastropub",
+        vibe: "Popular gastropub at the Bridgeport Village center, short drive east on Durham Rd",
+      },
+      {
+        name: "Shari's",
+        cuisine: "Diner",
+        vibe: "Classic diner breakfast and lunch near the 99W corridor — reliable and unpretentious",
+      },
+    ],
+    coffee: [
+      {
+        name: "Symposium Coffee",
+        vibe: "SW Main St in Tigard, a short drive north — the best independent coffee option in the immediate area",
+      },
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "Drive-through on 99W, fast and functional for the morning commute",
+      },
+    ],
+    bars: [
+      {
+        name: "Thirsty Lion",
+        vibe: "Bridgeport Village gastropub — solid beer selection, sports on TV, family-friendly",
+      },
+      {
+        name: "Bull Mountain Bar & Grill",
+        vibe: "Down-the-road neighborhood bar in Tigard, easy drive from King City",
+      },
+    ],
+    medianHomePrice: 450000,
+    priceRange: { low: 350000, high: 600000 },
+    commuteToDowntown: "35–45 min by car via I-5 north from Tualatin, or Hwy 99W; TriMet bus routes connect to Tigard Transit Center",
+    faqs: [
+      {
+        q: "Why is King City more affordable than the rest of Washington County?",
+        a: "The housing stock is older — mostly 1960s and 1970s construction, single-story, smaller footprints. You're buying real estate from that era, which means lower prices but also more maintenance and renovation potential. The city itself is incorporated (unlike Bull Mountain) but is small with limited commercial development, which keeps values lower than neighboring Tigard.",
+      },
+      {
+        q: "What schools serve King City?",
+        a: "Tigard-Tualatin School District, the same district that serves Bull Mountain and most of Tigard. Durham Elementary is the primary feeder. Students go on to Hazelbrook Middle School and Tualatin High School. The district consistently rates among Oregon's top, so King City families get a strong school system at a lower purchase price than other parts of the district.",
+      },
+      {
+        q: "Is King City a retirement community?",
+        a: "It was founded as one in the 1960s, but that is no longer accurate today. It is a fully mixed-age city. The retirement-community origins explain the housing style — lots of single-story homes, accessible layouts, smaller lots — which actually works well for a range of buyers, including families and people looking for a low-maintenance property.",
+      },
+      {
+        q: "How do I get to Portland from King City?",
+        a: "Most residents take I-5 from the Tualatin interchange, a few miles south on SW Durham Rd, then north to downtown Portland. That's typically 35–40 minutes without traffic, 45–55 in rush hour. Highway 99W through Tigard is an alternative but tends to be slower through the Tigard commercial district. TriMet bus service connects to the Tigard Transit Center.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We were getting outbid in Tigard for a year. Bri suggested we look at King City and ran the numbers showing what we'd save. We closed on a solid single-story for $80k less than comparable Tigard homes. It made sense.",
+        author: "Carla & Jim T.",
+        context: "First purchase, King City, 2023",
+      },
+      {
+        quote: "FHA loan, first-time buyer, and Bri made it smooth. She knew Washington County inside out and explained every county-specific step.",
+        author: "Nadia K.",
+        context: "FHA purchase, King City, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "investment"],
+    adjacentNeighborhoods: ["tigard", "bull-mountain", "tualatin", "sherwood"],
+    seo: {
+      title: "Buying a Home in King City, OR | The Lindley Team",
+      description:
+        "King City real estate: Washington County's most affordable incorporated city, Tigard-Tualatin schools, and single-story homes. Mortgage info from Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "metzger",
+    name: "Metzger",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Metzger has a Portland OR mailing address — SW Barbur Blvd and SW Hall Blvd run through it, and Washington Square Mall sits at its edge — but it is unincorporated Washington County. That distinction has real consequences: your property tax rate is different from Portland's, and your school district is almost certainly Beaverton, not Portland Public Schools. Buyers relocating from other states sometimes miss this entirely until closing, which is why it's worth stating plainly at the start.",
+      "The housing stock is mostly 1950s–1970s: ranches, split-levels, and a fair number of mid-century originals that have been updated to varying degrees. Greenway Park is the main green space — seven acres with a nine-hole disc golf course, basketball courts, and access to the Koll Center Wetlands where you can spot otters and waterfowl. Washington Square Mall is a short drive or walk for the utilitarian needs. Metzger Park at SW Hemlock and Hall is a community park with tennis courts and horseshoe pits. Beaverton School District serves the area: Greenway Elementary and Whitford Middle are the primary feeders, with Beaverton High or Southridge depending on address.",
+      "The honest friction point: Metzger is in an in-between zone. It is not in Portland proper and does not have Portland's walkability or transit coverage. The SW Barbur corridor has some transit service (the 12 and 44 buses) but frequencies don't match what you'd get closer to the city. Traffic on Barbur and Hall is real during rush hour. What you get in return is more house per dollar than equivalent addresses inside the Portland city limits, and Washington County's lower tax structure.",
+    ],
+    personality: "Portland address, Washington County rules — more house per dollar than SW Portland proper",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Metzger+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Metzger+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 52,
+    bikeScore: 44,
+    transitScore: 38,
+    schoolDistrict: "Beaverton School District 48J (most parcels)",
+    schools: [
+      { name: "Greenway Elementary", type: "elementary", grades: "PK–5", rating: 8 },
+      { name: "Whitford Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Beaverton High School", type: "high", grades: "9–12", rating: 7 },
+      { name: "Southridge High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Metzger Park",
+        amenities: ["basketball hoops", "tennis courts", "horseshoe pits", "play structures", "community hall"],
+      },
+      {
+        name: "Greenway Park",
+        amenities: ["disc golf", "basketball courts", "cycling routes", "Koll Center Wetlands access", "playground"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Happy Fortune",
+        cuisine: "Chinese",
+        vibe: "Chinese food and sports bar hybrid on SW Barbur Blvd — longtime neighborhood spot, 10420 SW Barbur",
+      },
+      {
+        name: "Thai Cuisine on Barbur",
+        cuisine: "Thai",
+        vibe: "Casual Thai at 9065 SW Barbur Blvd — dependable lunch and dinner",
+      },
+      {
+        name: "Muchas Gracias",
+        cuisine: "Mexican",
+        vibe: "24-hour Mexican drive-through at 8981 SW Barbur — late-night standby",
+      },
+    ],
+    coffee: [
+      {
+        name: "Starbucks",
+        vibe: "Washington Square area location — functional and accessible, the main corporate option in the immediate area",
+      },
+      {
+        name: "Black Rock Coffee Bar",
+        vibe: "Drive-through espresso on the 99W/Barbur corridor — fast for the morning commute",
+      },
+    ],
+    bars: [
+      {
+        name: "Happy Fortune",
+        vibe: "The sports bar side of the house — pool tables, game day crowds, neighborhood regulars",
+      },
+    ],
+    medianHomePrice: 510000,
+    priceRange: { low: 400000, high: 720000 },
+    commuteToDowntown: "20–30 min by car via SW Barbur Blvd; 35–45 min on TriMet Line 12 or 44",
+    faqs: [
+      {
+        q: "Is Metzger in Portland or Washington County?",
+        a: "It carries a Portland OR mailing address but is unincorporated Washington County — not inside Portland city limits. This means you do not pay Portland city income tax, you pay Washington County (not Multnomah County) property tax rates, and your school district is Beaverton, not Portland Public Schools. Confirm your specific parcel's jurisdiction before assuming either way, as the boundary is irregular.",
+      },
+      {
+        q: "What school district is Metzger in?",
+        a: "Beaverton School District for most Metzger parcels. Greenway Elementary and Whitford Middle are the primary feeders. High school assignment depends on your exact address — Beaverton High or Southridge High are both possibilities. Always verify your specific address with the Beaverton School District boundary tool, because the district lines in this area are not intuitive.",
+      },
+      {
+        q: "How affordable is Metzger compared to inner SW Portland?",
+        a: "Median is around $510,000 — meaningfully lower than Hillsdale, Multnomah Village, or Raleigh Hills for comparable square footage. The discount exists partly because buyers perceive Metzger as less desirable than 'real Portland' neighborhoods, which creates value for buyers who understand the jurisdiction and are comfortable with car-dependent living.",
+      },
+      {
+        q: "Is there good transit from Metzger?",
+        a: "Moderate by Washington County standards. TriMet Lines 12 and 44 run along SW Barbur Blvd and can get you downtown in 35–45 minutes, but headways are not as frequent as inner Portland routes. Washington Square Transit Center is nearby for connections to other Westside routes. It is not a neighborhood where most residents can live without a car.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We got 200 square feet more than anything we'd seen in Hillsdale for $60k less. Bri knew the Washington County tax picture cold and explained exactly what we were getting into.",
+        author: "Phil & Rachel M.",
+        context: "Purchased in Metzger, 2023",
+      },
+      {
+        quote: "The refinance went quickly. Bri caught an appraisal issue early and we fixed it before it became a problem.",
+        author: "Steven L.",
+        context: "Refinanced in Metzger, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "heloc", "cash-out"],
+    adjacentNeighborhoods: ["garden-home", "raleigh-hills", "beaverton", "tigard", "hillsdale"],
+    seo: {
+      title: "Buying a Home in Metzger, OR (Portland Address) | The Lindley Team",
+      description:
+        "Metzger real estate: Portland mailing address, Washington County taxes, Beaverton schools. What buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "garden-home",
+    name: "Garden Home",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "Garden Home sits along SW Garden Home Road at the edge of where Portland bleeds into unincorporated Washington County. The neighborhood name is widely used and recognized; the jurisdictional reality is more complicated. Some parcels are inside Portland city limits, some are in unincorporated Washington County, and a small number fall along the Multnomah–Washington County line. That split determines your school district — Portland Public Schools or Beaverton School District — and your property tax rate. Always verify by address before assuming.",
+      "The housing stock is mostly 1940s–1960s: established trees, mid-century ranches, and the occasional Cape Cod. Gabriel Park is a short walk or bike ride and is one of the better neighborhood parks in SW Portland — baseball fields, tennis courts, off-leash dog area, trails, and a community garden. Multnomah Village, with Marco's Cafe, Old Market Pub, and Broder Söder, is within easy walking distance for the Portland-side parcels. For residents in the unincorporated portion, it's still a quick drive. Garden Home Recreation Center, run by Tualatin Hills Park and Recreation District, provides additional amenities for Washington County residents.",
+      "The tradeoff is that prices vary by which side of the line you're on, which makes straight comparisons tricky. Portland-side parcels pay Multnomah County rates and Portland city taxes. Washington County parcels do not — and tend to price slightly lower as a result. Neither side has abundant parking or large lots; this is an older, denser suburb. Inventory is thin because the neighborhood is stable and people rarely leave.",
+    ],
+    personality: "Old trees, mid-century houses, and a jurisdictional split that buyers need to understand",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Garden+Home+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Garden+Home+Portland+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 58,
+    bikeScore: 50,
+    transitScore: 35,
+    schoolDistrict: "Portland Public Schools or Beaverton School District 48J (verify by parcel)",
+    schools: [
+      { name: "Markham Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Nancy Ryles Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Robert Gray Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Ida B. Wells High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Gabriel Park",
+        amenities: ["baseball fields", "tennis courts", "off-leash dog area", "community garden", "trails", "playground"],
+      },
+      {
+        name: "Garden Home Recreation Center",
+        amenities: ["community center", "fitness facilities", "classes and programs"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Marco's Cafe",
+        cuisine: "American",
+        vibe: "Multnomah Village institution since 1983, serious breakfast and espresso bar — a short walk for Portland-side residents",
+      },
+      {
+        name: "Old Market Pub & Brewery",
+        cuisine: "Pub",
+        vibe: "Craft beers on tap and pub food in Multnomah Village, been part of the neighborhood fabric since 1994",
+      },
+      {
+        name: "Broder Söder",
+        cuisine: "Scandinavian",
+        vibe: "Nordic brunch spot in SW Portland — Danish pancake balls, smörgås, genuinely good",
+      },
+    ],
+    coffee: [
+      {
+        name: "Marco's Cafe",
+        vibe: "Full espresso bar inside the Multnomah Village dining institution — doubles as the neighborhood's best coffee stop",
+      },
+      {
+        name: "Black Rock Coffee Bar",
+        vibe: "Drive-through on nearby SW Barbur Blvd for fast morning coffee on the commute",
+      },
+    ],
+    bars: [
+      {
+        name: "Old Market Pub & Brewery",
+        vibe: "Neighborhood brewery with a loyal local crowd, over a dozen beers on tap, no pretense",
+      },
+      {
+        name: "Garden Home Dugout",
+        vibe: "Sports bar directly on SW Garden Home Rd — neighborhood regulars, game day staple",
+      },
+    ],
+    medianHomePrice: 530000,
+    priceRange: { low: 415000, high: 750000 },
+    commuteToDowntown: "20–25 min by car via SW Barbur Blvd (30–40 in rush hour); TriMet Line 12 or 45 connect to downtown",
+    faqs: [
+      {
+        q: "Is Garden Home inside Portland city limits?",
+        a: "Some of it, some of it not. The neighborhood straddles the Portland city boundary and the Washington–Multnomah County line. Parcels on the Portland side pay Portland city income tax and Multnomah County property taxes. Parcels on the Washington County side do not pay Portland city taxes, and property tax rates are different. This affects your monthly payment calculation and your school district, so confirm your specific address before making assumptions.",
+      },
+      {
+        q: "Which school district serves Garden Home?",
+        a: "It depends on your specific parcel. Portland Public Schools serves the Portland-side addresses, with Markham Elementary as the feeder school through the PPS pipeline to Robert Gray Middle and Ida B. Wells (formerly Wilson) High. Beaverton School District serves Washington County parcels, with Nancy Ryles Elementary as one of the feeders. Do not rely on neighborhood name to determine school assignment — check the actual boundary maps.",
+      },
+      {
+        q: "How close is Multnomah Village?",
+        a: "Very close — walkable from most Garden Home addresses on the Portland side, a short drive from the Washington County portions. Multnomah Village's commercial street along SW Capitol Hwy has restaurants, coffee, a hardware store, and independent shops. It is the neighborhood's unofficial commercial center.",
+      },
+      {
+        q: "How much do homes cost in Garden Home?",
+        a: "Median around $530,000, with most homes between $415k and $750k. The unincorporated Washington County parcels tend to price slightly below the Portland-side parcels with comparable characteristics, because some buyers discount anything not officially 'Portland.' That discount can represent real value for buyers who are comfortable with the jurisdiction.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "The jurisdictional complexity threw us at first. Bri laid out exactly what the Washington County parcel meant for our taxes and our school assignment before we wrote the offer. We felt confident going in.",
+        author: "Aaron & Claire F.",
+        context: "Purchased in Garden Home, 2023",
+      },
+      {
+        quote: "Cash-out refinance to fund a kitchen renovation. Bri ran the equity math in 20 minutes and we had a clear plan.",
+        author: "Sandra B.",
+        context: "Cash-out refi, Garden Home, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "cash-out", "heloc"],
+    adjacentNeighborhoods: ["metzger", "multnomah-village", "hillsdale", "raleigh-hills", "south-burlingame", "beaverton"],
+    seo: {
+      title: "Buying a Home in Garden Home, Portland OR | The Lindley Team",
+      description:
+        "Garden Home real estate: Portland address with Washington County parcels, mid-century homes near Gabriel Park. Understand the jurisdiction before you buy. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "south-burlingame",
+    name: "South Burlingame",
+    city: "Portland",
+    state: "OR",
+    description: [
+      "South Burlingame occupies the stretch of SW Portland between Multnomah Village and the SW Terwilliger Blvd transit corridor, with Tryon Creek State Natural Area forming its southern boundary. The neighborhood is mostly 1950s ranches on streets that step up and down the hillside topography, and Tryon Creek is the anchor. It is one of Portland's better urban forest parks: 670 acres of old-growth Douglas fir, eight miles of trails accessible within a few blocks of most South Burlingame addresses. People who live near it understand what they're paying for.",
+      "Portland Public Schools serves the area along the established SW pipeline: Markham Elementary (K–5), Robert Gray Middle School (6–8), and Ida B. Wells High School (9–12, formerly Wilson). Market of Choice at SW Terwilliger and Taylors Ferry is the neighborhood grocery and deli — walkable for many residents and the kind of grocery store that reduces the perceived need for a car. Tryon Creek Bar and Grill at 8610 SW Terwilliger is the neighborhood's local sports bar. JoLa Cafe at SW Corbett is a short drive for serious coffee.",
+      "The topography that makes South Burlingame scenic also makes getting in and out feel longer than the miles suggest. SW Terwilliger curves and narrows. The Barbur Blvd transit corridor is accessible but the walk or drive down the hill adds time. SW Barbur has TriMet Line 12 service, but depending on where exactly you live, getting to the stop is its own exercise. If walkable urban density is the goal, this is the wrong neighborhood. If trail access and quiet streets matter more than convenience, it competes with very few Portland addresses.",
+    ],
+    personality: "Tryon Creek at the back door — SW Portland's best argument for staying out of the city proper",
+    mapEmbedSrc: "https://maps.google.com/maps?q=South+Burlingame+Portland+OR&output=embed&z=14",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=South+Burlingame+Portland+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 42,
+    bikeScore: 36,
+    transitScore: 32,
+    schoolDistrict: "Portland Public Schools",
+    schools: [
+      { name: "Markham Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Robert Gray Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Ida B. Wells High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Tryon Creek State Natural Area",
+        amenities: ["old-growth forest", "8+ miles of trails", "equestrian trails", "nature center", "creek views"],
+      },
+      {
+        name: "Marshall Park",
+        amenities: ["forested trails", "creek access", "footbridges", "quiet off-leash walking"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Tryon Creek Bar and Grill",
+        cuisine: "American",
+        vibe: "Neighborhood sports bar at 8610 SW Terwilliger — burgers, taco Tuesday, pool tables, local crowd",
+      },
+      {
+        name: "Market of Choice",
+        cuisine: "Deli/Grocery",
+        vibe: "Full-service grocery with deli, pizza oven, and salad bar at SW Terwilliger and Taylors Ferry — the daily anchor",
+      },
+      {
+        name: "Salvador Molly's",
+        cuisine: "Eclectic",
+        vibe: "Colorful, eclectic menu on SW Multnomah Blvd — a short drive but a neighborhood favorite for dinner",
+      },
+    ],
+    coffee: [
+      {
+        name: "JoLa Cafe",
+        vibe: "Coffee, bar, and kitchen at 5915 SW Corbett — serious espresso, brunch, and a neighborhood feel worth the short drive",
+      },
+      {
+        name: "Market of Choice",
+        vibe: "Espresso counter inside the grocery — the quick-hit morning coffee stop",
+      },
+    ],
+    bars: [
+      {
+        name: "Tryon Creek Bar and Grill",
+        vibe: "The neighborhood's living room — pool tables, TVs, burger and brew specials, no pretense",
+      },
+      {
+        name: "The Muddy Rudder Public House",
+        vibe: "A short drive toward Multnomah Village — pub atmosphere, good tap list",
+      },
+    ],
+    medianHomePrice: 600000,
+    priceRange: { low: 480000, high: 900000 },
+    commuteToDowntown: "20–30 min by car via SW Barbur or SW Terwilliger (35+ in rush hour); TriMet Line 12 on Barbur Blvd",
+    faqs: [
+      {
+        q: "What makes South Burlingame worth the price premium over Metzger or King City?",
+        a: "Tryon Creek State Natural Area. Eight miles of old-growth forest trails accessible from most addresses in the neighborhood. That kind of urban green space is rare in the Portland metro, and it tends to hold value in ways that commute time or square footage do not. If trail access is a priority, the premium is real and so is the asset.",
+      },
+      {
+        q: "What schools serve South Burlingame?",
+        a: "Portland Public Schools — Markham Elementary (K–5), Robert Gray Middle (6–8), Ida B. Wells High School (9–12, formerly Wilson). Markham rates well for an inner-SW Portland school. Wilson/Ida B. Wells has strong academic programs. This is the standard SW Portland school pipeline and is one of the more consistent PPS tracks.",
+      },
+      {
+        q: "Is it hard to get in and out of South Burlingame?",
+        a: "Honestly, yes. The topography works against you. SW Terwilliger curves and the side streets are hilly. Getting to I-5 or downtown Portland via Barbur takes more time than the mileage suggests. Morning rush on Barbur Blvd backs up. Plan for 30–40 minutes to downtown during peak times. The TriMet Line 12 on Barbur is an option but walking to the stop from the upper streets adds time.",
+      },
+      {
+        q: "How much do homes cost in South Burlingame?",
+        a: "Median around $600,000, with most homes between $480k and $900k. The closer to Tryon Creek, the higher the price — proximity to the park is priced in. Homes on the flat streets near Market of Choice sell faster. 1950s ranches in original condition at the lower end of the range offer renovation upside for buyers willing to take on a project.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We were specifically looking for trail access and good schools inside Portland. Bri knew South Burlingame immediately and helped us understand what we'd get for the price. We walk into Tryon Creek three mornings a week.",
+        author: "Mark & Laura T.",
+        context: "Purchased in South Burlingame, 2023",
+      },
+      {
+        quote: "HELOC for a full bathroom renovation. Bri pulled the numbers on our equity quickly and the process was straightforward.",
+        author: "Christine W.",
+        context: "HELOC, South Burlingame, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "jumbo", "heloc", "cash-out"],
+    adjacentNeighborhoods: ["multnomah-village", "garden-home", "hillsdale", "lake-oswego", "west-linn"],
+    seo: {
+      title: "Buying a Home in South Burlingame, Portland OR | The Lindley Team",
+      description:
+        "South Burlingame real estate: SW Portland's Tryon Creek neighborhood, 1950s ranches, and Portland Public Schools. Home prices and mortgage info from Bri Lindley, NMLS #1367416.",
+    },
+  },
+
 ];
 
 export function getNeighborhoodBySlug(slug: string): NeighborhoodData | undefined {
