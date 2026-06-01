@@ -4178,6 +4178,2824 @@ export const neighborhoods: NeighborhoodData[] = [
     },
   },
 
+
+
+{
+    slug: "beaverton",
+    name: "Beaverton",
+    city: "Beaverton",
+    state: "OR",
+    description: [
+      "Intel's campus on NW Murray Boulevard employs more than 20,000 people — the single largest private employer in Oregon — and it sits inside Beaverton city limits. That fact explains a lot: the diversity (significant South Asian and East Asian communities from the tech corridor), the traffic on TV Highway and Beaverton-Hillsdale Highway, and why housing demand here is durable even when the broader market softens. The MAX Blue and Red lines both terminate at Beaverton Transit Center, making this the most transit-connected suburb in the metro. Cedar Hills Crossing and Beaverton Town Square cover the major retail.",
+      "Housing is a mix of 1970s–1990s ranches and split-levels, scattered condos and townhome complexes, and newer infill on parcels that used to be commercial. You get more square footage per dollar than comparable inner Portland neighborhoods. The Beaverton School District consistently outperforms Portland Public Schools on standardized measures — high school graduation rates are strong, and the district has added capacity as the city has grown. Families who moved out of Portland for schools tend to stay. Sunset High School and Westview High School both draw from strong feeder systems.",
+      "The trade-off is traffic. TV Highway (OR-8) and Beaverton-Hillsdale Highway are gridlocked during rush hours, and the Canyon Road corridor backing up onto Hwy 26 is a daily reality if you're driving east. The MAX handles the commute better than driving — Beaverton Transit Center to downtown Portland is about 35 minutes — but most daily errands still require a car outside of the few blocks around Beaverton Central MAX station. This is a suburb. The space and value are real. So is the drive.",
+    ],
+    personality: "Intel town, MAX access, more house for less",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Beaverton+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Beaverton+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 52,
+    bikeScore: 58,
+    transitScore: 48,
+    schoolDistrict: "Beaverton School District",
+    schools: [
+      {
+        name: "Errol Hassell Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Mountain View Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 7,
+      },
+      {
+        name: "Westview High School",
+        type: "high",
+        grades: "9–12",
+        rating: 8,
+      },
+      {
+        name: "Sunset High School",
+        type: "high",
+        grades: "9–12",
+        rating: 8,
+      },
+      {
+        name: "Valley Catholic High School",
+        type: "private",
+        grades: "9–12",
+        rating: 8,
+      },
+    ],
+    parks: [
+      {
+        name: "Tualatin Hills Nature Park",
+        amenities: [
+          "hiking trails",
+          "wetlands",
+          "wildlife viewing",
+          "interpretive center",
+          "paved paths",
+        ],
+      },
+      {
+        name: "Beaverton City Park",
+        amenities: [
+          "sports fields",
+          "playground",
+          "picnic shelters",
+          "splash pad",
+        ],
+      },
+      {
+        name: "Progress Ridge Townsquare Greenway",
+        amenities: ["walking paths", "open lawn", "community gathering space"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Swagat Indian Cuisine",
+        cuisine: "Indian",
+        vibe: "Long-running Indian restaurant on SW Canyon Road, buffet lunch draws the Intel crowd",
+      },
+      {
+        name: "Lela's Bistro",
+        cuisine: "American",
+        vibe: "Pacific NW ingredients, local wine list, Cedar Hills area — date night without driving to Portland",
+      },
+      {
+        name: "Pho Van",
+        cuisine: "Vietnamese",
+        vibe: "Reliable pho on TV Highway, busy at lunch, fast and honest",
+      },
+      {
+        name: "Sayler's Old Country Kitchen",
+        cuisine: "Steakhouse",
+        vibe: "Old-school steakhouse institution, been here since 1946, enormous portions",
+      },
+    ],
+    coffee: [
+      {
+        name: "Insomnia Coffee",
+        vibe: "Local mini-chain with a Beaverton location — better than the chains, actual espresso standards",
+      },
+      {
+        name: "Blackbird Coffee",
+        vibe: "Small neighborhood cafe near Beaverton Central MAX, regular customer base, no laptop crowd",
+      },
+    ],
+    bars: [
+      {
+        name: "Thirsty Lion Gastropub",
+        vibe: "Cedar Hills Crossing location, big selection, sports on TV — suburban gastropub done well",
+      },
+      {
+        name: "Beaverton Ales",
+        vibe: "Local tap room with rotating Oregon craft beers, low-key weekend spot",
+      },
+    ],
+    medianHomePrice: 525000,
+    priceRange: { low: 350000, high: 900000 },
+    commuteToDowntown:
+      "35–40 min on MAX Blue or Red line; 25–35 min by car in normal traffic, 45–55 min in rush hour via Hwy 26",
+    faqs: [
+      {
+        q: "How is the commute from Beaverton to downtown Portland?",
+        a: "MAX is the honest answer. Beaverton Transit Center to Pioneer Courthouse Square is about 35 minutes on the Blue or Red line — predictable, no traffic. Driving on Hwy 26 runs 25 minutes in off-peak hours but can stretch to 50+ during morning rush, especially on Fridays. If you work downtown and live in Beaverton, buy a MAX pass.",
+      },
+      {
+        q: "Are Beaverton schools worth moving for?",
+        a: "Yes, they're consistently stronger than Portland Public Schools on test scores and graduation rates. Westview and Sunset high schools are the two main comprehensive high schools and both perform well. The district has also maintained relatively stable funding as Beaverton has grown. If school quality is driving your location decision, Beaverton School District holds up.",
+      },
+      {
+        q: "What's the housing market like in Beaverton?",
+        a: "Median around $525,000. You'll find 1970s–1990s ranches and split-levels in the $400k–$600k range, condos and townhomes from the mid-$300s, and newer construction pushing into the $700k+ range. Comparable space to inner SE Portland generally costs 15–25% less here. Well-priced homes in good condition move quickly.",
+      },
+      {
+        q: "Is Beaverton walkable?",
+        a: "Partially. The blocks immediately around Beaverton Central and Beaverton Transit Center MAX stations are the most walkable. Most of the city requires a car for daily errands — grocery runs, school pickup, appointments. It's a suburb with MAX access, not a walkable urban neighborhood.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We moved from SE Portland when our oldest was about to start kindergarten. We bought a four-bedroom house in Beaverton for $498,000 — the equivalent in Woodstock would have been $650,000 minimum and smaller. Two years in, the school decision was clearly right.",
+        author: "Sarah and Tom D.",
+        context: "Moved from SE Portland to Beaverton, 2022",
+      },
+      {
+        quote:
+          "I'm an Intel contractor. Living in Beaverton and biking to the Jones Farm campus means I never deal with that commute. Bri helped me understand the condo vs. house math. We went with a townhome for $387,000 and it's worked out.",
+        author: "David K.",
+        context: "First purchase, Beaverton townhome, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "refinance", "heloc"],
+    adjacentNeighborhoods: ["hillsboro", "tigard", "hillsdale", "multnomah-village"],
+    seo: {
+      title: "Buying a Home in Beaverton, OR | The Lindley Team",
+      description:
+        "Honest Beaverton real estate guide: home prices, Intel commute, Beaverton School District, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "hillsboro",
+    name: "Hillsboro",
+    city: "Hillsboro",
+    state: "OR",
+    description: [
+      "Intel's Jones Farm and Hawthorn Farm campuses in Hillsboro together make up one of the largest semiconductor manufacturing operations in the United States. The eastern edge of the city feels like a tech corridor — campuses, hotels, and new apartments along Cornell Road. But drive five minutes west toward downtown and you hit Main Street, the Venetian Theatre (a 1921 movie palace that still runs films), and a Saturday farmers market that's been running since 1982. Hillsboro has a downtown that actually functions. The MAX Blue line runs the length of the city and connects to Portland, though the ride to downtown Portland is about 45 minutes.",
+      "Housing here is more affordable than Beaverton because Hillsboro is further from Portland and the western side of the city is still actively developing. You can find 3-bedroom houses from the 1990s and early 2000s in the mid-$400s, and new construction subdivisions on the west side pushing toward $600k+. The Hillsboro School District has a strong reputation — particularly at the elementary level — and the district has grown to keep pace with the city's expansion since 2010. The growth has been significant: new apartment towers downtown, new subdivisions where farmland was, new commercial strips on the west side.",
+      "Hillsboro is car-dependent for the majority of daily life. Outside of a few walkable blocks around the MAX stations and downtown, you're driving. Cornell Road and Baseline Road carry heavy traffic during commutes. The 45-minute MAX ride to downtown Portland is a real constraint if you work or socialize there regularly — this is a city that functions most naturally for people who work within it or in nearby Beaverton, not for people who need to be in Portland daily.",
+    ],
+    personality: "Silicon Forest city with a real downtown",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Hillsboro+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Hillsboro+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 42,
+    bikeScore: 52,
+    transitScore: 40,
+    schoolDistrict: "Hillsboro School District",
+    schools: [
+      {
+        name: "McKinney Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Poynter Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 7,
+      },
+      {
+        name: "Liberty High School",
+        type: "high",
+        grades: "9–12",
+        rating: 7,
+      },
+      {
+        name: "Hillsboro High School",
+        type: "high",
+        grades: "9–12",
+        rating: 7,
+      },
+      {
+        name: "Glencoe High School",
+        type: "high",
+        grades: "9–12",
+        rating: 7,
+      },
+    ],
+    parks: [
+      {
+        name: "Rood Bridge Park",
+        amenities: [
+          "Tualatin River access",
+          "hiking trails",
+          "picnic areas",
+          "disc golf",
+          "off-leash dog area",
+        ],
+      },
+      {
+        name: "Jackson Bottom Wetlands Preserve",
+        amenities: [
+          "wetlands trails",
+          "wildlife viewing",
+          "interpretive programs",
+          "birdwatching",
+        ],
+      },
+      {
+        name: "Tualatin Hills Athletic Center",
+        amenities: [
+          "indoor pools",
+          "fitness center",
+          "basketball courts",
+          "running track",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "The Venetian Theatre Café",
+        cuisine: "American",
+        vibe: "Inside the 1921 theater on E Main Street — dinner and a movie without driving to Portland",
+      },
+      {
+        name: "Muchas Gracias",
+        cuisine: "Mexican",
+        vibe: "24-hour Mexican fast food with a loyal following, practical and consistent",
+      },
+      {
+        name: "Akadi Restaurant",
+        cuisine: "West African",
+        vibe: "West African cuisine on NE Cornell Road, diverse Hillsboro dining scene on display",
+      },
+      {
+        name: "Old Town Kitchen",
+        cuisine: "American",
+        vibe: "Downtown Hillsboro breakfast spot, packed on weekends, worth the wait",
+      },
+    ],
+    coffee: [
+      {
+        name: "Public Coast Brewing",
+        vibe: "Hillsboro taproom that also does solid coffee service, mixed crowd of tech workers and locals",
+      },
+      {
+        name: "Barley Pod Coffee",
+        vibe: "Small independent coffee shop near the MAX line, no-frills, consistent espresso",
+      },
+    ],
+    bars: [
+      {
+        name: "McMenamins Cornelius Pass Roadhouse",
+        vibe: "McMenamins compound in a historic farmstead — outdoor seating, multiple bars, family-friendly early",
+      },
+      {
+        name: "Plank Town Brewing",
+        vibe: "Hillsboro brewpub, rotating taps, neighborhood crowd, sports on in the corner",
+      },
+    ],
+    medianHomePrice: 490000,
+    priceRange: { low: 330000, high: 850000 },
+    commuteToDowntown:
+      "45 min on MAX Blue line; 30–40 min by car to Portland downtown in normal traffic, 55–70 min in rush hour via Hwy 26",
+    faqs: [
+      {
+        q: "How long is the commute from Hillsboro to downtown Portland?",
+        a: "About 45 minutes on the MAX Blue line from Hillsboro Central to Pioneer Courthouse Square — it's reliable and you can work on the train. Driving runs 30–40 minutes in light traffic but realistically 55–70 minutes during rush hour on Hwy 26. The farther west you live in Hillsboro, the longer the drive to Portland. Most people who buy here work in Hillsboro or Beaverton.",
+      },
+      {
+        q: "How are the schools in Hillsboro?",
+        a: "Hillsboro School District is solid — consistently above Oregon state averages, with strong elementary programs and three comprehensive high schools (Liberty, Hillsboro, and Glencoe). The district has grown significantly as the city has developed and has generally kept quality up as enrollment increased. Families moving for school quality from Portland find it a meaningful upgrade.",
+      },
+      {
+        q: "What's the housing market like in Hillsboro?",
+        a: "Median around $490,000, which is typically $30,000–$50,000 less than comparable Beaverton homes. The east side of Hillsboro near MAX and Intel is more established — 1990s–2000s houses in the $420k–$580k range. The west side has newer construction from the past decade, often in the $550k–$800k+ range. First-time buyers find more entry-level inventory here than in Beaverton or Tigard.",
+      },
+      {
+        q: "Is Hillsboro a good place for families?",
+        a: "Yes, particularly if at least one person in the household works locally. Good schools, affordable housing for the size, and parks like Rood Bridge and Jackson Bottom give kids real outdoor space. The trade-off is Portland proximity — trips to the city for culture, dining, or entertainment take real time. It works best when Hillsboro is your primary world, not a base for commuting west.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We couldn't afford anything in Portland that had a yard and three bedrooms. In Hillsboro we found exactly that for $467,000. We both work at Intel, so the commute is literally five minutes. Bri walked us through the FHA process without making it feel complicated.",
+        author: "Carlos and Mei L.",
+        context: "First-time buyers, Hillsboro, 2023",
+      },
+      {
+        quote:
+          "I relocated from San Jose and the price difference was staggering. We bought a 2,100-square-foot house for $512,000. In the Bay Area that doesn't exist. Bri understood the relocation timeline and made the close work on our schedule.",
+        author: "Priya S.",
+        context: "Relocated from California, purchased in Hillsboro, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance"],
+    adjacentNeighborhoods: ["beaverton", "cornelius", "forest-grove"],
+    seo: {
+      title: "Buying a Home in Hillsboro, OR | The Lindley Team",
+      description:
+        "Real Hillsboro real estate guide: home prices, Intel commute, Hillsboro School District, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "tigard",
+    name: "Tigard",
+    city: "Tigard",
+    state: "OR",
+    description: [
+      "Highway 217 cuts through the middle of Tigard and I-5 runs along its eastern edge — these two roads define the city more than anything else about it. Washington Square Mall has anchored the northern end since 1973, and the Tigard Triangle, the redevelopment zone near 99W, is slowly becoming a denser commercial district. The location is genuinely central: 20 minutes to downtown Portland, 15 minutes to Beaverton, 10 minutes to Tualatin or Lake Oswego. For people who work across the south metro — or who need I-5 access toward Salem or points south — Tigard's position is hard to beat.",
+      "Housing is mostly 1960s–1990s ranches and split-levels with a scattering of newer subdivisions where older commercial land has been redeveloped. The price point sits above Hillsboro and Tualatin but below Lake Oswego directly to the east. The Tigard-Tualatin School District is one of the stronger suburban districts in the metro — Durham Elementary, Fowler Middle School, and Tigard High are all consistently rated well. Families who leave Portland for schools often land here because the schools are good and the housing is still affordable relative to the Eastside suburbs.",
+      "Tigard is not walkable in most of its neighborhoods. 99W (Pacific Highway) carries heavy traffic and is primarily a commercial strip. There is no light rail yet — the Southwest Corridor MAX line has been approved and is in planning, but it won't change daily life anytime soon. If you're coming from an inner Portland neighborhood where you walked to coffee and dinner, Tigard will require adjustment. The payoff is a house with a yard, good schools, and a location that puts you within range of the entire south metro without being deep in the suburbs.",
+    ],
+    personality: "South metro crossroads, honest suburban trade-off",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Tigard+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Tigard+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 39,
+    bikeScore: 44,
+    transitScore: 35,
+    schoolDistrict: "Tigard-Tualatin School District",
+    schools: [
+      {
+        name: "Durham Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Metzger Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Fowler Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 7,
+      },
+      {
+        name: "Tigard High School",
+        type: "high",
+        grades: "9–12",
+        rating: 7,
+      },
+      {
+        name: "Oregon Episcopal School",
+        type: "private",
+        grades: "PK–12",
+        rating: 9,
+      },
+    ],
+    parks: [
+      {
+        name: "Summerlake Park",
+        amenities: [
+          "lake",
+          "walking trails",
+          "playground",
+          "picnic areas",
+          "fishing",
+        ],
+      },
+      {
+        name: "Cook Park",
+        amenities: [
+          "Tualatin River access",
+          "sports fields",
+          "boat ramp",
+          "off-leash dog area",
+          "picnic shelters",
+        ],
+      },
+      {
+        name: "Fanno Creek Trail",
+        amenities: [
+          "multi-use paved trail",
+          "wetlands",
+          "wildlife corridor",
+          "connects to Beaverton",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Bridgeport Brewing",
+        cuisine: "Brewpub",
+        vibe: "Washington Square area location, reliable pub food, good for groups after shopping",
+      },
+      {
+        name: "Tigard Harvest Fresh",
+        cuisine: "American",
+        vibe: "Neighborhood grocery deli that's become a lunch institution among locals",
+      },
+      {
+        name: "Gado Gado",
+        cuisine: "Indonesian",
+        vibe: "Portland-famous Indonesian spot with a Tigard outpost — worth the trip specifically",
+      },
+      {
+        name: "El Sol de Mexico",
+        cuisine: "Mexican",
+        vibe: "Long-running Mexican restaurant on Pacific Highway, lunch regulars and families",
+      },
+    ],
+    coffee: [
+      {
+        name: "Case Study Coffee",
+        vibe: "Serious Portland roaster with a Tigard Triangle location — best coffee in the city limits",
+      },
+      {
+        name: "Coffee Tree",
+        vibe: "Local drive-through coffee stand with a following, practical morning stop",
+      },
+    ],
+    bars: [
+      {
+        name: "Tigard Taphouse",
+        vibe: "Neighborhood bar with Oregon taps and no pretense, comfortable for regulars",
+      },
+      {
+        name: "Claim 52 Brewing",
+        vibe: "Eugene brewery with a Tigard taproom, good rotating selection, family-friendly earlier in the evening",
+      },
+    ],
+    medianHomePrice: 560000,
+    priceRange: { low: 400000, high: 950000 },
+    commuteToDowntown:
+      "20–30 min by car via Barbur Blvd (I-5) in normal traffic, 40–50 min in rush hour; no direct MAX — bus line 12 runs to downtown via Barbur in 45–55 min",
+    faqs: [
+      {
+        q: "How do you commute from Tigard to downtown Portland?",
+        a: "Most people drive Barbur Blvd (which runs parallel to I-5) or take I-5 north. In normal traffic it's 20–30 minutes. In rush hour — particularly northbound in the morning — it regularly runs 40–50 minutes. Bus Line 12 on Barbur runs to downtown and takes about 45–55 minutes. There is no MAX light rail in Tigard yet — the Southwest Corridor project is approved but years away from opening.",
+      },
+      {
+        q: "How are the Tigard schools?",
+        a: "Tigard-Tualatin School District is well-regarded. Tigard High School has solid academic programs and above-average graduation rates. The district has maintained quality as Tigard has grown and is consistently rated above PPS on most measures. If you're moving from Portland for schools, the difference is noticeable, particularly at the elementary level.",
+      },
+      {
+        q: "How does Tigard compare to Lake Oswego for housing value?",
+        a: "Meaningfully more affordable. Lake Oswego's median sits roughly $150,000–$200,000 higher than Tigard's, and Lake Oswego has tighter lot sizes. In Tigard you're more likely to find a ranch with a real backyard in the $500k–$600k range. The schools are both good — different districts but comparable reputations. The main difference is Lake Oswego has more walkable commercial areas. Tigard does not.",
+      },
+      {
+        q: "Is the Tigard Triangle worth buying into?",
+        a: "It's the most active redevelopment zone in the city — the area near 99W and Hwy 217. New apartment projects and commercial development have been approved and some are underway. Buying near the Triangle now means living through construction for a few years. The long-term case is reasonable if you're holding for 5+ years, but it's not a quiet neighborhood today.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We were renting in Division Street and paying $2,100 a month. We bought a three-bedroom ranch in Tigard for $541,000 and our mortgage is $2,800. The schools alone made it worth it — our daughter is in third grade and the difference from her Portland school is immediately obvious.",
+        author: "Amanda and Ryan P.",
+        context: "Moved from SE Portland to Tigard, 2022",
+      },
+      {
+        quote:
+          "I work in Tualatin and my wife is in Beaverton. Tigard puts us both within 20 minutes of work. We found a 1980s ranch for $489,000, put money into the kitchen, and it's ours now. Bri helped us figure out the math on rate buydown vs. saving the cash for renovations.",
+        author: "Jason M.",
+        context: "Purchased in Tigard, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "heloc", "fha", "cash-out"],
+    adjacentNeighborhoods: ["beaverton", "tualatin", "lake-oswego", "hillsdale"],
+    seo: {
+      title: "Buying a Home in Tigard, OR | The Lindley Team",
+      description:
+        "Tigard real estate guide: home prices, commute, Tigard-Tualatin School District, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "tualatin",
+    name: "Tualatin",
+    city: "Tualatin",
+    state: "OR",
+    description: [
+      "Tualatin Commons is the downtown that Tualatin built from scratch — a mixed-use development centered on a small lake, with restaurants, a public plaza, and apartments ringing the water. It works better than it sounds. On summer evenings the lake path fills up with strollers and dog walkers, and the restaurants that face the water are actually good. The I-5/I-205 interchange nearby makes Tualatin one of the most regionally accessible cities in the metro — you can be at PDX in 25 minutes, Salem in 45, or Beaverton in 20. The tradeoff is that Tualatin exists primarily as a car city, and the Tualatin-Sherwood Road commercial strip is the daily retail experience for most residents.",
+      "New housing has been added on the western side of the city — subdivisions from the 2010s and 2020s with 3- and 4-bedroom homes that typically run in the $500s and $600s. Older sections of the city, particularly near the river and around the commons, have 1970s–1990s ranches that often come in below $500k with more land. The Tigard-Tualatin School District serves the city — the same solid district as Tigard, with Tualatin High School as the main comprehensive high school and consistently strong elementary programs. Tualatin is a genuine option for families who want good schools and don't need to be near Portland.",
+      "The Tualatin River runs along the northern edge of the city and provides the most compelling natural feature — Tualatin Community Park sits on the bank and is worth knowing. But Tualatin is not a city you walk around. Most neighborhoods require a car for every errand. There is no light rail and the bus connections to Portland take close to an hour. If proximity to Portland matters to you daily, Tualatin makes that commute real work. If your life is oriented around the south metro — Tualatin, Tigard, Sherwood, Wilsonville — the location is excellent.",
+    ],
+    personality: "Built-from-scratch lakefront downtown, south metro freeway access",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Tualatin+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Tualatin+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 33,
+    bikeScore: 38,
+    transitScore: 28,
+    schoolDistrict: "Tigard-Tualatin School District",
+    schools: [
+      {
+        name: "Byrom Elementary",
+        type: "elementary",
+        grades: "K–5",
+        rating: 7,
+      },
+      {
+        name: "Hazelbrook Middle School",
+        type: "middle",
+        grades: "6–8",
+        rating: 7,
+      },
+      {
+        name: "Tualatin High School",
+        type: "high",
+        grades: "9–12",
+        rating: 7,
+      },
+    ],
+    parks: [
+      {
+        name: "Tualatin Community Park",
+        amenities: [
+          "Tualatin River access",
+          "sports fields",
+          "off-leash dog area",
+          "picnic shelters",
+          "playground",
+        ],
+      },
+      {
+        name: "Tualatin Commons",
+        amenities: [
+          "lake path",
+          "public plaza",
+          "public art",
+          "seasonal events",
+        ],
+      },
+      {
+        name: "Brown's Ferry Park",
+        amenities: [
+          "Tualatin River trail",
+          "natural area",
+          "fishing access",
+          "quiet walking paths",
+        ],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Bridgewater Bar & Grill",
+        cuisine: "American",
+        vibe: "On the commons lake, casual seafood and American fare, best patio in Tualatin on a warm evening",
+      },
+      {
+        name: "Sho Japanese Cuisine",
+        cuisine: "Japanese",
+        vibe: "Solid sushi and Japanese comfort food, consistent and popular with the evening crowd",
+      },
+      {
+        name: "McMenamins Tualatin",
+        cuisine: "Pub",
+        vibe: "McMenamins compound, full menu, family-friendly earlier in the night, local draft beers",
+      },
+      {
+        name: "El Sombrero",
+        cuisine: "Mexican",
+        vibe: "Neighborhood Mexican restaurant, loaded plates, cash-preferred lunch spot",
+      },
+    ],
+    coffee: [
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "Drive-through institution for the south suburbs — fast, sweet, everyone has their order",
+      },
+      {
+        name: "Tualatin Coffee House",
+        vibe: "Small independent shop near the commons, regular customer base, reliable espresso",
+      },
+    ],
+    bars: [
+      {
+        name: "Inn at the Commons",
+        vibe: "Hotel bar on the lake — quieter, good for a catch-up conversation, unexpected setting for a suburb",
+      },
+      {
+        name: "Hopworks Urban Brewery",
+        vibe: "Tualatin location of the Portland organic brewery — good food, family-friendly, busy on weekends",
+      },
+    ],
+    medianHomePrice: 520000,
+    priceRange: { low: 380000, high: 850000 },
+    commuteToDowntown:
+      "25–35 min by car via I-5 in normal traffic, 45–60 min in rush hour; no direct MAX — commuter bus takes 55–65 min to downtown Portland",
+    faqs: [
+      {
+        q: "How far is Tualatin from downtown Portland?",
+        a: "About 16 miles by road. In light traffic via I-5, that's 25–35 minutes. During rush hour, northbound I-5 can easily become 50–60 minutes. There is no MAX light rail in Tualatin. TriMet bus service connects to the MAX at Barbur Transit Center, but the total commute to downtown Portland typically runs 55–65 minutes. This is a city where you're essentially committing to driving if Portland is your daily destination.",
+      },
+      {
+        q: "What schools serve Tualatin?",
+        a: "Tigard-Tualatin School District, the same district serving Tigard. Tualatin High School is the main high school and has strong academic programs and above-average graduation rates. Elementary schools in the Tualatin portion of the district are consistently well-rated. For families moving from Portland for school quality, the difference is real and the district has maintained it as the area has grown.",
+      },
+      {
+        q: "What is Tualatin Commons?",
+        a: "A mixed-use development built around a small lake near downtown Tualatin. There's a paved path around the water, restaurants, a public plaza, and apartments. The city holds events there in summer. It's one of the more successful examples of suburban downtown-building in the metro — not a traditional Main Street, but an actual place where people go on purpose.",
+      },
+      {
+        q: "How does Tualatin compare to Tigard for home buyers?",
+        a: "Tualatin typically comes in slightly below Tigard in median price — you can find more 1970s–1990s ranches with larger lots in Tualatin in the $400k–$500k range. The newer west-side subdivisions in both cities are similarly priced. Tigard has marginally better Portland access. Tualatin has better freeway access toward Salem and the south valley. If you're working in Wilsonville or Sherwood, Tualatin's position is actually better.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We bought a 1980s ranch on a quarter-acre for $482,000. Same house in Tigard would have been $530,000, same house in Lake Oswego wouldn't exist under $700,000. We both work in Tualatin so the commute is nothing. Bri laid out our options without pushing us toward anything.",
+        author: "Mark and Diane F.",
+        context: "Purchased in Tualatin, 2023",
+      },
+      {
+        quote:
+          "First house. We had $28,000 saved and were terrified nothing would work. Bri ran the FHA numbers and we closed on a three-bedroom for $415,000. I didn't know a first-time buyer could actually do that. The south suburbs made it possible.",
+        author: "Keisha T.",
+        context: "First-time buyer, Tualatin, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "refinance", "investment"],
+    adjacentNeighborhoods: ["tigard", "sherwood", "wilsonville", "lake-oswego"],
+    seo: {
+      title: "Buying a Home in Tualatin, OR | The Lindley Team",
+      description:
+        "Tualatin real estate guide: home prices, schools, Tualatin Commons, and what south Washington County buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+{
+    slug: "sherwood",
+    name: "Sherwood",
+    city: "Sherwood",
+    state: "OR",
+    description: [
+      "Sherwood sits at the southern end of Washington County where 99W finally stops pretending to be a city street and starts moving again. Roy Rogers Road marks the line between Tualatin and Sherwood — cross it and the subdivisions get newer and the lots get slightly larger. Old Town Sherwood, clustered around SW Railroad Street, has an actual independent hardware store, a handful of restaurants, and a seasonal farmers market. It's not a destination, but it functions. Sherwood's growth in the 2000s and 2010s added thousands of homes in master-planned developments east and west of town — Sherwood's Meadowbrook, Maplewood Estates, and the newer sections north of Sunset Boulevard.",
+      "The draw for most buyers is the Sherwood School District. It's consistently rated among the top five districts in Washington County — Edy Ridge Elementary, Middleton Elementary, and Sherwood Middle School all pull strong test scores, and Sherwood High School has above-average graduation rates and a range of AP courses. The district is small enough that it hasn't fractured into attendance-zone politics the way larger districts have. Homes here run about $600k at the median, which buys a 4-bedroom house built in the 1990s or 2000s with a real yard — the same money in Lake Oswego or west Portland gets you less house on a smaller lot in an older building.",
+      "There is no light rail to Sherwood and no plan for one. TriMet bus service (Line 96) runs up 99W to Tigard and connects to MAX, but the trip from Sherwood to downtown Portland takes 90 minutes minimum in each direction. Most Sherwood residents drive. Tualatin Valley Highway backs up through Tigard every weekday morning from about 7:15 to 8:30, and again in reverse on the return. If you're commuting to the west side — Hillsboro, Beaverton, Tigard itself — it's manageable. If you're going downtown daily, build the commute time into the decision.",
+    ],
+    personality: "Top-rated schools, new subdivisions, and a 99W commute that's the honest price of admission",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Sherwood+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Sherwood+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 31,
+    bikeScore: 28,
+    transitScore: 22,
+    schoolDistrict: "Sherwood School District 88J",
+    schools: [
+      { name: "Edy Ridge Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Middleton Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Sherwood Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Sherwood High School", type: "high", grades: "9–12", rating: 8 },
+      { name: "St. Francis School", type: "private", grades: "K–8", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Stella Olsen Memorial Park",
+        amenities: ["sports fields", "playground", "walking paths", "picnic area"],
+      },
+      {
+        name: "Snyder Park",
+        amenities: ["youth sports fields", "restrooms", "parking"],
+      },
+      {
+        name: "Sherwood Community Sports Complex",
+        amenities: ["baseball diamonds", "soccer fields", "concessions", "bleachers"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Merchant's Bar & Grill",
+        cuisine: "American",
+        vibe: "Old Town Sherwood anchor — burgers, salads, a full bar, and outdoor seating in good weather",
+      },
+      {
+        name: "McMenamins Sherwood",
+        cuisine: "American",
+        vibe: "Reliable McMenamins formula in a historic building on Railroad Street — pub food, house beer",
+      },
+      {
+        name: "Koi Fusion",
+        cuisine: "Korean-Mexican",
+        vibe: "Fast-casual Korean-Mexican on Tualatin-Sherwood Road — solid for a quick lunch",
+      },
+    ],
+    coffee: [
+      {
+        name: "Human Bean Sherwood",
+        vibe: "Drive-through coffee chain that actually does the job — faster than a sit-down cafe on school mornings",
+      },
+      {
+        name: "Dutch Bros Coffee",
+        vibe: "The line at Tualatin-Sherwood Road is long for a reason — consistent and fast",
+      },
+    ],
+    bars: [
+      {
+        name: "Merchant's Bar & Grill",
+        vibe: "The neighborhood bar for Old Town Sherwood — approachable, not a scene",
+      },
+      {
+        name: "McMenamins Sherwood",
+        vibe: "House-brewed ales, full menu, families and adults both — the 6pm crowd is mostly parents who just left a school event",
+      },
+    ],
+    medianHomePrice: 600000,
+    priceRange: { low: 440000, high: 950000 },
+    commuteToDowntown: "40–55 min by car via 99W through Tigard (longer in rush hour); 90+ min by TriMet bus to MAX to downtown; no light rail",
+    faqs: [
+      {
+        q: "Is the Sherwood School District really worth moving for?",
+        a: "For families prioritizing K–12 public schools, it's one of the strongest arguments for buying in Sherwood over comparable-priced suburbs closer to Portland. The district is small (around 5,000 students), test scores are above Oregon averages, and Sherwood High has a solid course catalog. If schools are the deciding factor and Lake Oswego is out of budget, Sherwood is the conversation.",
+      },
+      {
+        q: "What does $600,000 buy in Sherwood?",
+        a: "At the median you're typically looking at a 4-bedroom, 2.5-bath house built between 1995 and 2010, with a two-car garage and a yard — usually 6,000–8,000 square feet of lot. Most of these are in master-planned developments east or west of downtown. Anything under $500k needs work or is smaller than average.",
+      },
+      {
+        q: "Can I commute from Sherwood to downtown Portland without a car?",
+        a: "Technically yes — TriMet Line 96 runs up 99W and connects to MAX at Tigard Transit Center. Realistically it's 80–100 minutes each way. Most Sherwood residents drive. If you're commuting to Beaverton or Hillsboro on the west side, the numbers are much better.",
+      },
+      {
+        q: "How fast is the Sherwood real estate market?",
+        a: "Competitive for anything priced correctly in the $500k–$700k range. Well-presented homes in good school attendance zones routinely go over asking. The market slows somewhat above $800k — there's less demand at that price point relative to inventory.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We were renting in Beaverton and wanted a yard and good schools without going into Clackamas County. Sherwood hit both. Bri got us into a 4-bed on Maplewood for $588k — we made an offer the day it listed.",
+        author: "Danielle and Chris M.",
+        context: "Purchased in Sherwood, 2024",
+      },
+      {
+        quote: "The school district was the whole reason we looked at Sherwood. We got a house two blocks from Edy Ridge Elementary for $565k. Same house would have been $750k in Lake Oswego.",
+        author: "Todd R.",
+        context: "Purchased in Sherwood, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "va", "jumbo"],
+    adjacentNeighborhoods: ["tualatin", "tigard", "wilsonville"],
+    seo: {
+      title: "Buying a Home in Sherwood, OR | The Lindley Team",
+      description:
+        "Sherwood, Oregon home prices, school district ratings, commute times, and what buyers need to know. Bri Lindley, NMLS #1367416, Mortgage Express.",
+    },
+  },
+
+  {
+    slug: "wilsonville",
+    name: "Wilsonville",
+    city: "Wilsonville",
+    state: "OR",
+    description: [
+      "Wilsonville sits at the junction of I-5 and the Boone Bridge, right where Clackamas County meets the southern edge of Washington County. Intel, Xerox, and Mentor Graphics (now Siemens EDA) have operated facilities here for decades, which means the city has a base of tech and manufacturing workers who don't necessarily need to commute to Portland at all. The WES Commuter Rail station at Wilsonville Town Center connects north to Beaverton, where passengers transfer to the MAX Blue or Red line — the full trip to downtown Portland is 55–70 minutes, but it runs on a schedule and doesn't involve sitting on I-5. SMART Bus provides service south toward Salem and Canby. The freeway access is the other piece: I-5 onramps here are not the bottleneck — they're at Tualatin or Tigard.",
+      "West Linn-Wilsonville School District serves the city and has a strong reputation — Wilsonville High School consistently ranks in the top tier for Washington County. Villebois, the master-planned development on the city's west side, has been growing since the mid-2000s and now represents a significant share of the city's housing stock. It's walkable within itself, with pocket parks, a town green, and higher-density attached housing alongside detached single-family homes. Median prices here run about $580k — buyers get more square footage than they would in Beaverton or Tigard for similar money, and the lots are newer construction.",
+      "Wilsonville is a bedroom community in the honest sense — most of the retail is utilitarian (grocery stores, a Costco nearby in Tualatin, chain restaurants along Boones Ferry Road), and the cultural life is limited. If going to a show, a museum, or an independent restaurant matters to the household, you're making a 30–40 minute drive to Portland. That's a real trade-off. The city is also growing fast, which means construction traffic and evolving infrastructure are part of daily life in some neighborhoods. The Charbonneau district on the south end is a separate golf-course retirement community — it operates differently from the rest of the city and has its own HOA landscape.",
+    ],
+    personality: "WES commuter rail, I-5 access, and one of the county's better school districts — minus the nightlife",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Wilsonville+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Wilsonville+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 33,
+    bikeScore: 37,
+    transitScore: 30,
+    schoolDistrict: "West Linn-Wilsonville School District",
+    schools: [
+      { name: "Boones Ferry Primary School", type: "elementary", grades: "K–3", rating: 8 },
+      { name: "Lowrie Primary School", type: "elementary", grades: "K–3", rating: 7 },
+      { name: "Wilsonville Middle School", type: "middle", grades: "6–8", rating: 8 },
+      { name: "Wilsonville High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Memorial Park",
+        amenities: ["sports fields", "picnic shelters", "playground", "restrooms", "river access trail nearby"],
+      },
+      {
+        name: "Villebois Town Green",
+        amenities: ["open lawn", "community events space", "walking paths", "small playground"],
+      },
+      {
+        name: "Coffee Lake Park",
+        amenities: ["walking trails", "wetland views", "benches", "off-leash dog area"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Bugatti's Ristorante",
+        cuisine: "Italian",
+        vibe: "Long-running Italian on Old Wilsonville Road — white tablecloths, good pasta, a local institution",
+      },
+      {
+        name: "Opus Creek Brewing",
+        cuisine: "American",
+        vibe: "Wilsonville's craft brewery — brick interior, solid pub food, neighborhood regulars on weekday evenings",
+      },
+      {
+        name: "Thoa's Restaurant",
+        cuisine: "Thai/Vietnamese",
+        vibe: "Family-owned spot on Town Center Loop — reliable pho and pad thai, good lunch option",
+      },
+    ],
+    coffee: [
+      {
+        name: "Beanware Coffee",
+        vibe: "Local Wilsonville coffee shop in Town Center — actual espresso, laptop-friendly tables",
+      },
+      {
+        name: "Starbucks (Wilsonville Town Center)",
+        vibe: "Predictable but well-placed near the WES station — useful for catching the 7:14 train",
+      },
+    ],
+    bars: [
+      {
+        name: "Opus Creek Brewing",
+        vibe: "The default answer for a beer in Wilsonville — house-brewed, no pretense, good patio when the weather cooperates",
+      },
+      {
+        name: "McMenamins Old Church & Pub",
+        vibe: "McMenamins presence in a renovated space — live music occasionally, house beer, family-friendly early and bar-focused late",
+      },
+    ],
+    medianHomePrice: 580000,
+    priceRange: { low: 400000, high: 1100000 },
+    commuteToDowntown: "55–70 min via WES Commuter Rail + MAX transfer at Beaverton; 35–45 min by car on I-5 in light traffic (longer in peak hours)",
+    faqs: [
+      {
+        q: "Does the WES Commuter Rail actually make Wilsonville practical for a Portland commute?",
+        a: "For the right schedule, yes. WES runs peak-direction trains — southbound in the evening, northbound in the morning — with transfers to MAX at Beaverton TC. Portland City Center to Wilsonville is 55–70 minutes. It's not fast, but it's predictable and you're not driving I-5. Off-peak service is limited, so it works best for traditional 9-to-5 schedules.",
+      },
+      {
+        q: "What is Villebois and is it a good place to buy?",
+        a: "Villebois is a 1,500-acre master-planned development on Wilsonville's west side, built out starting in 2005. It mixes attached townhomes, cottages, and detached single-family homes with pocket parks and a walkable town center. HOA fees apply. It's newer construction with good walkability within the development, and it tends to appeal to buyers who want a low-maintenance lifestyle with yard space.",
+      },
+      {
+        q: "How are the schools in Wilsonville?",
+        a: "West Linn-Wilsonville School District is one of the best-regarded districts in the Portland metro. Wilsonville High School is the primary high school and consistently performs well on state assessments. It's a genuine draw — comparable to Sherwood SD in reputation.",
+      },
+      {
+        q: "What's the difference between Wilsonville and Charbonneau?",
+        a: "Charbonneau is an age-restricted (55+) golf course community on the south end of Wilsonville with its own HOA structure, private streets, and separate community amenities. It operates largely independently from the rest of Wilsonville. If you're not 55+, it's a different product entirely.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "I take the WES train to Beaverton every morning and my spouse works at Mentor Graphics five minutes away. Wilsonville made sense financially and logistically. Bri helped us close on a 3-bed in Villebois for $547k — we were surprised we could make it work.",
+        author: "Kevin and Maya S.",
+        context: "Purchased in Wilsonville, 2023",
+      },
+      {
+        quote: "We had a $560k budget and wanted West Linn-Wilsonville schools. Everything in West Linn was out of range. Bri walked us through a Wilsonville option with a VA loan — no down payment, closed in 32 days.",
+        author: "James H., U.S. Navy veteran",
+        context: "VA purchase in Wilsonville, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "va", "jumbo", "heloc"],
+    adjacentNeighborhoods: ["tualatin", "sherwood", "tigard"],
+    seo: {
+      title: "Buying a Home in Wilsonville, OR | The Lindley Team",
+      description:
+        "Wilsonville, Oregon home prices, WES commuter rail access, West Linn-Wilsonville schools, and what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "forest-grove",
+    name: "Forest Grove",
+    city: "Forest Grove",
+    state: "OR",
+    description: [
+      "Pacific University has been on Pacific Avenue in Forest Grove since 1849, which makes it one of the oldest universities west of the Rockies. The campus sits near the downtown core and employs a few hundred people in teaching, administration, and healthcare — Pacific has a well-regarded optometry school and a physical therapy program. Main Street has a mix of independent restaurants, an old-school hardware store, a small theater, and a few antique shops. Forest Grove is the seat of what was once Oregon's hop-growing industry; the surrounding farmland still produces nursery stock and some grain. Wine country is 15–20 minutes south on Hwy 47 toward Gaston — the Tualatin Valley AVA has 40-plus wineries within reasonable driving distance.",
+      "Housing affordability is Forest Grove's main argument for buyers. The median sits around $420k, which puts a 3- or 4-bedroom house within reach for first-time buyers who've been priced out of Hillsboro and Beaverton. The stock is older — lots of 1960s and 1970s ranches, some Craftsman-era houses in the historic neighborhoods near downtown — which means buyers should budget for updates. Forest Grove School District is adequate; it's not a district families move from Portland specifically to access, but it's functional and improving. The city has a fairly large Latinx community, particularly concentrated near the downtown corridor, which gives the local restaurant scene more texture than you'd expect for a city this size.",
+      "The commute is the honest problem. Forest Grove is 25 miles west of Portland, and getting there from downtown means Hwy 26 to Hwy 8 — two-lane highway much of the way, no freeway bypass. In traffic that combination runs 50–70 minutes each direction. There is TriMet bus service (Line 57) to Hillsboro and MAX, but the full trip to Portland takes 75–90 minutes minimum. Remote or hybrid workers do well here. Daily commuters to Portland typically reassess within a year. The payoff is that the dollar goes further than anywhere else in Washington County, and you're close to outdoor recreation — Hagg Lake is 15 minutes south, the Coast Range is accessible on weekends.",
+    ],
+    personality: "Washington County's most affordable city, anchored by a university, 25 miles from Portland",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Forest+Grove+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Forest+Grove+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 48,
+    bikeScore: 53,
+    transitScore: 27,
+    schoolDistrict: "Forest Grove School District 15",
+    schools: [
+      { name: "Fern Hill Elementary", type: "elementary", grades: "K–5", rating: 6 },
+      { name: "Harvey Clarke Elementary", type: "elementary", grades: "K–5", rating: 6 },
+      { name: "Neil Armstrong Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Forest Grove High School", type: "high", grades: "9–12", rating: 6 },
+      { name: "Pacific University Early Learning Community", type: "private", grades: "PK–K", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Rogers Park",
+        amenities: ["sports fields", "playground", "picnic shelters", "splash pad", "restrooms"],
+      },
+      {
+        name: "Fernhill Wetlands",
+        amenities: ["walking trails", "bird watching", "wetland boardwalks", "interpretive signage"],
+      },
+      {
+        name: "Henry Hagg Lake (Scoggins Valley Park)",
+        amenities: ["swimming beach", "boat launch", "fishing", "cycling loop", "camping", "picnic areas"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Maggie's Buns",
+        cuisine: "Cafe/Diner",
+        vibe: "Beloved Forest Grove breakfast spot on Pacific Avenue — lines on weekend mornings, large portions, cash-friendly",
+      },
+      {
+        name: "Taqueria El Cabrito",
+        cuisine: "Mexican",
+        vibe: "Longtime taqueria downtown — no-frills, authentic, one of the better cheap meals in Washington County",
+      },
+      {
+        name: "Boas Tasting Room",
+        cuisine: "Wine bar",
+        vibe: "Small tasting room in the downtown core — local Tualatin Valley AVA wines, knowledgeable staff, weekend afternoons",
+      },
+    ],
+    coffee: [
+      {
+        name: "Coffee Mill",
+        vibe: "Pacific University-adjacent coffee shop — student-heavy during the week, relaxed on weekends",
+      },
+      {
+        name: "Human Bean Forest Grove",
+        vibe: "Drive-through on the commercial strip — quick, consistent, part of the morning routine for commuters heading east on Hwy 8",
+      },
+    ],
+    bars: [
+      {
+        name: "Bier Stein Forest Grove",
+        vibe: "Craft beer tap room with rotating Pacific Northwest selections — laid-back, wood interior, good for a weeknight beer",
+      },
+      {
+        name: "McMenamins Grand Lodge",
+        vibe: "Renovated Masonic lodge on Pac Ave with multiple bars, a soaking pool, gardens, and hotel rooms — biggest nightlife anchor in Forest Grove",
+      },
+    ],
+    medianHomePrice: 420000,
+    priceRange: { low: 295000, high: 700000 },
+    commuteToDowntown: "50–70 min by car via Hwy 8 to Hwy 26 (longer in peak traffic); 75–90 min by TriMet Line 57 to Hillsboro MAX station to downtown",
+    faqs: [
+      {
+        q: "Why is Forest Grove so much cheaper than the rest of Washington County?",
+        a: "Distance. It's 25 miles from Portland — significantly farther west than Hillsboro or Beaverton — and there's no freeway connection, just Hwy 8 and Hwy 26. That commute friction depresses prices relative to comparable-sized cities closer in. Buyers get substantially more house and lot for their dollar here than anywhere else in the county.",
+      },
+      {
+        q: "What are the schools like in Forest Grove?",
+        a: "Forest Grove School District is average-to-adequate by Oregon standards — not a primary reason families move here, but not a reason to rule it out either. Forest Grove High has career technical education programs and some AP courses. Families who prioritize top-tier public schools tend to look at Sherwood or West Linn-Wilsonville instead.",
+      },
+      {
+        q: "Is Forest Grove a good place for remote workers?",
+        a: "Yes, probably the best fit in Washington County for fully remote workers. The price advantage is significant, the downtown is walkable enough for daily errands, and Hagg Lake and the wine country make weekends worthwhile. The commute penalty is real but irrelevant if you're not commuting.",
+      },
+      {
+        q: "What's near Forest Grove for outdoor recreation?",
+        a: "Henry Hagg Lake (Scoggins Valley Park) is 15 minutes south — swimming, fishing, a paved bike loop, and boat rentals. The Coast Range is 30–40 minutes west. Tualatin Valley wine country starts about 15 minutes south on Hwy 47. It's a practical location for people who use weekends actively.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We kept getting outbid in Hillsboro. Bri suggested we look at Forest Grove — same commute distance for my wife's job in Aloha, $80k less for the same size house. We bought a 1970s ranch on a big lot for $389k. No regrets.",
+        author: "Aaron and Lidia V.",
+        context: "Purchased in Forest Grove, 2023",
+      },
+      {
+        quote: "I work fully remote and wanted a yard and a mortgage under $2,000 a month. Forest Grove was the only place in Washington County where that was possible with a conventional loan. Bri ran the numbers on an FHA option too — we ended up going conventional with 10% down.",
+        author: "Priya N.",
+        context: "First-time purchase in Forest Grove, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "cash-out", "investment"],
+    adjacentNeighborhoods: ["hillsboro", "cornelius"],
+    seo: {
+      title: "Buying a Home in Forest Grove, OR | The Lindley Team",
+      description:
+        "Forest Grove, Oregon home prices, school district info, commute realities, and what buyers need to know. Bri Lindley, NMLS #1367416, Mortgage Express.",
+    },
+  },
+
+  {
+    slug: "cornelius",
+    name: "Cornelius",
+    city: "Cornelius",
+    state: "OR",
+    description: [
+      "Cornelius is a city of about 13,000 people sandwiched between Hillsboro and Forest Grove on Tualatin Valley Highway. Cornelius Pass Road runs north-south through the area and has been a local landmark since well before the city existed — the Cornelius Pass Roadhouse, a McMenamins property in a historic farmhouse at the north end of the road in Hillsboro, takes its name from the same route. The city's commercial core is thin: a strip of services along Adair Street and TV Hwy, a Bi-Mart, some auto-repair shops, and a scattering of small restaurants. Most residents drive to Hillsboro's Tanasbourne district or to Forest Grove for larger grocery runs and retail.",
+      "The housing stock dates mostly to the 1960s through 1990s — single-family ranches, smaller bungalows, and some manufactured housing. Cornelius has a substantial and longtime Latinx community, reflecting its agricultural history as a hub for farmworkers in the Tualatin Valley. That history shows in the restaurant options along TV Hwy: there are several small taquerias and Mexican grocery stores that are among the better cheap-food options in Washington County. Hillsboro School District serves most of Cornelius, which means students feed into Liberty High School and Hillsboro's network of elementary and middle schools — a better outcome than the city's small commercial base might suggest. Prices here are among the lowest in Washington County — median is around $400k.",
+      "Cornelius is affordable specifically because it doesn't have much. There's no downtown with independent businesses the way Forest Grove does, no light rail, and no major employer within city limits. TriMet Line 57 runs east to Hillsboro MAX, making a westside commute workable, but getting to Portland downtown takes 70–80 minutes transit or 35–45 minutes by car. The city is improving — sidewalks and parks have been upgraded in recent years — but it remains a place where buyers trade proximity to amenities for a lower entry price. For buyers who work in Hillsboro's tech corridor (Intel, Nike, Epson) or in Forest Grove, the location is genuinely practical.",
+    ],
+    personality: "Washington County's most affordable city for single-family houses, ten minutes from Hillsboro's job corridor",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Cornelius+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Cornelius+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 38,
+    bikeScore: 42,
+    transitScore: 28,
+    schoolDistrict: "Hillsboro School District 1J",
+    schools: [
+      { name: "Echo Shaw Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "J.W. Poynter Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Liberty High School", type: "high", grades: "9–12", rating: 6 },
+    ],
+    parks: [
+      {
+        name: "Shute Park (Hillsboro, adjacent)",
+        amenities: ["aquatic center", "sports fields", "walking paths", "library adjacent"],
+      },
+      {
+        name: "Cornelius City Park",
+        amenities: ["playground", "picnic tables", "open lawn", "restrooms"],
+      },
+      {
+        name: "Rood Bridge Park (Hillsboro, nearby)",
+        amenities: ["Tualatin River access", "walking trails", "picnic shelters", "rose garden"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Taqueria Mi Tierra",
+        cuisine: "Mexican",
+        vibe: "Family-run taqueria on TV Hwy — tortas, carnitas, and birria that hold up to anything in the metro area",
+      },
+      {
+        name: "Los Dos Amigos",
+        cuisine: "Mexican",
+        vibe: "Casual Mexican restaurant near the Adair Street corridor — sit-down, full menu, good for families",
+      },
+      {
+        name: "Shari's of Hillsboro (nearby)",
+        cuisine: "American Diner",
+        vibe: "A few minutes east on TV Hwy — 24-hour diner option when Cornelius's thin commercial strip comes up short",
+      },
+    ],
+    coffee: [
+      {
+        name: "Human Bean (Hillsboro, 10 min east)",
+        vibe: "Cornelius doesn't have its own independent coffee shops — the Human Bean on TV Hwy in Hillsboro is the practical answer",
+      },
+      {
+        name: "Dutch Bros (Hillsboro, TV Hwy)",
+        vibe: "Five-minute drive east — the standard west-side morning stop for many Cornelius commuters heading toward Hillsboro",
+      },
+    ],
+    bars: [
+      {
+        name: "Cornelius Pass Roadhouse (McMenamins, Hillsboro)",
+        vibe: "Technically in Hillsboro but the most identifiable local institution named after this area — historic farmhouse, outdoor grounds, McMenamins beer and spirits",
+      },
+      {
+        name: "TV Hwy Tavern",
+        vibe: "Straightforward neighborhood tavern on Tualatin Valley Highway — pool table, cold beer, no frills",
+      },
+    ],
+    medianHomePrice: 400000,
+    priceRange: { low: 290000, high: 600000 },
+    commuteToDowntown: "35–45 min by car to downtown Portland via Hwy 26; 70–80 min by TriMet Line 57 to Hillsboro MAX then Blue Line to downtown; 10–15 min to Hillsboro tech corridor",
+    faqs: [
+      {
+        q: "Why is Cornelius cheaper than Hillsboro when they're right next to each other?",
+        a: "Cornelius has a smaller commercial base, fewer amenities within city limits, and less infrastructure investment than Hillsboro. The housing stock is older and the city has historically had less political and developer attention. That's changing incrementally, but the price gap remains meaningful — typically $80k–$120k lower for comparable square footage.",
+      },
+      {
+        q: "What schools do Cornelius kids attend?",
+        a: "Hillsboro School District 1J serves Cornelius, which is a meaningful benefit relative to price. Echo Shaw Elementary and J.W. Poynter Middle School are the main feeders, with Liberty High School as the high school. The district is larger and better-resourced than Forest Grove's, and Liberty has stronger programs than its test scores alone suggest.",
+      },
+      {
+        q: "Is Cornelius a practical base for Intel or Nike employees?",
+        a: "Yes. Intel's Ronler Acres campus in Hillsboro is 10–15 minutes east. Nike's Beaverton campus is 20–25 minutes. Both are significantly more manageable than commuting from the east side. Cornelius offers the lowest entry price in western Washington County for workers who don't need to be in Portland proper.",
+      },
+      {
+        q: "What are the realistic downsides of buying in Cornelius?",
+        a: "Limited walkability and almost no commercial amenities within city limits — you'll drive to Hillsboro or Forest Grove for most errands. The housing stock is older and some properties need meaningful capital investment. School ratings are below the county average. It's the trade you make to access Washington County at a price closer to $400k than $600k.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We work at Intel and couldn't afford anything close to the campuses. Bri showed us that a 3-bedroom in Cornelius at $385k made more sense than renting in Hillsboro indefinitely. We closed with an FHA loan and 3.5% down.",
+        author: "Emmanuel and Rosa T.",
+        context: "First-time purchase in Cornelius, 2023",
+      },
+      {
+        quote: "I was honest with Bri that I had a $420k ceiling and good credit but not a huge down payment. She found us a house in Cornelius with a big backyard for $395k. Our mortgage is less than we were paying in rent.",
+        author: "Sarah K.",
+        context: "Purchased in Cornelius, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "investment"],
+    adjacentNeighborhoods: ["hillsboro", "forest-grove"],
+    seo: {
+      title: "Buying a Home in Cornelius, OR | The Lindley Team",
+      description:
+        "Cornelius, Oregon home prices, Hillsboro school district, commute times, and what buyers need to know. Bri Lindley, NMLS #1367416, Mortgage Express.",
+    },
+  },
+
+{
+    slug: "lake-oswego",
+    name: "Lake Oswego",
+    city: "Lake Oswego",
+    state: "OR",
+    description: [
+      "Oswego Lake is not a public amenity. That needs to be said up front, because people move here assuming they can kayak or swim in it — they can't unless they join the Lake Oswego Lake Corporation, which requires membership ranging from $25,000 to $35,000+ depending on the access tier, paid separately from any home purchase. What you do get with a Lake Oswego address is one of the most consistently well-maintained residential cities in Oregon, a downtown on A Avenue with actual independent restaurants like Tucci and Riccardo's Ristorante, and a walkable commercial core that most suburbs only approximate. State Street connects the east and west sides; it's the road you'll know after one week.",
+      "The housing stock ranges from 1950s ranch homes on modest lots in the older Hallinan and Lake Grove areas to $2M+ estates with private lake easements on the east side. The Lake Oswego School District is repeatedly ranked among Oregon's top districts — River Grove, Westridge, Hallinan, and Uplands feed into Lake Oswego Middle and then Lake Oswego High, which has a graduation rate and test score profile that draws families from across the metro. The demographic is upper-income professionals, many of them tech workers or physicians commuting to Portland or Beaverton.",
+      "MAX doesn't reach Lake Oswego. Your options are driving — I-5 or Highway 43 depending on your destination — or connecting to the Barbur TC bus service, which is an option but not a fast one. Commute to downtown Portland is typically 20–30 minutes by car in off-peak hours and 35–50 in peak traffic. The premium here is real and layered: you pay for the address, the school district, and if you want lake access, you pay for that separately. Buyers who know what they're buying get a lot for the price. Buyers who expect a public-access recreational lake get a more complicated experience.",
+    ],
+    personality: "Oregon's premier suburb — the lake is members-only, the schools are the best in the state",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Lake+Oswego+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Lake+Oswego+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 58,
+    bikeScore: 44,
+    transitScore: 34,
+    schoolDistrict: "Lake Oswego School District",
+    schools: [
+      { name: "Uplands Elementary", type: "elementary", grades: "K–5", rating: 9 },
+      { name: "Westridge Elementary", type: "elementary", grades: "K–5", rating: 9 },
+      { name: "Lake Oswego Middle School", type: "middle", grades: "6–8", rating: 9 },
+      { name: "Lake Oswego High School", type: "high", grades: "9–12", rating: 9 },
+      { name: "Lakeridge High School", type: "high", grades: "9–12", rating: 9 },
+    ],
+    parks: [
+      {
+        name: "Millennium Plaza Park",
+        amenities: ["fountain", "community events", "public gathering space", "adjacent to City Hall"],
+      },
+      {
+        name: "George Rogers Park",
+        amenities: ["Willamette River access", "picnic areas", "playground", "swimming beach (river)"],
+      },
+      {
+        name: "Tryon Creek State Natural Area",
+        amenities: ["hiking trails", "old-growth forest", "nature center", "equestrian trails"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Tucci",
+        cuisine: "Italian",
+        vibe: "Upscale but not stiff — handmade pasta, good wine list, a real neighborhood restaurant on A Ave",
+      },
+      {
+        name: "Riccardo's Ristorante",
+        cuisine: "Italian",
+        vibe: "Long-running, old-school service, the kind of place Lake Oswego regulars have been going for 20 years",
+      },
+      {
+        name: "Red Rock",
+        cuisine: "American",
+        vibe: "Consistently busy, beer and burgers, accessible price point in an otherwise pricey downtown",
+      },
+    ],
+    coffee: [
+      { name: "Coffee House Five", vibe: "Local independent on A Ave, reliable espresso, neighborhood regulars" },
+      {
+        name: "Starbucks Reserve — Lake Oswego",
+        vibe: "Predictable, but busy — there's one at every entry point to the city for a reason",
+      },
+    ],
+    bars: [
+      { name: "Lake Theater & Cafe", vibe: "Movie theater with a bar — Lake Oswego's version of a neighborhood pub" },
+      { name: "Red Rock", vibe: "Doubles as the main bar scene downtown, especially weekends" },
+    ],
+    medianHomePrice: 900000,
+    priceRange: { low: 550000, high: 3500000 },
+    commuteToDowntown: "20–30 min by car off-peak, 35–50 in rush hour via Hwy 43 or I-5; no MAX, bus to Barbur TC available",
+    faqs: [
+      {
+        q: "Is Oswego Lake open to the public?",
+        a: "No. Oswego Lake is private, managed by the Lake Oswego Lake Corporation. Access requires a membership that is purchased separately from your home — costs typically range from $25,000 to $35,000+ depending on the tier. Some lakefront homes include easements. Buying a home in Lake Oswego does not grant lake access.",
+      },
+      {
+        q: "How are the schools in Lake Oswego?",
+        a: "Lake Oswego School District is consistently ranked among Oregon's top school districts. Lake Oswego High and Lakeridge High both have strong academic profiles. The district is one of the primary reasons families pay the Lake Oswego premium over nearby cities with comparable housing.",
+      },
+      {
+        q: "Is there public transit from Lake Oswego to Portland?",
+        a: "Not rail. MAX doesn't reach Lake Oswego. TriMet Line 35 runs from Lake Oswego downtown to downtown Portland in about 45–55 minutes. Driving to Barbur Transit Center and taking the bus from there is a faster option for some commuters. Most Lake Oswego residents drive.",
+      },
+      {
+        q: "What's the difference between a lakefront home and a lake-access home in Lake Oswego?",
+        a: "Lakefront homes sit directly on the lake and typically include private dock rights. Lake-access homes are in neighborhoods with shared lake easements — residents can reach the lake via a common path or shared dock. Neither guarantees full membership in the Lake Corporation; that's a separate purchase.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We came from NW Portland and the price difference for what we got was significant — same school quality we wanted, a 4-bedroom with a yard, and we closed at $880,000. In NW, that budget gets you a townhouse.",
+        author: "The Nakamura family",
+        context: "Moved from NW Portland to Lake Oswego, purchased at $880,000",
+      },
+      {
+        quote:
+          "We didn't join the lake right away. You should know that going in — it's a real conversation to have with yourself before you buy. The neighborhood is excellent regardless, but if the lake was why you're coming, budget for it separately.",
+        author: "Sarah and Tom W.",
+        context: "Relocated from Beaverton, first Lake Oswego home purchase",
+      },
+    ],
+    relatedServices: ["purchase", "jumbo", "refinance", "heloc", "cash-out"],
+    adjacentNeighborhoods: ["west-linn", "milwaukie", "sellwood-moreland", "tualatin", "wilsonville"],
+    seo: {
+      title: "Lake Oswego OR Homes & Mortgages | Bri Lindley, Mortgage Express",
+      description:
+        "Buying a home in Lake Oswego? Understand the lake access realities, school district, and price range before you shop. Bri Lindley, NMLS #1367416, Mortgage Express.",
+    },
+  },
+
+  {
+    slug: "west-linn",
+    name: "West Linn",
+    city: "West Linn",
+    state: "OR",
+    description: [
+      "West Linn sits on a set of steep wooded hills above the west bank of the Willamette, directly across the river from Oregon City and south of Lake Oswego. The topography is real — Bolton Hill Road climbs hard, and navigating between the Sunset neighborhood on the plateau and Willamette neighborhood down by the river requires either knowing the roads or getting comfortable with GPS. Highway 43 connects West Linn to Lake Oswego to the north and to Willamette Falls Drive along the river. That falls — Willamette Falls, visible from several points near Oregon City — is a legitimate geological landmark: the second-largest waterfall by volume in the US, and West Linn is close enough that it's part of the area's identity even if it sits technically on the Oregon City side.",
+      "The housing stock is predominantly 1970s–1990s single-family construction on good-sized lots, with some newer developments on the remaining hillside land and a handful of older homes in the Willamette neighborhood near the river. West Linn-Wilsonville School District has one of the strongest academic reputations in the state — Rosemont Ridge Middle and West Linn High are the names you'll hear most. The demographic overlaps substantially with Lake Oswego: dual-income families in professional fields who want top schools and suburban space but are working with a budget $150,000 to $200,000 below what Lake Oswego requires.",
+      "I-205 is the main highway — it's faster than Highway 43 for reaching Portland, and the commute to downtown Portland runs 25–35 minutes depending on where exactly you're going and what hour you leave. That range can stretch to 45+ on bad traffic days. There is effectively no transit. The core trade-off that every West Linn buyer eventually articulates: comparable school quality to Lake Oswego, $150,000 to $200,000 less on the purchase price, and a commute that's slightly more I-205-dependent. That trade is real and it makes sense for a lot of families.",
+    ],
+    personality: "The Lake Oswego alternative — same school district quality, more accessible entry price, harder terrain",
+    mapEmbedSrc: "https://maps.google.com/maps?q=West+Linn+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=West+Linn+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 31,
+    bikeScore: 28,
+    transitScore: 25,
+    schoolDistrict: "West Linn-Wilsonville School District",
+    schools: [
+      { name: "Sunset Primary", type: "elementary", grades: "K–3", rating: 9 },
+      { name: "Boeckman Creek Primary", type: "elementary", grades: "K–3", rating: 8 },
+      { name: "Rosemont Ridge Middle School", type: "middle", grades: "6–8", rating: 9 },
+      { name: "West Linn High School", type: "high", grades: "9–12", rating: 9 },
+    ],
+    parks: [
+      {
+        name: "Mary S. Young State Recreation Area",
+        amenities: ["Willamette River access", "hiking trails", "off-leash dog area", "picnic areas"],
+      },
+      {
+        name: "Burnside Park",
+        amenities: ["sports fields", "playground", "open lawn", "picnic shelters"],
+      },
+      {
+        name: "Bolton Nature Area",
+        amenities: ["forested hiking", "creek access", "natural area", "unpaved trails"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Bugatti's Ristorante",
+        cuisine: "Italian",
+        vibe: "Upscale date-night in West Linn — pasta and seafood, long-running local institution",
+      },
+      {
+        name: "Abella Kitchen + Bar",
+        cuisine: "American",
+        vibe: "Newer spot, dinner-focused, reliable go-to for the Bolton Hill crowd",
+      },
+      {
+        name: "The Dalles Restaurant",
+        cuisine: "American",
+        vibe: "Casual, family-friendly, long-time local spot in the Willamette neighborhood",
+      },
+    ],
+    coffee: [
+      { name: "Café Delirium", vibe: "Local coffee shop in the Willamette neighborhood, the go-to for morning regulars" },
+      { name: "Stumptown Coffee (Willamette area)", vibe: "Reliable Pacific Northwest standard" },
+    ],
+    bars: [
+      {
+        name: "Pete's Bar & Grill",
+        vibe: "Unpretentious neighborhood bar, West Linn's version of a local dive, sports on TV",
+      },
+      { name: "Abella Kitchen + Bar", vibe: "Doubles as the evening drinks spot for the neighborhood" },
+    ],
+    medianHomePrice: 700000,
+    priceRange: { low: 480000, high: 1600000 },
+    commuteToDowntown: "25–35 min by car via I-205; no light rail; limited bus service",
+    faqs: [
+      {
+        q: "How does West Linn compare to Lake Oswego?",
+        a: "The school districts are different but both top-rated. West Linn-Wilsonville and Lake Oswego School District consistently rank near the top of Oregon. West Linn typically prices $150,000–$200,000 lower on equivalent homes. The trade-off is that Lake Oswego has a more walkable downtown and more retail options. Most families doing the comparison come down on the side of West Linn when budget matters.",
+      },
+      {
+        q: "What neighborhoods are within West Linn?",
+        a: "The major sub-areas are Sunset (on the upper plateau, newer homes, most new development), Bolton (hilly, established, strong neighborhood identity), and Willamette (lower by the river, older stock, feels more like a river town). Each has a different character and different price points.",
+      },
+      {
+        q: "Is there public transit in West Linn?",
+        a: "Effectively no. TriMet operates limited service, but West Linn is a driving city. Most households have two cars. If transit access is important, Oregon City's bus connections or Milwaukie's MAX line are better options.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We looked at Lake Oswego seriously and ran the numbers. We bought a four-bedroom in West Linn for $695,000 — comparable to what we were seeing in LO for $850,000 to $900,000. The school district is different but both are excellent. It was not a hard call.",
+        author: "Marcus and Yuki H.",
+        context: "Relocated from Portland's Pearl District, compared Lake Oswego and West Linn before buying",
+      },
+      {
+        quote:
+          "The hills take some getting used to — you learn quickly which routes work in the morning and which don't. But after two years, we don't think about it. It's just home.",
+        author: "Christina P.",
+        context: "First-time buyer in the Bolton area, purchased at $642,000",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "jumbo", "fha", "heloc", "cash-out"],
+    adjacentNeighborhoods: ["lake-oswego", "oregon-city", "tualatin", "wilsonville"],
+    seo: {
+      title: "West Linn OR Homes & Mortgages | Bri Lindley, Mortgage Express",
+      description:
+        "West Linn offers top-rated schools at a lower price point than Lake Oswego. Learn what buyers need to know about the neighborhoods, commute, and housing market. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "oregon-city",
+    name: "Oregon City",
+    city: "Oregon City",
+    state: "OR",
+    description: [
+      "Oregon City is the actual end of the Oregon Trail — the National Historic Trail designation ends here, and the End of the Oregon Trail Interpretive Center sits in a park on the south edge of town to mark it. More practically relevant to daily life is the municipal elevator: a free, city-operated lift that runs between the lower riverfront district and the upper bluff where much of the historic downtown sits. It's on 7th Street, it's operational, and it's one of the more unusual pieces of urban infrastructure in the Pacific Northwest. Willamette Falls is visible from several points along the river here — it's large, genuinely impressive when the river is running full, and one of the main natural features that distinguishes Oregon City from every other Clackamas County suburb.",
+      "The housing stock covers a wide range: Victorian and Craftsman homes in the historic districts on the upper bluff, 1950s–1970s ranches in the McLoughlin area, and newer subdivisions that have expanded the city's footprint south and east over the past 20 years. Oregon City School District serves the area. For buyers who've been priced out of Lake Oswego, West Linn, and even Milwaukie, Oregon City represents a real entry point into the Clackamas County market at a price that pencils differently. The demographic is diverse — long-time Oregon City families, Portland buyers trading square footage for price, and some who genuinely prefer the smaller-city scale.",
+      "The commute to Portland downtown is 30–40 minutes by car, more in peak traffic. MAX reaches Park Ave in Milwaukie — Oregon City is south of that terminus, which means the transit connection requires a bus link. That bus-to-MAX transfer adds time and complexity; most people drive. The honest trade-off: you get more house for less money than anywhere else this close to Portland, you're in a city with actual historic fabric and a functioning downtown, and you give up the premium school district name recognition and the easy light-rail connection.",
+    ],
+    personality: "The end of the Oregon Trail — real history, real affordability, real municipal elevator",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Oregon+City+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Oregon+City+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 47,
+    bikeScore: 38,
+    transitScore: 35,
+    schoolDistrict: "Oregon City School District",
+    schools: [
+      { name: "Candy Lane Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Gardiner Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Oregon City High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Clackamette Park",
+        amenities: ["Willamette River access", "boat launch", "RV area", "walking paths"],
+      },
+      {
+        name: "Singer Creek Trail",
+        amenities: ["forested hiking", "creek views", "natural area"],
+      },
+      {
+        name: "End of the Oregon Trail Interpretive Center",
+        amenities: ["historic site", "walking paths", "educational exhibits", "open grounds"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "McMenamins Hotel Oregon",
+        cuisine: "American",
+        vibe: "Historic hotel bar and restaurant on the upper bluff, a genuine Oregon institution",
+      },
+      {
+        name: "Beavercreek Bar & Grill",
+        cuisine: "American",
+        vibe: "Long-running local spot, relaxed, sports-bar adjacent",
+      },
+      {
+        name: "La Poblanita",
+        cuisine: "Mexican",
+        vibe: "Consistent, no-frills tacos and plates — the kind of place locals go on a weeknight",
+      },
+    ],
+    coffee: [
+      { name: "Rivershore Coffee", vibe: "Local independent, views toward the river, reliable morning spot" },
+      { name: "Dutch Bros (Main St)", vibe: "Drive-through, fast, crowded — the practical choice for many commuters" },
+    ],
+    bars: [
+      { name: "McMenamins Hotel Oregon Pub", vibe: "Rooftop bar in the summer, historic hotel setting, reliably good" },
+      { name: "Oregon City Brewing", vibe: "Taproom with local beers, casual, often has live music on weekends" },
+    ],
+    medianHomePrice: 490000,
+    priceRange: { low: 320000, high: 850000 },
+    commuteToDowntown: "30–40 min by car; bus to MAX Park Ave terminus then rail to downtown (~55–65 min total)",
+    faqs: [
+      {
+        q: "What is the municipal elevator in Oregon City?",
+        a: "It's a free, city-operated elevator on 7th Street that connects the lower McLoughlin-area riverfront to the upper bluff where the historic downtown sits. The city is built on two levels — the elevator has been there since 1915 in various forms and is still operational. It's used by residents daily, not just tourists.",
+      },
+      {
+        q: "Does MAX reach Oregon City?",
+        a: "No. The MAX Orange Line ends at Park Ave Station in Milwaukie. From there, TriMet bus service continues south to Oregon City, but the transfer adds significant time. Total transit commute to downtown Portland is typically 55–65 minutes. Most Oregon City residents drive.",
+      },
+      {
+        q: "How does the Oregon City school district compare to Lake Oswego or West Linn?",
+        a: "Oregon City School District is solid — Oregon City High School has good programs and strong community support. It's not at the same ranking level as Lake Oswego or West Linn-Wilsonville districts, and that difference shows up in the price. You're paying $400,000 less for a comparable home, and the school trade-off is part of that math.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We looked in SE Portland for a year and kept losing. We bought a 3-bedroom Craftsman in Oregon City's historic district for $468,000. In Sellwood, that same house is $700,000. We made our peace with the commute pretty fast.",
+        author: "James and Kelsey T.",
+        context: "Relocated from SE Portland after 18 months searching; purchased in Oregon City historic district",
+      },
+      {
+        quote:
+          "The elevator is actually useful — I work in the lower city and live up top. Takes less than a minute. People think it's a tourist thing but residents use it every day.",
+        author: "Diane M.",
+        context: "Oregon City resident and homeowner for 7 years",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "cash-out", "investment"],
+    adjacentNeighborhoods: ["west-linn", "milwaukie", "happy-valley", "canby", "wilsonville"],
+    seo: {
+      title: "Oregon City OR Homes & Mortgages | Bri Lindley, Mortgage Express",
+      description:
+        "Oregon City offers real affordability in Clackamas County — historic neighborhoods, Willamette Falls, and a price point that opens doors for buyers priced out of Lake Oswego or West Linn. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "milwaukie",
+    name: "Milwaukie",
+    city: "Milwaukie",
+    state: "OR",
+    description: [
+      "Park Ave Station in downtown Milwaukie is the southern terminus of the MAX Orange Line, which means Milwaukie has genuine light rail access to Portland — not a bus connection, not a park-and-ride at the edge of a freeway, but a station in the city's downtown core. The ride to the South Park Blocks or PSU takes about 20–25 minutes. The Springwater Corridor trail also connects Milwaukie directly to Portland by bike, running along the Willamette from Sellwood south. These two facts — MAX access and the Springwater Corridor — differentiate Milwaukie from every other Clackamas County suburb and make it the most transit-and-bike-accessible community south of Portland proper.",
+      "The housing stock is a mix of 1940s–1960s working-class bungalows and ranches, with more recent infill development near the downtown core as the MAX line matured. North Clackamas School District covers Milwaukie — it's a well-regarded district, notably better than Portland Public Schools in overall rankings, serving a mix of Milwaukie, Happy Valley, and surrounding communities. Downtown Milwaukie has developed incrementally: Wy'East Pizza is the anchor of the Main Street scene, The Railyard food cart pod operates seasonally, and there's a small but real cluster of independent businesses. The demographic is younger buyers and families who want Portland-adjacent living at a price that's 20–30% below comparable inner SE neighborhoods.",
+      "The trade-off that buyers need to acknowledge: Milwaukie is not inner SE Portland, even if it's adjacent to it and connected by trail and rail. The commercial infrastructure is still developing. McLoughlin Boulevard is not a pleasant street to be near. Some blocks have industrial or light-commercial uses that won't change. But for buyers who specifically want the Springwater connection and the MAX, who want North Clackamas schools instead of Portland Public, and who want to buy for $490,000 instead of $650,000, the calculation is clear and a lot of buyers are making it.",
+    ],
+    personality: "Clackamas County's most transit-connected suburb — MAX on one end, the Springwater on the other",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Milwaukie+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Milwaukie+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 56,
+    bikeScore: 72,
+    transitScore: 52,
+    schoolDistrict: "North Clackamas School District",
+    schools: [
+      { name: "Linwood Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Rowe Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Milwaukie High School", type: "high", grades: "9–12", rating: 7 },
+      { name: "Rex Putnam High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Springwater Corridor Trail",
+        amenities: ["paved multi-use trail", "Willamette River adjacency", "cycling connection to Portland"],
+      },
+      {
+        name: "Elk Rock Island",
+        amenities: ["natural area", "seasonal island access", "bird watching", "hiking"],
+      },
+      {
+        name: "Milwaukie Community Park",
+        amenities: ["sports fields", "playground", "picnic areas", "community events space"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Wy'East Pizza",
+        cuisine: "Pizza",
+        vibe: "Wood-fired, local ingredients, the restaurant that put downtown Milwaukie on the map",
+      },
+      {
+        name: "The Railyard",
+        cuisine: "Food cart pod",
+        vibe: "Rotating carts, outdoor seating, casual and seasonal — good for a weekend lunch",
+      },
+      {
+        name: "Casa Colima",
+        cuisine: "Mexican",
+        vibe: "Longstanding Milwaukie Mexican restaurant, family-run, consistently good",
+      },
+    ],
+    coffee: [
+      { name: "Kokiyo Teriyaki & Espresso", vibe: "Unpretentious, quick, the working neighborhood's coffee stop" },
+      { name: "Milwaukie Coffee", vibe: "Small local shop near downtown, regulars-only feel" },
+    ],
+    bars: [
+      { name: "Brewers Union Local 180 (Milwaukie)", vibe: "Oregon craft beer pub, comfortable, not loud" },
+      { name: "Fultano's Pizza & Pub", vibe: "Neighborhood bar with pizza — been here longer than the MAX line" },
+    ],
+    medianHomePrice: 490000,
+    priceRange: { low: 340000, high: 750000 },
+    commuteToDowntown: "20–25 min by MAX from Park Ave Station; 10–15 min by bike via Springwater; 20 min by car off-peak",
+    faqs: [
+      {
+        q: "How does the MAX Orange Line work from Milwaukie?",
+        a: "Park Ave Station is the southern terminus. From there, the Orange Line runs north through Southeast Portland, over the Tilikum Crossing bridge, to downtown Portland — South Waterfront, PSU, the South Park Blocks. The ride to downtown is about 20–25 minutes. Service runs frequently during peak hours.",
+      },
+      {
+        q: "What school district serves Milwaukie?",
+        a: "North Clackamas School District. It consistently rates above Portland Public Schools on state metrics. Milwaukie High School and Rex Putnam High School are the main high schools. For families who want better district performance than PPS without paying the Lake Oswego premium, North Clackamas is the reason many buyers choose Milwaukie.",
+      },
+      {
+        q: "How is Milwaukie different from inner SE Portland?",
+        a: "Price is the most obvious difference — median is around $490,000 versus $650,000+ in comparable inner SE neighborhoods. The school district is different (North Clackamas vs Portland Public). The commercial infrastructure is less dense. And Milwaukie is its own incorporated city with its own municipal services, not a Portland neighborhood. The Springwater trail makes the geographic connection to SE Portland feel shorter than it is.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We were renting in SE Portland and kept losing offers on houses in Woodstock and Sellwood. We found a three-bedroom in Milwaukie for $478,000, two blocks from the Springwater trail. I bike to the Orange Line platform in eight minutes. The commute is actually better than it was when we lived in the city.",
+        author: "Aaron and Theresa G.",
+        context: "Relocated from Woodstock/SE Portland, first-time buyers, purchased at $478,000",
+      },
+      {
+        quote:
+          "The schools were the deciding factor. North Clackamas is measurably better than PPS and we didn't want to pay Lake Oswego prices to get there. Milwaukie was the answer we didn't expect.",
+        author: "Priya S.",
+        context: "Moved from North Portland with school-age children, purchased in 2023",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "refinance", "cash-out", "investment", "heloc"],
+    adjacentNeighborhoods: ["sellwood-moreland", "eastmoreland", "woodstock", "oregon-city", "happy-valley", "lake-oswego"],
+    seo: {
+      title: "Milwaukie OR Homes & Mortgages | Bri Lindley, Mortgage Express",
+      description:
+        "Milwaukie has MAX light rail, the Springwater Corridor, and North Clackamas schools at a price point well below inner SE Portland. Learn what buyers need to know. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "happy-valley",
+    name: "Happy Valley",
+    city: "Happy Valley",
+    state: "OR",
+    description: [
+      "From the higher streets in Happy Valley — Altamont Drive, the upper reaches of SE Sunnyside Road — you get clear views of Mt. Hood on the days the mountain shows itself. That view is real, and it's one of the things people mention when they describe why they bought here. The city sits in the Clackamas County foothills southeast of Portland, and it's one of the fastest-growing incorporated cities in Oregon over the past 15 years. What that growth looks like on the ground is subdivisions: planned communities from 2000 through 2020, some of which are still being built out, with names like Scouters Mountain Heights and Summerfield. The infrastructure is new. The streets are wide. The houses have garages.",
+      "Nearly all of the housing stock is newer construction — 2-story single-family homes on established subdivisions lots, built by regional and national builders. You will not find 1920s bungalows in Happy Valley. What you will find is square footage: a 4-bedroom, 2.5-bath house at $600,000 that might be $850,000 in comparable Portland neighborhoods, or more. North Clackamas School District serves Happy Valley, and it's one of the primary draws — the district ranks well above Portland Public Schools, and the newer school facilities in Happy Valley reflect the city's recent growth. The demographic is young families, many of them first-time buyers moving from inner Portland or SE Portland apartments.",
+      "The honest accounting: Happy Valley has no light rail, no meaningful transit network, and no walkable commercial core. I-205 is the main artery, and it slows materially during the evening peak. Commute to downtown Portland runs 25–40 minutes depending on traffic and your specific destination. You drive for everything — groceries, coffee, kids' activities, the school run. The neighborhood fabric is younger and still forming in ways that established Portland neighborhoods are not. What you get for those trade-offs is new construction, good schools, more space, and a price per square foot that's lower than anywhere closer to Portland.",
+    ],
+    personality: "Fast-growing foothills suburb — new construction, Mt. Hood views, no transit, good schools",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Happy+Valley+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Happy+Valley+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 22,
+    bikeScore: 20,
+    transitScore: 18,
+    schoolDistrict: "North Clackamas School District",
+    schools: [
+      { name: "Happy Valley Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Happy Valley Middle School", type: "middle", grades: "6–8", rating: 8 },
+      { name: "Clackamas High School", type: "high", grades: "9–12", rating: 8 },
+      { name: "Oregon City High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Happy Valley Park",
+        amenities: ["sports fields", "playground", "splash pad", "picnic shelters", "walking paths"],
+      },
+      {
+        name: "Scouters Mountain Nature Park",
+        amenities: ["hiking trails", "Mt. Hood views", "forested terrain", "natural area"],
+      },
+      {
+        name: "Clackamas Town Center Area Paths",
+        amenities: ["paved walking and biking", "multi-use paths connecting subdivisions"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Rock Bottom Restaurant & Brewery",
+        cuisine: "American",
+        vibe: "Sit-down chain at Clackamas Town Center — reliable, suburban, frequently busy",
+      },
+      {
+        name: "Mingo's Mexican Grill",
+        cuisine: "Mexican",
+        vibe: "Local spot near the center of Happy Valley, family-friendly, consistent",
+      },
+      {
+        name: "Thai Orchid",
+        cuisine: "Thai",
+        vibe: "Strip mall Thai — the kind of place that's actually good and becomes a regular stop",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros (multiple locations)", vibe: "Drive-through only, dominant in this area, fast and practical" },
+      { name: "Starbucks (Sunnyside Rd)", vibe: "Suburban standard, crowded at 7:30am" },
+    ],
+    bars: [
+      { name: "Rock Bottom Brewery", vibe: "The main sit-down bar option — family restaurant that also serves beer" },
+      { name: "McMenamins Clackamas", vibe: "McMenamins outpost near the Town Center, reliable and predictable" },
+    ],
+    medianHomePrice: 600000,
+    priceRange: { low: 450000, high: 950000 },
+    commuteToDowntown: "25–40 min by car via I-205; no light rail or meaningful transit",
+    faqs: [
+      {
+        q: "Is Happy Valley a good place for families with kids?",
+        a: "For families specifically prioritizing newer construction, more square footage, and a good school district (North Clackamas), Happy Valley delivers on all three at a price point below Lake Oswego or West Linn. The trade-off is that it's a car-dependent community with limited walkable amenities, and the neighborhood character is newer and less established than older suburbs.",
+      },
+      {
+        q: "What is the commute from Happy Valley to Portland?",
+        a: "I-205 is the main route. In normal conditions, downtown Portland is 25–35 minutes. Evening rush hour can add 15–20 minutes. There is no light rail or meaningful transit option from Happy Valley. Budget for two cars and factor I-205 congestion into your daily schedule.",
+      },
+      {
+        q: "Are all the homes in Happy Valley new construction?",
+        a: "Nearly all. The city grew rapidly from 2000 to present, and the housing stock reflects that. If you want a 1950s ranch or a Craftsman bungalow, Happy Valley is not the market. If you want a 4-bedroom house with an open floor plan, good energy efficiency, and a proper garage, you'll have significant inventory to work with.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We had a 2-bedroom apartment in Portland and needed space for a second kid. We bought a 4-bedroom in Happy Valley for $589,000. That square footage does not exist in SE Portland at that price. We drive more now. It's worth it.",
+        author: "Ryan and Michelle K.",
+        context: "Former NE Portland renters, purchased new construction in Happy Valley at $589,000",
+      },
+      {
+        quote:
+          "North Clackamas schools were the thing we could not find a workaround for. Happy Valley was the most practical way to access that district at a price we could manage.",
+        author: "Denise and Craig O.",
+        context: "Moved from SE Portland, bought in Happy Valley in 2022 for school access",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "refinance", "heloc", "cash-out", "investment"],
+    adjacentNeighborhoods: ["milwaukie", "oregon-city", "west-linn", "canby"],
+    seo: {
+      title: "Happy Valley OR Homes & Mortgages | Bri Lindley, Mortgage Express",
+      description:
+        "Happy Valley is one of Oregon's fastest-growing cities — newer construction, North Clackamas schools, and Mt. Hood views. Learn what buyers need to know before they shop. Bri Lindley, NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "canby",
+    name: "Canby",
+    city: "Canby",
+    state: "OR",
+    description: [
+      "The Canby Ferry is a cable-guided ferry across the Willamette River — not a bridge, an actual ferry. It runs from Canby to the Wilsonville side, costs a few dollars, and takes about five minutes. It operates seasonally and carries cars, cyclists, and pedestrians. It's a practical crossing that also happens to be one of those Oregon things that people who know about it talk about. It's at the end of S Holly Street on the Canby side. Canby itself is a city of around 18,000 people, south of Wilsonville, with a genuine small-city downtown on 1st and 2nd Avenues — not a downtown that's been converted from something else, but one that grew that way over time, with local businesses that have been operating for decades.",
+      "The housing stock mixes older 1940s–1970s homes in the historic core with newer subdivisions on Canby's edges. Canby School District is an independent district with strong community support — Canby High School is the main high school, and the district serves a population that's meaningfully different from the urban-professional demographic of Lake Oswego or Happy Valley. Agriculture is not a peripheral feature of Canby: the Canby area has active nurseries and farms — Horticulture is genuinely part of the local economy, and the land around the city reflects it. The price point reflects all of this: at a median of around $460,000, Canby offers more house than any other community covered here at an equivalent price.",
+      "The commute is 35–45 minutes to Portland by car and entirely car-dependent — there's no transit option that makes sense for a daily commute. Highway 99E is the main north-south road connecting Canby to Wilsonville and Oregon City. For buyers who've been looking at the metro and want space, lower density, and a genuine break from the Portland suburban aesthetic, Canby is a real option — not a compromise, but a deliberate choice. The distance is a daily fact of life, and buyers who thrive here are the ones who've made peace with that up front.",
+    ],
+    personality: "Genuine small city at the edge of the metro — the ferry is real, the farms are real, the commute is real",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Canby+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Canby+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 38,
+    bikeScore: 40,
+    transitScore: 15,
+    schoolDistrict: "Canby School District",
+    schools: [
+      { name: "Ackerman Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Baker Prairie Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Canby High School", type: "high", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Canby City Park",
+        amenities: ["sports fields", "playground", "picnic areas", "public pool", "walking paths"],
+      },
+      {
+        name: "Molalla River State Park",
+        amenities: ["Willamette River confluence", "boat launch", "fishing", "picnic areas", "natural area"],
+      },
+      {
+        name: "Canby Ferry Crossing Area",
+        amenities: ["scenic river crossing", "walking area", "Willamette River views", "cyclist-accessible"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Canemah Brewing",
+        cuisine: "American",
+        vibe: "Local brewery with food, the anchor of Canby's downtown dining scene, solid weekend spot",
+      },
+      {
+        name: "El Tapatio",
+        cuisine: "Mexican",
+        vibe: "Long-running Canby institution, the kind of neighborhood Mexican restaurant that doesn't need to advertise",
+      },
+      {
+        name: "Abby's Legendary Pizza",
+        cuisine: "Pizza",
+        vibe: "Oregon chain, but the Canby location is a genuine local gathering spot",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros (99E)", vibe: "Drive-through, the practical caffeine stop for most Canby commuters" },
+      { name: "Canby Coffee Company", vibe: "Local independent, downtown location, where the early risers go" },
+    ],
+    bars: [
+      { name: "Canemah Brewing", vibe: "Taproom side, relaxed, locals mix with visitors, outdoor seating in summer" },
+      {
+        name: "Horseshoe Tavern",
+        vibe: "Old-school Canby bar — pool table, regulars, no pretense, been there longer than most residents",
+      },
+    ],
+    medianHomePrice: 460000,
+    priceRange: { low: 300000, high: 750000 },
+    commuteToDowntown: "35–45 min by car via Hwy 99E and I-205; car-dependent, no transit option for daily commute",
+    faqs: [
+      {
+        q: "What is the Canby Ferry?",
+        a: "The Canby Ferry is a cable-guided river ferry across the Willamette, connecting Canby to the Wilsonville side. It carries cars, bicycles, and foot passengers. It operates seasonally (generally spring through fall, weather permitting) and costs a few dollars per vehicle. It's at the end of S Holly Street in Canby. It's both a functional crossing and, frankly, one of the more memorable Oregon experiences in a metro area full of bridges.",
+      },
+      {
+        q: "How far is the commute from Canby to Portland?",
+        a: "35–45 minutes by car under normal conditions via Highway 99E to I-205 or I-5. Add 10–15 minutes in peak hour traffic. There is no practical transit option for a daily Portland commute from Canby. Most households have multiple cars, and proximity to Canby's own commercial services reduces how often residents need to drive north.",
+      },
+      {
+        q: "How are the schools in Canby?",
+        a: "Canby School District is an independent district with strong local community support. Canby High School is the main high school. Rankings are solid for a community this size — not at the Lake Oswego or West Linn-Wilsonville level, but comparable to what you'd find in most independent Clackamas County districts. The district's smaller size means more direct community engagement with the schools.",
+      },
+      {
+        q: "Is Canby a good area for first-time buyers?",
+        a: "It can be, especially for buyers who want more house at a lower price and are comfortable with the commute. At a median of ~$460,000, the entry point is lower than any comparable suburb closer to Portland. FHA loans and conventional financing both work well in this price range. The key is being honest about the 35–45 minute commute before you commit.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We looked at everything between SE Portland and Oregon City for 14 months. We bought a 3-bedroom house in Canby for $441,000 with a half-acre. That does not exist closer to the city at that price. The commute is 40 minutes. We knew that going in.",
+        author: "Jason and Lori B.",
+        context: "First-time buyers after 14 months of searching; purchased in Canby at $441,000",
+      },
+      {
+        quote:
+          "We moved from Happy Valley. We wanted more land and less traffic around us. Canby was the move that made sense. The ferry is genuinely one of our favorite things about living here.",
+        author: "Stephanie and Paul N.",
+        context: "Moved from Happy Valley to Canby for more land and lower density",
+      },
+    ],
+    relatedServices: ["purchase", "fha", "va", "refinance", "cash-out", "investment", "reverse-mortgage"],
+    adjacentNeighborhoods: ["oregon-city", "happy-valley", "wilsonville", "west-linn"],
+    seo: {
+      title: "Canby OR Homes & Mortgages | Bri Lindley, Mortgage Express",
+      description:
+        "Canby is a small city at the southern edge of the Portland metro — the Canby Ferry, working farms, and the lowest price point in Clackamas County. Bri Lindley, NMLS #1367416, Mortgage Express.",
+    },
+  },
+
+{
+    slug: "newberg",
+    name: "Newberg",
+    city: "Newberg",
+    state: "OR",
+    description: [
+      "Highway 99W enters Newberg from the north past a Chevy dealer and a Fred Meyer, and somewhere around the first stoplight you notice the Chehalem Mountains rising to the south. That transition — from suburban commercial strip to the start of Willamette Valley wine country — happens fast here. George Fox University sits in the middle of town, which means you get a college-town calendar: events, lectures, the Bene Coffee on Villa Road that stays open late. Recipe on First Street does the kind of cooking that would draw a crowd in Portland. The Painted Lady, just off downtown, has been one of Oregon's better special-occasion restaurants for years.",
+      "Housing is a mix of modest 1950s–1970s ranches in established neighborhoods, newer subdivisions on the east side of town, and the occasional older Victorian on the streets near downtown. Schools fall under the Newberg School District — Newberg High School is the main comprehensive high, and the district has a functional reputation without being exceptional. The pull for buyers is the price-to-land ratio and proximity to the AVA: you can have a half-acre lot with mountain views for what a small Portland bungalow costs. That calculation is drawing remote workers and people leaving larger metros in a serious way.",
+      "The commute reality is the defining constraint of Newberg. Highway 99W is a two-lane road for long stretches, passes through Tigard with heavy signal congestion, and has no good bypass. In rush hour, the 25 miles from Newberg to downtown Portland takes 50 minutes on a good day and over an hour on a bad one. People who drive to Portland daily report it erodes the lifestyle advantage within six months. Buyers who work remotely, go in two or three days a week, or have relocated from somewhere with real commute pain often adjust fine. Daily commuters should price that drive honestly before they fall in love with the landscape.",
+    ],
+    personality: "Wine country access plus a real small-city downtown — best for remote workers who want Willamette Valley life without full rural isolation",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Newberg+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Newberg+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 52,
+    bikeScore: 44,
+    transitScore: 18,
+    schoolDistrict: "Newberg School District",
+    schools: [
+      { name: "Mabel Rush Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "Mountain View Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Newberg High School", type: "high", grades: "9–12", rating: 5 },
+      { name: "George Fox University", type: "private", grades: "College", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Chehalem Cultural Center",
+        amenities: ["community events", "gallery", "performing arts"],
+      },
+      {
+        name: "Hoover Park",
+        amenities: ["baseball fields", "picnic area", "playground", "restrooms"],
+      },
+      {
+        name: "Rogers Landing County Park",
+        amenities: ["Willamette River access", "boat ramp", "picnic tables", "fishing"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Recipe",
+        cuisine: "American",
+        vibe: "Serious farm-to-table cooking on First Street — the kind of restaurant that justifies the drive from Portland",
+      },
+      {
+        name: "The Painted Lady",
+        cuisine: "French-American",
+        vibe: "Special-occasion fine dining in a Victorian house — prix fixe, reservations essential, genuinely excellent",
+      },
+      {
+        name: "Subterra Restaurant",
+        cuisine: "Mediterranean",
+        vibe: "Underground wine bar and restaurant on First Street, good for dates and late dinners",
+      },
+    ],
+    coffee: [
+      { name: "Bene Coffee", vibe: "George Fox adjacent, reliable espresso, stays open late on weeknights" },
+      { name: "Chapters Books and Coffee", vibe: "Independent bookstore cafe on First Street, good for working mornings" },
+    ],
+    bars: [
+      { name: "Ghost Hill Cellars", vibe: "Tasting room in a converted industrial space, pour-your-own flights, relaxed" },
+      { name: "Subterra Wine Bar", vibe: "Curated Oregon wine list in a cellar setting, serious without being precious" },
+    ],
+    medianHomePrice: 450000,
+    priceRange: { low: 325000, high: 850000 },
+    commuteToDowntown: "35–55 min by car via Hwy 99W (traffic-dependent, no bypass); no practical transit option to Portland",
+    faqs: [
+      {
+        q: "What's the commute from Newberg to Portland like?",
+        a: "Highway 99W is the only real route and it has no bypass. In light traffic, the 25 miles takes about 35 minutes. During morning and evening rush hour — especially through Tigard — it regularly stretches to 50–60 minutes. There's no commuter rail and no express bus to downtown Portland. Remote workers and people with flexible schedules manage well. Daily office commuters should drive the route at 8 a.m. before they make an offer.",
+      },
+      {
+        q: "What kind of homes are available in Newberg?",
+        a: "The bulk of the market is 1960s–1990s single-family ranches and two-stories in established residential neighborhoods. The east side of town has newer construction from the 2000s and 2010s. Downtown-adjacent streets have older Victorians and Craftsmans. Acreage parcels with Chehalem Mountain views are available in the $500k–$800k range — that price point is nearly impossible in Washington County for comparable land.",
+      },
+      {
+        q: "How are the schools in Newberg?",
+        a: "The Newberg School District is functional — middle-of-the-pack for Oregon. Newberg High School has a solid athletics program and reasonable academics. Families with specific school priorities may want to look at private options; George Fox University's presence supports some local private schooling infrastructure.",
+      },
+      {
+        q: "Is Newberg a good place to buy a home if I work in Portland?",
+        a: "Depends on how often you go in. Two or three days a week, it's workable — you accept the commute as an occasional trade-off for significantly lower prices and better land. Five days a week, the 99W grind becomes the dominant fact of your life. Most buyers who struggled with Newberg commutes cite the unpredictability of 99W more than the raw distance.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We'd been looking in Beaverton and Hillsboro for two years. When we widened our search to Newberg, we found a 1,900-square-foot house with a view of the Chehalem Mountains for $420,000. We're both fully remote now, so we said yes immediately. Bri walked us through the financing in one conversation — she knows this market.",
+        author: "Derek and Sasha M.",
+        context: "Remote-work buyers, purchased 2024, $418,000",
+      },
+      {
+        quote:
+          "I retired from Intel and wanted out of the West Hills price point. Newberg gave me a bigger lot, a quieter street, and I'm twenty minutes from half a dozen wineries. It wasn't a complicated decision once I stopped thinking about Portland as the center of everything.",
+        author: "Robert C.",
+        context: "Retiree, purchased 2023, $485,000",
+      },
+      {
+        quote:
+          "Bri was honest with us that the commute was going to be the test. She was right — one of us goes to Portland two days a week and the other is fully remote. It works, but we're glad she set that expectation early instead of just telling us what we wanted to hear.",
+        author: "Yuki and Tom F.",
+        context: "Hybrid commuters, purchased 2024, $460,000",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "refinance",
+      "fha",
+      "va",
+      "jumbo",
+      "heloc",
+      "cash-out",
+      "divorce-lending",
+      "investment",
+      "reverse-mortgage",
+    ],
+    adjacentNeighborhoods: ["dundee", "mcminnville", "sherwood", "forest-grove", "tualatin"],
+    seo: {
+      title: "Buying a Home in Newberg, OR | Mortgage Lender | The Lindley Team",
+      description:
+        "Newberg real estate and home loans with Bri Lindley at Mortgage Express. Median $450k, wine country access, George Fox University, honest 99W commute guidance. NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "mcminnville",
+    name: "McMinnville",
+    city: "McMinnville",
+    state: "OR",
+    description: [
+      "Third Street in downtown McMinnville is one of the better main streets in Oregon — not a marketing claim, just a fact you notice when you walk it. Nick's Italian Cafe has been there since 1977; the James Beard Foundation noticed. Bistro Maison does French country food in an old Victorian. The Evergreen Aviation and Space Museum holds the Spruce Goose — Howard Hughes's flying boat, the largest wooden aircraft ever built — and draws serious visitors from outside the state. On the southeast edge of town, the Carlton-Yamhill AVA and the Chehalem Mountains AVA are both within twenty minutes. McMinnville isn't just a gateway to wine country; it has its own identity that exists independent of the vineyards.",
+      "The city functions more on its own terms than most small Oregon cities its size. There's a hospital (Willamette Valley Medical Center), a community college (Linfield University, now a four-year institution), county government employment, and a manufacturing base that includes PCC Airfoils and other aerospace suppliers. McMinnville School District covers elementary through high school. McMinnville High School is the comprehensive high, with an IB program and generally solid academic reputation for a district this size. Housing is a wide range: modest older ranch homes in the $350k–$450k band, newer construction subdivisions on the north and east edges of town in the $450k–$600k range, and acreage properties with vineyard adjacency that can push well past $700k.",
+      "Most people who live in McMinnville don't commute to Portland, and the math tells you why. The drive is 40 miles via Highway 18 or 99W and takes 50–65 minutes in normal conditions — closer to 75 in morning rush. There's no rail connection and no meaningful transit. The city draws retirees from the Bay Area and Southern California who want Oregon's quality of life at a fraction of the cost, remote workers who prioritize wine country living, and buyers who work locally in agriculture, healthcare, or manufacturing. For a specific kind of buyer — one who has accepted that Portland is an occasional destination, not a daily commute — McMinnville offers a complete life in a way that smaller Yamhill County towns can't match.",
+    ],
+    personality: "The most self-sufficient small city in the Willamette Valley — wine country address, real employment base, and a downtown worth walking",
+    mapEmbedSrc: "https://maps.google.com/maps?q=McMinnville+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=McMinnville+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 58,
+    bikeScore: 54,
+    transitScore: 20,
+    schoolDistrict: "McMinnville School District",
+    schools: [
+      { name: "Memorial Elementary", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "Duniway Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "McMinnville High School", type: "high", grades: "9–12", rating: 6 },
+      { name: "Linfield University", type: "private", grades: "College", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Joe Dancer Park",
+        amenities: ["sports fields", "walking trails", "picnic area", "disc golf", "BMX track"],
+      },
+      {
+        name: "Rotary Park",
+        amenities: ["playground", "picnic shelters", "restrooms", "open lawn"],
+      },
+      {
+        name: "Evergreen Aviation and Space Museum",
+        amenities: ["aviation exhibits", "IMAX theater", "Spruce Goose display", "educational programs"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Nick's Italian Cafe",
+        cuisine: "Italian",
+        vibe: "James Beard-recognized institution on Third Street — minestrone, pasta, old-school service since 1977",
+      },
+      {
+        name: "Bistro Maison",
+        cuisine: "French",
+        vibe: "French country cooking in a Victorian house on Third Street — the best date-night option in Yamhill County",
+      },
+      {
+        name: "Craven Farm & Kitchen",
+        cuisine: "American",
+        vibe: "Farm-sourced, seasonal menu, the kind of place that changes with what's ready",
+      },
+    ],
+    coffee: [
+      { name: "Honest Chocolates", vibe: "Bean-to-bar chocolate and espresso on Third Street, unusual and good" },
+      { name: "Cornerstone Coffee Roasters", vibe: "Local roaster, serious about sourcing, the working-morning anchor on Third" },
+    ],
+    bars: [
+      { name: "Golden Valley Brewery", vibe: "McMinnville's original craft brewery — full menu, good house lagers, family-friendly" },
+      { name: "Pinot Quarter", vibe: "Wine bar on Third Street with strong Yamhill County pours and late-evening hours" },
+    ],
+    medianHomePrice: 430000,
+    priceRange: { low: 310000, high: 950000 },
+    commuteToDowntown: "50–70 min by car via Hwy 18 or 99W; no commuter transit to Portland",
+    faqs: [
+      {
+        q: "Is McMinnville far from Portland?",
+        a: "About 40 miles, which sounds manageable until you account for Highway 18 through the Coast Range foothills and 99W congestion near Newberg and Tigard. Realistically, expect 55–70 minutes each way in normal driving conditions, longer in rush hour. Most McMinnville residents treat Portland as an occasional trip, not a daily commute. If you need to be in Portland regularly, this is the honest constraint.",
+      },
+      {
+        q: "What makes McMinnville different from other Yamhill County towns?",
+        a: "Scale and self-sufficiency. McMinnville has a hospital, a university, county employment, and a manufacturing sector — you don't have to drive to Hillsboro to get most of what you need. The downtown on Third Street functions as an actual destination: restaurants worth going out of your way for, coffee roasters, wine bars, and shops that aren't chains. Dundee and Carlton have more wine-country atmosphere, but much less infrastructure.",
+      },
+      {
+        q: "How are McMinnville schools?",
+        a: "McMinnville High School has an IB program, strong athletics, and a generally positive reputation for a district of its size. Elementary schools are solid. The district is not a top-ten Oregon district, but it performs better than the county averages would suggest, and Linfield University's presence means some educational enrichment at the high school level.",
+      },
+      {
+        q: "What types of homes are available in McMinnville?",
+        a: "The range is wide. Older ranch homes and Craftsmans in established neighborhoods start in the low $300ks. Newer construction on the north and east sides of town runs $450k–$600k. Vineyard-adjacent acreage properties and custom homes push $700k and above. The market moves slower than Portland suburbs, which means less competition pressure on individual offers.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "My wife and I both left tech jobs in San Francisco. We wanted Oregon wine country and a real house. McMinnville gave us a four-bedroom with a yard for $495,000 — the same money that bought a one-bedroom condo in the Mission. Bri handled everything remotely until we flew up to close. Couldn't have been easier.",
+        author: "Marco and Diana R.",
+        context: "California relocation buyers, purchased 2023, $495,000",
+      },
+      {
+        quote:
+          "I work for Linfield University and wanted to live close by. Found a 1970s ranch three blocks from campus for $385,000. Bri got me a rate I didn't think I'd qualify for given my employment type. She knew exactly how to structure it.",
+        author: "Patricia H.",
+        context: "University employee, first-time buyer, purchased 2024, $385,000",
+      },
+      {
+        quote:
+          "We needed the hospital for my husband's care and wanted to stay close. McMinnville made sense — we weren't trying to commute anywhere. Third Street being ten minutes from our house is something we use every week. Bri walked us through a reverse mortgage option that let us do this without pressure on our monthly budget.",
+        author: "Carol and Jim W.",
+        context: "Retirees, purchased 2023, reverse mortgage",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "refinance",
+      "fha",
+      "va",
+      "jumbo",
+      "heloc",
+      "cash-out",
+      "divorce-lending",
+      "investment",
+      "reverse-mortgage",
+    ],
+    adjacentNeighborhoods: ["carlton", "dundee", "newberg", "forest-grove"],
+    seo: {
+      title: "Buying a Home in McMinnville, OR | Mortgage Lender | The Lindley Team",
+      description:
+        "McMinnville home loans with Bri Lindley at Mortgage Express. Yamhill County seat, Third Street dining, Evergreen Museum, median $430k. Honest mortgage guidance for wine country buyers. NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "dundee",
+    name: "Dundee",
+    city: "Dundee",
+    state: "OR",
+    description: [
+      "The Dundee Hills AVA produces some of the most expensive Pinot Noir in North America, and the wineries that anchor it are all within a few miles of each other: Domaine Drouhin Oregon on Breyman Orchards Road, Argyle Winery on Highway 99W, Sokol Blosser on Orchard Lane, Archery Summit on Spring Valley Road. This is not a tourist approximation of wine country — it's the thing itself. The Dundee Bistro on Highway 99W is the town's dinner anchor, Willamette Valley Vineyards pours above it on the hill. The town of Dundee proper has around 3,500 people, one stoplight on 99W, and almost no commercial infrastructure beyond the restaurants and tasting rooms. That is either a feature or a bug depending on who's buying.",
+      "Real estate here sorts into two categories: residential parcels in town (modest, older, the Newberg School District) and agricultural or vineyard-adjacent land on the surrounding hills. The residential median sits around $560,000, which sounds high until you see what $560k gets you elsewhere in the metro — and the vineyard-adjacent acreage parcels that come to market range from $700k for raw land to several million for established vineyard properties. The Newberg School District serves Dundee, which means Newberg High School is the high school of record. Families with school priorities typically view this as workable rather than exceptional, and many have structured their Dundee purchase partly around Linfield or George Fox university proximity for the cultural benefits rather than the K–12 schools specifically.",
+      "Dundee is not a commuter town, and anyone honest about the traffic will tell you so. Highway 99W through Dundee is the single route in and out, and it feeds into the same 99W corridor that makes Newberg commutes hard — except you're adding another 8 miles. The drive to Portland on a clear Tuesday afternoon is 40 minutes. On a Friday evening in summer, when wine country visitors and Portland commuters are both on the road, it can be 75 minutes. People who buy here have typically made a definitive decision about where their life is centered: it's here, and Portland is something they visit. That clarity makes the purchase decision easier, and the lifestyle — rural quiet, one of Oregon's most beautiful landscapes, and being genuinely surrounded by world-class vineyards — is real.",
+    ],
+    personality: "The heart of Oregon wine country, for buyers who want the landscape as their actual life rather than a weekend destination",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Dundee+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Dundee+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 28,
+    bikeScore: 22,
+    transitScore: 8,
+    schoolDistrict: "Newberg School District",
+    schools: [
+      { name: "Dundee Elementary School", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "Mountain View Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "Newberg High School", type: "high", grades: "9–12", rating: 5 },
+    ],
+    parks: [
+      {
+        name: "Dundee Hills Trailhead",
+        amenities: ["hiking", "vineyard views", "rural walking routes"],
+      },
+      {
+        name: "Twohy Park",
+        amenities: ["playground", "open lawn", "picnic area"],
+      },
+      {
+        name: "Rex Hill Vineyard Grounds",
+        amenities: ["walking paths", "winery gardens", "scenic overlooks"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "The Dundee Bistro",
+        cuisine: "Pacific Northwest",
+        vibe: "The town's main serious restaurant — wood-fired cooking, strong local wine list, the anchor of downtown Dundee dining",
+      },
+      {
+        name: "Red Hills Market",
+        cuisine: "American",
+        vibe: "Wine country deli and market on 99W — sandwiches, local provisions, casual lunch before a winery afternoon",
+      },
+      {
+        name: "The Painted Lady",
+        cuisine: "French-American",
+        vibe: "Fine dining in neighboring Newberg — prix fixe, reservations required, worth the short drive for special occasions",
+      },
+    ],
+    coffee: [
+      { name: "Red Hills Market", vibe: "Espresso and pastries alongside the deli — the morning stop for most Dundee residents" },
+      { name: "Argyle Winery Tasting Room", vibe: "Not a coffee shop, but morning winery visits with sparkling pours before 11 a.m. are a real Dundee custom" },
+    ],
+    bars: [
+      { name: "Domaine Drouhin Tasting Room", vibe: "Oregon Pinot and Chardonnay from one of the valley's most respected producers — appointment preferred" },
+      { name: "Argyle Winery", vibe: "Walk-in sparkling wine and Pinot tasting on 99W — the most accessible tasting room in the AVA" },
+    ],
+    medianHomePrice: 560000,
+    priceRange: { low: 380000, high: 3500000 },
+    commuteToDowntown: "45–75 min by car via Hwy 99W (highly variable, especially weekends and summer); no transit option",
+    faqs: [
+      {
+        q: "What does real estate in Dundee actually look like?",
+        a: "Two distinct markets. In-town residential: older homes, smaller lots, mostly in the $380k–$600k range, served by Newberg schools. Hillside and agricultural parcels: vineyard-adjacent land from $700k for raw acreage to several million for established, planted vineyard properties with structures. The spread is genuinely wide — a two-bedroom in-town house and a 20-acre Dundee Hills vineyard parcel are both 'Dundee real estate,' just completely different purchases.",
+      },
+      {
+        q: "Is Dundee practical for someone who needs to get to Portland sometimes?",
+        a: "Occasionally, yes. Daily, no. Highway 99W is the only route, and between Dundee's location and Portland rush-hour traffic, the drive is reliably 45 minutes on a good day and 75+ in summer or commute hours. Buyers who come here typically aren't optimizing for Portland access — they've made a deliberate choice about where their daily life is centered.",
+      },
+      {
+        q: "What's the wine country lifestyle actually like in Dundee versus other towns?",
+        a: "More concentrated than anywhere else in Yamhill County. The Dundee Hills AVA is small and the major producers — Domaine Drouhin, Sokol Blosser, Argyle, Archery Summit — are all within a few miles. Tasting rooms are genuinely close. The landscape on the hills above town is one of Oregon's finest. The trade-off is that the town itself has almost no commercial infrastructure beyond restaurants and tasting rooms, so you drive to Newberg or McMinnville for groceries and errands.",
+      },
+      {
+        q: "Can I get a jumbo loan for a vineyard property in Dundee?",
+        a: "It depends on the property structure. Agricultural land with a residential component often requires specialized financing — not all lenders can handle it. Bri Lindley at Mortgage Express has worked with vineyard-adjacent purchases in Yamhill County and can assess what financing structure fits the specific property. The answer varies considerably by acreage, existing improvements, and how the land is classified.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We spent three years in Napa before deciding Oregon was where we wanted to be. Dundee was the obvious answer — the AVA is serious, the prices were half of what comparable Napa hillside land costs, and the community of people who love wine here is genuine. Bri helped us structure a jumbo purchase on a property with both a residence and working vineyard. It was complicated and she handled every piece of it.",
+        author: "Genevieve and Paul T.",
+        context: "Vineyard property buyers, purchased 2023, $1.2M",
+      },
+      {
+        quote:
+          "I retired from software. I wanted ten acres, a view, and to stop commuting. Dundee gave me all three. I drove the 99W route once before I bought and knew I wasn't going to do it daily — that was fine with me. Bri made the financing clear and didn't oversell anything.",
+        author: "Randall K.",
+        context: "Retiree, acreage purchase, 2024, $725,000",
+      },
+      {
+        quote:
+          "We needed wine country proximity for our small production label and wanted to live where we work. Dundee Hills land made sense. The process was more complex than a standard residential purchase, and Bri walked us through the correspondent lending options that made it work.",
+        author: "Theresa and Marcus D.",
+        context: "Winemakers, land and improvement purchase, 2023",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "refinance",
+      "jumbo",
+      "heloc",
+      "cash-out",
+      "divorce-lending",
+      "investment",
+      "reverse-mortgage",
+    ],
+    adjacentNeighborhoods: ["newberg", "mcminnville", "carlton", "sherwood"],
+    seo: {
+      title: "Buying a Home in Dundee, OR | Mortgage Lender | The Lindley Team",
+      description:
+        "Dundee Hills real estate and home loans with Bri Lindley at Mortgage Express. Yamhill County wine country, Domaine Drouhin, Sokol Blosser, median $560k, vineyard financing specialists. NMLS #1367416.",
+    },
+  },
+
+  {
+    slug: "carlton",
+    name: "Carlton",
+    city: "Carlton",
+    state: "OR",
+    description: [
+      "Main Street in Carlton is four blocks long and has more serious wine behind its doors than most American towns ten times its size. The Carlton Winemakers Studio opened in 2002 as the country's first custom-crush cooperative facility — multiple producers sharing a single space — and it put Carlton on the wine map before the Dundee Hills had mainstream recognition. Scott Paul Wines is around the corner. The Horse Radish, a wine bar and restaurant on Main Street, is the social center of town — cheese boards, a focused wine list, and the kind of Friday evening that makes you wonder why you ever needed a city. Carlton has about 2,200 residents, and on a Tuesday morning the main street is genuinely quiet.",
+      "Housing reflects the town's scale: modest ranch homes and older farmhouses in the $350k–$500k range, with agricultural and rural residential parcels available at price points that aren't accessible in the Dundee Hills or even central Newberg. The McMinnville School District serves Carlton — students attend schools in McMinnville for middle and high school, which means a daily drive. For buyers who want Yamhill County wine country without Dundee Hills land prices or McMinnville's relative density, Carlton sits in an interesting gap. It's genuinely rural, genuinely quiet, and genuinely connected to the wine industry in a way that isn't tourist-facing.",
+      "Carlton is not for anyone relying on Portland employment. The drive runs an hour to an hour-fifteen in typical conditions via Highway 47 north to Forest Grove and then 26 west, or via McMinnville and 99W — neither route is fast. Buyers in Carlton are either locally employed (healthcare in McMinnville, agriculture, the wine industry itself), fully remote, or retired. The upside is that the agricultural land market offers parcels and older farmhouses that simply don't exist at this price in Washington County or closer in. If the question is 'how little land can I afford that still feels like country life,' Carlton is worth calculating seriously.",
+    ],
+    personality: "Oregon wine country's quietest address — a four-block main street with serious wine credibility and rural land at prices the Dundee Hills don't offer",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Carlton+OR&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Carlton+OR&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 32,
+    bikeScore: 28,
+    transitScore: 5,
+    schoolDistrict: "McMinnville School District",
+    schools: [
+      { name: "Carlton Elementary School", type: "elementary", grades: "K–5", rating: 5 },
+      { name: "Duniway Middle School", type: "middle", grades: "6–8", rating: 5 },
+      { name: "McMinnville High School", type: "high", grades: "9–12", rating: 6 },
+    ],
+    parks: [
+      {
+        name: "Wennerberg Park",
+        amenities: ["sports fields", "playground", "picnic shelters", "walking paths"],
+      },
+      {
+        name: "Miller Woods",
+        amenities: ["forest trails", "creek access", "native plant restoration"],
+      },
+      {
+        name: "Carlton Trailhead",
+        amenities: ["hiking", "vineyard-adjacent walking routes", "rural views"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "The Horse Radish",
+        cuisine: "Wine bar and small plates",
+        vibe: "The heart of Carlton's Main Street — cheese boards, charcuterie, serious Oregon wine list, and a room full of people who actually live here",
+      },
+      {
+        name: "Cuvée Restaurant",
+        cuisine: "Pacific Northwest",
+        vibe: "Dinner-only, farm-sourced, the most formal Carlton option — good for out-of-town guests who need a proper meal",
+      },
+      {
+        name: "Carlton Bakery",
+        cuisine: "Bakery",
+        vibe: "Morning pastries and coffee, the town's casual social anchor before the tasting rooms open",
+      },
+    ],
+    coffee: [
+      { name: "Carlton Bakery", vibe: "Drip coffee and espresso alongside fresh pastries — the default morning stop" },
+      { name: "The Horse Radish", vibe: "Opens for weekend brunch, pour-over available alongside the wine list" },
+    ],
+    bars: [
+      { name: "Carlton Winemakers Studio", vibe: "Multiple producers, one space — the original cooperative tasting room, still the most interesting pour in town" },
+      { name: "Scott Paul Wines", vibe: "Burgundy-focused Pinot in an industrial tasting room — serious and unpretentious" },
+    ],
+    medianHomePrice: 420000,
+    priceRange: { low: 295000, high: 1100000 },
+    commuteToDowntown: "60–80 min by car via Hwy 47 north or via McMinnville/99W; no transit option to Portland",
+    faqs: [
+      {
+        q: "What makes Carlton different from other Yamhill County wine towns?",
+        a: "The Carlton Winemakers Studio is part of it — it created a wine industry presence here that's more working and collaborative than tourist-facing. The town is smaller than Dundee by population but has a denser concentration of active producers on its main street. It also offers more agricultural land at lower prices than the Dundee Hills, which draws a different buyer: someone who wants land and quiet as the primary goal, with wine country adjacency as a bonus rather than the whole story.",
+      },
+      {
+        q: "How far is Carlton from Portland?",
+        a: "About 45 miles, but the routes are indirect. Highway 47 north connects to Highway 26 west of Forest Grove — that drive runs 60–75 minutes in normal conditions. The McMinnville route via 99W is similar. There's no fast option, no bypass, and no rail. Carlton buyers typically don't commute to Portland.",
+      },
+      {
+        q: "What types of homes are available in Carlton?",
+        a: "The in-town market has older single-family homes — ranches and Craftsmans from the 1940s through 1980s — in the $295k–$480k range. Rural residential parcels outside town offer farmhouses, older homes on acreage, and undeveloped agricultural land. The price ceiling on Carlton agricultural properties is lower than Dundee Hills comparables, often by $200k–$400k per acre, which is the primary financial argument for looking here.",
+      },
+      {
+        q: "What are the schools like for Carlton residents?",
+        a: "Carlton Elementary is in town for K–5. For middle and high school, students attend in McMinnville, which means a daily drive. McMinnville High School has an IB program and a solid reputation. Families consider this workable but should factor the transportation logistics into daily life planning.",
+      },
+    ],
+    testimonials: [
+      {
+        quote:
+          "We couldn't afford Dundee Hills land and didn't need that address for what we were doing — we make wine, we don't need a famous appellation on our mailbox. Carlton gave us four acres and a farmhouse for $540,000. Bri structured an FHA loan for the residence portion and helped us think through the agricultural component separately.",
+        author: "Lena and Chris A.",
+        context: "Small-production winemakers, farmhouse and acreage purchase, 2024, $540,000",
+      },
+      {
+        quote:
+          "I work fully remote and my wife is a nurse at Willamette Valley Medical in McMinnville. Carlton is fifteen minutes from her hospital and an hour from anything we'd need in Portland — which we go to maybe once a month. The house was $395,000 and we have a view of a vineyard from the kitchen. That math made sense.",
+        author: "David and Keiko S.",
+        context: "Remote worker and healthcare employee, purchased 2023, $395,000",
+      },
+      {
+        quote:
+          "After the divorce I wanted to start over somewhere real. Carlton was affordable without feeling like a compromise — the wine community here is welcoming, the town is quiet, and I have a small yard. Bri handled the divorce-lending situation with zero drama and explained every step clearly.",
+        author: "Margaret L.",
+        context: "Post-divorce buyer, purchased 2024, $335,000",
+      },
+    ],
+    relatedServices: [
+      "purchase",
+      "refinance",
+      "fha",
+      "va",
+      "jumbo",
+      "heloc",
+      "cash-out",
+      "divorce-lending",
+      "investment",
+      "reverse-mortgage",
+    ],
+    adjacentNeighborhoods: ["mcminnville", "dundee", "newberg", "forest-grove"],
+    seo: {
+      title: "Buying a Home in Carlton, OR | Mortgage Lender | The Lindley Team",
+      description:
+        "Carlton, Oregon home loans with Bri Lindley at Mortgage Express. Yamhill County wine country, Carlton Winemakers Studio, median $420k, rural acreage financing. NMLS #1367416.",
+    },
+  },
+
+{
+    slug: "vancouver-wa",
+    name: "Vancouver",
+    city: "Vancouver",
+    state: "WA",
+    description: [
+      "Officers Row on East Evergreen Boulevard is fourteen Victorian and Colonial Revival homes built for the U.S. Army in the 1880s, running alongside what was once Fort Vancouver — a Hudson's Bay Company trading post before Oregon was even a state. The National Historic Site sits immediately adjacent. It's a real thing, not a reconstructed tourist attraction, and it's two miles from the I-5 bridge. The Waterfront Vancouver development that opened in 2018 added restaurants and a walking path along the Columbia, and the area around Esther Short Park has enough foot traffic now to feel like a downtown rather than a city center that emptied out twenty years ago.",
+      "The housing draw across the Columbia is, bluntly, Washington's lack of a state income tax. Oregon's top marginal rate is 9.9%. On a $150,000 household income, that math can translate to $10,000–$13,000 a year in additional take-home pay after the move — enough to meaningfully affect how much mortgage a buyer can carry. The Clark County School District covers most of Vancouver proper and is a large district, solid across the middle with strong programs at Hudson's Bay High. The Uptown neighborhood between McLoughlin and 33rd has older Craftsman housing and some of the most competitive inventory in the city.",
+      "The I-5 bridge between Vancouver and Portland was built in 1917. The I-205 bridge, ten miles east, is the alternative when I-5 backs up, which is every weekday afternoon. The Columbia River Crossing — a replacement bridge with light rail — has been proposed, studied, and litigated since the mid-2000s without a shovel in the ground. Commute to downtown Portland runs 25–35 minutes on a good day and 50–70 in afternoon rush hour. That is not a temporary construction problem. It is the daily reality of living in Vancouver.",
+    ],
+    personality: "Oregon's commuter city that happens to be in Washington",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Vancouver+WA&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Vancouver+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 42,
+    bikeScore: 55,
+    transitScore: 38,
+    schoolDistrict: "Vancouver Public Schools",
+    schools: [
+      { name: "Lieser Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Discovery Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Hudson's Bay High School", type: "high", grades: "9–12", rating: 6 },
+      { name: "Prairie High School", type: "high", grades: "9–12", rating: 7 },
+      { name: "Vancouver School of Arts and Academics", type: "charter", grades: "6–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Esther Short Park",
+        amenities: ["splash pad", "playground", "farmers market", "event space", "rose garden"],
+      },
+      {
+        name: "Fort Vancouver National Historic Site",
+        amenities: ["historic tours", "walking paths", "museum", "reconstructed fort"],
+      },
+      {
+        name: "Vancouver Lake Regional Park",
+        amenities: ["swimming beach", "boat launch", "wildlife viewing", "trails"],
+      },
+      {
+        name: "Waterfront Park",
+        amenities: ["Columbia River views", "paved trail", "public art", "fishing pier"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Twigs Bistro and Martini Bar",
+        cuisine: "American",
+        vibe: "Downtown Vancouver date night anchor — better than it sounds, reliable for a weeknight out",
+      },
+      {
+        name: "The Grant House",
+        cuisine: "American",
+        vibe: "Inside the Officers Row historic district, lunch and brunch in a 19th-century Army officer's home",
+      },
+      {
+        name: "Who Song and Larry's",
+        cuisine: "Mexican",
+        vibe: "On the waterfront with Columbia River views, margaritas, and enough guac to make the bridge traffic worth it",
+      },
+      {
+        name: "WildFin American Grill",
+        cuisine: "Seafood",
+        vibe: "Waterfront location, happy hour crowd, the kind of place where a table with a river view is actually achievable",
+      },
+    ],
+    coffee: [
+      { name: "Relevant Coffee", vibe: "Third-wave downtown Vancouver, single-origins and pour-overs, regulars who work downtown" },
+      { name: "Compass Coffee", vibe: "Waterfront-adjacent, quick stop before crossing the bridge, busy on weekday mornings" },
+      { name: "Hidden River Roasters", vibe: "Local roaster with a cafe, more relaxed than downtown spots, good for a longer sit" },
+    ],
+    bars: [
+      { name: "Main Event", vibe: "Downtown dive that has outlasted several waves of redevelopment, no-pretense crowd" },
+      { name: "Loowit Brewing", vibe: "Local craft brewery with food, named for Mount St. Helens, good for a post-work pint" },
+      { name: "At the Waterfront", vibe: "Marina bar on the Columbia, boat crowd and bridge commuters in equal measure" },
+    ],
+    medianHomePrice: 480000,
+    priceRange: { low: 320000, high: 850000 },
+    commuteToDowntown:
+      "25–35 min in light traffic; 50–70 min in afternoon rush hour via I-5 or I-205. Both bridges back up daily. No light rail option exists yet.",
+    faqs: [
+      {
+        q: "How bad is the commute from Vancouver WA to Portland?",
+        a: "It depends entirely on when you drive. Northbound in the morning is generally fine — you're going against the flow. Southbound into Portland from 4–6:30 PM is the problem. The I-5 Bridge (built 1917) backs up past the Mill Plain exit regularly. I-205 is the alternative but adds 10–15 miles each way. Budget 50–70 minutes on a bad afternoon. If your job has flexible hours or remote days, this becomes much more manageable.",
+      },
+      {
+        q: "Is there any transit from Vancouver to Portland?",
+        a: "C-TRAN runs express bus routes to downtown Portland. They're faster than driving in peak traffic and reasonably reliable, but the service runs on a schedule and requires park-and-ride. There's no light rail — the Columbia River Crossing project has been proposed and studied for over 20 years without construction starting. Don't plan your commute around future light rail.",
+      },
+      {
+        q: "How much does not paying Oregon income tax actually save?",
+        a: "Oregon's top marginal income tax rate is 9.9% starting at $125,000 for joint filers. On a $150,000 household income, the difference between Oregon and Washington tax burdens is roughly $8,000–$12,000 per year, depending on deductions. That's real money — it's the equivalent of a meaningfully larger mortgage payment. Washington has no state income tax at all. Property taxes in Clark County are comparable to Multnomah County.",
+      },
+      {
+        q: "Can I use an Oregon mortgage lender if I'm buying in Washington?",
+        a: "Yes. Bri Lindley at The Lindley Team is licensed in both Oregon and Washington (NMLS #1367416). Many Portland-area buyers purchasing in Clark County prefer to work with a lender who already knows the market on both sides of the river.",
+      },
+      {
+        q: "What are Vancouver's best neighborhoods?",
+        a: "Uptown (between McLoughlin and 33rd, roughly) has older Craftsman housing and good walkability by Vancouver standards. The area near Officers Row and the National Historic Site is quieter and has larger lots. The Waterfront district is newer and skews toward condos and townhomes. Hough is a mid-century neighborhood north of downtown that draws first-time buyers.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We were renting in Northeast Portland and doing the math on whether we could afford to buy. Bri showed us that across the river in Vancouver, we could buy a three-bedroom house for what we were paying in rent — and we'd stop paying Oregon income tax. The first year alone we came out ahead by more than $14,000.",
+        author: "Derek and Camille S.",
+        context: "Relocated from Portland to Vancouver, purchased 2023",
+      },
+      {
+        quote: "I was skeptical about the commute. My job is downtown Portland. It's real — some evenings it takes me an hour to get home. But I work from home two days a week, and on those days I'm sitting on a patio with a Columbia River view. I don't regret it.",
+        author: "Theresa M.",
+        context: "Portland commuter, bought in Uptown Vancouver, 2022",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "va", "heloc", "cash-out", "investment"],
+    adjacentNeighborhoods: ["camas", "washougal", "battle-ground", "ridgefield"],
+    seo: {
+      title: "Buying a Home in Vancouver WA | Clark County Mortgage | The Lindley Team",
+      description:
+        "Vancouver WA home buying guide: prices, schools, bridge commute realities, and the income tax math. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "camas",
+    name: "Camas",
+    city: "Camas",
+    state: "WA",
+    description: [
+      "Google built a major data center campus in Camas — roughly 400 acres along the Columbia. It's not the city's identity, but it's the city's largest property taxpayer and a signal that east Clark County has tech infrastructure underneath the small-town surface. The paper mill at the western edge of the city — originally Camas Paper, later Crown Zellerbach, now Nippon Paper — has been operating since 1883. On certain wind directions you know it's there. But downtown Camas has put enough distance between itself and the mill identity that first-time visitors are often surprised: the 1920s brick storefronts along NE 4th Avenue are genuinely intact, Grains of Wrath brewery fills a former hardware store, and the old Camas Hotel has been restored. This is not a city that looks like it should be this good.",
+      "Camas School District is the main reason buyers stretch their budget to get here. It's consistently one of the top-rated districts in Washington state — small enough that teachers know students, large enough to offer AP tracks and strong extracurricular programs. Camas High School regularly ranks in the top five percent of Washington high schools. Buyers relocating from Portland who have kids in middle school or older specifically target Camas for the schools. The housing reflects that demand: medians run $100,000–$150,000 above Vancouver proper, and well-priced homes don't sit. Lacamas Lake Regional Park anchors the outdoor life — a 304-acre lake with swimming, kayaking, and loop trails that see serious use on summer weekends.",
+      "Camas is 25 miles east of Portland via Highway 14 along the Columbia, then across the Glenn Jackson Bridge on I-205. Southbound I-205 backs up reliably every weekday afternoon — expect 45–60 minutes to downtown Portland in peak traffic. The longer route is faster exactly never. What buyers are trading for that commute is no Oregon income tax, schools that outperform most of Portland's options, and a downtown that doesn't feel like a trade-off.",
+    ],
+    personality: "The school district that makes people do the bridge commute math twice",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Camas+WA&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Camas+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 38,
+    bikeScore: 44,
+    transitScore: 18,
+    schoolDistrict: "Camas School District",
+    schools: [
+      { name: "Lacamas Heights Elementary", type: "elementary", grades: "K–5", rating: 9 },
+      { name: "Dorothy Fox Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Skyridge Middle School", type: "middle", grades: "6–8", rating: 8 },
+      { name: "Camas Middle School", type: "middle", grades: "6–8", rating: 8 },
+      { name: "Camas High School", type: "high", grades: "9–12", rating: 9 },
+    ],
+    parks: [
+      {
+        name: "Lacamas Lake Regional Park",
+        amenities: ["swimming", "kayaking", "loop trails", "fishing", "picnic areas", "waterfall"],
+      },
+      {
+        name: "Heritage Park",
+        amenities: ["downtown anchor", "gazebo", "events", "splash pad"],
+      },
+      {
+        name: "Round Lake Natural Area",
+        amenities: ["quiet lake loop", "bird watching", "unpaved trails"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Grains of Wrath",
+        cuisine: "Brewery / American",
+        vibe: "The go-to downtown Camas spot — solid food, excellent beer list, in a restored hardware store building",
+      },
+      {
+        name: "Alma Chocolate & Cafe",
+        cuisine: "Cafe",
+        vibe: "Downtown dessert and light lunch, good for weekend browsing days when you're in the brick district",
+      },
+      {
+        name: "Niche Wine Bar",
+        cuisine: "Wine bar / Small plates",
+        vibe: "Compact downtown wine bar, good list, the kind of place that fills up on Friday nights",
+      },
+      {
+        name: "Cellar 55 Brewing",
+        cuisine: "Brewery",
+        vibe: "Family-friendly tap room east of downtown, larger space, good for groups",
+      },
+    ],
+    coffee: [
+      { name: "Caffe Piccolo", vibe: "Downtown Camas classic, espresso bar in the brick district, neighborhood regulars" },
+      { name: "The Human Bean", vibe: "Drive-through chain with a Camas location, practical for the morning bridge run" },
+    ],
+    bars: [
+      { name: "Grains of Wrath", vibe: "Doubles as the main bar — the tap list is the reason to stay after dinner" },
+      { name: "Cellar 55 Brewing", vibe: "More a taproom than a bar, but that's not a complaint" },
+    ],
+    medianHomePrice: 620000,
+    priceRange: { low: 480000, high: 1200000 },
+    commuteToDowntown:
+      "45–60 min to downtown Portland in afternoon peak via I-205 South. Highway 14 west to I-205 is the standard route. No transit option that makes commuting practical.",
+    faqs: [
+      {
+        q: "Why is Camas more expensive than the rest of Clark County?",
+        a: "The school district. Camas School District is one of Washington state's top-rated districts and the premium is priced in. Buyers who want those schools — and don't want to pay private school tuition — pay up for Camas addresses. The district boundaries are specific: always verify a home's address falls within Camas SD before making an offer.",
+      },
+      {
+        q: "What's the commute from Camas to downtown Portland?",
+        a: "Camas is about 25 miles from downtown Portland. The route is Highway 14 west to I-205 south across the Glenn Jackson Bridge. In morning traffic going south, 35–45 minutes is realistic. Southbound in the afternoon is the problem: 45–60 minutes is the norm, longer when there's an accident on the bridge. There's no meaningful transit option — this is a car-dependent commute.",
+      },
+      {
+        q: "Can I smell the paper mill?",
+        a: "Sometimes. The Nippon Paper mill at the western edge of Camas has operated for 140 years. Wind direction matters — homes closer to downtown Camas on the west side are more likely to notice it. Homes on the east side of the city, near Lacamas Lake, are far enough away that most residents say it's not a factor day-to-day. Tour the specific neighborhood you're considering on a day with westerly winds.",
+      },
+      {
+        q: "Is Camas growing fast?",
+        a: "Yes. New subdivisions have been going in on the north and east sides of the city for the last decade, and the population has roughly doubled since 2000. The schools are still managing capacity well, but it's worth paying attention to — Camas SD has passed bond measures for new facilities to keep pace.",
+      },
+      {
+        q: "Can an Oregon-based lender help me buy in Camas?",
+        a: "Yes. Bri Lindley at The Lindley Team holds a Washington state mortgage license (NMLS #1367416) and works with buyers across Clark County. If you're moving from Portland or working with Oregon-based agents, having a lender who knows both markets helps.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We moved from Lake Oswego specifically for the Camas school district. Our accountant ran the income tax numbers and we're saving about $11,000 a year. The commute adds 20 minutes to my day. It was not a hard decision.",
+        author: "Patrick and Sarah W.",
+        context: "Relocated from Lake Oswego, bought in Camas, 2023",
+      },
+      {
+        quote: "Bri had worked with three other families from our neighborhood who had made the same move. She knew exactly what the Camas market does — move fast and don't wait for a second showing. We were under contract in four days.",
+        author: "Monica R.",
+        context: "Bought near Lacamas Lake, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "jumbo", "heloc", "cash-out", "investment"],
+    adjacentNeighborhoods: ["vancouver-wa", "washougal", "battle-ground"],
+    seo: {
+      title: "Buying a Home in Camas WA | Top-Rated Schools & Clark County Mortgage | The Lindley Team",
+      description:
+        "Camas WA home buying guide: school district rankings, home prices at Lacamas Lake, bridge commute realities. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "washougal",
+    name: "Washougal",
+    city: "Washougal",
+    state: "WA",
+    description: [
+      "Pendleton Woolen Mills has had a factory in Washougal since 1912. The wool blankets and shirts made there sell in gear shops across the country, and the factory outlet store at 2 Pendleton Way is worth the stop. It's not a museum piece — the factory still runs, you can watch the looms through the windows, and the seconds rack has real deals. Washougal sits at the point where the Columbia starts to narrow into the beginning of the Gorge, and from the right streets on the south side of town you get Columbia River views that in any other housing market would add $200,000 to the asking price. Here they don't, because Washougal is still east county before the money arrived.",
+      "The housing is more affordable than Camas — medians run about $130,000 less — and buyers who want the east-county character without the Camas price tag end up here. The Washougal School District is smaller and somewhat less decorated than Camas SD, but Washougal High School has strong vocational and outdoor education programs, and the district is stable. The real draw for outdoor-oriented buyers is geography: Cape Horn — one of the Columbia Gorge's most dramatic viewpoints — is 15 minutes east on Highway 14. The National Scenic Area boundary is effectively at the city's eastern edge, which means the land east of Washougal cannot be developed. That view is not going away.",
+      "Commute to Portland is the honest complication. There's no direct interstate — the route is Highway 14 west through Camas to I-205, then south across the Glenn Jackson Bridge. In morning traffic, plan 50–65 minutes to downtown Portland. In afternoon peak, 60–80 minutes is realistic on bad days. Some Washougal residents use the Bridge of the Gods at Cascade Locks (45 minutes east) to cross into Oregon and take I-84 west — it adds mileage but avoids the I-205 backup on days when the bridge is the problem. Neither option is quick. The buyers who make it work have flexible schedules, remote work flexibility, or specific jobs in the east metro area.",
+    ],
+    personality: "Columbia Gorge access at prices that don't yet reflect the view",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Washougal+WA&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Washougal+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 28,
+    bikeScore: 32,
+    transitScore: 12,
+    schoolDistrict: "Washougal School District",
+    schools: [
+      { name: "Jemtegaard Middle School", type: "middle", grades: "6–8", rating: 6 },
+      { name: "Hathaway Elementary", type: "elementary", grades: "K–5", rating: 6 },
+      { name: "Canyon Creek Elementary", type: "elementary", grades: "K–5", rating: 7 },
+      { name: "Washougal High School", type: "high", grades: "9–12", rating: 6 },
+    ],
+    parks: [
+      {
+        name: "Washougal Waterfront Park",
+        amenities: ["Columbia River access", "boat launch", "paved trail", "picnic areas"],
+      },
+      {
+        name: "Steigerwald Lake National Wildlife Refuge",
+        amenities: ["hiking trails", "bird watching", "wetlands restoration", "Columbia River views"],
+      },
+      {
+        name: "Captain William Clark Regional Park",
+        amenities: ["disc golf", "water park", "sports fields", "camping"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "The Jealous Monk",
+        cuisine: "Brewery / Pub",
+        vibe: "Washougal's main brewery and gathering spot, good tap list, unpretentious crowd",
+      },
+      {
+        name: "Mike's Bar & Grill",
+        cuisine: "American",
+        vibe: "Local diner-bar that has been feeding the east county for decades, breakfast all day",
+      },
+      {
+        name: "Cape Horn Pub",
+        cuisine: "Pub food",
+        vibe: "Neighborhood pub named for the nearby viewpoint, good for a post-hike meal",
+      },
+    ],
+    coffee: [
+      { name: "Café Nola", vibe: "Local coffee shop downtown, relaxed morning vibe, knows the regulars by order" },
+      { name: "Dutch Bros Coffee", vibe: "Drive-through on the way to the highway, the practical choice for early morning bridge runs" },
+    ],
+    bars: [
+      { name: "The Jealous Monk", vibe: "Craft beer anchor for the city, patio open when the weather cooperates" },
+      { name: "Mike's Bar & Grill", vibe: "Old-school bar that comes with the diner, cash-friendly crowd" },
+    ],
+    medianHomePrice: 490000,
+    priceRange: { low: 360000, high: 780000 },
+    commuteToDowntown:
+      "50–65 min on a good morning via Hwy 14 to I-205 south. Afternoon peak runs 60–80 minutes. Some residents route via Bridge of the Gods to I-84 west — longer mileage, sometimes faster.",
+    faqs: [
+      {
+        q: "How far is Washougal from Portland?",
+        a: "About 28 miles by road. The route is Highway 14 west through Camas to I-205 south. In morning traffic heading toward Portland, plan 50–65 minutes. The afternoon return is worse — 60–80 minutes on heavy traffic days. Some residents drive east to the Bridge of the Gods at Cascade Locks and come in on I-84 — it adds miles but can save time when I-205 is backed up from an accident.",
+      },
+      {
+        q: "How does Washougal compare to Camas for home buyers?",
+        a: "Washougal is typically $100,000–$150,000 less expensive than Camas for comparable homes. The school district is smaller and less ranked than Camas SD. The Gorge access is equivalent or better — Cape Horn is closer to Washougal than it is to Camas. Buyers who prioritize outdoor access and price over school district ratings tend to choose Washougal.",
+      },
+      {
+        q: "Is Washougal growing?",
+        a: "Yes, but slower than Ridgefield or Battle Ground. New subdivisions have been going in on the north side of the city, and the waterfront area has seen investment. It's growing from a small base — the city has about 18,000 people — so growth is visible but not overwhelming. The eastern edge is the National Scenic Area and can't be developed, which limits sprawl in that direction.",
+      },
+      {
+        q: "What's the Cape Horn viewpoint like?",
+        a: "Cape Horn is a Columbia Gorge viewpoint about 10 miles east of Washougal on Highway 14. The loop trail is 7.5 miles with 1,400 feet of elevation gain and views down the Gorge that are among the best accessible by day hike from the Portland metro area. On weekends in summer and fall it's busy. On a Tuesday morning in March you might have it to yourself.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We couldn't afford Camas and didn't need the school district — our kids are grown. Washougal gave us a Columbia River view, a garage, a backyard, and no Oregon income tax. We sold our SE Portland house and came out $180,000 ahead on the transaction alone.",
+        author: "Jim and Carol B.",
+        context: "Empty-nesters who relocated from SE Portland, bought in Washougal, 2023",
+      },
+      {
+        quote: "I work remotely four days a week. One commute day into Portland I can handle. Washougal made financial sense — between the price difference and the income tax, the math was obvious. Bri walked me through the Washington-side mortgage process and it was no different than buying in Oregon.",
+        author: "Nate F.",
+        context: "Remote worker, purchased in Washougal, 2024",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "va", "heloc", "cash-out"],
+    adjacentNeighborhoods: ["camas", "vancouver-wa"],
+    seo: {
+      title: "Buying a Home in Washougal WA | Columbia Gorge & Clark County Mortgage | The Lindley Team",
+      description:
+        "Washougal WA home buying guide: home prices, Gorge access, Pendleton Mills, and the honest commute to Portland. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "battle-ground",
+    name: "Battle Ground",
+    city: "Battle Ground",
+    state: "WA",
+    description: [
+      "Battle Ground Lake State Park is four miles north of the city — a volcanic crater lake with a campground, swimming, and trails. It's one of the few crater lakes in the contiguous United States accessible by car and genuinely usable for an after-work swim. The city of Battle Ground itself sits in north Clark County with working farms on most of its edges. The Bi-Mart and the Ace Hardware and the drive-through coffee stands along SR-503 are the commercial texture here, alongside a Main Street with a few restaurants and a Saturday farmers market that draws from a wide radius. This is a city of 25,000 that feels its size accurately — not a suburb pretending to be a city, and not a town trying to become something else.",
+      "The financial math that brings buyers here is straightforward. No Washington state income tax, land prices that still allow a half-acre lot at reasonable cost, and new construction subdivisions going in on all four edges of the city at prices $100,000–$200,000 below Vancouver proper. Battle Ground School District is a solid mid-tier district — Prairie High School has strong athletics and vocational programs. Buyers with young families who want a true yard, a garage that fits two cars, and room for a dog without shared walls end up here. The trade-off is that this is one of the most car-dependent addresses in Clark County — there's essentially no sidewalk grid in the newer subdivisions and the concept of walking to anything is theoretical.",
+      "The commute to Portland is the realistic constraint that limits who can live in Battle Ground long-term. It's 20 miles north of Vancouver and 40 miles from downtown Portland. On a Tuesday morning with no incidents: 45 minutes. During a normal afternoon rush hour: 60–75 minutes. On a bad day with bridge backup: 90 minutes is not unusual. There's no express bus service that makes commuting practical. This is a city for buyers who work in Clark County, work remotely, or have made a deliberate decision that the trade-off is worth it for the price, the space, and the tax savings.",
+    ],
+    personality: "Rural adjacency, genuine land, and a commute that demands honest evaluation",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Battle+Ground+WA&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Battle+Ground+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 22,
+    bikeScore: 28,
+    transitScore: 8,
+    schoolDistrict: "Battle Ground Public Schools",
+    schools: [
+      { name: "Tukes Valley Primary", type: "elementary", grades: "K–4", rating: 6 },
+      { name: "Amboy Middle School", type: "middle", grades: "5–8", rating: 6 },
+      { name: "Battle Ground High School", type: "high", grades: "9–12", rating: 6 },
+      { name: "Prairie High School", type: "high", grades: "9–12", rating: 7 },
+      { name: "Summit View High School", type: "charter", grades: "9–12", rating: 7 },
+    ],
+    parks: [
+      {
+        name: "Battle Ground Lake State Park",
+        amenities: ["swimming", "camping", "hiking trails", "crater lake", "fishing", "picnic areas"],
+      },
+      {
+        name: "Grace Court Park",
+        amenities: ["playground", "basketball courts", "open fields"],
+      },
+      {
+        name: "Lewisville Regional Park",
+        amenities: ["East Fork Lewis River swimming", "camping", "trails", "picnic shelters", "dog-friendly"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "McMenamins on the Columbia",
+        cuisine: "American / Brewery",
+        vibe: "The most recognizable name in north county, reliable McMenamins format — good enough, never surprising",
+      },
+      {
+        name: "Casa Ramos",
+        cuisine: "Mexican",
+        vibe: "Family Mexican restaurant on Main Street, weekend crowds from the surrounding rural areas",
+      },
+      {
+        name: "Pizza Schmizza",
+        cuisine: "Pizza",
+        vibe: "Local pizza chain presence, practical family dinner option",
+      },
+      {
+        name: "Knead Bakery",
+        cuisine: "Bakery / Cafe",
+        vibe: "Downtown Battle Ground breakfast and lunch stop, Saturday farmers market adjacent",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros Coffee", vibe: "Drive-through on SR-503, the practical pre-commute option for early departures toward Portland" },
+      { name: "Main Street Coffee", vibe: "Downtown cafe, slower pace, better for a work-from-home morning than a commuter run" },
+    ],
+    bars: [
+      { name: "Battle Ground Pub", vibe: "Low-key neighborhood bar, sports on the TV, north county crowd" },
+      { name: "Smokey's Tavern", vibe: "Old-school tavern, the kind of place that's been there through multiple rounds of city growth" },
+    ],
+    medianHomePrice: 460000,
+    priceRange: { low: 340000, high: 750000 },
+    commuteToDowntown:
+      "45–75 min to downtown Portland on a normal day via I-5 south or SR-503 to I-205. 90+ minutes is possible on days with bridge incidents. No practical transit alternative.",
+    faqs: [
+      {
+        q: "Is Battle Ground a good place to live if you work in Portland?",
+        a: "Honestly, it depends on your work schedule and tolerance for a long drive. If you commute to downtown Portland five days a week during peak hours, you're looking at 60–75 minutes each direction on average — and 90+ on bad days. If you have two or more remote days per week, a flexible schedule, or a job on the north side of Portland, the math changes significantly. Many Battle Ground residents have made it work; it requires intentionality about commute days.",
+      },
+      {
+        q: "How much land can I get in Battle Ground?",
+        a: "More than anywhere else in the active Clark County market. New subdivisions offer lots from 6,000–10,000 square feet as standard. Older properties on the city edges frequently have quarter to full acres. Properties just outside city limits — in unincorporated Clark County — can have 1–5 acres at prices that are still achievable. This is the city to look at if you want room for a large garden, a shop, animals, or just a backyard that doesn't border your neighbor's deck.",
+      },
+      {
+        q: "What are the schools like in Battle Ground?",
+        a: "Battle Ground Public Schools is a mid-sized district with six elementary schools, two middle schools, and four high schools including Prairie High and Summit View. It's solid — not the ranked excellence of Camas SD, but a stable district with good vocational programs and strong athletic traditions. Prairie High has won state championships in multiple sports and has a good reputation in the region.",
+      },
+      {
+        q: "Is Battle Ground growing too fast?",
+        a: "It's growing fast — new subdivisions on the north, east, and south edges have been delivering homes at pace for the last five years. Whether 'too fast' depends on what you value. Infrastructure has been slower than development in some areas. The city has been updating its comprehensive plan to manage growth, but Battle Ground has gone from a small town to a mid-sized city in less than two decades and is still adjusting.",
+      },
+      {
+        q: "How much does Washington's no income tax save a Battle Ground resident?",
+        a: "Oregon taxes income on the source — if you work in Oregon, you owe Oregon income tax regardless of where you live. If you work in Washington or remotely for a Washington employer, living in Battle Ground means you pay no state income tax at all. On a $120,000 income, that's roughly $8,000–$10,000 per year in Oregon taxes you don't pay. Check with a tax professional on your specific employment situation.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We bought five acres outside Battle Ground for less than a 1,200-square-foot house in Beaverton would have cost us. My company went remote-first. We don't miss Portland — we visit it.",
+        author: "Greg and Amanda P.",
+        context: "Remote workers, purchased rural property outside Battle Ground, 2022",
+      },
+      {
+        quote: "Three bedrooms, a shop, half an acre, and no Oregon income tax on my Washington job. I'm commuting to Ridgefield, not Portland. The math was obvious. Bri helped us close in 28 days.",
+        author: "Kevin T.",
+        context: "Bought in Battle Ground, works in Clark County, 2023",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "va", "heloc", "investment", "cash-out"],
+    adjacentNeighborhoods: ["vancouver-wa", "ridgefield"],
+    seo: {
+      title: "Buying a Home in Battle Ground WA | Land & Affordability in Clark County | The Lindley Team",
+      description:
+        "Battle Ground WA home buying guide: land, prices, schools, and the honest 45–75 minute Portland commute. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
+  {
+    slug: "ridgefield",
+    name: "Ridgefield",
+    city: "Ridgefield",
+    state: "WA",
+    description: [
+      "The Ridgefield National Wildlife Refuge covers more than 5,000 acres of Columbia River floodplain wetlands at the edge of town. During fall migration, the Birding Loop trail puts you within 50 yards of sandhill cranes, tundra swans, and northern pintails in numbers that bird people come from across the region to see. The refuge is free, the parking lot fills early on October mornings, and it's the single clearest reason Ridgefield is a different kind of town than its size suggests. The city itself has about 12,000 people, a Main Street that's still forming its identity, and new construction on virtually every available parcel.",
+      "Ridgefield has been one of Washington's fastest-growing cities by percentage for the better part of a decade — growing from 4,700 people in 2010 to over 12,000 today. The growth is visible in real time: crane-set roof trusses on new subdivisions, freshly paved cul-de-sacs with no houses yet, model homes with flags. The Ridgefield School District is small — Ridgefield High School has under 1,000 students — and consistently rated well. Teachers know students, class sizes are manageable, and the district has passed bond measures to build schools ahead of the enrollment curve. The new construction means buyers can often get warranties, energy-efficient construction, and layouts designed for how people actually live now.",
+      "The I-5 commute from Ridgefield to downtown Portland is 35–45 minutes on a good morning and 55–70 minutes southbound in afternoon peak. Ridgefield is about 20 miles north of the I-5 bridge — close enough that the commute is challenging but manageable for people who've already absorbed what the Vancouver commute looks like. The no-income-tax calculation still applies, the schools outperform most of what's available for the price on the Oregon side, and the wildlife refuge means you can take a genuine half-day off within five minutes of your front door. The trade-off is that the city is still being built — if you need a long-established restaurant scene or a walkable downtown, Ridgefield is not that yet.",
+    ],
+    personality: "Washington's fastest-growing small city, building itself in real time next to a world-class wildlife refuge",
+    mapEmbedSrc: "https://maps.google.com/maps?q=Ridgefield+WA&output=embed&z=13",
+    directionsSrc:
+      "https://maps.google.com/maps?saddr=Ridgefield+WA&daddr=15115+SW+Sequoia+Pkwy+Suite+100+Portland+OR+97224&output=embed",
+    walkScore: 18,
+    bikeScore: 24,
+    transitScore: 10,
+    schoolDistrict: "Ridgefield School District",
+    schools: [
+      { name: "South Ridge Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "Union Ridge Elementary", type: "elementary", grades: "K–5", rating: 8 },
+      { name: "View Ridge Middle School", type: "middle", grades: "6–8", rating: 7 },
+      { name: "Ridgefield High School", type: "high", grades: "9–12", rating: 8 },
+    ],
+    parks: [
+      {
+        name: "Ridgefield National Wildlife Refuge",
+        amenities: ["Birding Loop trail", "sandhill crane viewing", "waterfowl migration", "fishing", "auto tour route"],
+      },
+      {
+        name: "Davis Park",
+        amenities: ["playground", "picnic shelters", "sports fields", "walking path"],
+      },
+      {
+        name: "Abrams Park",
+        amenities: ["disc golf", "open field", "neighborhood access"],
+      },
+    ],
+    restaurants: [
+      {
+        name: "Captain's Table",
+        cuisine: "American",
+        vibe: "Family-friendly Ridgefield staple, the kind of place that fills up after high school games",
+      },
+      {
+        name: "Hazel Dell Thai Restaurant",
+        cuisine: "Thai",
+        vibe: "Short drive south toward Vancouver, consistent and reliable for when Ridgefield's limited options run thin",
+      },
+      {
+        name: "Pioneer Pizza",
+        cuisine: "Pizza",
+        vibe: "Local pizza in a city that doesn't yet have a full restaurant district — practical and liked by the regulars",
+      },
+    ],
+    coffee: [
+      { name: "Dutch Bros Coffee", vibe: "Drive-through on Pioneer Street, the commuter morning anchor before heading to I-5" },
+      { name: "Ridgefield Coffee Company", vibe: "Small local cafe, relaxed atmosphere, better suited to work-from-home mornings than commute days" },
+    ],
+    bars: [
+      { name: "Ridgefield Pub", vibe: "Neighborhood bar with a small-town feel — limited options, loyal regulars, unpretentious" },
+    ],
+    medianHomePrice: 520000,
+    priceRange: { low: 410000, high: 820000 },
+    commuteToDowntown:
+      "35–45 min to downtown Portland on a good morning via I-5 south. Afternoon peak runs 55–70 minutes. No transit option for Portland commuters.",
+    faqs: [
+      {
+        q: "What's the commute from Ridgefield to downtown Portland?",
+        a: "Ridgefield sits about 20 miles north of the I-5 Columbia River Bridge. On a typical weekday morning heading south, plan 35–45 minutes to downtown Portland. Afternoon southbound is not the problem — it's northbound, returning to Ridgefield, when I-5 backs up from the bridge. Expect 55–70 minutes on a normal afternoon, longer when there's an incident. If your workplace allows flexibility on start time, leaving Portland by 3:15 or after 6:30 PM makes the drive significantly shorter.",
+      },
+      {
+        q: "Is Ridgefield school district as good as Camas?",
+        a: "Ridgefield SD is well-regarded and rated higher than most of what's available in the Portland metro area at comparable price points. Camas School District is consistently ranked among Washington's top five and carries a well-earned reputation. Ridgefield is strong — Ridgefield High School graduation rates and test scores are above state averages — but buyers specifically optimizing for school district rankings typically choose Camas if they can afford the premium.",
+      },
+      {
+        q: "Is all the housing in Ridgefield new construction?",
+        a: "Mostly, but not entirely. The downtown core has older housing from the 1950s–1980s. The neighborhoods built since 2010 — which is most of the housing stock by count — are new or near-new construction. If you want a house with a mature yard and established trees, look at the older streets near downtown. If you want warranty coverage and energy-efficient construction, the new subdivisions deliver that.",
+      },
+      {
+        q: "What's the wildlife refuge actually like day-to-day?",
+        a: "The Ridgefield National Wildlife Refuge is one of the few places in the Pacific Northwest where you can reliably see sandhill cranes in large numbers during fall migration — hundreds to a few thousand birds at peak. The Birding Loop is 4.2 miles and accessible to anyone who can walk a flat trail. Spring and winter bring tundra swans, northern pintails, and other waterfowl in numbers. It's a serious birding destination, not a park with a duck pond.",
+      },
+      {
+        q: "Will Ridgefield's restaurant and shopping options improve?",
+        a: "Yes, with the growth rate it has. Commercial development typically lags residential by 5–10 years in fast-growing cities. Ridgefield in 2026 has the amenities of a city half its current size because the growth happened so quickly. The commercial corridor on Pioneer Street is building out. Short-term, Vancouver is 15 minutes south and has full retail options.",
+      },
+    ],
+    testimonials: [
+      {
+        quote: "We bought new construction in Ridgefield in 2021. Our mortgage is $2,100 a month. Our friends who stayed in Portland are paying $3,400 for smaller houses with older systems. We're also not paying Oregon income tax on my wife's remote job. The math is not close.",
+        author: "Brandon and Lisa K.",
+        context: "Relocated from NE Portland, new construction purchase in Ridgefield, 2021",
+      },
+      {
+        quote: "I was skeptical about Ridgefield — I'd never heard of it. Bri suggested it because the school district matched what we wanted and the prices were $80,000 below comparable homes in Camas. We drove out on a Saturday, walked the wildlife refuge, and wrote an offer the following week.",
+        author: "Stephanie O.",
+        context: "Moved from Vancouver WA to Ridgefield for the school district, purchased 2023",
+      },
+    ],
+    relatedServices: ["purchase", "refinance", "fha", "va", "heloc", "investment", "new-construction"],
+    adjacentNeighborhoods: ["vancouver-wa", "battle-ground"],
+    seo: {
+      title: "Buying a Home in Ridgefield WA | Wildlife Refuge & Fast-Growing Clark County | The Lindley Team",
+      description:
+        "Ridgefield WA home buying guide: new construction, school district ratings, wildlife refuge access, and the I-5 commute to Portland. Bri Lindley, NMLS #1367416, licensed in WA.",
+    },
+  },
+
 ];
 
 export function getNeighborhoodBySlug(slug: string): NeighborhoodData | undefined {
